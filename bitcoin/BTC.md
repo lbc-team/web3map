@@ -86,7 +86,7 @@
 
 ### 比特币生态应用
 
-> BTC生态项目主要包括[Ordinals](Ordinals.md)、[染色币](染色币.md)、RGB等。
+> BTC生态项目主要包括[Ordinals](Ordinals.md)、[染色币](染色币.md)、[RGB](RGB.md)等。
 
 ### Awsome Bitcoin
 
