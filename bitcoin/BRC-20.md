@@ -22,4 +22,4 @@ BRC-20 可以理解成一种特殊的Ordinals NFT，它通过将铭文设置为*
 
 因此比特币 NFT 上铭文刻录的是不同的信息，而BRC-20 上标识下 Token 的铭文都是统一的 JSON 格式的文本数据（Text）。
 
-**在BRC-20中，开发人员可以通过Ordinal协议在区块链上创建和发行Token，**铭文亦当作BRC-20Token的记账账本，可用来追踪每一次 Token 的转移。
+**在BRC-20中，开发人员可以通过Ordinal协议在区块链上创建和发行Token**，铭文亦当作BRC-20Token的记账账本，可用来追踪每一次 Token 的转移。
