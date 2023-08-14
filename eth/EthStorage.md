@@ -41,16 +41,20 @@
 
   `put( key , new_data )`
 
-- - key: 用户之前存储数据对应的 key
-  - new_data: 用户希望存储的新数据
+  key: 用户之前存储数据对应的 key
+
+  new_data: 用户希望存储的新数据
 
 - **执行流程**
 
   更新数据的执行流程跟存储数据流程基本差不多，具体如下:
 
-- 1. 用户发起一笔调用合约 put 方法的交易: `submit Tx{ put( key , new_data )}`;
+  1. 用户发起一笔调用合约 put 方法的交易: `submit Tx{ put( key , new_data )}`;
+
   2. 这笔交易会将记录在合约中对应的 key 的哈希更新: `dataHash = hash(new_data)`；
+
   3. EthStorage 客户端 的 ShardManager 监听到有新的 put 交易发生，获取到 put 方法中携带的要更新的数据 new_data;
+
   4. ShardManager将要更新的数据进行mask后替换之前存储的数据：`store( kvIdx , mask(new_data))`
 
 **验证数据**：
@@ -67,19 +71,39 @@
 
 > KeyA 对应的 kvIdx 为 1 ，用户此时要将 KeyA 对应的数据移除；当前最大的 kvIdx 对应的键为 KeyB。
 
-- 调用方法:
+- 调用方法:`remove(key)`
 
-- `remove(key)`
-
-- - key: 你想要删除数据的索引 key
+  key: 你想要删除数据的索引 key
 
 - 删除步骤：
 
-- 1. 发起一笔调用 remove 方法的交易: `submit Tx{remove(KeyA)}`;
+  1. 发起一笔调用 remove 方法的交易: `submit Tx{remove(KeyA)}`;
   2. ShardManager 将 KeyB 对应的数据读出来之后，复制到 KeyA 的数据存储位置: `copy(chunkIdx(KeyA), readMasked(keyB))`;
   3. ShardManager 将 KeyB 的数据 ( chunk99 ) 删除: `delete(chunk99)`;
   4. 合约 将 KeyB 对应的 kvIdx 从 99 改为 1: `updateKvIdx(KeyB, 1)`;
   5. 合约 将 lastKVIdx 由 99 改为 98: `lastKvIdx =lastKvIdx - 1`; 
+
+## EthStorage的未来应用
+
+### On-Chain NFT
+
+目前的NFT都是将 Metadata 存放在 Arweave 和IPFS里面为主，仅仅将返回的内容Hash提交上链，这是因为将NFT元数据上链的话会特别贵，因为数据会占据较大的区块空间，所以之前的NFT，大多将元数据放在链下。
+
+但是使用EthStorage的方案，用户可以将NFT的数据直接放在链上，通过智能合约来托管数据，并通过Web3 Access Protocol访问数据在前端渲染出来。相较之下，我们最常使用的NFT交易市场Opensea，它的前端所展示出来的NFT也并不是直接获取的元数据，而是将对应NFT的元数据存储在Opensea中心化的服务器里面，以此获得更高的访问体验。使用Ethstorage的方案，用户不仅能将NFT数据直接存在链上，而且可以通过前端直接获取到链上的NFT元数据，极大的改善了用户体验。
+
+除了可以实现On-chain NFT之外，通过利用智能合约的可编程性实现一些动态NFT，三维NFT，以及NFT的组合，可编程性意味着有无限的可能，对于On-chain Game，链上NFT的可组合和可编程可以激发游戏的创造性，诞生更多的玩法。
+
+### Personal Website
+
+个人网站的数据通过智能合约把本地目录的所有数据上传，通过Web3 Access Protocol把本地目录映射成为智能合约上面托管的文件系统，当用户想要访问相对路径和绝对路径的资源的时候，会通过calldata去访问到需要的数据内容。
+
+### DeWeb
+
+我们知道以太坊是一个去中心化的网络，在以太坊上面诞生了很多去中心化的Dapp，可这些Dapp并不是完全去中心化的，很多应用的前端依然是通过中心化的云服务在托管，像Uniswap的前端网页宕机，删除交易对以及Tornado.Cash因为涉嫌洗钱被监管而导致前端服务停用等都是因为其前端是托管在中心化的服务器上面，无法有效抗审查。但是使用EthStorage的方案，网页文件和数据被托管在智能合约中，由去中心化的网络共同运行和维护，使得抗审查性大大提高。通过智能合约的可编程性实现DeWeb，可以实现很多有意思的应用，比如De-github，De-blog，以及各种dapp的前端。
+
+### Modifiable Mirror
+
+我们知道Mirror使用的是Arweave来进行数据的存储，而Arweave是一个数据永存的存储协议，用户通过Mirror创作的文章最终是存储在Arweave上面的，因为是永久存储和不可篡改的特性，意味着用户通过Mirror发布的文章是没办法在原来的基础上修改的，如果要修改需要将修改后的文章重新发起交易再存储到Arweave上面，这就造成了网络上数据的重复存储，且需要承担双倍的存储成本。但是选择使用EthStorage来构建类似Mirror的应用，用户可以通过Update的操作直接更新存储的数据而不用覆盖之前存储的数据。
 
 ***
 
