@@ -1,0 +1,72 @@
+name: Notify on Markdown Changes
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '**.md'
+  pull_request:
+    branches:
+      - main
+    paths:
+      - '**.md'
+
+jobs:
+  notify_changes:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v2
+
+      - name: Fetch git history
+        run: git fetch origin ${{ github.event.before }}
+
+      - name: Get changed files
+        id: get_changed_files
+        run: |
+          git diff --name-only ${{ github.event.before }} ${{ github.sha }} > changed_files.txt
+
+      - name: Filter Markdown files
+        id: filter_markdown
+        run: |
+          branch_name="${GITHUB_REF##*/}"
+          repo_url="https://github.com/${GITHUB_REPOSITORY}/blob/${branch_name}"
+          changed_files=()
+          while IFS= read -r file; do
+            if [[ "$file" =~ \.md$ && "$file" != "README.md" ]]; then
+              full_url="${repo_url}/${file}"
+              changed_files+=("$full_url")
+            fi
+          done < changed_files.txt
+          if [ ${#changed_files[@]} -gt 0 ]; then
+            echo "Changed Markdown files: ${changed_files[@]}"
+            echo "::set-output name=changed_files::$(IFS=,; echo "${changed_files[*]}")"
+          else
+            echo "No Markdown files changed."
+            echo "::set-output name=changed_files::"
+          fi
+
+      - name: Notify server on changes
+        if: steps.filter_markdown.outputs.changed_files
+        env:
+          SERVER_URL: ${{ vars.SERVER_URL }}
+          API_KEY: ${{ secrets.API_KEY }}
+        run: |
+          echo "Posting changed files to server..."
+          changed_files=(${{ steps.filter_markdown.outputs.changed_files }})
+          json_data='{"files":['
+          for file in "${changed_files[@]}"; do
+            json_data+="\"$file\","
+          done
+          json_data=${json_data%,} # Remove the trailing comma
+          json_data+="]}"
+          
+          echo "Posting JSON payload: $json_data"
+          if ! curl_output=$(curl -X POST -H "x-api-key: $API_KEY" -H "Content-Type: application/json" -d "$json_data" "$SERVER_URL"); then
+            echo "Failed to post changed files to server."
+            echo "$curl_output"
+            exit 1
+          fi
+          echo "Notification sent to server: ${curl_output}"
