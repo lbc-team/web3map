@@ -1,6 +1,6 @@
-# Rollups
+# Rollup
 
-## 什么是Rollups？
+## 什么是Rollup？
 
 Rollups是基于Layer 2的扩容技术，L2 Rollup指许多与以太坊主网平行运行但同时继承以太坊本身的可用性和完整性的第三方扩容方案，它允许交易在一个并行单独的区块链上执行。
 
