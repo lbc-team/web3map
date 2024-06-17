@@ -43,16 +43,14 @@ jobs:
           echo "branch_name=${branch_name},repo_url=${repo_url}"
           changed_files=()
           while IFS= read -r file; do
+            echo "$file"
             
-            echo "1111"
             if [[ "$file" =~ \.md$ ]]; then
-              echo "2222"
               full_url="${repo_url}/${file}"
               changed_files+=("$full_url")
             fi
-            echo "3333"
           done < changed_files.txt
-          echo "4444"
+          
           if [ ${#changed_files[@]} -gt 0 ]; then
             echo "Changed Markdown files: ${changed_files[@]}"
             echo "::set-output name=changed_files::$(IFS=,; echo "${changed_files[*]}")"
