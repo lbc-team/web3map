@@ -51,8 +51,8 @@ jobs:
       - name: Notify server on changes
         if: steps.filter_markdown.outputs.changed_files
         env:
-          SERVER_URL: ${{ vars.SERVER_URL }}
-          API_KEY: ${{ secrets.API_KEY }}
+          SERVER_URL: ${{ vars.UPCHAIN_SERVER_URL }}
+          API_KEY: ${{ secrets.UPCHAIN_API_KEY }}
         run: |
           echo "Posting changed files to server..."
           changed_files=(${{ steps.filter_markdown.outputs.changed_files }})
