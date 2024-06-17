@@ -27,19 +27,31 @@ jobs:
         id: get_changed_files
         run: |
           git diff --name-only ${{ github.event.before }} ${{ github.sha }} > changed_files.txt
+          cat changed_files.txt
 
       - name: Filter Markdown files
         id: filter_markdown
         run: |
           branch_name="${GITHUB_REF##*/}"
           repo_url="https://github.com/${GITHUB_REPOSITORY}/blob/${branch_name}"
+
+          echo "branch_name=${branch_name},repo_url=${repo_url}"
           changed_files=()
           while IFS= read -r file; do
-            if [[ "$file" =~ \.md$ && "$file" != "README.md" ]]; then
-              full_url="${repo_url}/${file}"
+            printf 'Reading file: %s\n' "$file"
+            decoded_file=$(echo -e "$file")
+            printf 'Decoded file: %s\n' "$decoded_file"
+
+      
+            echo "1111"
+            if [[ "$decoded_file" =~ \.md$ ]]; then
+              echo "2222"
+              full_url="${repo_url}/${decoded_file}"
               changed_files+=("$full_url")
             fi
+            echo "3333"
           done < changed_files.txt
+          echo "4444"
           if [ ${#changed_files[@]} -gt 0 ]; then
             echo "Changed Markdown files: ${changed_files[@]}"
             echo "::set-output name=changed_files::$(IFS=,; echo "${changed_files[*]}")"
