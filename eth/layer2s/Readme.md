@@ -2,8 +2,6 @@
 
 
 
-
-
 Layer2 指在区块链技术和网络协议中用于扩展基础区块链（Layer 1）的解决方案的统称。其目的是提高交易速度、降低交易费用，并增强网络的可扩展性和效率。  
 
 
@@ -16,7 +14,7 @@ Layer2 指在区块链技术和网络协议中用于扩展基础区块链（Laye
 
 
 
-![img](https://img.learnblockchain.cn/pics/20240617125056.png&w=1920&q=75!/scale/60)
+![img](https://img.learnblockchain.cn/pics/20240617125056.png&w=1920&q=75!/scale/50)
 
 
 
