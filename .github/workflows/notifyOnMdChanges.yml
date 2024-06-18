@@ -15,6 +15,10 @@ on:
 jobs:
   notify_changes:
     runs-on: ubuntu-latest
+    
+    env:
+      LC_ALL: en_US.UTF-8
+      LANG: en_US.UTF-8
 
     steps:
       - name: Check out code
@@ -26,20 +30,27 @@ jobs:
       - name: Get changed files
         id: get_changed_files
         run: |
+          git config --global core.quotepath false # 解决文件名乱码
           git diff --name-only ${{ github.event.before }} ${{ github.sha }} > changed_files.txt
+          cat changed_files.txt
 
       - name: Filter Markdown files
         id: filter_markdown
         run: |
           branch_name="${GITHUB_REF##*/}"
           repo_url="https://github.com/${GITHUB_REPOSITORY}/blob/${branch_name}"
+
+          echo "branch_name=${branch_name},repo_url=${repo_url}"
           changed_files=()
           while IFS= read -r file; do
-            if [[ "$file" =~ \.md$ && "$file" != "README.md" ]]; then
+            echo "$file"
+            
+            if [[ "$file" =~ \.md$ ]]; then
               full_url="${repo_url}/${file}"
               changed_files+=("$full_url")
             fi
           done < changed_files.txt
+          
           if [ ${#changed_files[@]} -gt 0 ]; then
             echo "Changed Markdown files: ${changed_files[@]}"
             echo "::set-output name=changed_files::$(IFS=,; echo "${changed_files[*]}")"
@@ -51,8 +62,8 @@ jobs:
       - name: Notify server on changes
         if: steps.filter_markdown.outputs.changed_files
         env:
-          SERVER_URL: ${{ vars.SERVER_URL }}
-          API_KEY: ${{ secrets.API_KEY }}
+          SERVER_URL: ${{ vars.UPCHAIN_SERVER_URL }}
+          API_KEY: ${{ secrets.UPCHAIN_API_KEY }}
         run: |
           echo "Posting changed files to server..."
           changed_files=(${{ steps.filter_markdown.outputs.changed_files }})
