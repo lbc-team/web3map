@@ -12,7 +12,7 @@ Vitalik Buterin在2013年发表了一篇名为《以太坊：终极智能合约�
 
 ## 以太坊与比特币的区别
 
-比特币主要目标是提供一种无需中介的电子现金系统， 比特币的[脚本语言]()相对简单和非图灵完备，只能执行基本的脚本和条件交易，主要用于支付和简单的合约。
+比特币主要目标是提供一种无需中介的电子现金系统， 比特币的[脚本语言](https://learnblockchain.cn/tags/%E6%AF%94%E7%89%B9%E5%B8%81%E8%84%9A%E6%9C%AC)相对简单和非图灵完备，只能执行基本的脚本和条件交易，主要用于支付和简单的合约。
 
 以太坊以太坊支持图灵完备的智能合约，能够编写复杂的逻辑，用户可以基于合约编写[去中心化应用程序（DApp）](https://learnblockchain.cn/tags/DApp)。已经广泛用于[DeFi](https://learnblockchain.cn/tags/Defi)、[DAO](https://learnblockchain.cn/tags/DAO)、[NFT](https://learnblockchain.cn/tags/NFT)等领域。
 
@@ -24,7 +24,7 @@ Vitalik Buterin在2013年发表了一篇名为《以太坊：终极智能合约�
 
 ## 关键概念
 
-## 智能合约
+### 智能合约
 
 以太坊网络上运行程序就称为智能合约，它和其他的程序一样，也是代码和数据(状态)的集合。
 
@@ -49,5 +49,4 @@ Vitalik Buterin在2013年发表了一篇名为《以太坊：终极智能合约�
 
 
 在 EIP-1559 升级后，燃料费分为两部分：`base fee` 和 `priority fee`（小费）。`Base fee` 由协议设定，并被系统燃烧掉，`Priority fee` 是小费，用来吸引验证者选择将你的交易添加到下一个区块。了解更多参考 [Gas 百科](https://learnblockchain.cn/tags/EVM)。
-
 
