@@ -10,11 +10,7 @@ DApp 前端界面需要集成[钱包](https://learnblockchain.cn/tags/钱包)（
 
 下面是一个简单的 DApp 的架构图：
 
-
-
-![Untitled-2023-05-12-1121](https://img.learnblockchain.cn/pics/20240619193101.png)
-
-
+![DApp架构](https://img.learnblockchain.cn/pics/20240620170012.png!/scale/50)
 
 
 
