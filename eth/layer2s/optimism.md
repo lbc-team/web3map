@@ -1,3 +1,13 @@
+
+
+Optimism 是一个基于  [乐观 Rollup](https://learnblockchain.cn/tags/OP%20Rollup) 的  [Layer 2](https://learnblockchain.cn/tags/Layer2) 扩展解决方案。
+
+Optimism 与 [Arbitrum One](https://learnblockchain.cn/tags/Arbitrum) 类似，但他们采用了不同的挑战机制和 Rollup 架构。
+
+
+
+
+
 ### 相关链接
 
 
