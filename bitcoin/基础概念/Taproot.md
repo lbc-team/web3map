@@ -8,7 +8,7 @@ Taproot是一次优化比特币脚本的软分叉，提升私密性、效率以�
 
 在不可能三角中，Taproot升级主要应对了两个方面。一个是进一步提高匿名性能力，也就是进一步提升安全性；另一个是期望通过改变区块本身的数据结构来提升交易性能，减少交易中不必要的数据负担。
 
-![不可能三角](../../graph/%E4%B8%8D%E5%8F%AF%E8%83%BD%E4%B8%89%E8%A7%92.png)
+![不可能三角](https://img.learnblockchain.cn/pics/20240629143930.png)
 
 Taproot升级由3项不同的比特币改进提案(BIP)组成，其中包括：**Taproot**、**Tapscript**及其核心，即名为“**Schnorr签名**”的全新数字签名方案。Taproot旨在为比特币用户带来诸多好处，例如**提升交易私密性和降低交易费用**。还将让比特币执行更多复杂的交易，从而拓宽用例，与以太坊一较高下，尤其是智能合约功能和网络对[去中心化金融(DeFi)](https://academy.binance.com/en/glossary/defi)和[非同质化代币(NFT)](https://academy.binance.com/en/glossary/non-fungible-token-nft)的支持。
 
@@ -28,7 +28,7 @@ Schnorr签名的一大核心优势是**可以在复杂的比特币交易中提�
 
 实际上，Taproot可以让人完全看不出来比特币脚本在运行。例如，采用Taproot后，无论是闪电网络通道交易、点对点交易还是通过复杂的智能合约交易，不同比特币支付方式看起来毫无差别。这些交易的监控者看到的只有点对点交易。然而，值得注意的是，这并未改变发送者与最终接收者的钱包信息暴露于外的事实。
 
-![聚合签名](../graph/%E8%81%9A%E5%90%88%E7%AD%BE%E5%90%8D.png)
+![聚合签名](https://img.learnblockchain.cn/pics/20240629143942.png)
 
 ### Taproot (BIP341)
 
