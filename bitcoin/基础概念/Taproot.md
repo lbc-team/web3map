@@ -1,6 +1,4 @@
-# Taproot
-
-## 介绍
+## Taproot
 
 Taproot是比特币网络的一次升级，于2021年11月14日上线。自SegWit（隔离见证）问世以来，Taproot与Schnorr签名一直是备受期待的比特币技术升级。Taproot旨在改变比特币脚本的运作方式，提升私密性、可扩展性与安全性。Taproot与名为Schnorr签名的相关升级结合后，将有望实现上述目标及更多计划。
 
@@ -10,13 +8,13 @@ Taproot是一次优化比特币脚本的软分叉，提升私密性、效率以�
 
 在不可能三角中，Taproot升级主要应对了两个方面。一个是进一步提高匿名性能力，也就是进一步提升安全性；另一个是期望通过改变区块本身的数据结构来提升交易性能，减少交易中不必要的数据负担。
 
-![不可能三角](../graph/%E4%B8%8D%E5%8F%AF%E8%83%BD%E4%B8%89%E8%A7%92.png)
+![不可能三角](../../graph/%E4%B8%8D%E5%8F%AF%E8%83%BD%E4%B8%89%E8%A7%92.png)
 
 Taproot升级由3项不同的比特币改进提案(BIP)组成，其中包括：**Taproot**、**Tapscript**及其核心，即名为“**Schnorr签名**”的全新数字签名方案。Taproot旨在为比特币用户带来诸多好处，例如**提升交易私密性和降低交易费用**。还将让比特币执行更多复杂的交易，从而拓宽用例，与以太坊一较高下，尤其是智能合约功能和网络对[去中心化金融(DeFi)](https://academy.binance.com/en/glossary/defi)和[非同质化代币(NFT)](https://academy.binance.com/en/glossary/non-fungible-token-nft)的支持。
 
 Taproot提案最初由Bitcoin Core开发者Greg Maxwell在2018年1月提出。2020年10月，Pieter Wuille创建代码拉取请求，将Taproot并入Bitcoin Core代码库。为了全面部署升级，节点运行者须采用Taproot的全新共识规则。该提案最终得到90%的矿工支持，并于**2021年11月14日在区块709,632中正式激活**。
 
-## Taproot如何运作？
+### Taproot 如何运作？
 
 ### Schnorr签名(BIP340)
 
