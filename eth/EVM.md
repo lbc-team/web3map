@@ -38,6 +38,8 @@ EVM 是一个封闭沙盒环境，只能读取链内部的状态。
 
 ##  进一步阅读
 
-[理解 EVM - 探究Solidity 背后的秘密](https://learnblockchain.cn/column/22)
+文章：[深入以太坊虚拟机](https://learnblockchain.cn/article/8564)
 
-[以太坊 EVM 谜题破解](https://learnblockchain.cn/column/21)
+[专栏：理解 EVM - 探究Solidity 背后的秘密](https://learnblockchain.cn/column/22)
+
+[专栏：以太坊 EVM 谜题破解](https://learnblockchain.cn/column/21)
