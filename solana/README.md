@@ -1,10 +1,14 @@
 ## Solana介绍
 
-Solana是一种高度可扩展的公有区块链平台，旨在通过其独特的架构和优化技术，为去中心化应用程序（dApp）和加密货币交易提供高吞吐量和低延迟的解决方案。于2020年3月正式推出的 Solana，由Solana Labs创立，并由 Anatoly Yakovenko 和 Greg Fitzgerald 共同开发，其目的是解决现存区块链网络中常见的可扩展性和速度问题。
+[Solana](https://learnblockchain.cn/tags/Solana?map=Solana)  是一种高性能的区块链平台，通过高效的共识机制和并行处理技术，解决现存区块链网络中常见的可扩展性和速度问题。
+
+Solana 每秒可处理超过 50,000 笔交易，交易确认时间约为 400 毫秒。
+
+Solana 于2020年3月正式推出的 ， 主要创始人  Anatoly Yakovenko 
 
 ## 核心技术
 
-Solana的技术框架有几个关键创新，这些创新使其在区块链领域独树一帜：
+Solana的技术框架有几个关键创新：
 
 1. Proof of History (PoH):[Proof of History](https://learnblockchain.cn/tags/PoH) 是 Solana 的核心创新之一，它大大提高了所有节点之间的时间同步效率。PoH通过记录事件之间的历史顺序，简化了验证的过程，使得整个网络的处理速度大大提高。与传统的区块链网络依赖全局时钟不同，PoH 允许各节点独立地确定事件的时间顺序，进而提升交易速度和网络效率。
 2. Tower BFT (Byzantine Fault Tolerance):Tower BFT 是一种优化过的实用拜占庭容错算法，建立在 PoH 的时间机制之上，使节点在不进行大量通信的情况下能够快速达成共识。这一特性增强了 Solana 在分布式网络中的容错性和安全性，使其能够高效处理大规模的去中心化应用。
@@ -13,20 +17,21 @@ Solana的技术框架有几个关键创新，这些创新使其在区块链领�
 5. Pipeline:Pipeline 是一种用于优化数据处理的技术，通过不同的硬件资源并行处理各种数据流任务，进一步提高了 Solana 网络的吞吐量。这一流水线技术确保了数据能够在短时间内通过多个验证节点传递，从而支持高速交易确认。
 6. Cloudbreak:Solana的 Cloudbreak 技术是其水平扩展存储层，用于支持交易并行处理，将链上数据存储在各种分布式数据库中，实现高可扩展性和数据高效读取。
 
-## 性能和可扩展性
 
-Solana 以其高性能而著称，每秒可处理超过 50,000 笔交易，延迟约为 400 毫秒。这得益于其高效的共识机制和并行处理技术，使其在不牺牲去中心化和安全性的情况下，达到了传统金融系统级别的交易性能。
 
-## 开发者生态
+## 开发者相关
 
-Solana拥有一个活跃的开发者社区，提供了丰富的开发工具和资源。开发者可以使用 Rust 和 C 来构建 Solana 上的 dApp。Solana基金会还组织了各种黑客松和开发者活动，促进了生态系统的繁荣，吸引了多个成功项目和协议，如 Serum 去中心化交易所和多种 DeFi 应用。
+Solana 上的程序主要使用 Rust 来构建，Solana 通用了一系列 crates 来帮组开发者开发，参考[这里](https://solana.com/docs/clients/rust)。
 
-## 去中心化和安全性
+**Solana Program Library (SPL)**：是一组由 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 官方维护的标准智能合约库，提供了常用功能，如代币合约、治理模块等，帮助开发者快速构建复杂的 dApp 功能。
 
-尽管Solana强调高性能和低延迟，但它同样重视去中心化和安全性。通过其独特的BFT共识机制和分布式架构，Solana 在应对网络攻击和节点故障方面表现出了较强的弹性。
+**Anchor** 是一个用 [Rust](https://learnblockchain.cn/tags/Rust?map=Web3) 编写的框架，旨在简化在 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 上开发智能合约。
 
-## 前景和挑战
+**Sollet 和 Phantom**：这两个是常用的 钱包 工具，支持 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 上的代币存储和交易。它们还可以与 dApp 集成，方便用户进行交互。
 
-Solana 致力于构建一个既能提供高效能，又能保持去中心化和安全性的区块链平台。尽管其技术架构具有显著优势，但在与其他成熟的区块链平台竞争时，仍然需要应对兼容性、治理、以及进一步优化网络性能等挑战。随着区块链技术的不断发展，Solana 有潜力在未来成为区块链生态系统中不可忽视的力量。
+**Metaplex**：是一个用于创建和管理 NFT（非同质化代币）的平台和工具集，开发者可以利用 Metaplex 快速部署和管理 NFT 市场和拍卖。
 
-总结来说，Solana 的创新技术、卓越性能和活跃的开发者生态使其在区块链领域成为一个强劲的竞争者，特别是在支持高频交易和复杂智能合约方面展现了极大的潜力。
+**Serum** ：是一个去中心化的衍生品交易协议和流动性基础设施，通过去中心化订单簿和匹配引擎，实现完全去中心化的交易。
+
+
+
