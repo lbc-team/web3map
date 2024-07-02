@@ -24,7 +24,7 @@ Alice也还保留着这边临时密钥。但是，如果她想要Victor帮忙签
 
 Alice和Bob（以及后续所有获得了临时密钥的人）使用一个为闪电网络设计的密码学方法，叫做 “**Eltoo**”。Eltoo 使得Bob可以用自己的备份交易 “**覆盖**”Alice的备份交易。所以，如果Alice尝试欺诈，把自己的旧备份交易广播出去，Bob 既可以在 Alice 的等待期里与Victor联系，联手拿回自己的钱；也可以使用自己的备份交易直接覆盖掉 Alice 的交易。
 
-![statechain](../../../graph/statechain.png)
+![statechain](https://img.learnblockchain.cn/web3map/statechain.png)
 
 ***
 

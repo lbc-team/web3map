@@ -41,7 +41,7 @@ Ordinals 协议可以理解为一个为聪（SATS）编号的系统。通过赋�
 
 在 Ordinal 理论中，单个聪是按照它们被开采的顺序来编号的。第一个序号是创世纪铸造的第一个聪，可以一直追溯到2008年。当一个**比特币被转移**时，通过基于交易顺序的先进先出系统，顺序被保留下来。
 
-![Ordinals](/graph/Ordinals.png)
+![Ordinals](https://img.learnblockchain.cn/web3map/Ordinals.png)
 
 #### 元数据（Metadata）
 
