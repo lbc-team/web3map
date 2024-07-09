@@ -15,7 +15,7 @@
 ### P2P 网络在区块链中的应用
 
  P2P 技术广泛应用很多领域如：文件共享、计算能力存储共享、即时通讯等等。
- 所有的区块链，都是一个P2P 网络，如 [Bitcoin（比特币）](https://learnblockchain.cn/tags/比特币?map=BTC)、[以太坊]((https://learnblockchain.cn/tags/以太坊?map=EVM)
+ 所有的区块链，都是一个P2P 网络，如 [Bitcoin（比特币）](https://learnblockchain.cn/tags/比特币?map=BTC)、[以太坊](https://learnblockchain.cn/tags/以太坊?map=EVM)
  
  区块链的P2P（点对点）网络是指区块链网络中的各个节点直接连接并交换信息，无需中央服务器的中介，确保了网络的分布式性、安全性和抗故障性，以下是在 区块链的P2P 网络中，经常遇到的一些概念：
 
