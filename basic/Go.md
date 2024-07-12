@@ -19,7 +19,7 @@ Go 语言，也称为 Golang，是由 Google 开发并于2009年首次发布的�
 Go 语言在区块链领域有着广泛的应用：
 
 1. 以太坊 (Ethereum)  
-    以太坊平台的关键组件 “Geth”（Go-Ethereum）是用 Go 编写的。Geth 是以太坊的官方客户端，能够允许开发人员运行完整的以太坊节点，用于挖矿、部署智能合约、转账和区块浏览等功能。
+    以太坊平台的关键组件 “[Geth](https://learnblockchain.cn/tags/Geth)”（Go-Ethereum）是用 Go 编写的。Geth 是以太坊的官方客户端，能够允许开发人员运行完整的以太坊节点，用于挖矿、部署智能合约、转账和区块浏览等功能。
     
 2. Hyperledger Fabric  
     这是一个由 Linux 基金会主导的用于企业级区块链的分布式账本解决方案，其核心部分也是使用 Go 语言开发的。Hyperledger Fabric 提供了模块化架构，可用于创建灵活的、高可扩展性的区块链应用。

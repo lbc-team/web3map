@@ -1,3 +1,5 @@
+## PoH 是什么
+
 Proof of History（PoH，即历史证明）是一种区块链共识机制，它由 [Solana](https://learnblockchain.cn/tags/solana) 区块链团队开发，用于提高网络的吞吐量和整体效率。PoH 通过引入一个可验证的时间序列，解决了传统区块链系统中事件顺序无法确定的问题。
 
 以下是 Proof of History 的核心概念和特点：

@@ -1,4 +1,4 @@
-## UTXO ： 未花费的交易输出
+## UTXO：未花费的交易输出
 
 UTXO 未花费的交易输出（Unspent Transaction Output ），是比特币和其他基于比特币的加密货币系统中管理[账户](https://learnblockchain.cn/tags/%E8%B4%A6%E6%88%B7)余额的一种机制。它记录了每个交易输出的状态，以追踪每个比特币的所有权。
 

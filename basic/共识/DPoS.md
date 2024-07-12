@@ -1,4 +1,4 @@
-## 简介
+## DPoS 是什么
 
 DPoS（Delegated Proof of Stake，委托权益证明）是一种改进的权益证明（PoS）共识机制。这种机制旨在解决 PoS 机制中可能面临的集中化和效率问题，通过引入代理（delegate）的概念来使网络更加去中心化和高效。以下是对 DPoS 的一些关键介绍：
 
@@ -22,13 +22,13 @@ DPoS（Delegated Proof of Stake，委托权益证明）是一种改进的权益�
 ## 代表性项目
 
 1. BitShares
-    
+   
     BitShares 是第一个采用 DPoS 共识机制的区块链项目。它最早由 Daniel Larimer（BM）提出，并成功实现了 DPoS 的理论与实践结合。
 2. EOS
-    
+   
     EOS 也是一个采用 DPoS 共识机制的区块链项目，同样由 Daniel Larimer 发起。EOS 试图实现高性能、高扩展性的区块链应用平台。
 3. TRON（波场）
-    
+   
     TRON 是一个去中心化的区块链平台，旨在构建一个全球的自由内容娱乐系统。TRON 使用的也是 DPoS 共识机制，通过超级代表（Super Representatives，SR）进行网络治理和维护。
 
 总的来说，DPoS 是一种旨在提高区块链系统效率和扩展性的创新共识机制，但它也引发了关于去中心化程度和潜在安全风险的讨论。
