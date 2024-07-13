@@ -1,6 +1,6 @@
 
 ## OpenZeppelin
-OpenZeppelin 是一个在 [Solidity](https://learnblockchain.cn/tags/Solidity?map=EVM) 开发中广泛使用的开源框架，提供了一套用于构建和管理智能合约的工具和库，特别是在[以太坊](https://learnblockchain.cn/tags/以太坊?map=EVM))和 EVM 兼容链平台上。
+OpenZeppelin 是一个在 [Solidity](https://learnblockchain.cn/tags/Solidity?map=EVM) 开发中广泛使用的开源框架，提供了一套用于构建和管理智能合约的工具和库，特别是在[以太坊](https://learnblockchain.cn/tags/以太坊?map=EVM)和 EVM 兼容链平台上。
 它为开发者提供了安全、可重用和经过审计的智能合约模块，帮助加快开发过程并减少安全风险。
 
 ### OpenZeppelin 的主要功能和特点：

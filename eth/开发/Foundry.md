@@ -1,7 +1,5 @@
 ## Foundry 简介
 
-
-
 [Foundry](https://learnblockchain.cn/tags/Foundry?map=EVM) 是一种用于以太坊智能合约开发的先进工具集。它由 Paradigm 开发，是一个快速、便捷和高效的智能合约开发框架，提供了编译、测试、调试和部署合约的完整工具链。Foundry 的设计目标是提高开发效率简化 [Solidity](https://learnblockchain.cn/tags/Solidity?map=EVM) 智能合约的开发流程。
 
 ### Foundry 的主要组件
