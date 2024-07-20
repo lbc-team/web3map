@@ -2,7 +2,7 @@
 
 权益证明 Pos（ **Proof of Stake** 的缩写） 是一种共识机制，共识机制是一整套由协议、激励和想法构成的体系，使得整个网络的节点能够就区块链状态达成一致。
 
-当前有很多区块链采用 Pos 共识或基于 Pos 的变种，例如：Polkadot采用一种名为Nominated Proof-of-Stake (NPoS) 的变种，Cosmos网络使用一种基于Tendermint协议的PoS机制，以太坊也从工作量证明（Proof of Work，PoW）转向了权益证明（PoS）。
+当前有很多区块链采用 Pos 共识或基于 Pos 的变种，例如：Polkadot采用一种名为Nominated Proof-of-Stake (NPoS) 的变种，Cosmos网络使用一种基于Tendermint协议的PoS机制，以太坊也从工作量证明（Proof of Work，[PoW](https://learnblockchain.cn/tags/POW)）转向了权益证明（PoS）。
 
 ## 基本原理
 
