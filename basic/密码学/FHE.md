@@ -1,17 +1,12 @@
 ## FHE
 
-FHE (Fully Homomorphic Encryption，简称 FHE) , 全同态加密，在加密数据上执行计算，而不需要先解密数据，仍然可以得到正确且安全的结果。
+FHE (Fully Homomorphic Encryption，简称 FHE) , 是全同态加密，属于[同态加密](https://learnblockchain.cn/tags/同态加密)的一种。 在加密数据上执行任意计算（加减乘除），而不需要先解密数据，仍然可以得到正确且安全的结果。
+
+
 
 FHE 核心思想是利用数学结构的特性，使得加密后的数据在某些运算下仍然保持“同态”性质。这意味着，在密文之间执行某些操作，结果的密文可以解密为与直接在明文上执行相同操作所得结果一致的明文。
 
-
-
-例如，假设有两个明文数据 `x` 和 `y`，它们的密文分别为 `Enc(x)` 和 `Enc(y)`。在 FHE 系统中，进行如下运算：
-
-- 加法：`Enc(x) + Enc(y) = Enc(x + y)`
-- 乘法：`Enc(x) * Enc(y) = Enc(x * y)`
-
-解密后，结果将是 `x + y` 或 `x * y`，与对未加密数据进行相同运算的结果相同。
+![img](https://img.learnblockchain.cn/pics/20240816181756.png)
 
 
 
