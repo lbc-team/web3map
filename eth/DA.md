@@ -1,10 +1,14 @@
-## DA 数据可用性
+## DA - 数据可用性
 
-[DA](https://learnblockchain.cn/tags/DA?map=EVM)（Data Availability 数据可用性）在 [Layer2](https://learnblockchain.cn/tags/Layer2?map=EVM) 扩展方案中扮演重要角色，确保交易数据在网络中是可以访问和验证的，这对于保持网络的去中心化和抗审查性至关重要。
+[DA](https://learnblockchain.cn/tags/DA?map=EVM)（Data Availability 数据可用性）在 [Layer2](https://learnblockchain.cn/tags/Layer2?map=EVM) 扩展方案中扮演重要角色，确保交易数据在网络中是可以访问和验证的，以确保数据的有效性和一致性。
 
+DA 在扩容解决方案（如 [Layer 2](https://learnblockchain.cn/tags/Layer2?map=EVM) 方案）中扮演着至关重要的角色，因为 Layer2 数据并不完全存储在链上，而是部分存储在链下。如何确保所有节点能够访问到Layer2 的交易数据并验证其真实性，这便是 DA 要解决的问题。
 
+简单来说 DA 是描述扩容方案中，如何保存原始交易数据的问题。
 
-### 数据可用性方案
+###  数据可用性方案
+
+为了确保数据的可用性，区块链技术引入了多种解决方案和技术手段：
 
 1. **链上数据可用性**：所有交易数据都存储在主链上。这是最简单的方案，确保所有节点都可以访问数据，但会导致主链的存储压力增加。
 
@@ -15,10 +19,6 @@
 4. **链下数据存储**：部分扩展方案将交易数据存储在链下，只有数据的哈希值或摘要存储在主链上。这种方式需要额外的机制来确保数据的可用性和完整性，如定期验证和数据重传。
 
 
-
-
-
-4. 
 
 ### 数据可用性的应用
 
