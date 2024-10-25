@@ -4,7 +4,7 @@ StarkNet 是一个基于以太坊的  [Layer 2](https://learnblockchain.cn/tags/
 
 
 
-StarkNet 与其他通过构建 [zkEVM](https://learnblockchain.cn/tags/zkEVM) 来实现交易证明的方式不用， StarkNet 背后的团队 StarkWare ， 使用 [zk-STARK](https://learnblockchain.cn/tags/zk-STARK) 技术构建了一个CairoVM， 是一个 ZK 友好的 通用功能的 zkVM，但于 zkEVM 不同，不能直接支持 Solidity 编程，而是需要使用 [Cairo 语言](https://learnblockchain.cn/tags/Cairo) 。
+StarkNet 与其他通过构建 [zkEVM](https://learnblockchain.cn/tags/zkEVM) 来实现交易证明的方式不同， StarkNet 背后的团队 StarkWare ， 使用 [zk-STARK](https://learnblockchain.cn/tags/zk-STARK) 技术构建了一个CairoVM， 是一个 ZK 友好的 通用功能的 zkVM，但于 zkEVM 不同，不能直接支持 Solidity 编程，而是需要使用 [Cairo 语言](https://learnblockchain.cn/tags/Cairo) 。
 
 > StarkNet 内的生态项目  Kakarot ，正在使用 Cairo 在 CairoVM 实现一个 zkEVM 。
 
