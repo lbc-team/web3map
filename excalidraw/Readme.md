@@ -7,15 +7,16 @@
 ## 图谱源文件
 
 本文件夹下都是制图的原始文件：
-学习路线图：[Roadmap.excalidraw](./Roadmap.excalidraw)
-Web3 图谱：[Web3.excalidraw](./Web3.excalidraw)
-BTC 图谱：[BTC.excalidraw](./BTC.excalidraw)
-EVM 图谱：[EVM.excalidraw](./EVM.excalidraw)
-Solana 图谱：[Solana.excalidraw](./Solana.excalidraw)
-Move 图谱：[Move.excalidraw](./Move.excalidraw)
-ZKP 图谱：[ZKP.excalidraw](./ZKP.excalidraw)
-Web3 开发岗位图：[Job.excalidraw](./Job.excalidraw)
-Solidity 图谱：[Solidity.excalidraw](./Solidity.excalidraw)
+
+1. 学习路线图：[Roadmap.excalidraw](./Roadmap.excalidraw)
+2. Web3 图谱：[Web3.excalidraw](./Web3.excalidraw)
+3. BTC 图谱：[BTC.excalidraw](./BTC.excalidraw)
+4. EVM 图谱：[EVM.excalidraw](./EVM.excalidraw)
+5. Solana 图谱：[Solana.excalidraw](./Solana.excalidraw)
+6. Move 图谱：[Move.excalidraw](./Move.excalidraw)
+7. ZKP 图谱：[ZKP.excalidraw](./ZKP.excalidraw)
+8. Web3 开发岗位图：[Job.excalidraw](./Job.excalidraw)
+9. Solidity 图谱：[Solidity.excalidraw](./Solidity.excalidraw)
 
 ## 如何参与贡献
 
