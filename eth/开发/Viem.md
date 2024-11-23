@@ -18,5 +18,5 @@ Viem的性能及其出色，在官方文档中的[performance](https://viem.sh/d
 
 
 
-更多关于Viem的内容，请参考[官方文档](https://viem.sh/docs/getting-started)
+更多关于Viem的内容，请参考[官方文档](https://viem.sh/docs/getting-started) 及 [Viem 中文文档](https://learnblockchain.cn/docs/viem/docs/getting-started) 
 
