@@ -45,3 +45,10 @@
 [预言机](https://learnblockchain.cn/tags/%E9%A2%84%E8%A8%80%E6%9C%BA)
 
 [智能合约](https://learnblockchain.cn/tags/%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6)
+
+[Solana](https://learnblockchain.cn/tags/Solana?map=Solana)
+
+[IDL](https://learnblockchain.cn/tags/IDL?map=Solana)
+
+[Sui](https://learnblockchain.cn/tags/Sui?map=Move)
+
