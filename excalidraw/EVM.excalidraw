@@ -10842,8 +10842,8 @@
     },
     {
       "type": "text",
-      "version": 5876,
-      "versionNonce": 1672252916,
+      "version": 5877,
+      "versionNonce": 1069928217,
       "index": "bBL",
       "isDeleted": false,
       "id": "hjSGpKheox8k9N6n6_pwX",
@@ -10879,8 +10879,8 @@
           "type": "arrow"
         }
       ],
-      "updated": 1720430797379,
-      "link": null,
+      "updated": 1737207994972,
+      "link": "智能合约,,https://github.com/lbc-team/web3map/blob/main/eth/智能合约.md",
       "locked": false,
       "fontSize": 15.85042367890509,
       "fontFamily": 2,
@@ -10926,8 +10926,8 @@
     },
     {
       "type": "text",
-      "version": 5957,
-      "versionNonce": 1705147212,
+      "version": 5958,
+      "versionNonce": 1170590873,
       "index": "bBN",
       "isDeleted": false,
       "id": "8jLIgunZEl04dRj1EiTPV",
@@ -10950,8 +10950,8 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1720430797379,
-      "link": null,
+      "updated": 1737207954565,
+      "link": "钱包,,https://github.com/lbc-team/web3map/blob/main/basic/基础概念/钱包.md",
       "locked": false,
       "fontSize": 15.85042367890509,
       "fontFamily": 2,
@@ -12502,8 +12502,8 @@
     },
     {
       "type": "rectangle",
-      "version": 5639,
-      "versionNonce": 460993240,
+      "version": 5672,
+      "versionNonce": 1956872249,
       "index": "bC4",
       "isDeleted": false,
       "id": "pIrcd-PnZTnb1ZbxqA15G",
@@ -12528,14 +12528,14 @@
         "type": 3
       },
       "boundElements": [],
-      "updated": 1718179602736,
+      "updated": 1737208353134,
       "link": null,
       "locked": false
     },
     {
       "type": "text",
-      "version": 6343,
-      "versionNonce": 74352372,
+      "version": 6376,
+      "versionNonce": 964590551,
       "index": "bC5",
       "isDeleted": false,
       "id": "5MpLQa-bPlpfvdn7N0md8",
@@ -12558,7 +12558,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1720430797379,
+      "updated": 1737208353134,
       "link": null,
       "locked": false,
       "fontSize": 14.26580851890562,
@@ -12715,8 +12715,8 @@
     },
     {
       "type": "rectangle",
-      "version": 394,
-      "versionNonce": 39596248,
+      "version": 436,
+      "versionNonce": 907566809,
       "index": "bCB",
       "isDeleted": false,
       "id": "aNhUWebNLRKGuPbN34cow",
@@ -12739,7 +12739,7 @@
         "type": 3
       },
       "boundElements": [],
-      "updated": 1718179602736,
+      "updated": 1737208354739,
       "link": null,
       "locked": false
     },
