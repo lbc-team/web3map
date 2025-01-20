@@ -1,4 +1,5 @@
 import json
+import argparse
 
 files = [
         "basic/区块链应用场景/GameFI.md",
@@ -38,21 +39,34 @@ for file in files:
     term = file.split('/')[-1].replace('.md', '')
     terms[term] = file
 
-# 读取 EVM.excalidraw 文件
-with open('../excalidraw/EVM.excalidraw', 'r', encoding='utf-8') as f:
-    data = json.load(f)
+def parse_args():
+    parser = argparse.ArgumentParser(description='更新 Excalidraw 文件中的术语链接')
+    parser.add_argument('filename', help='要处理的 Excalidraw 文件路径')
+    return parser.parse_args()
 
-# 遍历所有元素
-for element in data.get('elements', []):
-    # 检查是否包含 originalText 和 link 字段
-    if ('originalText' in element and 
-        'link' in element and 
-        element['link'] is None and 
-        element['originalText'] in terms):
-        # 找到匹配的术语，更新 link
-        term = element['originalText']
-        element['link'] = f"{term},,https://github.com/lbc-team/web3map/blob/main/{terms[term]}"
+def update_excalidraw_file(filename):
+    # 读取 Excalidraw 文件
+    with open(filename, 'r', encoding='utf-8') as f:
+        data = json.load(f)
 
-# 写回文件，保持格式
-with open('../excalidraw/EVM.excalidraw', 'w', encoding='utf-8') as f:
-    json.dump(data, f, ensure_ascii=False, indent=2)
+    # 遍历所有元素
+    for element in data.get('elements', []):
+        # 检查是否包含 originalText 和 link 字段
+        if ('originalText' in element and 
+            'link' in element and 
+            element['link'] is None and 
+            element['originalText'] in terms):
+            # 找到匹配的术语，更新 link
+            term = element['originalText']
+            element['link'] = f"{term},,https://github.com/lbc-team/web3map/blob/main/{terms[term]}"
+
+    # 写回文件，保持格式
+    with open(filename, 'w', encoding='utf-8') as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+
+def main():
+    args = parse_args()
+    update_excalidraw_file(args.filename)
+
+if __name__ == '__main__':
+    main()

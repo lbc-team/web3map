@@ -1,9 +1,11 @@
 import json
 import re
+import argparse
 
-def extract_original_text():
+def extract_original_text(filename):
     # 读取 EVM.excalidraw 文件
-    with open('excalidraw/EVM.excalidraw', 'r', encoding='utf-8') as f:
+    
+    with open(f'excalidraw/{filename}.excalidraw', 'r', encoding='utf-8') as f:
         content = f.read()
         
     # 尝试直接解析为 JSON
@@ -39,4 +41,8 @@ def extract_original_text():
     print(f"已提取 {len(original_texts)} 个文本项到 scripts/temp.txt")
 
 if __name__ == "__main__":
-    extract_original_text() 
+    parser = argparse.ArgumentParser(description='从 Excalidraw 文件中提取文本')
+    parser.add_argument('filename', help='Excalidraw 文件名（不需要包含 .excalidraw 扩展名）')
+    args = parser.parse_args()
+    
+    extract_original_text(args.filename) 
