@@ -1,5 +1,6 @@
 import re
 from pathlib import Path
+from lbc_api import get_tag_info, update_tag
 
 def extract_terms_and_links(termlink_path):
     """从 termlink.md 文件中提取术语和对应的链接"""
@@ -44,14 +45,28 @@ def replace_terms_in_file(file_path, terms_dict):
         f.writelines(modified_lines)
     
 
-def process_eth_directory(eth_dir, terms_dict):
-    """处理 eth 目录下的所有 markdown 文件"""
+def process_directory(eth_dir, terms_dict):
+    """处理目录下的所有 markdown 文件"""
     # 获取所有 .md 文件
     md_files = Path(eth_dir).glob('*.md')
     
     for file_path in md_files:
-        print(f"Processing {file_path}")
+        print(f"处理: {file_path}")
         replace_terms_in_file(file_path, terms_dict)
+        update_tag_from_file(file_path)
+
+def update_tag_from_file(file_path):
+    """更新 TAG"""
+    file_path_name = file_path.name
+    tag_name = file_path_name.split('/')[-1].replace('.md', '')
+
+    read_file = open(file_path, 'r', encoding='utf-8')
+    content = read_file.read()
+    read_file.close()
+
+    # print(tag_name, content)
+
+    update_tag(tag_name, content, None)
 
 def main():
     # 设置路径
@@ -70,8 +85,7 @@ def main():
         print(f"Found {len(terms_dict)} terms in termlink.md")
         
         # 处理 eth 目录下的文件
-        process_eth_directory(handle_dir, terms_dict)
-        print("Processing completed successfully")
+        process_directory(handle_dir, terms_dict)
         
     except Exception as e:
         print(f"An error occurred: {str(e)}")
