@@ -96,7 +96,7 @@ def process_terms():
             
             if explanation:
                 # 保存解释
-                save_explanation(term, explanation, 'eth')
+                save_explanation(term, explanation, 'roadmap')
                 
                 # 添加延迟以避免触发 API 限制
                 time.sleep(1)

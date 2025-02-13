@@ -8,6 +8,8 @@
 
 [Solidity](https://learnblockchain.cn/tags/Solidity?map=EVM)
 
+[Cairo](https://learnblockchain.cn/tags/Cairo?map=Web3)
+
 [OpenZeppelin](https://learnblockchain.cn/tags/OpenZeppelin?map=EVM)
 
 [Foundry](https://learnblockchain.cn/tags/Foundry?map=EVM)
@@ -63,3 +65,21 @@
 [Blur](https://learnblockchain.cn/tags/Blur)
 
 [DID](https://learnblockchain.cn/tags/DID)
+
+[DApp](https://learnblockchain.cn/tags/DApp)
+
+[PoW](https://learnblockchain.cn/tags/PoW)
+
+[PoS](https://learnblockchain.cn/tags/PoS)
+
+[Rust](https://learnblockchain.cn/tags/Rust)
+
+[Go](https://learnblockchain.cn/tags/Go)
+
+[JavaScript](https://learnblockchain.cn/tags/JavaScript)
+
+[零知识证明](https://learnblockchain.cn/tags/%E9%9B%B6%E7%9F%A5%E8%AF%86%E8%AF%81%E6%98%8E)
+
+[ZKP](https://learnblockchain.cn/tags/zkp)
+
+[Rollup](https://learnblockchain.cn/tags/Rollup)

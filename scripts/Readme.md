@@ -5,6 +5,7 @@
 - `generate_terms.py`: 使用 OpenAI API 生成词条解释
 - `replace_terms_with_link.py`: 自动将文档中的术语替换为对应的超链接
 - `update_excali_term_url.py` : 更新 Excalidraw 文件中词条的 URL 
+- `check_term_is_tag.py` : 检查术语是否为有效标签
 
 ### 配置文件
 - `.env`: 环境变量配置文件
