@@ -24,6 +24,8 @@ def replace_terms_in_file(file_path, terms_dict):
     with open(file_path, 'r', encoding='utf-8') as f:
         lines = f.readlines()
     
+    replaced_terms = set()
+
     modified_lines = []
     for line in lines:
 
@@ -33,10 +35,18 @@ def replace_terms_in_file(file_path, terms_dict):
         else:
             # 对每个术语进行替换
             for term, link in terms_dict.items():
+
+                if term in replaced_terms:
+                    continue
+
                 # 使用正则表达式确保只替换独立的词，而不是词的一部分
                 pattern = fr'\b{re.escape(term)}\b'
                 replacement = f'[{term}]({link})'
+                original_line = line
+
                 line = re.sub(pattern, replacement, line)
+                if line != original_line:  # 检查是否发生了替换
+                    replaced_terms.add(term)
         
         modified_lines.append(line)
     
