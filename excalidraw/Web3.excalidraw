@@ -9565,11 +9565,11 @@
       "locked": false,
       "fontSize": 16,
       "fontFamily": 2,
-      "text": "Solidity 语言",
+      "text": "Rust 语言",
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Solidity 语言",
+      "originalText": "Rust 语言",
       "autoResize": true,
       "lineHeight": 1.15
     },
