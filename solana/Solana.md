@@ -4,7 +4,7 @@
 
 Solana 每秒可处理超过 50,000 笔交易，交易确认时间约为 400 毫秒。
 
-Solana 于2020年3月正式推出的 ， 主要创始人  Anatoly Yakovenko 
+Solana 于2020年3月正式推出的，主要创始人  Anatoly Yakovenko 
 
 ## 核心技术
 
@@ -18,7 +18,6 @@ Solana的技术框架有几个关键创新：
 6. Cloudbreak:Solana的 Cloudbreak 技术是其水平扩展存储层，用于支持交易并行处理，将链上数据存储在各种分布式数据库中，实现高可扩展性和数据高效读取。
 
 
-
 ## 开发者相关
 
 Solana 上的程序主要使用 Rust 来构建，Solana 通用了一系列 crates 来帮组开发者开发，参考[这里](https://solana.com/docs/clients/rust)。
@@ -27,7 +26,7 @@ Solana 上的程序主要使用 Rust 来构建，Solana 通用了一系列 crate
 
 **Anchor** 是一个用 [Rust](https://learnblockchain.cn/tags/Rust?map=Web3) 编写的框架，旨在简化在 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 上开发智能合约。
 
-**Sollet 和 Phantom**：这两个是常用的 钱包 工具，支持 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 上的代币存储和交易。它们还可以与 dApp 集成，方便用户进行交互。
+**Phantom 和 Sollet**：这两个是常用的 钱包 工具，支持 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 上的代币存储和交易。它们还可以与 dApp 集成，方便用户进行交互。
 
 **Metaplex**：是一个用于创建和管理 NFT（非同质化代币）的平台和工具集，开发者可以利用 Metaplex 快速部署和管理 NFT 市场和拍卖。
 
