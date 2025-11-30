@@ -2,13 +2,25 @@ import os
 import openai
 import time
 from pathlib import Path
+from dotenv import load_dotenv
 
+load_dotenv(".env")
 
 # 设置 OpenAI API key
-API_KEY = os.getenv('OPENAI_API_KEY')
-BASE_URL = os.getenv('OPENAI_BASE_URL')
 
-def get_term_explanation(term):
+
+LLM_MODEL_GPT_4O_MINI = "gpt-4o-mini-2024-07-18"
+
+# "deepseek-r1" for aliyun
+# deepseek-r1-250120 for volcengine
+LLM_MODEL_DEEPSEEK_R1 = "deepseek-r1-250120"  
+
+
+# deepseek-v3-241226 for volcengine
+# deepseek-v3 for aliyun
+LLM_MODEL_DEEPSEEK_V3 = "deepseek-v3-241226"
+
+def get_term_explanation(term, model=LLM_MODEL_DEEPSEEK_R1):
     """
     使用 OpenAI API 获取词条介绍
     """
@@ -22,19 +34,40 @@ def get_term_explanation(term):
         4. 如果存在相关概念、相似的技术或相似的产品服务，在末尾列出几个，简单解释它们之间的区别
         """
 
+        if model == LLM_MODEL_GPT_4O_MINI:
+            API_KEY = os.getenv('OPENAI_API_KEY')
+            BASE_URL = os.getenv('OPENAI_BASE_URL')
+        elif model == LLM_MODEL_DEEPSEEK_R1 or model == LLM_MODEL_DEEPSEEK_V3:
+            API_KEY = os.getenv('VOLC_API_KEY')
+            BASE_URL = os.getenv('VOLC_API_BASE_URL')
+
         openai_client = openai.OpenAI(api_key=API_KEY, base_url=BASE_URL)
 
-        response = openai_client.chat.completions.create(
-            model="gpt-4o-mini",
-            messages=[
-                {"role": "system", "content": "你是一位区块链领域的专家，擅长解释区块链相关概念。"},
+        request_params = {
+            "model": model,
+            "messages": [
+                {"role": "system", "content": "你是一位编程及区块链领域的专家，帮助用户理解区块链相关概念。"},
                 {"role": "user", "content": prompt}
             ],
-            temperature=0.5,
-            max_tokens=2000
-        )
-        
-        return response.choices[0].message.content
+            # temperature:1,
+            # max_tokens=2000
+        }
+
+        if model == LLM_MODEL_DEEPSEEK_R1:
+            request_params["stream"] = True
+            response = openai_client.chat.completions.create(
+                **request_params
+            )
+
+            responseContent = ""
+            for chunk in response:
+                answer_chunk = chunk.choices[0].delta.content
+                # print(answer_chunk)
+                if answer_chunk and answer_chunk != "":
+                    responseContent += answer_chunk
+            return responseContent
+        else:
+            return response.choices[0].message.content
     except Exception as e:
         print(f"获取'{term}'的解释时出错: {str(e)}")
         return None
@@ -73,7 +106,7 @@ def file_exists(term):
     
     return False
 
-def process_terms():
+def process_terms(model=LLM_MODEL_DEEPSEEK_R1):
     """
     处理所有词条
     """
@@ -92,11 +125,11 @@ def process_terms():
                 continue
             
             # 获取解释
-            explanation = get_term_explanation(term)
+            explanation = get_term_explanation(term, model)
             
             if explanation:
                 # 保存解释
-                save_explanation(term, explanation, 'roadmap')
+                save_explanation(term, explanation, '_deepseek_r1')
                 
                 # 添加延迟以避免触发 API 限制
                 time.sleep(1)
@@ -110,4 +143,4 @@ if __name__ == "__main__":
     if not os.getenv('OPENAI_API_KEY'):
         print("错误: 未设置 OPENAI_API_KEY 环境变量")
     else:
-        process_terms() 
+        process_terms(LLM_MODEL_DEEPSEEK_R1) 

@@ -52,9 +52,35 @@
 
 [智能合约](https://learnblockchain.cn/tags/%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6)
 
+
 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana)
 
+[SVM](https://learnblockchain.cn/tags/SVM?map=Solana)
+
+[Program](https://learnblockchain.cn/tags/Program?map=Solana)
+
+[Anchor](https://learnblockchain.cn/tags/Anchor?map=Solana)
+
+[Jito](https://learnblockchain.cn/tags/Jito?map=Solana)
+
+[Solana Web3.js](https://learnblockchain.cn/tags/?map=Solana)
+
+[Solana Kit](https://learnblockchain.cn/tags/Solana Kit?map=Solana)
+
+[SPL Token](https://learnblockchain.cn/tags/SPL Token?map=Solana)
+
 [IDL](https://learnblockchain.cn/tags/IDL?map=Solana)
+
+[Helius](https://learnblockchain.cn/tags/Helius?map=Solana)
+
+[Phantom](https://learnblockchain.cn/tags/Phantom?map=Solana)
+
+[Metaplex](https://learnblockchain.cn/tags/Metaplex?map=Solana)
+
+[PDA](https://learnblockchain.cn/tags/PDA?map=Solana)
+
+[CPI](https://learnblockchain.cn/tags/CPI?map=Solana)
+
 
 [Sui](https://learnblockchain.cn/tags/Sui?map=Move)
 
