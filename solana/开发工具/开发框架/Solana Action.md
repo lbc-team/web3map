@@ -1,6 +1,6 @@
-## Solana Actions 概述
+## Solana Action
 
-[Solana](https://learnblockchain.cn/tags/Solana?map=Solana) Actions 是 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 区块链推出的一项创新功能,允许用户通过简单的 URL 链接在任何网站、社交媒体或应用中直接执行区块链交易,无需跳转到 [DApp](https://learnblockchain.cn/tags/DApp) 或钱包界面。这项技术通过 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) Actions API 和 Blinks(Blockchain Links)实现,极大地降低了 Web3 交互的门槛,为区块链应用的推广和普及开辟了新的可能性。
+[Solana](https://learnblockchain.cn/tags/Solana?map=Solana) Actions 是 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 区块链推出的一项创新功能,允许用户通过简单的 URL 链接在任何网站、社交媒体或应用中直接执行区块链交易,无需跳转到 [DApp](https://learnblockchain.cn/tags/DApp) 或钱包界面。这项技术通过  Solana Actions API 和 Blinks(Blockchain Links)实现,极大地降低了 Web3 交互的门槛,为区块链应用的推广和普及开辟了新的可能性。
 
 ## Solana Actions 的核心概念
 
