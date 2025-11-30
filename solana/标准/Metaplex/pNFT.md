@@ -16,7 +16,7 @@ pNFT 可以定义链上规则控制：
 - 游戏物品（灵魂绑定、升级）
 - 会员权益（不可转让）
 - 票务（防止黄牛）
-- 合规性 NFT（KYC 验证）
+- 合规性 [NFT](https://learnblockchain.cn/tags/NFT)（KYC 验证）
 
 ### 规则类型
 
@@ -165,7 +165,7 @@ transfer_pnft(
 
 ### 生态支持
 
-**钱包**
+**[钱包](https://learnblockchain.cn/tags/%E9%92%B1%E5%8C%85)**
 主流钱包逐步支持 pNFT 的特殊转移逻辑。
 
 **市场**

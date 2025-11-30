@@ -73,7 +73,7 @@ const wallets = [
 ### 相关概念
 
 - **WalletConnect**：移动端连接协议
-- **DApp**：去中心化应用
+- **[DApp](https://learnblockchain.cn/tags/DApp)**：去中心化应用
 - **React**：前端框架
 - **[Solana Web3.js](https://solana-labs.github.io/solana-web3.js/)**: [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 的 JavaScript SDK
 - **[Anchor](https://www.anchor-lang.com/)**: [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 智能合约框架

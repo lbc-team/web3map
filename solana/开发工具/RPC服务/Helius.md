@@ -11,7 +11,7 @@
 
 **2. 增强 API**
 - 解析交易 API：返回人类可读的交易信息
-- 获取资产 API：钱包所有 Token 和 NFT
+- 获取资产 API：钱包所有 Token 和 [NFT](https://learnblockchain.cn/tags/NFT)
 - Webhooks：实时推送区块链事件
 
 **3. 压缩 NFT 支持**
@@ -27,7 +27,7 @@
 
 - 钱包应用：快速加载用户资产
 - NFT 市场：监听交易事件
-- DeFi 前端：解析复杂交易
+- [DeFi](https://learnblockchain.cn/tags/DeFi?map=EVM) 前端：解析复杂交易
 
 ### 相关概念
 

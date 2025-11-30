@@ -16,7 +16,7 @@ Staking（质押）是 [Solana](https://learnblockchain.cn/tags/Solana?map=Solan
 - Lido（stSOL）
 - [Jito](https://learnblockchain.cn/tags/Jito?map=Solana)（jitoSOL）
 
-优点：保持流动性，LST 可用于 DeFi。
+优点：保持流动性，LST 可用于 [DeFi](https://learnblockchain.cn/tags/DeFi?map=EVM)。
 
 ### 质押奖励
 

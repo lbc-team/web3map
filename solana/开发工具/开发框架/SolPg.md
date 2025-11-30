@@ -23,7 +23,7 @@ Solana Playground(简称 SolPg)是一个基于浏览器的集成开发环境(IDE
 - **代码编辑器**: Monaco Editor(VS Code 同款编辑器)
 - **语法高亮**: [Rust](https://learnblockchain.cn/tags/Rust) 和 Anchor 语法高亮
 - **代码补全**: 智能代码提示和自动完成
-- **编译器**: 内置 Rust 和 Anchor 编译器
+- **编译器**: 内置 [Rust](https://learnblockchain.cn/tags/Rust) 和 Anchor 编译器
 - **部署工具**: 一键部署到 Devnet/Mainnet
 - **测试框架**: 集成测试和交互功能
 
@@ -200,7 +200,7 @@ SolPg 提供多种项目模板:
 ### 3. 高级示例
 
 **[NFT](https://learnblockchain.cn/tags/NFT) Minter**:
-- NFT 铸造程序
+- [NFT](https://learnblockchain.cn/tags/NFT) 铸造程序
 - 集成 [Metaplex](https://learnblockchain.cn/tags/Metaplex?map=Solana)
 - 完整的 NFT 流程
 

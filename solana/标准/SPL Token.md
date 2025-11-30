@@ -4,7 +4,7 @@
 
 ### 核心概念
 
-**Mint 账户**
+**Mint [账户](https://learnblockchain.cn/tags/账户?map=EVM)**
 代币的定义和配置：
 - 代币总供应量
 - 小数位数
@@ -62,6 +62,6 @@ spl-token transfer <MINT> <AMOUNT> <RECIPIENT>
 
 ### 相关概念
 
-- **ERC-20**：以太坊的可替代代币标准
+- **[ERC-20](https://learnblockchain.cn/tags/ERC20?map=EVM)**：以太坊的可替代代币标准
 - **ATA**：关联 Token 账户
 - **Token-2022**：[SPL Token](https://learnblockchain.cn/tags/SPL Token?map=Solana) 的扩展版本

@@ -111,7 +111,7 @@ QUIC 实现比 TCP 复杂：
 
 ### Solana 的 QUIC 实现
 
-Solana 使用 Rust 的 Quinn 库：
+Solana 使用 [Rust](https://learnblockchain.cn/tags/Rust) 的 Quinn 库：
 - 高性能
 - 异步 I/O
 - 与 Tokio 集成

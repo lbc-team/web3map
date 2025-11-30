@@ -125,7 +125,7 @@ Blinks 是 Actions 的可视化表现形式:
 
 游戏和 [NFT](https://learnblockchain.cn/tags/NFT) 场景:
 
-- **NFT 购买**: 分享 NFT 购买链接
+- **[NFT](https://learnblockchain.cn/tags/NFT) 购买**: 分享 [NFT](https://learnblockchain.cn/tags/NFT) 购买链接
 - **游戏内购**: 游戏道具购买
 - **赛事报名**: 链上游戏赛事注册
 - **成就解锁**: 游戏成就 NFT 铸造

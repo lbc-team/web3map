@@ -44,14 +44,14 @@ MEV（Maximal Extractable Value）指通过重新排序、插入或审查交易�
 **使用场景**
 - **套利**：确保套利交易按顺序执行
 - **清算**：优先执行清算交易
-- **NFT Mint**：抢先铸造热门 NFT
+- **[NFT](https://learnblockchain.cn/tags/NFT) Mint**：抢先铸造热门 [NFT](https://learnblockchain.cn/tags/NFT)
 
 ### JitoSOL
 
 **流动性质押代币**
 Jito 还提供流动性质押服务：
 - 质押 SOL 获得 jitoSOL
-- jitoSOL 可用于 DeFi
+- jitoSOL 可用于 [DeFi](https://learnblockchain.cn/tags/DeFi?map=EVM)
 - 自动复利质押奖励 + MEV 收益
 
 **收益来源**
@@ -86,7 +86,7 @@ sh -c "$(curl -sSfL https://release.jito.wtf/stable/install)"
 **用户**
 质押 SOL 获得 jitoSOL：
 - Jito 官网
-- 通过 Jupiter 等 DEX 购买
+- 通过 Jupiter 等 [DEX](https://learnblockchain.cn/tags/DEX?map=EVM) 购买
 
 ### 数据表现
 
@@ -100,7 +100,7 @@ sh -c "$(curl -sSfL https://release.jito.wtf/stable/install)"
 |------|------|
 | [Jito](https://learnblockchain.cn/tags/Jito?map=Solana) | MEV + 流动性质押 |
 | Marinade | 纯流动性质押 |
-| Flashbots | 以太坊 MEV |
+| Flashbots | [以太坊](https://learnblockchain.cn/tags/以太坊?map=[EVM](https://learnblockchain.cn/tags/EVM?map=EVM)) MEV |
 
 ### 未来发展
 

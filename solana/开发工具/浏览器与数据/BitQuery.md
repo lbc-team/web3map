@@ -6,7 +6,7 @@ BitQuery 是区块链数据 API 平台，提供 [Solana](https://learnblockchain
 
 - GraphQL API
 - 实时和历史数据
-- DEX 交易数据
+- [DEX](https://learnblockchain.cn/tags/DEX?map=EVM) 交易数据
 - Token 分析
 
 ### 使用场景

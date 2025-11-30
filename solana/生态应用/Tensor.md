@@ -1,6 +1,6 @@
 ## Tensor 概述
 
-Tensor 是 Solana 生态中专业的 NFT 交易平台,通过创新的 AMM 池和专业交易工具,为 NFT 交易者提供深度流动性和极致交易体验。与传统 NFT 市场的挂单模式不同,Tensor 引入了 NFT AMM 机制,允许用户即时买卖 NFT,无需等待买家或卖家。作为 Solana NFT 生态的核心基础设施,Tensor 处理着超过 60% 的 Solana NFT 交易量,为专业交易者、收藏家和做市商提供最强大的 NFT 交易工具。
+Tensor 是 Solana 生态中专业的 [NFT](https://learnblockchain.cn/tags/NFT) 交易平台,通过创新的 AMM 池和专业交易工具,为 [NFT](https://learnblockchain.cn/tags/NFT) 交易者提供深度流动性和极致交易体验。与传统 [NFT](https://learnblockchain.cn/tags/NFT) 市场的挂单模式不同,Tensor 引入了 [NFT](https://learnblockchain.cn/tags/NFT) AMM 机制,允许用户即时买卖 [NFT](https://learnblockchain.cn/tags/NFT),无需等待买家或卖家。作为 Solana [NFT](https://learnblockchain.cn/tags/NFT) 生态的核心基础设施,Tensor 处理着超过 60% 的 Solana [NFT](https://learnblockchain.cn/tags/NFT) 交易量,为专业交易者、收藏家和做市商提供最强大的 [NFT](https://learnblockchain.cn/tags/NFT) 交易工具。
 
 **官网**: https://www.tensor.trade/
 
@@ -315,7 +315,7 @@ console.log('稀有度得分:', myNFTRank.score)
 
 ## Tensor vs 其他 NFT 市场
 
-| 特性 | Tensor | Magic Eden | OpenSea |
+| 特性 | Tensor | Magic Eden | [OpenSea](https://learnblockchain.cn/tags/OpenSea) |
 |------|--------|-----------|---------|
 | **区块链** | Solana | Multi-chain | Multi-chain |
 | **交易费用** | 0.5% | 2% | 2.5% |
@@ -323,7 +323,7 @@ console.log('稀有度得分:', myNFTRank.score)
 | **批量操作** | ✅ 强大 | ⚠️ 基础 | ⚠️ 基础 |
 | **高级工具** | ✅ 专业 | ⚠️ 一般 | ⚠️ 一般 |
 | **交易速度** | < 1s | < 1s | 10-60s |
-| **Gas 费** | < $0.01 | < $0.01 | $10-100 |
+| **[Gas](https://learnblockchain.cn/tags/Gas?map=EVM) 费** | < $0.01 | < $0.01 | $10-100 |
 | **目标用户** | 专业交易者 | 大众用户 | 大众用户 |
 
 ## TNSR 代币经济

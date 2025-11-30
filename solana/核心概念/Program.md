@@ -30,7 +30,7 @@
 
 **2. 自定义程序**
 开发者编写的程序：
-- 使用 Rust、C 编写
+- 使用 [Rust](https://learnblockchain.cn/tags/Rust)、C 编写
 - 编译成 eBPF 字节码
 - 部署到链上
 

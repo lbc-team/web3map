@@ -1,6 +1,6 @@
 ## Metaplex
 
-Metaplex 是 Solana 上的 NFT 标准和工具套件，提供创建、销售和管理 NFT 的完整解决方案。Metaplex 是 Solana NFT 生态的基础设施。
+Metaplex 是 Solana 上的 [NFT](https://learnblockchain.cn/tags/NFT) 标准和工具套件，提供创建、销售和管理 [NFT](https://learnblockchain.cn/tags/NFT) 的完整解决方案。Metaplex 是 Solana [NFT](https://learnblockchain.cn/tags/NFT) 生态的基础设施。
 
 ### 核心组件
 
@@ -165,7 +165,7 @@ sugar deploy
 sugar mint
 ```
 
-**JavaScript SDK**
+**[JavaScript](https://learnblockchain.cn/tags/JavaScript) SDK**
 ```javascript
 import { Metaplex } from "@metaplex-foundation/js";
 

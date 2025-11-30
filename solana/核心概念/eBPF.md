@@ -16,10 +16,10 @@ eBPF 最初是 Linux 内核中用于网络包过滤的技术，后来发展成�
 Solana 选择 eBPF 作为智能合约的执行格式，主要基于以下考虑：
 
 **1. 性能优势**
-eBPF 是一个精简的指令集，没有复杂的运行时环境。Solana 可以直接将 eBPF 字节码编译成本地机器码执行（通过 JIT 或 AOT），性能接近原生程序。相比以太坊的 EVM（基于栈的虚拟机），eBPF 基于寄存器，执行效率更高。
+eBPF 是一个精简的指令集，没有复杂的运行时环境。Solana 可以直接将 eBPF 字节码编译成本地机器码执行（通过 JIT 或 AOT），性能接近原生程序。相比以太坊的 [EVM](https://learnblockchain.cn/tags/EVM?map=EVM)（基于栈的虚拟机），eBPF 基于寄存器，执行效率更高。
 
 **2. 成熟的工具链**
-eBPF 在 Linux 生态中已经非常成熟，拥有完整的编译器（LLVM）、调试器和性能分析工具。开发者可以使用熟悉的语言（Rust、C）编写程序，由 LLVM 编译成 eBPF 字节码。
+eBPF 在 Linux 生态中已经非常成熟，拥有完整的编译器（LLVM）、调试器和性能分析工具。开发者可以使用熟悉的语言（[Rust](https://learnblockchain.cn/tags/Rust)、C）编写程序，由 LLVM 编译成 eBPF 字节码。
 
 **3. 安全性验证**
 eBPF 验证器可以在加载程序前进行静态分析，检查：
@@ -60,7 +60,7 @@ eBPF 验证器可以在加载程序前进行静态分析，检查：
 |------|---------------|----------------|
 | 架构 | 基于寄存器 | 基于栈 |
 | 执行方式 | JIT/AOT 编译 | 解释执行或 JIT |
-| 语言支持 | Rust, C | Solidity, Vyper |
+| 语言支持 | Rust, C | [Solidity](https://learnblockchain.cn/tags/Solidity?map=EVM), Vyper |
 | 性能 | 接近原生 | 相对较慢 |
 | 并发模型 | 支持并行 | 串行执行 |
 

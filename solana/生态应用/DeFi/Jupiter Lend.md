@@ -12,4 +12,4 @@ Jupiter Lend 是 Jupiter 生态的借贷产品（规划中），旨在提供与 
 ### 相关概念
 
 - **Jupiter**：交易聚合器
-- **DeFi 组合**：多产品集成
+- **[DeFi](https://learnblockchain.cn/tags/DeFi?map=EVM) 组合**：多产品集成

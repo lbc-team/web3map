@@ -43,7 +43,7 @@ Geyser 插件提供以下数据流：
 像 [Helius](https://learnblockchain.cn/tags/Helius?map=Solana)、QuickNode 这样的 RPC 提供商使用 Geyser 构建实时索引：
 - 解析程序指令
 - 追踪 Token 转账
-- 监控 NFT 交易
+- 监控 [NFT](https://learnblockchain.cn/tags/NFT) 交易
 - 构建账户历史记录
 
 **2. 区块链浏览器**
@@ -52,7 +52,7 @@ Solscan、[Solana](https://learnblockchain.cn/tags/Solana?map=Solana)FM 等浏�
 - 账户余额变化
 - 程序活动统计
 
-**3. DeFi 应用监控**
+**3. [DeFi](https://learnblockchain.cn/tags/DeFi?map=EVM) 应用监控**
 监控链上 DeFi 协议的实时状态：
 - 流动性池价格变化
 - 大额交易预警

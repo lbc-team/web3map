@@ -7,7 +7,7 @@ Socean 是 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 上的流
 - 质押 SOL
 - 获得 scnSOL（可交易）
 - 赚取质押奖励
-- 参与 DeFi
+- 参与 [DeFi](https://learnblockchain.cn/tags/DeFi?map=EVM)
 
 ### 相关概念
 

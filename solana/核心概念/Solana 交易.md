@@ -85,7 +85,7 @@ await connection.confirmTransaction(signature, 'confirmed');
 - 不会出现部分执行的情况
 - 失败时状态完全回滚
 
-这使得复杂的多步骤操作（如 DEX 交易）可以安全执行。
+这使得复杂的多步骤操作（如 [DEX](https://learnblockchain.cn/tags/DEX?map=EVM) 交易）可以安全执行。
 
 ### 交易状态
 

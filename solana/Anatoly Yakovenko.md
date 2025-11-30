@@ -41,4 +41,4 @@ Solana 的成功也催生了 [SVM](https://learnblockchain.cn/tags/SVM?map=Solan
 
 - **PoH（历史证明）**：Anatoly 提出的核心创新，[Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 的技术基础
 - **[SVM](https://learnblockchain.cn/tags/SVM?map=Solana)**：[Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 虚拟机，运行 Solana 智能合约的执行环境
-- **Vitalik Buterin**：以太坊创始人，与 Anatoly 代表了不同的区块链扩展路线
+- **[Vitalik](https://learnblockchain.cn/tags/Vitalik?map=[EVM](https://learnblockchain.cn/tags/EVM?map=EVM)) Buterin**：以太坊创始人，与 Anatoly 代表了不同的区块链扩展路线

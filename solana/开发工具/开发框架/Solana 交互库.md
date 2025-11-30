@@ -4,18 +4,18 @@
 
 ### 主要库
 
-**JavaScript/TypeScript**
+**[JavaScript](https://learnblockchain.cn/tags/JavaScript)/TypeScript**
 - `@solana/web3.js`：官方 JS SDK
 - `@coral-xyz/anchor`：Anchor 框架客户端
 
-**Rust**
+**[Rust](https://learnblockchain.cn/tags/Rust)**
 - `solana-sdk`：官方 Rust SDK
 - `solana-client`：RPC 客户端
 
 **Python**
 - `solana-py`：Python SDK
 
-**Go**
+**[Go](https://learnblockchain.cn/tags/Go)**
 - `solana-go`：Go SDK
 
 ### 功能
@@ -34,7 +34,7 @@
 **后端服务**
 根据技术栈选择对应语言的 SDK
 
-**智能合约**
+**[智能合约](https://learnblockchain.cn/tags/%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6)**
 使用 `solana-sdk`（Rust）
 
 ### 相关概念

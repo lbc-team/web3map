@@ -1,6 +1,6 @@
 ## CCIP
 
-CCIP（Chainlink Cross-Chain Interoperability Protocol）是 Chainlink 的跨链互操作协议，支持 Solana 与其他链之间的资产和消息传递。
+CCIP（[Chainlink](https://learnblockchain.cn/tags/Chainlink) Cross-Chain Interoperability Protocol）是 [Chainlink](https://learnblockchain.cn/tags/Chainlink) 的跨链互操作协议，支持 Solana 与其他链之间的资产和消息传递。
 
 ### 功能
 

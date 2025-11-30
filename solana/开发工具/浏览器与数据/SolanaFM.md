@@ -10,7 +10,7 @@ SolanaFM 是新一代 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana
 **账户追踪**
 追踪账户的所有活动历史。
 
-**NFT 支持**
+**[NFT](https://learnblockchain.cn/tags/NFT) 支持**
 完整的 NFT 展示和交易历史。
 
 ### 相关概念

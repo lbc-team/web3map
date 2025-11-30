@@ -26,7 +26,7 @@
 
 **高性能链上程序**
 Pinocchio 专为对性能和体积有严格要求的链上程序设计：
-- DeFi 协议核心逻辑
+- [DeFi](https://learnblockchain.cn/tags/DeFi?map=EVM) 协议核心逻辑
 - 高频交易程序
 - CU 预算紧张的程序
 - 需要极致优化的场景
@@ -110,7 +110,7 @@ let value = u64::from_le_bytes(data[0..8].try_into().unwrap());
 ### 实际案例
 
 **DeFi 程序优化**
-某 DEX 程序使用 Pinocchio 重写核心逻辑：
+某 [DEX](https://learnblockchain.cn/tags/DEX?map=EVM) 程序使用 Pinocchio 重写核心逻辑：
 - 程序体积：从 180KB 降至 85KB
 - CU 消耗：从 45,000 降至 28,000
 - 编译时间：从 90 秒降至 15 秒
@@ -163,7 +163,7 @@ Pinocchio 和 Anchor 可以混合使用：
 
 **2. 维护成本**
 - 代码较底层，维护难度大
-- 需要团队有深厚的 Rust 功底
+- 需要团队有深厚的 [Rust](https://learnblockchain.cn/tags/Rust) 功底
 - 新成员上手成本高
 
 **3. 调试**

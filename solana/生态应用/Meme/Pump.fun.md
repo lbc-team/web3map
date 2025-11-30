@@ -39,7 +39,7 @@ Pump.fun 的核心创新：
 当代币在联合曲线上达到 $69,000 市值时：
 - 自动在 Raydium 创建流动性池
 - 锁定流动性，防止 Rug Pull
-- 代币"毕业"到主流 DEX
+- 代币"毕业"到主流 [DEX](https://learnblockchain.cn/tags/DEX?map=EVM)
 - 可被 Jupiter 等聚合器交易
 
 ### 平台特色

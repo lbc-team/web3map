@@ -21,7 +21,7 @@ Phantom 支持多个区块链网络:
 
 - **一键连接**: 快速连接 Solana 和 [EVM](https://learnblockchain.cn/tags/EVM?map=EVM) DApp
 - **交易签名**: 安全地授权和签名交易
-- **自动批准**: 为信任的 DApp 设置自动批准限额
+- **自动批准**: 为信任的 [DApp](https://learnblockchain.cn/tags/DApp) 设置自动批准限额
 - **会话管理**: 管理已连接的网站和权限
 - **移动端 DApp 浏览器**: 内置浏览器访问 DApp
 
@@ -30,7 +30,7 @@ Phantom 支持多个区块链网络:
 Phantom 集成了 [DEX](https://learnblockchain.cn/tags/DEX?map=EVM) 聚合器:
 
 - **跨链交换**: 在不同链之间交换资产
-- **最优价格**: 聚合多个 DEX 获取最佳价格
+- **最优价格**: 聚合多个 [DEX](https://learnblockchain.cn/tags/DEX?map=EVM) 获取最佳价格
 - **低滑点**: 智能路由减少价格滑点
 - **便捷性**: 无需离开钱包即可交易
 - **支持协议**: Jupiter、Uniswap 等主流 DEX
@@ -227,7 +227,7 @@ provider.on('disconnect', () => {
 
 ### 1. Burn NFT
 
-销毁不需要的 NFT:
+销毁不需要的 [NFT](https://learnblockchain.cn/tags/NFT):
 
 - **清理收藏**: 移除垃圾 NFT
 - **回收租金**: 关闭账户回收 SOL
@@ -303,7 +303,7 @@ provider.on('disconnect', () => {
 
 ### Phantom vs MetaMask
 
-- **主要区块链**: Phantom 专注 Solana,MetaMask 专注 EVM
+- **主要区块链**: Phantom 专注 Solana,MetaMask 专注 [EVM](https://learnblockchain.cn/tags/EVM?map=EVM)
 - **多链支持**: 两者都在扩展多链支持
 - **用户群**: MetaMask 用户基数更大
 - **性能**: Phantom 在 Solana 上体验更优

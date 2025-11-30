@@ -120,7 +120,7 @@ TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA
 
 **挑战**
 - 生态采用需要时间
-- 钱包和 DApp 需要更新
+- 钱包和 [DApp](https://learnblockchain.cn/tags/DApp) 需要更新
 - 部分功能仍在测试
 
 ### 与 [SPL Token](https://learnblockchain.cn/tags/SPL Token?map=Solana) 对比
@@ -140,7 +140,7 @@ TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA
 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 团队持续添加新扩展功能。
 
 **生态集成**
-主流钱包、DEX、DeFi 协议逐步集成。
+主流钱包、[DEX](https://learnblockchain.cn/tags/DEX?map=EVM)、[DeFi](https://learnblockchain.cn/tags/DeFi?map=EVM) 协议逐步集成。
 
 **标准化**
 成为 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 代币的新标准。
@@ -149,5 +149,5 @@ TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA
 
 - **[SPL Token](https://learnblockchain.cn/tags/SPL Token?map=Solana)**：原始的 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 代币标准
 - **扩展（Extensions）**：模块化的功能增强
-- **零知识证明**：保密转账的技术基础
+- **[零知识证明](https://learnblockchain.cn/tags/%E9%9B%B6%E7%9F%A5%E8%AF%86%E8%AF%81%E6%98%8E)**：保密转账的技术基础
 - **合规性**：部分扩展专为合规设计

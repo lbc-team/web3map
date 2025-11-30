@@ -16,7 +16,7 @@ Orb 是 Helius 开发的新一代 [Solana](https://learnblockchain.cn/tags/Solan
 - 账户地址查询
 - 程序查询
 - Token 查询
-- NFT 查询
+- [NFT](https://learnblockchain.cn/tags/NFT) 查询
 
 **实时数据**
 - 最新交易流
@@ -77,7 +77,7 @@ NFT 集合和个体：
 
 **智能解析**
 自动识别和解析：
-- DeFi 操作（Swap、流动性提供等）
+- [DeFi](https://learnblockchain.cn/tags/DeFi?map=EVM) 操作（Swap、流动性提供等）
 - NFT 交易（Mint、Sale、Transfer）
 - 质押操作
 - 跨程序调用

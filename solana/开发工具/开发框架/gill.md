@@ -68,7 +68,7 @@ const result = await gill.program(programId).methods
 **4. Token 操作**
 [SPL Token](https://learnblockchain.cn/tags/SPL Token?map=Solana) 的便捷操作：
 ```typescript
-// 创建 Token 账户
+// 创建 Token [账户](https://learnblockchain.cn/tags/账户?map=EVM)
 const tokenAccount = await gill.token.createAccount(mint, owner);
 
 // 转账 Token
@@ -79,7 +79,7 @@ await gill.token.transfer({
 });
 ```
 
-**5. NFT 支持**
+**5. [NFT](https://learnblockchain.cn/tags/NFT) 支持**
 NFT 相关操作（如支持 [Metaplex](https://learnblockchain.cn/tags/Metaplex?map=Solana)）：
 ```typescript
 // 获取 NFT 元数据
@@ -91,10 +91,10 @@ const nfts = await gill.nft.findByOwner(ownerAddress);
 
 ### 使用场景
 
-**前端 DApp**
+**前端 [DApp](https://learnblockchain.cn/tags/DApp)**
 - React/Vue/Next.js 应用
 - 钱包集成
-- DeFi 界面
+- [DeFi](https://learnblockchain.cn/tags/DeFi?map=EVM) 界面
 - NFT 市场
 
 **后端服务**
@@ -279,4 +279,4 @@ gill 处于活跃开发中：
 - **[Anchor](https://learnblockchain.cn/tags/Anchor?map=Solana)**：智能合约开发框架，也提供 TypeScript 客户端
 - **RPC**：远程过程调用，gill 通过 RPC 与 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 交互
 - **SDK**：软件开发工具包，封装底层 API 提供便捷接口
-- **TypeScript**：JavaScript 的超集，提供类型安全
+- **TypeScript**：[JavaScript](https://learnblockchain.cn/tags/JavaScript) 的超集，提供类型安全

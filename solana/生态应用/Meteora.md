@@ -1,6 +1,6 @@
 ## Meteora 概述
 
-Meteora 是 Solana 生态中的动态流动性基础设施,通过创新的动态 AMM 和集中流动性设计,为 DeFi 提供更高效的流动性解决方案。与传统 AMM 的固定流动性分布不同,Meteora 允许流动性提供者(LP)将资金集中在特定价格区间,大幅提高资本效率。同时,Meteora 的动态费率机制根据市场波动自动调整手续费,在保护 LP 收益的同时优化交易者体验。作为 Solana DeFi 的核心流动性层,Meteora 为稳定币、LST 代币等资产提供深度流动性和低滑点交易。
+Meteora 是 Solana 生态中的动态流动性基础设施,通过创新的动态 AMM 和集中流动性设计,为 [DeFi](https://learnblockchain.cn/tags/DeFi?map=EVM) 提供更高效的流动性解决方案。与传统 AMM 的固定流动性分布不同,Meteora 允许流动性提供者(LP)将资金集中在特定价格区间,大幅提高资本效率。同时,Meteora 的动态费率机制根据市场波动自动调整手续费,在保护 LP 收益的同时优化交易者体验。作为 Solana [DeFi](https://learnblockchain.cn/tags/DeFi?map=EVM) 的核心流动性层,Meteora 为稳定币、LST 代币等资产提供深度流动性和低滑点交易。
 
 **官网**: https://meteora.ag/
 
@@ -302,7 +302,7 @@ console.log('我的预期年化收益:', estimatedAPR, '%')
 
 ### 主要集成
 
-**DEX 聚合器**:
+**[DEX](https://learnblockchain.cn/tags/DEX?map=EVM) 聚合器**:
 - **Jupiter**: 聚合 Meteora 流动性
 - **Birdeye**: 提供 Meteora 数据分析
 - **DexScreener**: 展示 Meteora 池信息

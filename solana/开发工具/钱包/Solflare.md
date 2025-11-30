@@ -11,11 +11,11 @@ Solflare 是 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 生态�
 
 **2. 资产管理**
 - SOL 和所有 [SPL Token](https://learnblockchain.cn/tags/SPL Token?map=Solana)
-- NFT 展示和管理
+- [NFT](https://learnblockchain.cn/tags/NFT) 展示和管理
 - 质押和解质押
 - 收益追踪
 
-**3. DeFi 集成**
+**3. [DeFi](https://learnblockchain.cn/tags/DeFi?map=EVM) 集成**
 - 内置 Swap（通过 Jupiter）
 - 流动性质押（Marinade, Lido）
 - 查看 DeFi 持仓

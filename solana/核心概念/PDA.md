@@ -36,7 +36,7 @@ let (pda, bump) = Pubkey::find_program_address(
 ```
 
 **2. Token 账户管理**
-创建程序控制的 Token 账户，用于托管资产：
+创建程序控制的 Token [账户](https://learnblockchain.cn/tags/账户?map=EVM)，用于托管资产：
 ```rust
 let (vault_pda, bump) = Pubkey::find_program_address(
     &[

@@ -1,6 +1,6 @@
 ## Magic Eden 概述
 
-Magic Eden 是 Solana 生态中最大的 NFT 综合市场,为用户提供一站式的 NFT 交易、Launchpad、游戏和社交体验。作为 Web3 领域最成功的 NFT 平台之一,Magic Eden 已从 Solana 扩展到多链,支持 Ethereum、Polygon、Bitcoin Ordinals 等多个区块链。通过创新的产品功能、优质的用户体验和强大的社区支持,Magic Eden 成为 NFT 爱好者、创作者和收藏家的首选平台,处理着数十亿美元的 NFT 交易量。
+Magic Eden 是 Solana 生态中最大的 [NFT](https://learnblockchain.cn/tags/NFT) 综合市场,为用户提供一站式的 [NFT](https://learnblockchain.cn/tags/NFT) 交易、Launchpad、游戏和社交体验。作为 Web3 领域最成功的 [NFT](https://learnblockchain.cn/tags/NFT) 平台之一,Magic Eden 已从 Solana 扩展到多链,支持 Ethereum、Polygon、Bitcoin Ordinals 等多个区块链。通过创新的产品功能、优质的用户体验和强大的社区支持,Magic Eden 成为 [NFT](https://learnblockchain.cn/tags/NFT) 爱好者、创作者和收藏家的首选平台,处理着数十亿美元的 [NFT](https://learnblockchain.cn/tags/NFT) 交易量。
 
 **官网**: https://magiceden.io/
 
@@ -85,7 +85,7 @@ Mint 完成 → 二级市场交易
 交易费用:
 - Magic Eden 平台费: 0% (Solana), 2% (其他链)
 - 创作者版税: 0-10% (可选)
-- 区块链 Gas: < $0.01 (Solana), $5-50 (Ethereum)
+- 区块链 [Gas](https://learnblockchain.cn/tags/Gas?map=EVM): < $0.01 (Solana), $5-50 (Ethereum)
 
 Launchpad 费用:
 - 平台服务费: 铸造收入的一定比例
@@ -326,7 +326,7 @@ await estimateNFTPrice('degods', [
 
 ### 2. Magic Eden Wallet
 
-专属 NFT 钱包:
+专属 NFT [钱包](https://learnblockchain.cn/tags/%E9%92%B1%E5%8C%85):
 
 - **多链支持**: 一个钱包管理多链 NFT
 - **内置市场**: 钱包内直接交易
@@ -392,7 +392,7 @@ ME 代币用途:
 
 ## 与竞品对比
 
-| 特性 | Magic Eden | OpenSea | Tensor |
+| 特性 | Magic Eden | [OpenSea](https://learnblockchain.cn/tags/OpenSea) | Tensor |
 |------|-----------|---------|--------|
 | **多链支持** | ✅ 5+ 链 | ✅ 10+ 链 | ❌ 仅 Solana |
 | **费用** | 0-2% | 2.5% | 0.5% |

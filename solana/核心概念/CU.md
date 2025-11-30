@@ -1,6 +1,6 @@
 ## CU (计算单元)
 
-CU（Compute Units，计算单元）是 Solana 用来衡量交易执行过程中消耗计算资源的单位。每个操作都会消耗一定数量的 CU，类似于以太坊中的 Gas 概念，但计费方式和限制机制有所不同。
+CU（Compute Units，计算单元）是 Solana 用来衡量交易执行过程中消耗计算资源的单位。每个操作都会消耗一定数量的 CU，类似于以太坊中的 [Gas](https://learnblockchain.cn/tags/Gas?map=EVM) 概念，但计费方式和限制机制有所不同。
 
 ### 基本概念
 
@@ -64,7 +64,7 @@ let set_compute_unit_price = ComputeBudgetInstruction::set_compute_unit_price(1_
 - **中优先级**：CU 价格 = 1,000 - 10,000 micro-lamports
 - **高优先级**：CU 价格 > 100,000 micro-lamports
 
-在 DeFi 套利、NFT mint 等场景中，用户往往会设置较高的 CU 价格以确保交易快速执行。
+在 [DeFi](https://learnblockchain.cn/tags/DeFi?map=EVM) 套利、[NFT](https://learnblockchain.cn/tags/NFT) mint 等场景中，用户往往会设置较高的 CU 价格以确保交易快速执行。
 
 ### CU 优化策略
 
@@ -97,7 +97,7 @@ let set_compute_unit_price = ComputeBudgetInstruction::set_compute_unit_price(1_
 
 ### 相关概念
 
-- **Gas（以太坊）**：与 CU 类似的资源计量单位，但以太坊的 Gas 价格波动更大
+- **Gas（[以太坊](https://learnblockchain.cn/tags/以太坊?map=[EVM](https://learnblockchain.cn/tags/EVM?map=EVM))）**：与 CU 类似的资源计量单位，但以太坊的 Gas 价格波动更大
 - **优先费用（Priority Fee）**：基于 CU 消耗计算的额外费用，用于激励验证者优先处理交易
 - **交易大小限制**：[Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 每个交易最大 1232 字节，除了 CU 限制外还要考虑字节限制
 - **并行执行**：[Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 可以并行执行不冲突的交易，CU 限制是针对单个交易的

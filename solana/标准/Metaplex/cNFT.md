@@ -1,11 +1,11 @@
 ## cNFT (Compressed NFT)
 
-cNFT（Compressed NFT，压缩 NFT）是 Metaplex 开发的突破性技术，通过状态压缩大幅降低 NFT 的铸造和存储成本，使大规模 NFT 发行成为可能。
+cNFT（Compressed [NFT](https://learnblockchain.cn/tags/NFT)，压缩 [NFT](https://learnblockchain.cn/tags/NFT)）是 Metaplex 开发的突破性技术，通过状态压缩大幅降低 [NFT](https://learnblockchain.cn/tags/NFT) 的铸造和存储成本，使大规模 [NFT](https://learnblockchain.cn/tags/NFT) 发行成为可能。
 
 ### 核心问题
 
 **传统 NFT 成本高**
-- 每个 NFT 需要独立的 Token 账户
+- 每个 NFT 需要独立的 Token [账户](https://learnblockchain.cn/tags/账户?map=EVM)
 - 租金豁免余额：约 0.012 SOL
 - 铸造 100 万个 NFT：12,000 SOL（数百万美元）
 - 限制了大规模应用
@@ -155,7 +155,7 @@ const response = await fetch(
 
 ### 生态支持
 
-**钱包**
+**[钱包](https://learnblockchain.cn/tags/%E9%92%B1%E5%8C%85)**
 - [Phantom](https://learnblockchain.cn/tags/Phantom?map=Solana)（支持）
 - Backpack（支持）
 - Solflare（支持）

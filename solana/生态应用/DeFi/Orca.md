@@ -27,7 +27,7 @@ Orca 的核心创新，类似 Uniswap V3：
 Orca 将部分收入用于碳补偿：
 - 每笔交易自动计算碳足迹
 - 与气候组织合作购买碳信用
-- 宣称是"气候友好型 DEX"
+- 宣称是"气候友好型 [DEX](https://learnblockchain.cn/tags/DEX?map=EVM)"
 
 ### 技术特性
 
@@ -96,7 +96,7 @@ Orca 将部分收入用于碳补偿：
 - 保留两种模式供用户选择
 
 **创新功能**
-- Position Bundles（仓位捆绑 NFT）
+- Position Bundles（仓位捆绑 [NFT](https://learnblockchain.cn/tags/NFT)）
 - 自动化做市策略
 - 集成 Kamino 的自动复投金库
 

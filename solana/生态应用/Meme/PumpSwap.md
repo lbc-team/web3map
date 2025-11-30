@@ -11,4 +11,4 @@ PumpSwap 是专为 Pump.fun 代币设计的去中心化交易所。
 ### 相关概念
 
 - **Pump.fun**：Meme 币发行平台
-- **DEX**：去中心化交易所
+- **[DEX](https://learnblockchain.cn/tags/DEX?map=EVM)**：去中心化交易所

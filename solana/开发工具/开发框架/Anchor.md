@@ -8,7 +8,7 @@
 [Anchor](https://learnblockchain.cn/tags/Anchor?map=Solana) 通过 [IDL](https://learnblockchain.cn/tags/IDL?map=Solana) 文件实现合约接口的机器可读描述，该 JSON 格式文件包含：方法签名、账户结构、指令参数。当执行 `anchor build` 时，框架自动生成对应语言的客户端绑定（TypeScript/Rust），确保链上程序与链下客户端调用严格匹配。
 
 #### 属性宏系统
-利用 Rust 的 procedural macros 特性，`#[program]` 宏自动处理指令路由分发。开发者定义的方法会被转换为 Solana 原生要求的入口格式（如处理指令中的 accounts、data 字段），同时自动注入 CPI（跨程序调用）所需的程序地址计算。
+利用 [Rust](https://learnblockchain.cn/tags/Rust) 的 procedural macros 特性，`#[program]` 宏自动处理指令路由分发。开发者定义的方法会被转换为 Solana 原生要求的入口格式（如处理指令中的 accounts、data 字段），同时自动注入 CPI（跨程序调用）所需的程序地址计算。
 
 #### 账户生命周期管理
 通过 `#[account]` 宏实现账户结构标准化：自动添加 8 字节 Anchor 标识符，强制声明账户大小（通过 `space = xx` 属性），生成 PDA（Program Derived Address）派生方法。每个账户结构都会生成对应的 `init` 方法，自动计算租金豁免所需 lamports。
@@ -32,4 +32,4 @@ Anchor 扩展 PDA 的标准使用方法：
 ---
 
 ### 相关技术对比
-1. **Foundry**： 适用于以太坊 EVM 生态系统中的智能合约开发，提供了完整的开发、测试和部署工具链。
+1. **[Foundry](https://learnblockchain.cn/tags/Foundry?map=[EVM](https://learnblockchain.cn/tags/EVM?map=EVM))**： 适用于以太坊 [EVM](https://learnblockchain.cn/tags/EVM?map=EVM) 生态系统中的智能合约开发，提供了完整的开发、测试和部署工具链。

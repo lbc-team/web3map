@@ -1,6 +1,6 @@
 ## Backpack
 
-Backpack 是革命性的 Web3 钱包，内置 xNFT（可执行 NFT）运行时，允许用户在钱包内直接运行 DApp。
+Backpack 是革命性的 Web3 [钱包](https://learnblockchain.cn/tags/%E9%92%B1%E5%8C%85)，内置 xNFT（可执行 [NFT](https://learnblockchain.cn/tags/NFT)）运行时，允许用户在钱包内直接运行 [DApp](https://learnblockchain.cn/tags/DApp)。
 
 ### 核心特性
 
@@ -14,7 +14,7 @@ Backpack 是革命性的 Web3 钱包，内置 xNFT（可执行 NFT）运行时�
 
 **3. 应用商店**
 - 内置 xNFT 应用商店
-- DeFi、NFT、游戏等应用
+- [DeFi](https://learnblockchain.cn/tags/DeFi?map=EVM)、NFT、游戏等应用
 
 **4. 社交功能**
 - 用户名系统

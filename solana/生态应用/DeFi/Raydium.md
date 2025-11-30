@@ -19,7 +19,7 @@ Raydium 采用恒定乘积做市商模型（x * y = k）：
 **3. 与 OpenBook 集成**
 这是 Raydium 最独特的功能：
 - Raydium 的流动性同时存在于 AMM 池和 OpenBook 订单簿
-- 其他 DEX（如 Orca）可以访问这部分流动性
+- 其他 [DEX](https://learnblockchain.cn/tags/DEX?map=EVM)（如 Orca）可以访问这部分流动性
 - 提高了整个生态的资金效率
 
 **4. AcceleRaytor（LaunchPad）**

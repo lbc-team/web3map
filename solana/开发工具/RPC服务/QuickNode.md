@@ -12,7 +12,7 @@ QuickNode 是多链区块链基础设施提供商，支持包括 [Solana](https:
 **增强 API**
 - 交易追踪
 - Token API
-- NFT API
+- [NFT](https://learnblockchain.cn/tags/NFT) API
 
 **开发工具**
 - 测试网水龙头

@@ -6,7 +6,7 @@ Validator 客户端是运行 Solana 验证器节点的软件实现。不同的�
 
 **1. Agave（原 Solana Labs 客户端）**
 - [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) Labs 官方维护
-- Rust 实现
+- [Rust](https://learnblockchain.cn/tags/Rust) 实现
 - 最成熟稳定
 - 大多数验证者使用
 

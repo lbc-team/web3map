@@ -137,9 +137,9 @@ Solana 使用 eBPF 作为智能合约的执行环境。
 |------|-----------------|--------------|
 | 并行性 | 支持并行 | 串行执行 |
 | 状态访问 | 预先声明账户 | 动态访问 |
-| 执行环境 | eBPF (寄存器) | EVM (栈) |
+| 执行环境 | eBPF (寄存器) | [EVM](https://learnblockchain.cn/tags/EVM?map=EVM) (栈) |
 | 吞吐量 | 高（65K TPS） | 低（15 TPS） |
-| Gas 模型 | CU 预算 | 动态 Gas |
+| [Gas](https://learnblockchain.cn/tags/Gas?map=EVM) 模型 | CU 预算 | 动态 [Gas](https://learnblockchain.cn/tags/Gas?map=EVM) |
 
 ### 相关概念
 

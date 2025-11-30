@@ -6,7 +6,7 @@ Slope 是 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 上的移�
 
 - 移动端优化
 - 内置 Swap
-- NFT 画廊
+- [NFT](https://learnblockchain.cn/tags/NFT) 画廊
 - 质押功能
 - 社交功能
 

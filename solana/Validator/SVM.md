@@ -44,12 +44,12 @@ Sealevel 是 SVM 的并行执行引擎：
 
 ### 与 EVM 的对比
 
-| 特性 | SVM | EVM |
+| 特性 | SVM | [EVM](https://learnblockchain.cn/tags/EVM?map=EVM) |
 |------|-----|-----|
 | 并行性 | 支持 | 不支持（串行） |
 | 架构 | 基于寄存器 | 基于栈 |
 | 字节码 | eBPF | EVM 字节码 |
-| 语言 | Rust, C | Solidity |
+| 语言 | [Rust](https://learnblockchain.cn/tags/Rust), C | [Solidity](https://learnblockchain.cn/tags/Solidity?map=EVM) |
 | 账户模型 | 程序/数据分离 | 合约自包含 |
 | 性能 | 极高 | 中等 |
 

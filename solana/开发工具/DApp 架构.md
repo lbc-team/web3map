@@ -9,7 +9,7 @@ DApp（去中心化应用）架构指 [Solana](https://learnblockchain.cn/tags/S
 - Wallet Adapter
 - [web3.js](https://learnblockchain.cn/tags/?map=Solana)
 
-**智能合约（链上）**
+**[智能合约](https://learnblockchain.cn/tags/%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6)（链上）**
 - Rust/[Anchor](https://learnblockchain.cn/tags/Anchor?map=Solana) 程序
 - 状态存储
 - 业务逻辑
@@ -51,6 +51,6 @@ DApp（去中心化应用）架构指 [Solana](https://learnblockchain.cn/tags/S
 
 ### 相关概念
 
-- **DApp**：去中心化应用
+- **[DApp](https://learnblockchain.cn/tags/DApp)**：去中心化应用
 - **架构设计**：系统结构规划
 - **全栈开发**：前后端 + 智能合约

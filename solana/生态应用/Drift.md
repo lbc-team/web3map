@@ -1,6 +1,6 @@
 ## Drift Protocol 概述
 
-Drift Protocol 是 Solana 生态中领先的去中心化衍生品交易平台,提供永续合约、现货交易和借贷服务。通过创新的虚拟 AMM (vAMM) 机制和跨保证金账户系统,Drift 实现了高达 10 倍杠杆的衍生品交易,同时保持资本效率和低滑点。作为 Solana DeFi 的核心基础设施,Drift 处理着数十亿美元的交易量,为交易者提供专业级的衍生品交易体验。
+Drift Protocol 是 Solana 生态中领先的去中心化衍生品交易平台,提供永续合约、现货交易和借贷服务。通过创新的虚拟 AMM (vAMM) 机制和跨保证金账户系统,Drift 实现了高达 10 倍杠杆的衍生品交易,同时保持资本效率和低滑点。作为 Solana [DeFi](https://learnblockchain.cn/tags/DeFi?map=EVM) 的核心基础设施,Drift 处理着数十亿美元的交易量,为交易者提供专业级的衍生品交易体验。
 
 **官网**: https://www.drift.trade/
 
@@ -257,7 +257,7 @@ jitMaker.on('largeOrder', async (order) => {
 
 - **统一账户**: 现货和衍生品共享保证金
 - **即时交易**: 链上订单簿撮合
-- **深度流动性**: 聚合 Solana 主流 DEX
+- **深度流动性**: 聚合 Solana 主流 [DEX](https://learnblockchain.cn/tags/DEX?map=EVM)
 - **跨保证金**: 现货持仓可作为衍生品抵押
 - **低费率**: 现货交易手续费 0.1%
 

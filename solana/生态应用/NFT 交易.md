@@ -6,7 +6,7 @@
 
 - **Magic Eden**：最大的 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) NFT 市场
 - **Tensor**：专业交易者平台
-- **OpenSea**：多链 NFT 市场
+- **[OpenSea](https://learnblockchain.cn/tags/OpenSea)**：多链 [NFT](https://learnblockchain.cn/tags/NFT) 市场
 
 ### 交易方式
 

@@ -42,7 +42,7 @@ SVM 链指的是采用 Solana 虚拟机（SVM）作为执行环境的区块链�
 ### 为什么会有 [SVM](https://learnblockchain.cn/tags/SVM?map=Solana) 链
 
 **专业化**
-不同链专注不同用例（游戏、DeFi 等）。
+不同链专注不同用例（游戏、[DeFi](https://learnblockchain.cn/tags/DeFi?map=EVM) 等）。
 
 **扩展性**
 分担 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 主网的负载。

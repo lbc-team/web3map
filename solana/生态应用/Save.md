@@ -5,7 +5,7 @@ Save 是 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 上的储�
 ### 功能
 
 - 自动化收益优化
-- 聚合多个 DeFi 协议
+- 聚合多个 [DeFi](https://learnblockchain.cn/tags/DeFi?map=EVM) 协议
 - 一键存款赚息
 
 ### 相关概念

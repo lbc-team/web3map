@@ -48,7 +48,7 @@ Marginfi 是 Solana 上的去中心化借贷协议，专注于提供安全、高
 | 特性 | Marginfi | Aave |
 |------|----------|------|
 | 链 | [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) | Ethereum/多链 |
-| Gas 费 | 极低 | 高 |
+| [Gas](https://learnblockchain.cn/tags/Gas?map=EVM) 费 | 极低 | 高 |
 | 速度 | 快 | 慢 |
 | TVL | 较小 | 巨大 |
 

@@ -1,6 +1,6 @@
 ## Marinade Finance 概述
 
-Marinade Finance 是 Solana 生态中最大的流动性质押协议,通过创新的委托策略和流动性代币机制,为用户提供更灵活、更高收益的质押体验。传统质押需要锁定 SOL 并等待解锁期,而 Marinade 允许用户获得流动性代币 mSOL,可在 DeFi 生态中自由使用,同时继续赚取质押奖励。作为 Solana 质押赛道的领导者,Marinade 管理着超过 700 万 SOL 的资产,并通过智能委托策略支持网络去中心化。
+Marinade Finance 是 Solana 生态中最大的流动性质押协议,通过创新的委托策略和流动性代币机制,为用户提供更灵活、更高收益的质押体验。传统质押需要锁定 SOL 并等待解锁期,而 Marinade 允许用户获得流动性代币 mSOL,可在 [DeFi](https://learnblockchain.cn/tags/DeFi?map=EVM) 生态中自由使用,同时继续赚取质押奖励。作为 Solana 质押赛道的领导者,Marinade 管理着超过 700 万 SOL 的资产,并通过智能委托策略支持网络去中心化。
 
 **官网**: https://marinade.finance/
 
@@ -30,7 +30,7 @@ Marinade Finance 是 Solana 生态中最大的流动性质押协议,通过创新
 
 广泛的 DeFi 应用:
 
-- **DEX 交易**: 在 Raydium、Orca 等 DEX 交易
+- **[DEX](https://learnblockchain.cn/tags/DEX?map=EVM) 交易**: 在 Raydium、Orca 等 [DEX](https://learnblockchain.cn/tags/DEX?map=EVM) 交易
 - **借贷协议**: 在 Solend、Port 等协议中作为抵押品
 - **流动性挖矿**: 提供 mSOL 流动性赚取额外收益
 - **跨链桥**: 通过 Wormhole 等桥接到其他链
@@ -41,7 +41,7 @@ Marinade Finance 是 Solana 生态中最大的流动性质押协议,通过创新
 ### 1. 质押流程
 
 ```
-用户存入 SOL → Marinade 智能合约
+用户存入 SOL → Marinade [智能合约](https://learnblockchain.cn/tags/%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6)
     ↓
 按比例铸造 mSOL (当前汇率)
     ↓

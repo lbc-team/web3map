@@ -1,6 +1,6 @@
 ## Phoenix 概述
 
-Phoenix 是 Solana 生态中首个完全链上的中央限价订单簿 (CLOB) DEX,为专业交易者提供与中心化交易所相媲美的交易体验。与传统 AMM 不同,Phoenix 采用订单簿模式,支持限价单、市价单等多种订单类型,提供精确的价格控制和深度流动性。通过 Solana 的高性能和低延迟优势,Phoenix 实现了完全链上的订单撮合,无需依赖中心化服务器,真正做到去中心化、透明、自托管。
+Phoenix 是 Solana 生态中首个完全链上的中央限价订单簿 (CLOB) [DEX](https://learnblockchain.cn/tags/DEX?map=EVM),为专业交易者提供与中心化交易所相媲美的交易体验。与传统 AMM 不同,Phoenix 采用订单簿模式,支持限价单、市价单等多种订单类型,提供精确的价格控制和深度流动性。通过 Solana 的高性能和低延迟优势,Phoenix 实现了完全链上的订单撮合,无需依赖中心化服务器,真正做到去中心化、透明、自托管。
 
 **官网**: https://phoenix.trade/
 
