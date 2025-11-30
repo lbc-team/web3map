@@ -1,6 +1,6 @@
 ## Solana Playground (SolPg) 概述
 
-[Solana](https://learnblockchain.cn/tags/Solana?map=Solana) Playground(简称 SolPg)是一个基于浏览器的集成开发环境(IDE),专为 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) [智能合约](https://learnblockchain.cn/tags/%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6)(程序)开发设计。它允许开发者无需本地安装任何工具,直接在浏览器中编写、构建、部署和测试 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 程序。SolPg 大幅降低了 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 开发的门槛,是学习和快速原型开发的理想工具。
+Solana Playground(简称 SolPg)是一个基于浏览器的集成开发环境(IDE),专为 Solana [智能合约](https://learnblockchain.cn/tags/%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6)(程序)开发设计。它允许开发者无需本地安装任何工具,直接在浏览器中编写、构建、部署和测试 Solana 程序。SolPg 大幅降低了 Solana 开发的门槛,是学习和快速原型开发的理想工具。
 
 **官方网站**: https://beta.solpg.io/
 
@@ -42,7 +42,7 @@
 内置钱包功能:
 
 - **Playground Wallet**: 内置的测试钱包
-- **外部钱包**: 支持 Phantom、Solflare 等钱包
+- **外部钱包**: 支持 [Phantom](https://learnblockchain.cn/tags/Phantom?map=Solana)、Solflare 等钱包
 - **自动空投**: 在 Devnet 上自动获取测试 SOL
 - **密钥管理**: 安全的密钥存储和管理
 - **多账户**: 支持多个钱包账户切换
@@ -85,7 +85,7 @@
 
 - **网络选择**: Devnet、Testnet、Mainnet
 - **自动部署**: 一键部署程序到链上
-- **Program ID**: 自动管理程序 ID
+- **[Program](https://learnblockchain.cn/tags/Program?map=Solana) ID**: 自动管理程序 ID
 - **交互测试**: 内置测试脚本执行器
 - **交易查看**: 在浏览器中查看交易详情
 
@@ -137,7 +137,7 @@ pub struct Initialize {}
 点击 "Build" 按钮:
 
 - 编译 Rust 代码为 BPF 字节码
-- 生成 IDL 文件
+- 生成 [IDL](https://learnblockchain.cn/tags/IDL?map=Solana) 文件
 - 显示编译结果和错误
 
 ### 4. 部署程序
@@ -148,7 +148,7 @@ pub struct Initialize {}
 2. 确保钱包有足够 SOL(Devnet 可自动空投)
 3. 点击 "Deploy"
 4. 确认交易
-5. 获得 Program ID
+5. 获得 [Program](https://learnblockchain.cn/tags/Program?map=Solana) ID
 
 ### 5. 测试交互
 
@@ -176,7 +176,7 @@ SolPg 提供多种项目模板:
 ### 1. Anchor 模板
 
 **Hello Anchor**:
-- 最基础的 Anchor 程序
+- 最基础的 [Anchor](https://learnblockchain.cn/tags/Anchor?map=Solana) 程序
 - 演示基本的程序结构
 - 适合初学者
 
@@ -187,21 +187,21 @@ SolPg 提供多种项目模板:
 
 **Transfer SOL**:
 - SOL 转账程序
-- 学习 CPI 调用
-- 理解 PDA 使用
+- 学习 [CPI](https://learnblockchain.cn/tags/CPI?map=Solana) 调用
+- 理解 [PDA](https://learnblockchain.cn/tags/PDA?map=Solana) 使用
 
 ### 2. Native Rust 模板
 
 **Hello Solana**:
 - 原生 Rust 程序
-- 不使用 Anchor 框架
+- 不使用 [Anchor](https://learnblockchain.cn/tags/Anchor?map=Solana) 框架
 - 理解底层机制
 
 ### 3. 高级示例
 
 **[NFT](https://learnblockchain.cn/tags/NFT) Minter**:
 - NFT 铸造程序
-- 集成 Metaplex
+- 集成 [Metaplex](https://learnblockchain.cn/tags/Metaplex?map=Solana)
 - 完整的 NFT 流程
 
 **Token Staking**:
@@ -334,11 +334,11 @@ SolPg 持续改进中:
 
 ## 相关概念与技术
 
-- **[Solana](https://learnblockchain.cn/tags/Solana?map=Solana)**: SolPg 所服务的区块链
+- **Solana**: SolPg 所服务的区块链
 - **[Anchor](https://www.anchor-lang.com/)**: 主要使用的开发框架
 - **[Rust](https://www.rust-lang.org/)**: Solana 程序开发语言
 - **[PDA](https://learnblockchain.cn/tags/PDA)**: 程序派生地址
 
 ## 总结
 
-Solana Playground 是一个革命性的工具,它将 Solana 开发门槛降至最低。无论是初学者学习 Solana 开发,还是经验丰富的开发者快速原型验证,SolPg 都提供了便捷高效的解决方案。通过浏览器即可完成从编码、编译、部署到测试的完整开发流程,极大地提高了开发效率和体验。虽然它可能不适合大型生产项目的开发,但作为学习工具、原型工具和代码分享平台,Solana Playground 无疑是 Solana 生态系统中不可或缺的重要组成部分。
+Solana Playground 是一个革命性的工具,它将 Solana 开发门槛降至最低。无论是初学者学习 Solana 开发,还是经验丰富的开发者快速原型验证,SolPg 都提供了便捷高效的解决方案。通过浏览器即可完成从编码、编译、部署到测试的完整开发流程,极大地提高了开发效率和体验。虽然它可能不适合大型生产项目的开发,但作为学习工具、原型工具和代码分享平台,[Solana](https://learnblockchain.cn/tags/Solana?map=Solana) Playground 无疑是 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 生态系统中不可或缺的重要组成部分。

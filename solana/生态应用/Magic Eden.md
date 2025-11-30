@@ -386,7 +386,7 @@ ME 代币用途:
 - Tensor
 
 **基础设施**:
-- Metaplex
+- [Metaplex](https://learnblockchain.cn/tags/Metaplex?map=Solana)
 - Cardinal
 - Underdog Protocol
 
@@ -404,7 +404,7 @@ ME 代币用途:
 
 ## 相关概念与技术
 
-- **[Solana](https://learnblockchain.cn/tags/Solana?map=Solana)**: 高性能区块链
+- **Solana**: 高性能区块链
 - **[Metaplex](https://learnblockchain.cn/tags/Metaplex?map=Metaplex)**: Solana NFT 标准
 - **[Tensor](https://learnblockchain.cn/tags/Tensor?map=Tensor)**: 专业 NFT 交易平台
 - **[OpenSea](https://opensea.io/)**: 最大 NFT 市场
@@ -412,4 +412,4 @@ ME 代币用途:
 
 ## 总结
 
-Magic Eden 作为 Solana 生态最大的 NFT 综合市场,通过优质的用户体验、丰富的产品功能和强大的社区支持,成为 NFT 爱好者的首选平台。从最初的 Solana NFT 市场,到如今支持多条区块链的综合性平台,Magic Eden 展现了强大的产品迭代能力和生态扩张能力。其创新的 Launchpad 为优质 NFT 项目提供了专业的发布平台,Eden Games 将游戏和 NFT 深度结合,开创了 GameFi 新模式。通过 Magic Eden Wallet、OCP 版税协议和 ME 代币,平台构建了完整的 NFT 生态闭环。对于 NFT 创作者,Magic Eden 提供了公平的发布机制和版税保护;对于收藏家,提供了安全便捷的交易体验和丰富的收藏工具。随着多链扩展和 Web3 生态整合,Magic Eden 将继续引领 NFT 行业发展,为全球数百万用户提供最佳的 NFT 体验。
+Magic Eden 作为 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 生态最大的 NFT 综合市场,通过优质的用户体验、丰富的产品功能和强大的社区支持,成为 NFT 爱好者的首选平台。从最初的 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) NFT 市场,到如今支持多条区块链的综合性平台,Magic Eden 展现了强大的产品迭代能力和生态扩张能力。其创新的 Launchpad 为优质 NFT 项目提供了专业的发布平台,Eden Games 将游戏和 NFT 深度结合,开创了 GameFi 新模式。通过 Magic Eden Wallet、OCP 版税协议和 ME 代币,平台构建了完整的 NFT 生态闭环。对于 NFT 创作者,Magic Eden 提供了公平的发布机制和版税保护;对于收藏家,提供了安全便捷的交易体验和丰富的收藏工具。随着多链扩展和 Web3 生态整合,Magic Eden 将继续引领 NFT 行业发展,为全球数百万用户提供最佳的 NFT 体验。

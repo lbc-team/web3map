@@ -5,7 +5,7 @@ Pyth Network 是专为高频金融应用设计的预言机网络，为 Solana �
 ### 核心特性
 
 **1. 高频更新**
-- 价格更新频率：每 400ms（Solana 区块时间）
+- 价格更新频率：每 400ms（[Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 区块时间）
 - 实时反映市场变化
 - 适合高频交易和衍生品
 
@@ -45,10 +45,10 @@ Pyth 不仅提供价格，还提供：
 |------|------|-----------|
 | 更新频率 | 400ms | 分钟级 |
 | 数据源 | 一手 | 二手 |
-| 原生链 | Solana | Ethereum |
+| 原生链 | [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) | Ethereum |
 
 ### 相关概念
 
 - **Chainlink**：以太坊生态主流预言机
-- **Switchboard**：Solana 上另一个预言机
+- **Switchboard**：[Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 上另一个预言机
 - **Wormhole**：Pyth 跨链桥接协议

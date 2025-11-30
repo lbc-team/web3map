@@ -97,11 +97,11 @@ Turbine 使 Solana 能够：
 - 保持低延迟（400ms 区块时间）
 - 扩展到数千验证者
 
-没有 Turbine，Solana 的性能将受到严重限制。
+没有 Turbine，[Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 的性能将受到严重限制。
 
 ### 持续优化
 
-Solana 团队持续改进 Turbine：
+[Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 团队持续改进 Turbine：
 - 更高效的纠删码算法
 - 动态调整分片大小
 - 优化邻居选择策略
@@ -110,5 +110,5 @@ Solana 团队持续改进 Turbine：
 
 - **QUIC**：Turbine 底层的传输协议
 - **纠删码**：增加数据冗余的编码技术
-- **Gulf Stream**：Solana 的交易转发协议
+- **Gulf Stream**：[Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 的交易转发协议
 - **Shred**：区块分片的基本单位

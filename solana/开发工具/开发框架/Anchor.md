@@ -1,11 +1,11 @@
 
 
 ## Anchor
-Anchor 是区块链开发框架（以 Solana 生态为代表案例），通过抽象底层复杂度提供标准化开发范式。其核心价值在于建立类型安全系统与合约接口规范，解决区块链程序开发中常见的账户管理混乱、数据序列化错误、跨客户端兼容性差等问题。
+[Anchor](https://learnblockchain.cn/tags/Anchor?map=Solana) 是区块链开发框架（以 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 生态为代表案例），通过抽象底层复杂度提供标准化开发范式。其核心价值在于建立类型安全系统与合约接口规范，解决区块链程序开发中常见的账户管理混乱、数据序列化错误、跨客户端兼容性差等问题。
 
 ### 核心机制
 #### IDL（接口定义语言）
-Anchor 通过 IDL 文件实现合约接口的机器可读描述，该 JSON 格式文件包含：方法签名、账户结构、指令参数。当执行 `anchor build` 时，框架自动生成对应语言的客户端绑定（TypeScript/Rust），确保链上程序与链下客户端调用严格匹配。
+[Anchor](https://learnblockchain.cn/tags/Anchor?map=Solana) 通过 [IDL](https://learnblockchain.cn/tags/IDL?map=Solana) 文件实现合约接口的机器可读描述，该 JSON 格式文件包含：方法签名、账户结构、指令参数。当执行 `anchor build` 时，框架自动生成对应语言的客户端绑定（TypeScript/Rust），确保链上程序与链下客户端调用严格匹配。
 
 #### 属性宏系统
 利用 Rust 的 procedural macros 特性，`#[program]` 宏自动处理指令路由分发。开发者定义的方法会被转换为 Solana 原生要求的入口格式（如处理指令中的 accounts、data 字段），同时自动注入 CPI（跨程序调用）所需的程序地址计算。
@@ -26,7 +26,7 @@ Anchor 扩展 PDA 的标准使用方法：
 
 ### 开发工作流优化
 1. **本地测试链**：内置 `anchor test` 命令启动定制化本地验证器，自动部署依赖程序
-2. **客户端集成**：通过 IDL 生成的 TypeScript 客户端包含完整的类型提示和参数校验
+2. **客户端集成**：通过 [IDL](https://learnblockchain.cn/tags/IDL?map=Solana) 生成的 TypeScript 客户端包含完整的类型提示和参数校验
 3. **错误标准化**：预定义错误码范围（6000-6099 保留给框架错误），支持自定义错误类型序列化
 
 ---

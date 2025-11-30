@@ -83,7 +83,7 @@ Pump.fun 引发了 Solana 上的 Meme 币狂潮：
 - 每天创建数千个新代币
 - 诞生多个千万美元市值项目
 - 吸引大量新用户进入 Solana
-- 推高 Solana 网络活跃度
+- 推高 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 网络活跃度
 
 **社区文化**
 - PumpPortal（实时监控工具）
@@ -101,7 +101,7 @@ Pump.fun 引发了 Solana 上的 Meme 币狂潮：
 **垃圾代币泛滥**
 - 大量低质量、恶搞代币
 - 稀释市场注意力
-- 可能影响 Solana 形象
+- 可能影响 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 形象
 
 **监管风险**
 - 可能被视为未注册证券发行
@@ -110,10 +110,10 @@ Pump.fun 引发了 Solana 上的 Meme 币狂潮：
 ### 技术实现
 
 Pump.fun 的智能合约：
-- 基于 Anchor 框架开发
+- 基于 [Anchor](https://learnblockchain.cn/tags/Anchor?map=Solana) 框架开发
 - 使用联合曲线定价算法
 - 集成 Raydium AMM
-- SPL Token 标准
+- [SPL Token](https://learnblockchain.cn/tags/SPL Token?map=Solana) 标准
 
 ### 相关概念
 

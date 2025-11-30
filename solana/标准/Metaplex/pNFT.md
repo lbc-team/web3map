@@ -1,6 +1,6 @@
-## pNFT (Programmable NFT)
+## pNFT ([Program](https://learnblockchain.cn/tags/Program?map=Solana)mable NFT)
 
-pNFT（Programmable NFT，可编程 NFT）是 Metaplex 推出的增强型 NFT 标准，为 NFT 添加链上规则引擎，实现更复杂的所有权和转移逻辑。
+pNFT（[Program](https://learnblockchain.cn/tags/Program?map=Solana)mable NFT，可编程 NFT）是 [Metaplex](https://learnblockchain.cn/tags/Metaplex?map=Solana) 推出的增强型 NFT 标准，为 NFT 添加链上规则引擎，实现更复杂的所有权和转移逻辑。
 
 ### 核心概念
 
@@ -183,7 +183,7 @@ Unity、Unreal 插件支持 pNFT。
 规则在协议层面执行，无法绕过。
 
 **可组合性**
-可以与其他 Solana 程序交互。
+可以与其他 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 程序交互。
 
 ### 挑战
 
@@ -210,6 +210,6 @@ Unity、Unreal 插件支持 pNFT。
 ### 相关概念
 
 - **规则集（Rule Set）**：定义 pNFT 行为的规则集合
-- **Token Metadata**：Metaplex 的 NFT 元数据标准
+- **Token Metadata**：[Metaplex](https://learnblockchain.cn/tags/Metaplex?map=Solana) 的 NFT 元数据标准
 - **灵魂绑定（Soulbound）**：不可转让的代币
 - **Token 标准**：pNFT 是 TokenStandard 枚举的一种

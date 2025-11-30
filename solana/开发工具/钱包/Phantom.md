@@ -1,6 +1,6 @@
 ## Phantom 概述
 
-Phantom 是 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 生态系统中最流行的加密货币钱包,由 Phantom Technologies 开发和维护。作为一个自托管的数字钱包,Phantom 为用户提供了安全便捷的方式来管理 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana)、Ethereum、Polygon 和 Bitcoin 等多链资产,并与去中心化应用([DApp](https://learnblockchain.cn/tags/DApp))进行交互。自 2021 年推出以来,Phantom 凭借其简洁的设计、强大的功能和优秀的用户体验,迅速成为 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 用户的首选钱包。
+Phantom 是 Solana 生态系统中最流行的加密货币钱包,由 Phantom Technologies 开发和维护。作为一个自托管的数字钱包,Phantom 为用户提供了安全便捷的方式来管理 Solana、Ethereum、Polygon 和 Bitcoin 等多链资产,并与去中心化应用([DApp](https://learnblockchain.cn/tags/DApp))进行交互。自 2021 年推出以来,Phantom 凭借其简洁的设计、强大的功能和优秀的用户体验,迅速成为 Solana 用户的首选钱包。
 
 ## Phantom 的核心功能
 
@@ -367,11 +367,11 @@ provider.on('disconnect', () => {
 
 ## 相关概念与技术
 
-- **[Solana](https://learnblockchain.cn/tags/Solana?map=Solana)**: Phantom 主要支持的区块链
+- **Solana**: Phantom 主要支持的区块链
 - **[MetaMask](https://learnblockchain.cn/tags/MetaMask)**: 以太坊生态的类似钱包
 - **[SPL Token](https://spl.solana.com/token)**: Solana 代币标准
 - **[WalletConnect](https://learnblockchain.cn/tags/WalletConnect)**: 钱包连接协议
 
 ## 总结
 
-Phantom 作为 Solana 生态系统的领先钱包,以其优秀的用户体验、强大的功能和多链支持赢得了用户的青睐。无论是 DeFi 交易、NFT 收藏还是日常的资产管理,Phantom 都提供了简洁高效的解决方案。随着 Solana 生态的不断发展和 Phantom 功能的持续完善,它将继续在 Web3 钱包领域发挥重要作用,为用户提供安全便捷的数字资产管理体验。
+Phantom 作为 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 生态系统的领先钱包,以其优秀的用户体验、强大的功能和多链支持赢得了用户的青睐。无论是 DeFi 交易、NFT 收藏还是日常的资产管理,[Phantom](https://learnblockchain.cn/tags/Phantom?map=Solana) 都提供了简洁高效的解决方案。随着 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 生态的不断发展和 [Phantom](https://learnblockchain.cn/tags/Phantom?map=Solana) 功能的持续完善,它将继续在 Web3 钱包领域发挥重要作用,为用户提供安全便捷的数字资产管理体验。

@@ -1,6 +1,6 @@
 ## Phoenix 概述
 
-Phoenix 是 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 生态中首个完全链上的中央限价订单簿 (CLOB) DEX,为专业交易者提供与中心化交易所相媲美的交易体验。与传统 AMM 不同,Phoenix 采用订单簿模式,支持限价单、市价单等多种订单类型,提供精确的价格控制和深度流动性。通过 Solana 的高性能和低延迟优势,Phoenix 实现了完全链上的订单撮合,无需依赖中心化服务器,真正做到去中心化、透明、自托管。
+Phoenix 是 Solana 生态中首个完全链上的中央限价订单簿 (CLOB) DEX,为专业交易者提供与中心化交易所相媲美的交易体验。与传统 AMM 不同,Phoenix 采用订单簿模式,支持限价单、市价单等多种订单类型,提供精确的价格控制和深度流动性。通过 Solana 的高性能和低延迟优势,Phoenix 实现了完全链上的订单撮合,无需依赖中心化服务器,真正做到去中心化、透明、自托管。
 
 **官网**: https://phoenix.trade/
 
@@ -337,14 +337,14 @@ Phoenix 流动性聚合:
 
 主流钱包集成:
 
-- **Phantom**: 浏览器插件钱包
+- **[Phantom](https://learnblockchain.cn/tags/Phantom?map=Solana)**: 浏览器插件钱包
 - **Backpack**: 集成 Phoenix 交易界面
 - **Solflare**: 支持 Phoenix 订单管理
 
 
 ## 相关概念与技术
 
-- **[Solana](https://learnblockchain.cn/tags/Solana?map=Solana)**: 高性能区块链
+- **Solana**: 高性能区块链
 - **[CLOB](https://www.investopedia.com/terms/c/central-limit-order-book.asp)**: 中央限价订单簿
 - **[OpenBook](https://learnblockchain.cn/tags/OpenBook?map=OpenBook)**: Serum 继任者
 - **[Jupiter](https://learnblockchain.cn/tags/Jupiter?map=Jupiter)**: DEX 聚合器
@@ -352,4 +352,4 @@ Phoenix 流动性聚合:
 
 ## 总结
 
-Phoenix 作为 Solana 生态中首个完全链上的 CLOB DEX,为专业交易者带来了与中心化交易所相媲美的交易体验。通过订单簿机制,Phoenix 提供精确的价格控制、深度流动性展示和多样化的订单类型,满足高频交易、做市等专业需求。相比 AMM 模式,Phoenix 的订单簿设计消除了滑点问题,并通过 Maker 返佣激励流动性提供者。基于 Solana 的高性能和低成本,Phoenix 实现了真正的完全链上撮合,无需依赖中心化服务器,保证了去中心化、透明和自托管。对于追求精确价格控制和专业交易工具的用户,Phoenix 提供了理想的链上交易解决方案。随着永续合约、期权等衍生品的推出,Phoenix 将继续丰富 Solana DeFi 生态,为去中心化交易树立新的标杆。
+Phoenix 作为 Solana 生态中首个完全链上的 CLOB DEX,为专业交易者带来了与中心化交易所相媲美的交易体验。通过订单簿机制,Phoenix 提供精确的价格控制、深度流动性展示和多样化的订单类型,满足高频交易、做市等专业需求。相比 AMM 模式,Phoenix 的订单簿设计消除了滑点问题,并通过 Maker 返佣激励流动性提供者。基于 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 的高性能和低成本,Phoenix 实现了真正的完全链上撮合,无需依赖中心化服务器,保证了去中心化、透明和自托管。对于追求精确价格控制和专业交易工具的用户,Phoenix 提供了理想的链上交易解决方案。随着永续合约、期权等衍生品的推出,Phoenix 将继续丰富 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) DeFi 生态,为去中心化交易树立新的标杆。

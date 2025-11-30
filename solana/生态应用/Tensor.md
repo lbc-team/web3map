@@ -1,6 +1,6 @@
 ## Tensor 概述
 
-Tensor 是 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 生态中专业的 NFT 交易平台,通过创新的 AMM 池和专业交易工具,为 NFT 交易者提供深度流动性和极致交易体验。与传统 NFT 市场的挂单模式不同,Tensor 引入了 NFT AMM 机制,允许用户即时买卖 NFT,无需等待买家或卖家。作为 Solana NFT 生态的核心基础设施,Tensor 处理着超过 60% 的 Solana NFT 交易量,为专业交易者、收藏家和做市商提供最强大的 NFT 交易工具。
+Tensor 是 Solana 生态中专业的 NFT 交易平台,通过创新的 AMM 池和专业交易工具,为 NFT 交易者提供深度流动性和极致交易体验。与传统 NFT 市场的挂单模式不同,Tensor 引入了 NFT AMM 机制,允许用户即时买卖 NFT,无需等待买家或卖家。作为 Solana NFT 生态的核心基础设施,Tensor 处理着超过 60% 的 Solana NFT 交易量,为专业交易者、收藏家和做市商提供最强大的 NFT 交易工具。
 
 **官网**: https://www.tensor.trade/
 
@@ -363,7 +363,7 @@ console.log('预计年收益:', 10000 * 0.23, 'TNSR')
 
 ## 相关概念与技术
 
-- **[Solana](https://learnblockchain.cn/tags/Solana?map=Solana)**: 高性能区块链
+- **Solana**: 高性能区块链
 - **[Metaplex](https://learnblockchain.cn/tags/Metaplex?map=Metaplex)**: Solana NFT 标准
 - **[Magic Eden](https://learnblockchain.cn/tags/MagicEden?map=MagicEden)**: 综合 NFT 市场
 - **[cNFT](https://learnblockchain.cn/tags/cNFT?map=cNFT)**: 压缩 NFT
@@ -371,4 +371,4 @@ console.log('预计年收益:', 10000 * 0.23, 'TNSR')
 
 ## 总结
 
-Tensor 通过引入 NFT AMM 机制和专业交易工具,彻底改变了 Solana NFT 交易体验。其创新的 AMM 池为 NFT 提供了即时流动性,消除了传统挂单模式的等待时间,使 NFT 交易如同代币交易一样流畅。凭借 0.5% 的超低费率和强大的批量操作功能,Tensor 成为专业 NFT 交易者的首选平台,占据了 Solana NFT 市场 60% 以上的份额。基于 Solana 的高性能和低成本,Tensor 实现了毫秒级的交易体验和几乎可忽略的 Gas 费用。对于 NFT 交易者,Tensor 提供了深度流动性、精准数据分析和高级交易工具;对于做市商,AMM 池提供了稳定的收益来源。随着借贷、租赁、衍生品等新功能的推出,Tensor 将继续引领 NFT 交易创新,为 Solana NFT 生态注入更强活力。
+Tensor 通过引入 NFT AMM 机制和专业交易工具,彻底改变了 Solana NFT 交易体验。其创新的 AMM 池为 NFT 提供了即时流动性,消除了传统挂单模式的等待时间,使 NFT 交易如同代币交易一样流畅。凭借 0.5% 的超低费率和强大的批量操作功能,Tensor 成为专业 NFT 交易者的首选平台,占据了 Solana NFT 市场 60% 以上的份额。基于 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 的高性能和低成本,Tensor 实现了毫秒级的交易体验和几乎可忽略的 Gas 费用。对于 NFT 交易者,Tensor 提供了深度流动性、精准数据分析和高级交易工具;对于做市商,AMM 池提供了稳定的收益来源。随着借贷、租赁、衍生品等新功能的推出,Tensor 将继续引领 NFT 交易创新,为 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) NFT 生态注入更强活力。

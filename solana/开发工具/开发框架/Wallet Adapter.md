@@ -1,12 +1,12 @@
 ## Wallet Adapter
 
-Wallet Adapter 是 Solana 钱包连接的标准库，让 DApp 能够轻松支持多种钱包。
+Wallet Adapter 是 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 钱包连接的标准库，让 DApp 能够轻松支持多种钱包。
 
 ### 核心功能
 
 **统一接口**
 一套代码支持所有钱包：
-- Phantom
+- [Phantom](https://learnblockchain.cn/tags/Phantom?map=Solana)
 - Solflare
 - Backpack
 - Ledger
@@ -75,11 +75,11 @@ const wallets = [
 - **WalletConnect**：移动端连接协议
 - **DApp**：去中心化应用
 - **React**：前端框架
-- **[Solana Web3.js](https://solana-labs.github.io/solana-web3.js/)**: Solana 的 JavaScript SDK
-- **[Anchor](https://www.anchor-lang.com/)**: Solana 智能合约框架
-- **[Phantom](https://phantom.app/)**: 最流行的 Solana 钱包
-- **[Solflare](https://solflare.com/)**: Solana 多链钱包
+- **[Solana Web3.js](https://solana-labs.github.io/solana-web3.js/)**: [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 的 JavaScript SDK
+- **[Anchor](https://www.anchor-lang.com/)**: [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 智能合约框架
+- **[Phantom](https://phantom.app/)**: 最流行的 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 钱包
+- **[Solflare](https://solflare.com/)**: [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 多链钱包
 - **[WalletConnect](https://walletconnect.com/)**: 移动端钱包连接协议
 
 
-Solana Wallet Adapter 通过提供标准化的钱包集成方案,极大地简化了 Solana DApp 的开发。它的模块化设计、多框架支持和丰富的钱包生态,使其成为 Solana 开发者的首选工具。
+[Solana](https://learnblockchain.cn/tags/Solana?map=Solana) Wallet Adapter 通过提供标准化的钱包集成方案,极大地简化了 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) DApp 的开发。它的模块化设计、多框架支持和丰富的钱包生态,使其成为 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 开发者的首选工具。

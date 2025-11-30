@@ -1,6 +1,6 @@
 ## QuickNode
 
-QuickNode 是多链区块链基础设施提供商，支持包括 Solana 在内的 20+ 条链。
+QuickNode 是多链区块链基础设施提供商，支持包括 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 在内的 20+ 条链。
 
 ### 服务
 
@@ -36,6 +36,6 @@ QuickNode 是多链区块链基础设施提供商，支持包括 Solana 在内�
 
 ### 相关概念
 
-- **Helius**：Solana 专注的 RPC
+- **[Helius](https://learnblockchain.cn/tags/Helius?map=Solana)**：[Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 专注的 RPC
 - **Alchemy**：另一个多链提供商
 - **基础设施**：开发者服务

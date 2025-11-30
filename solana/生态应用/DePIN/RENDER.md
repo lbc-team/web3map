@@ -10,9 +10,9 @@ RENDER 是去中心化GPU渲染网络，将闲置GPU算力用于3D渲染任务�
 **渲染服务**
 创作者使用网络进行 3D 渲染，支付 RENDER。
 
-### Solana 迁移
+### [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 迁移
 
-RENDER 从 Ethereum 迁移到 Solana，降低成本提高效率。
+RENDER 从 Ethereum 迁移到 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana)，降低成本提高效率。
 
 ### 相关概念
 

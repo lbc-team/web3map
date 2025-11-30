@@ -82,7 +82,7 @@ transfer_fee: 100, // basis points (1%)
 - 附加转账信息
 - 审计追踪
 
-**10. CPI 保护（CPI Guard）**
+**10. [CPI](https://learnblockchain.cn/tags/CPI?map=Solana) 保护（[CPI](https://learnblockchain.cn/tags/CPI?map=Solana) Guard）**
 防止跨程序调用盗取代币：
 - 增强安全性
 - 防止某些攻击向量
@@ -123,9 +123,9 @@ TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA
 - 钱包和 DApp 需要更新
 - 部分功能仍在测试
 
-### 与 SPL Token 对比
+### 与 [SPL Token](https://learnblockchain.cn/tags/SPL Token?map=Solana) 对比
 
-| 特性 | SPL Token | Token-2022 |
+| 特性 | [SPL Token](https://learnblockchain.cn/tags/SPL Token?map=Solana) | Token-2022 |
 |------|-----------|------------|
 | 基础功能 | ✓ | ✓ |
 | 转账手续费 | ✗ | ✓ |
@@ -137,17 +137,17 @@ TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA
 ### 未来发展
 
 **更多扩展**
-Solana 团队持续添加新扩展功能。
+[Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 团队持续添加新扩展功能。
 
 **生态集成**
 主流钱包、DEX、DeFi 协议逐步集成。
 
 **标准化**
-成为 Solana 代币的新标准。
+成为 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 代币的新标准。
 
 ### 相关概念
 
-- **SPL Token**：原始的 Solana 代币标准
+- **[SPL Token](https://learnblockchain.cn/tags/SPL Token?map=Solana)**：原始的 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 代币标准
 - **扩展（Extensions）**：模块化的功能增强
 - **零知识证明**：保密转账的技术基础
 - **合规性**：部分扩展专为合规设计

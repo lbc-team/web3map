@@ -1,6 +1,6 @@
 ## Sanctum
 
-Sanctum 是 Solana 上的流动性质押聚合器，允许用户质押 SOL 并获得流动性质押代币（LST）。
+Sanctum 是 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 上的流动性质押聚合器，允许用户质押 SOL 并获得流动性质押代币（LST）。
 
 ### 核心功能
 
@@ -8,7 +8,7 @@ Sanctum 是 Solana 上的流动性质押聚合器，允许用户质押 SOL 并�
 支持多种 LST：
 - mSOL（Marinade）
 - stSOL（Lido）
-- jitoSOL（Jito）
+- jitoSOL（[Jito](https://learnblockchain.cn/tags/Jito?map=Solana)）
 - bSOL（BlazeStake）
 
 **LST 路由**

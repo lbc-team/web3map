@@ -1,6 +1,6 @@
 ## Subsquid
 
-Subsquid 是多链数据索引框架，支持 Solana，帮助开发者快速构建链上数据索引服务。
+Subsquid 是多链数据索引框架，支持 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana)，帮助开发者快速构建链上数据索引服务。
 
 ### 功能
 
@@ -11,7 +11,7 @@ Subsquid 是多链数据索引框架，支持 Solana，帮助开发者快速构�
 自动生成查询 API。
 
 **多链支持**
-Solana, Ethereum, Polkadot 等。
+[Solana](https://learnblockchain.cn/tags/Solana?map=Solana), Ethereum, Polkadot 等。
 
 ### 使用场景
 

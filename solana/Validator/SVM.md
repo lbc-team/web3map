@@ -82,7 +82,7 @@ Sealevel 是 SVM 的并行执行引擎：
 - 确保公平资源分配
 
 **调用深度**
-- CPI（跨程序调用）最深 4 层
+- [CPI](https://learnblockchain.cn/tags/CPI?map=Solana)（跨程序调用）最深 4 层
 - 防止栈溢出
 
 **账户限制**
@@ -117,8 +117,8 @@ eBPF 验证器检查：
 - **Nitro**：另一个 SVM L2
 
 **优势**
-- 继承 Solana 的高性能
-- 兼容 Solana 工具链
+- 继承 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 的高性能
+- 兼容 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 工具链
 - 开发者生态共享
 
 ### 持续优化
@@ -136,18 +136,18 @@ eBPF 验证器检查：
 ### 对开发者的影响
 
 **高性能**
-SVM 让开发者能构建高吞吐量的应用。
+[SVM](https://learnblockchain.cn/tags/SVM?map=Solana) 让开发者能构建高吞吐量的应用。
 
 **并行友好**
 设计时需考虑账户访问模式，避免不必要的冲突。
 
 **工具链成熟**
-Anchor 等框架简化 SVM 程序开发。
+[Anchor](https://learnblockchain.cn/tags/Anchor?map=Solana) 等框架简化 [SVM](https://learnblockchain.cn/tags/SVM?map=Solana) 程序开发。
 
 ### 相关概念
 
-- **eBPF**：SVM 执行的字节码格式
-- **Sealevel**：SVM 的并行运行时
+- **eBPF**：[SVM](https://learnblockchain.cn/tags/SVM?map=Solana) 执行的字节码格式
+- **Sealevel**：[SVM](https://learnblockchain.cn/tags/SVM?map=Solana) 的并行运行时
 - **CU（计算单元）**：衡量程序执行消耗的单位
-- **EVM**：以太坊虚拟机，SVM 的对照
-- **并行执行**：SVM 的核心优势
+- **EVM**：以太坊虚拟机，[SVM](https://learnblockchain.cn/tags/SVM?map=Solana) 的对照
+- **并行执行**：[SVM](https://learnblockchain.cn/tags/SVM?map=Solana) 的核心优势

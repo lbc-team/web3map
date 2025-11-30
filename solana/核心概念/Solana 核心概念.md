@@ -1,6 +1,6 @@
 ## Solana 核心概念
 
-Solana 的核心概念涵盖其独特的架构设计和技术创新，这些概念共同构成了 Solana 高性能区块链的基础。
+[Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 的核心概念涵盖其独特的架构设计和技术创新，这些概念共同构成了 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 高性能区块链的基础。
 
 ### 八大核心创新
 
@@ -68,7 +68,7 @@ Solana 的核心概念涵盖其独特的架构设计和技术创新，这些概�
 
 ### 相关概念
 
-- **PoH**：Solana 最核心的创新
+- **PoH**：[Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 最核心的创新
 - **Sealevel**：并行执行引擎
 - **账户模型**：不同于以太坊的 UTXO 或账户模型
 - **租金**：防止状态膨胀的机制

@@ -125,7 +125,7 @@ let value = u64::from_le_bytes(data[0..8].try_into().unwrap());
 **适合使用 Pinocchio 的情况：**
 - ✅ 对 CU 消耗极度敏感（如套利程序）
 - ✅ 需要最小化程序体积（降低部署成本）
-- ✅ 团队有丰富的 Rust 和 Solana 经验
+- ✅ 团队有丰富的 Rust 和 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 经验
 - ✅ 追求极致性能优化
 - ✅ 已有成熟的程序需要优化
 
@@ -141,7 +141,7 @@ let value = u64::from_le_bytes(data[0..8].try_into().unwrap());
 Pinocchio 和 Anchor 可以混合使用：
 - 用 Anchor 开发大部分业务逻辑
 - 用 Pinocchio 重写性能关键路径
-- 通过 CPI 互相调用
+- 通过 [CPI](https://learnblockchain.cn/tags/CPI?map=Solana) 互相调用
 
 ### 学习资源
 
@@ -150,8 +150,8 @@ Pinocchio 和 Anchor 可以混合使用：
 - 示例代码：仓库中的 examples 目录
 
 **社区**
-- Solana Discord #dev-questions 频道
-- Anchor Discord（有 Pinocchio 讨论）
+- [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) Discord #dev-questions 频道
+- [Anchor](https://learnblockchain.cn/tags/Anchor?map=Solana) Discord（有 Pinocchio 讨论）
 
 ### 注意事项
 
@@ -167,7 +167,7 @@ Pinocchio 和 Anchor 可以混合使用：
 - 新成员上手成本高
 
 **3. 调试**
-- 缺少 Anchor 的丰富错误信息
+- 缺少 [Anchor](https://learnblockchain.cn/tags/Anchor?map=Solana) 的丰富错误信息
 - 需要更多的日志和测试
 
 ### 性能优化技巧
@@ -186,10 +186,10 @@ Pinocchio 和 Anchor 可以混合使用：
 
 ### 相关概念
 
-- **Anchor**：Solana 主流的高级开发框架，提供丰富功能但体积较大
-- **solana-program**：Solana 官方的原生开发库，Pinocchio 不依赖它
+- **[Anchor](https://learnblockchain.cn/tags/Anchor?map=Solana)**：[Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 主流的高级开发框架，提供丰富功能但体积较大
+- **solana-program**：[Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 官方的原生开发库，Pinocchio 不依赖它
 - **零依赖（Zero Dependencies）**：不依赖外部库，所有功能自己实现
 - **零拷贝（Zero-Copy）**：直接操作内存，避免数据拷贝的性能优化技术
-- **CU（计算单元）**：Solana 上衡量程序执行成本的单位
+- **CU（计算单元）**：[Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 上衡量程序执行成本的单位
 - **序列化**：将数据结构转换为字节流的过程，Pinocchio 手写优化
 

@@ -35,10 +35,10 @@ Anatoly 的愿景是构建一个能够承载全球规模应用的区块链网络
 
 Anatoly Yakovenko 的工作不仅创建了 Solana，还推动了整个区块链行业对性能和可扩展性的重新思考。他证明了通过创新的架构设计，区块链可以在不牺牲去中心化的前提下实现高性能。
 
-Solana 的成功也催生了 SVM（Solana Virtual Machine）生态系统，多个项目基于 Solana 的技术栈构建新的区块链网络，形成了一个技术家族。
+Solana 的成功也催生了 [SVM](https://learnblockchain.cn/tags/SVM?map=Solana)（Solana Virtual Machine）生态系统，多个项目基于 Solana 的技术栈构建新的区块链网络，形成了一个技术家族。
 
 ### 相关概念
 
-- **PoH（历史证明）**：Anatoly 提出的核心创新，Solana 的技术基础
-- **SVM**：Solana 虚拟机，运行 Solana 智能合约的执行环境
+- **PoH（历史证明）**：Anatoly 提出的核心创新，[Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 的技术基础
+- **[SVM](https://learnblockchain.cn/tags/SVM?map=Solana)**：[Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 虚拟机，运行 Solana 智能合约的执行环境
 - **Vitalik Buterin**：以太坊创始人，与 Anatoly 代表了不同的区块链扩展路线

@@ -1,6 +1,6 @@
 ## eBPF
 
-eBPF（extended Berkeley Packet Filter）是 Solana 智能合约（Program）的底层执行格式。Solana 的程序通常用 Rust 或 C 编写，编译后会生成 eBPF 字节码，然后由 Solana 运行时执行。
+eBPF（extended Berkeley Packet Filter）是 Solana 智能合约（[Program](https://learnblockchain.cn/tags/Program?map=Solana)）的底层执行格式。Solana 的程序通常用 Rust 或 C 编写，编译后会生成 eBPF 字节码，然后由 Solana 运行时执行。
 
 ### 什么是 eBPF
 
@@ -47,16 +47,16 @@ eBPF 验证器可以在加载程序前进行静态分析，检查：
 
 ### 计算限制
 
-为了防止程序占用过多资源，Solana 对 eBPF 程序有严格限制：
+为了防止程序占用过多资源，[Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 对 eBPF 程序有严格限制：
 
 - **计算单元上限**：每个交易默认 200,000 CU，最高可申请 1,400,000 CU
 - **指令条数**：eBPF 程序不能超过特定数量的指令
-- **调用深度**：跨程序调用（CPI）深度限制为 4 层
+- **调用深度**：跨程序调用（[CPI](https://learnblockchain.cn/tags/CPI?map=Solana)）深度限制为 4 层
 - **堆栈大小**：32KB 堆栈空间
 
 ### 与 EVM 的对比
 
-| 特性 | eBPF (Solana) | EVM (Ethereum) |
+| 特性 | eBPF ([Solana](https://learnblockchain.cn/tags/Solana?map=Solana)) | EVM (Ethereum) |
 |------|---------------|----------------|
 | 架构 | 基于寄存器 | 基于栈 |
 | 执行方式 | JIT/AOT 编译 | 解释执行或 JIT |
@@ -66,7 +66,7 @@ eBPF 验证器可以在加载程序前进行静态分析，检查：
 
 ### 相关概念
 
-- **SVM**：Solana 虚拟机，负责执行 eBPF 程序的运行时环境
+- **[SVM](https://learnblockchain.cn/tags/SVM?map=Solana)**：[Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 虚拟机，负责执行 eBPF 程序的运行时环境
 - **CU（计算单元）**：衡量 eBPF 程序执行消耗的资源单位
-- **Sealevel**：Solana 的并行运行时，可以同时执行多个 eBPF 程序
+- **Sealevel**：[Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 的并行运行时，可以同时执行多个 eBPF 程序
 - **BPF Loader**：负责加载和验证 eBPF 程序的系统程序

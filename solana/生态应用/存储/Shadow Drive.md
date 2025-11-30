@@ -1,10 +1,10 @@
 ## Shadow Drive
 
-Shadow Drive 是 GenesysGo 开发的去中心化存储网络，专为 Solana 生态优化。
+Shadow Drive 是 GenesysGo 开发的去中心化存储网络，专为 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 生态优化。
 
 ### 特点
 
-- 基于 Solana
+- 基于 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana)
 - 高速读写
 - 低成本
 - IPFS 兼容

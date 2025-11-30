@@ -1,6 +1,6 @@
 ## SPL Token
 
-SPL Token 是 Solana 上的代币标准，相当于以太坊的 ERC-20。SPL（Solana Program Library）Token 程序定义了如何在 Solana 上创建、管理和转移可替代和不可替代代币。
+[SPL Token](https://learnblockchain.cn/tags/SPL Token?map=Solana) 是 Solana 上的代币标准，相当于以太坊的 ERC-20。SPL（[Solana](https://learnblockchain.cn/tags/Solana?map=Solana) [Program](https://learnblockchain.cn/tags/Program?map=Solana) Library）Token 程序定义了如何在 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 上创建、管理和转移可替代和不可替代代币。
 
 ### 核心概念
 
@@ -19,7 +19,7 @@ SPL Token 是 Solana 上的代币标准，相当于以太坊的 ERC-20。SPL（S
 - 委托信息（Delegate）
 
 **关联 Token 账户（ATA）**
-用户的默认 Token 账户，地址由用户钱包和 Mint 派生（PDA）。
+用户的默认 Token 账户，地址由用户钱包和 Mint 派生（[PDA](https://learnblockchain.cn/tags/PDA?map=Solana)）。
 
 ### 创建代币
 
@@ -53,7 +53,7 @@ spl-token transfer <MINT> <AMOUNT> <RECIPIENT>
 
 ### Token-2022
 
-SPL Token 的升级版，增加了：
+[SPL Token](https://learnblockchain.cn/tags/SPL Token?map=Solana) 的升级版，增加了：
 - 转账手续费
 - 转账钩子
 - 保密转账
@@ -64,4 +64,4 @@ SPL Token 的升级版，增加了：
 
 - **ERC-20**：以太坊的可替代代币标准
 - **ATA**：关联 Token 账户
-- **Token-2022**：SPL Token 的扩展版本
+- **Token-2022**：[SPL Token](https://learnblockchain.cn/tags/SPL Token?map=Solana) 的扩展版本

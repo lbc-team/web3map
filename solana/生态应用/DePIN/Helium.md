@@ -16,9 +16,9 @@ Helium 是去中心化物联网（IoT）网络，2023 年从自有链迁移到 S
 - Hotspot 奖励
 - 治理
 
-### 迁移到 Solana
+### 迁移到 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana)
 
-2023 年从 Helium 链迁移到 Solana：
+2023 年从 Helium 链迁移到 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana)：
 - 更低成本
 - 更快速度
 - 更好生态集成

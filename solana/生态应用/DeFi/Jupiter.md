@@ -56,7 +56,7 @@ Jupiter 的核心是其智能路由引擎，能够：
 **MEV 保护**
 Jupiter 实现了多种 MEV 保护机制：
 - 交易路径随机化
-- 与 Jito 集成，防止抢跑
+- 与 [Jito](https://learnblockchain.cn/tags/Jito?map=Solana) 集成，防止抢跑
 - 提供滑点保护设置
 
 **高性能**
@@ -87,8 +87,8 @@ Jupiter 还推出了代币发行平台 Jupiter Launchpad（JLP），为优质项
 
 ### 数据表现
 
-Jupiter 在 Solana 生态中占据主导地位：
-- 交易量占 Solana DEX 总量的 60-70%
+Jupiter 在 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 生态中占据主导地位：
+- 交易量占 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) DEX 总量的 60-70%
 - 日均交易量数十亿美元
 - 支持 1000+ 代币交易对
 - 日活用户数万
@@ -98,4 +98,4 @@ Jupiter 在 Solana 生态中占据主导地位：
 - **DEX Aggregator**：去中心化交易聚合器，整合多个 DEX 的流动性
 - **1inch（以太坊）**：以太坊上类似的交易聚合器
 - **AMM**：自动做市商，Jupiter 聚合的 DEX 大多基于 AMM 模型
-- **Raydium/Orca**：Solana 上的原生 DEX，Jupiter 的流动性来源
+- **Raydium/Orca**：[Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 上的原生 DEX，Jupiter 的流动性来源

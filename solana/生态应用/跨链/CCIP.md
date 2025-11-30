@@ -8,9 +8,9 @@ CCIP（Chainlink Cross-Chain Interoperability Protocol）是 Chainlink 的跨链
 - 跨链消息传递
 - 统一的跨链标准
 
-### Solana 集成
+### [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 集成
 
-Chainlink 正在将 CCIP 集成到 Solana，实现与 Ethereum、Avalanche 等链的互操作。
+Chainlink 正在将 CCIP 集成到 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana)，实现与 Ethereum、Avalanche 等链的互操作。
 
 ### 相关概念
 

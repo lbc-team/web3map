@@ -5,7 +5,7 @@
 ### 程序特性
 
 **无状态**
-Solana 程序本身不存储状态：
+[Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 程序本身不存储状态：
 - 程序代码是只读的
 - 所有状态存储在独立的账户中
 - 程序通过账户参数访问数据
@@ -22,10 +22,10 @@ Solana 程序本身不存储状态：
 ### 程序类型
 
 **1. Native Programs**
-Solana 内置的系统程序：
+[Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 内置的系统程序：
 - System Program：创建账户、转账
-- Token Program：SPL Token 操作
-- Associated Token Program：Token 账户管理
+- Token [Program](https://learnblockchain.cn/tags/Program?map=Solana)：[SPL Token](https://learnblockchain.cn/tags/SPL Token?map=Solana) 操作
+- Associated Token [Program](https://learnblockchain.cn/tags/Program?map=Solana)：Token 账户管理
 - BPF Loader：加载和升级程序
 
 **2. 自定义程序**
@@ -57,7 +57,7 @@ pub fn process_instruction(
 }
 ```
 
-**使用 Anchor 框架**
+**使用 [Anchor](https://learnblockchain.cn/tags/Anchor?map=Solana) 框架**
 ```rust
 use anchor_lang::prelude::*;
 
@@ -118,7 +118,7 @@ solana program upgrade target/deploy/my_program.so <PROGRAM_ID>
 - 可升级程序独有
 - 包含升级权限信息
 
-### 跨程序调用（CPI）
+### 跨程序调用（[CPI](https://learnblockchain.cn/tags/CPI?map=Solana)）
 
 程序可以调用其他程序：
 
@@ -136,7 +136,7 @@ invoke_signed(
 )?;
 ```
 
-**CPI 限制**
+**[CPI](https://learnblockchain.cn/tags/CPI?map=Solana) 限制**
 - 最大调用深度：4 层
 - 继承调用者权限
 - 共享 CU 预算
@@ -148,10 +148,10 @@ invoke_signed(
 - 账户所有者验证不足
 - 整数溢出
 - 重入攻击
-- PDA 推导验证遗漏
+- [PDA](https://learnblockchain.cn/tags/PDA?map=Solana) 推导验证遗漏
 
 **安全最佳实践**
-- 使用 Anchor 框架的约束检查
+- 使用 [Anchor](https://learnblockchain.cn/tags/Anchor?map=Solana) 框架的约束检查
 - 验证所有输入参数
 - 使用安全的数学运算
 - 进行审计和测试
@@ -175,6 +175,6 @@ invoke_signed(
 ### 相关概念
 
 - **eBPF**：程序的字节码格式
-- **Anchor**：流行的 Solana 程序开发框架
-- **CPI**：跨程序调用机制
-- **PDA**：程序派生地址，程序控制的账户
+- **[Anchor](https://learnblockchain.cn/tags/Anchor?map=Solana)**：流行的 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 程序开发框架
+- **[CPI](https://learnblockchain.cn/tags/CPI?map=Solana)**：跨程序调用机制
+- **[PDA](https://learnblockchain.cn/tags/PDA?map=Solana)**：程序派生地址，程序控制的账户

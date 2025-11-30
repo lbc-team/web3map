@@ -4,7 +4,7 @@ DePIN（Decentralized Physical Infrastructure Networks）是去中心化物理�
 
 ### 典型项目
 
-**Solana 上的 DePIN**
+**[Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 上的 DePIN**
 - Helium：物联网/5G 网络
 - Hivemapper：去中心化地图
 - RENDER：GPU 渲染
@@ -20,7 +20,7 @@ DePIN（Decentralized Physical Infrastructure Networks）是去中心化物理�
 - 基础设施提供者获得代币
 - 代币可交易变现
 
-### 为什么选择 Solana
+### 为什么选择 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana)
 
 - 低交易成本（适合高频小额支付）
 - 高吞吐量（支持大规模设备）

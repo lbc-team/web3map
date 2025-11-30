@@ -47,8 +47,8 @@ cNFT（Compressed NFT，压缩 NFT）是 Metaplex 开发的突破性技术，通
 
 ### 技术实现
 
-**Bubblegum Program**
-Metaplex 的 cNFT 程序：
+**Bubblegum [Program](https://learnblockchain.cn/tags/Program?map=Solana)**
+[Metaplex](https://learnblockchain.cn/tags/Metaplex?map=Solana) 的 cNFT 程序：
 - 管理 Merkle 树
 - 验证所有权
 - 处理转移
@@ -118,7 +118,7 @@ await mintV1(umi, {
 
 **需要索引服务**
 由于数据不完全在链上，需要索引器：
-- Helius（最佳 cNFT 支持）
+- [Helius](https://learnblockchain.cn/tags/Helius?map=Solana)（最佳 cNFT 支持）
 - SimpleHash
 - Shyft
 
@@ -156,7 +156,7 @@ const response = await fetch(
 ### 生态支持
 
 **钱包**
-- Phantom（支持）
+- [Phantom](https://learnblockchain.cn/tags/Phantom?map=Solana)（支持）
 - Backpack（支持）
 - Solflare（支持）
 
@@ -165,8 +165,8 @@ const response = await fetch(
 - Magic Eden（支持）
 
 **工具**
-- Helius（最佳索引）
-- Metaplex SDK
+- [Helius](https://learnblockchain.cn/tags/Helius?map=Solana)（最佳索引）
+- [Metaplex](https://learnblockchain.cn/tags/Metaplex?map=Solana) SDK
 
 ### 案例
 
@@ -196,5 +196,5 @@ const response = await fetch(
 - **Merkle 树**：cNFT 的数据结构基础
 - **状态压缩**：核心技术原理
 - **Bubblegum**：cNFT 程序
-- **Helius**：cNFT 索引领导者
+- **[Helius](https://learnblockchain.cn/tags/Helius?map=Solana)**：cNFT 索引领导者
 - **传统 NFT**：每个 NFT 独立账户的标准方式

@@ -1,6 +1,6 @@
 ## Tower BFT
 
-Tower BFT 是 Solana 的共识算法，它是一种基于历史证明（PoH）优化的实用拜占庭容错（PBFT）算法。Tower BFT 利用 PoH 作为全局时钟，使验证者能够在不需要大量消息传递的情况下达成共识，从而实现高吞吐量和低延迟。
+Tower BFT 是 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 的共识算法，它是一种基于历史证明（PoH）优化的实用拜占庭容错（PBFT）算法。Tower BFT 利用 PoH 作为全局时钟，使验证者能够在不需要大量消息传递的情况下达成共识，从而实现高吞吐量和低延迟。
 
 ### 核心设计
 
@@ -48,7 +48,7 @@ Tower BFT 通过引入 PoH 作为可信的时间源，将共识问题简化为�
 3. 遵守自己的锁定超时约束
 
 **乐观确认**
-在大多数验证者诚实的情况下，交易在 1-2 次投票后就有很高的确定性，即使尚未达到最终确认。这使得 Solana 能够提供亚秒级的用户体验。
+在大多数验证者诚实的情况下，交易在 1-2 次投票后就有很高的确定性，即使尚未达到最终确认。这使得 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 能够提供亚秒级的用户体验。
 
 ### 与其他共识的对比
 
@@ -72,5 +72,5 @@ Tower BFT 可以容忍最多 1/3 的验证者（按质押权重）出现故障�
 
 - **PoH（历史证明）**：Tower BFT 的基础，提供可验证的时间顺序
 - **PBFT**：实用拜占庭容错，Tower BFT 的理论基础
-- **Slot**：Solana 的时间单位，约 400 毫秒
-- **Epoch**：一组 slot 的集合，Solana 中约 2-3 天
+- **Slot**：[Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 的时间单位，约 400 毫秒
+- **Epoch**：一组 slot 的集合，[Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 中约 2-3 天

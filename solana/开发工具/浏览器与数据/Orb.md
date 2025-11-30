@@ -1,6 +1,6 @@
 ## Orb
 
-Orb 是 Helius 开发的新一代 Solana 区块链浏览器，专注于提供更好的用户体验和更强大的数据分析功能。
+Orb 是 Helius 开发的新一代 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 区块链浏览器，专注于提供更好的用户体验和更强大的数据分析功能。
 
 官网：https://orb.helius.dev/
 
@@ -100,7 +100,7 @@ NFT 集合和个体：
 
 ### 与其他浏览器对比
 
-| 特性 | Orb | Solscan | SolanaFM |
+| 特性 | Orb | Solscan | [Solana](https://learnblockchain.cn/tags/Solana?map=Solana)FM |
 |------|-----|---------|----------|
 | 设计 | 现代 | 传统 | 现代 |
 | 交易解析 | 极强 | 强 | 强 |
@@ -111,7 +111,7 @@ NFT 集合和个体：
 ### 开发者功能
 
 **API 文档链接**
-直接跳转到 Helius API 文档。
+直接跳转到 [Helius](https://learnblockchain.cn/tags/Helius?map=Solana) API 文档。
 
 **程序调试**
 详细的程序调用信息，帮助开发者调试。
@@ -128,14 +128,14 @@ NFT 集合和个体：
 - 告警通知
 
 **集成服务**
-与 Helius 生态深度集成：
+与 [Helius](https://learnblockchain.cn/tags/Helius?map=Solana) 生态深度集成：
 - Webhooks 管理
 - RPC 使用统计
 - API 密钥管理
 
 ### 相关概念
 
-- **Helius**：Orb 的开发团队，领先的 Solana 基础设施提供商
-- **Solscan**：另一个流行的 Solana 浏览器
-- **SolanaFM**：专注交易解析的浏览器
+- **[Helius](https://learnblockchain.cn/tags/Helius?map=Solana)**：Orb 的开发团队，领先的 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 基础设施提供商
+- **Solscan**：另一个流行的 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 浏览器
+- **[Solana](https://learnblockchain.cn/tags/Solana?map=Solana)FM**：专注交易解析的浏览器
 - **区块链浏览器**：查看链上数据的工具

@@ -1,6 +1,6 @@
 ## Sig
 
-Sig 是 Syndica 开发的 Solana 验证器客户端，使用 Zig 语言编写，专注于性能和资源效率。
+Sig 是 Syndica 开发的 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 验证器客户端，使用 Zig 语言编写，专注于性能和资源效率。
 
 ### 特点
 

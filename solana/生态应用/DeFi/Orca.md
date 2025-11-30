@@ -1,6 +1,6 @@
 ## Orca
 
-Orca 是 Solana 上用户友好度最高的去中心化交易所（DEX），以其简洁的界面和创新的集中流动性（Whirlpools）功能而闻名。Orca 专注于提供最佳的用户体验，是 Solana 生态中流动性最深的 AMM 之一。
+Orca 是 Solana 上用户友好度最高的去中心化交易所（DEX），以其简洁的界面和创新的集中流动性（Whirlpools）功能而闻名。Orca 专注于提供最佳的用户体验，是 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 生态中流动性最深的 AMM 之一。
 
 ### 核心功能
 
@@ -78,7 +78,7 @@ Orca 将部分收入用于碳补偿：
 
 **流动性深度**
 - TVL：数亿美元
-- Solana 第二大 AMM（仅次于 Raydium）
+- [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 第二大 AMM（仅次于 Raydium）
 - 提供多个蓝筹代币对（SOL/USDC, mSOL/SOL 等）
 
 **合作伙伴**
@@ -104,5 +104,5 @@ Orca 将部分收入用于碳补偿：
 
 - **Uniswap V3**：Orca Whirlpools 的设计灵感来源
 - **集中流动性（CLMM）**：提高资金效率的 AMM 模型
-- **Raydium**：Solana 上的主要竞争对手
+- **Raydium**：[Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 上的主要竞争对手
 - **Jupiter**：聚合 Orca 流动性的交易路由器

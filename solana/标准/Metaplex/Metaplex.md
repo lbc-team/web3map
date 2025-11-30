@@ -4,7 +4,7 @@ Metaplex 是 Solana 上的 NFT 标准和工具套件，提供创建、销售和�
 
 ### 核心组件
 
-**1. Token Metadata Program**
+**1. Token Metadata [Program](https://learnblockchain.cn/tags/Program?map=Solana)**
 定义 NFT 元数据标准：
 - 名称、符号、URI
 - 创作者信息和版税
@@ -30,7 +30,7 @@ NFT 拍卖和交易协议：
 ### NFT 标准
 
 **元数据账户**
-每个 NFT 有独立的元数据账户（PDA）：
+每个 NFT 有独立的元数据账户（[PDA](https://learnblockchain.cn/tags/PDA?map=Solana)）：
 ```
 PDA = ["metadata", metadata_program_id, mint_address]
 ```
@@ -140,12 +140,12 @@ pub struct Data {
 **NFT 市场**
 - Magic Eden
 - Tensor
-- OpenSea（Solana 支持）
+- OpenSea（[Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 支持）
 
 **创作者工具**
 - Candy Machine
 - Sugar CLI
-- Metaplex Studio
+- [Metaplex](https://learnblockchain.cn/tags/Metaplex?map=Solana) Studio
 
 ### 开发工具
 
@@ -175,7 +175,7 @@ const nft = await metaplex.nfts().findByMint({ mintAddress });
 
 ### 对生态的影响
 
-Metaplex 为 Solana NFT 生态奠定了基础：
+[Metaplex](https://learnblockchain.cn/tags/Metaplex?map=Solana) 为 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) NFT 生态奠定了基础：
 - 统一的标准
 - 完善的工具
 - 活跃的社区
@@ -183,7 +183,7 @@ Metaplex 为 Solana NFT 生态奠定了基础：
 
 ### 相关概念
 
-- **cNFT**：压缩 NFT，Metaplex 的创新
+- **cNFT**：压缩 NFT，[Metaplex](https://learnblockchain.cn/tags/Metaplex?map=Solana) 的创新
 - **pNFT**：可编程 NFT
 - **Candy Machine**：NFT 发行工具
 - **版税（Royalties）**：二次销售创作者分成

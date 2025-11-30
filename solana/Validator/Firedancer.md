@@ -105,13 +105,13 @@ Firedancer 采用"Tile"（瓦片）架构：
 ### 对 Solana 的影响
 
 **性能提升**
-如果 Firedancer 达到目标性能，Solana 网络整体吞吐量将大幅提升。
+如果 Firedancer 达到目标性能，[Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 网络整体吞吐量将大幅提升。
 
 **安全性增强**
 客户端多样性降低单一实现 bug 导致网络故障的风险。
 
 **吸引力增强**
-证明 Solana 架构的可扩展性，吸引更多开发者和用户。
+证明 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 架构的可扩展性，吸引更多开发者和用户。
 
 ### 开源与社区
 
@@ -136,7 +136,7 @@ Jump Crypto 发布了大量技术博客，解释 Firedancer 的设计理念。
 
 ### 相关概念
 
-- **Agave**：当前主流的 Solana 客户端
+- **Agave**：当前主流的 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 客户端
 - **客户端多样性**：多种客户端实现提高网络安全
 - **Jump Crypto**：Firedancer 的开发团队，知名做市商和加密基础设施建设者
 - **TPS**：每秒交易数，衡量区块链性能的关键指标

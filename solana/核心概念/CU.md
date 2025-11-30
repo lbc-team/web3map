@@ -8,14 +8,14 @@ CU（Compute Units，计算单元）是 Solana 用来衡量交易执行过程中
 - CPU 指令执行
 - 内存访问
 - 账户数据读写
-- 跨程序调用（CPI）
+- 跨程序调用（[CPI](https://learnblockchain.cn/tags/CPI?map=Solana)）
 - 系统调用（syscall）
 
 CU 就是将这些资源消耗量化的度量单位。不同操作消耗的 CU 数量不同：
 - 基础指令：约 1-3 CU
 - 内存分配：每字节约 0.5 CU
 - 账户验证：每个账户约 100 CU
-- CPI 调用：约 1,000 CU 起步
+- [CPI](https://learnblockchain.cn/tags/CPI?map=Solana) 调用：约 1,000 CU 起步
 - SHA256 哈希：约 20 CU 每 32 字节
 
 ### 限制与配置
@@ -40,7 +40,7 @@ let set_compute_unit_price = ComputeBudgetInstruction::set_compute_unit_price(1_
 
 ### CU 与交易费用
 
-Solana 的交易费用由两部分组成：
+[Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 的交易费用由两部分组成：
 
 1. **基础费用**：固定 5,000 lamports（每个签名）
 2. **优先费用**：CU 数量 × CU 价格
@@ -71,7 +71,7 @@ Solana 的交易费用由两部分组成：
 开发者可以通过以下方式降低程序的 CU 消耗：
 
 **1. 减少账户数量**
-每个账户的验证和加载都会消耗 CU，尽量合并账户或使用 PDA。
+每个账户的验证和加载都会消耗 CU，尽量合并账户或使用 [PDA](https://learnblockchain.cn/tags/PDA?map=Solana)。
 
 **2. 优化数据结构**
 - 使用紧凑的数据类型（u32 而不是 u64）
@@ -85,7 +85,7 @@ Solana 的交易费用由两部分组成：
 缓存计算结果，避免在同一交易中重复执行相同的计算。
 
 **5. 使用轻量级库**
-选择经过优化的库（如 Anchor 框架），减少不必要的 CU 消耗。
+选择经过优化的库（如 [Anchor](https://learnblockchain.cn/tags/Anchor?map=Solana) 框架），减少不必要的 CU 消耗。
 
 ### CU 监控
 
@@ -93,11 +93,11 @@ Solana 的交易费用由两部分组成：
 
 - **模拟交易**：在发送前模拟交易，查看预估的 CU 消耗
 - **日志分析**：通过 `sol_log_compute_units!()` 宏记录关键点的 CU 消耗
-- **性能分析**：使用 Solana Explorer 查看实际交易的 CU 使用情况
+- **性能分析**：使用 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) Explorer 查看实际交易的 CU 使用情况
 
 ### 相关概念
 
 - **Gas（以太坊）**：与 CU 类似的资源计量单位，但以太坊的 Gas 价格波动更大
 - **优先费用（Priority Fee）**：基于 CU 消耗计算的额外费用，用于激励验证者优先处理交易
-- **交易大小限制**：Solana 每个交易最大 1232 字节，除了 CU 限制外还要考虑字节限制
-- **并行执行**：Solana 可以并行执行不冲突的交易，CU 限制是针对单个交易的
+- **交易大小限制**：[Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 每个交易最大 1232 字节，除了 CU 限制外还要考虑字节限制
+- **并行执行**：[Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 可以并行执行不冲突的交易，CU 限制是针对单个交易的

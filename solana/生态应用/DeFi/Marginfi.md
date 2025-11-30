@@ -1,6 +1,6 @@
 ## Marginfi
 
-Marginfi 是 Solana 上的去中心化借贷协议，专注于提供安全、高效的借贷服务。Marginfi 采用去中心化、透明的设计，是 Solana DeFi 生态中快速崛起的借贷平台。
+Marginfi 是 Solana 上的去中心化借贷协议，专注于提供安全、高效的借贷服务。Marginfi 采用去中心化、透明的设计，是 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) DeFi 生态中快速崛起的借贷平台。
 
 ### 核心功能
 
@@ -47,13 +47,13 @@ Marginfi 是 Solana 上的去中心化借贷协议，专注于提供安全、高
 
 | 特性 | Marginfi | Aave |
 |------|----------|------|
-| 链 | Solana | Ethereum/多链 |
+| 链 | [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) | Ethereum/多链 |
 | Gas 费 | 极低 | 高 |
 | 速度 | 快 | 慢 |
 | TVL | 较小 | 巨大 |
 
 ### 相关概念
 
-- **Kamino Lend**：Solana 另一个借贷协议
+- **Kamino Lend**：[Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 另一个借贷协议
 - **Aave**：以太坊最大借贷协议
 - **清算**：强制平仓保护协议

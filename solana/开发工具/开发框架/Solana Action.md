@@ -1,6 +1,6 @@
 ## Solana Action
 
-[Solana](https://learnblockchain.cn/tags/Solana?map=Solana) Actions 是 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 区块链推出的一项创新功能,允许用户通过简单的 URL 链接在任何网站、社交媒体或应用中直接执行区块链交易,无需跳转到 [DApp](https://learnblockchain.cn/tags/DApp) 或钱包界面。这项技术通过  Solana Actions API 和 Blinks(Blockchain Links)实现,极大地降低了 Web3 交互的门槛,为区块链应用的推广和普及开辟了新的可能性。
+Solana Actions 是 Solana 区块链推出的一项创新功能,允许用户通过简单的 URL 链接在任何网站、社交媒体或应用中直接执行区块链交易,无需跳转到 [DApp](https://learnblockchain.cn/tags/DApp) 或钱包界面。这项技术通过  Solana Actions API 和 Blinks(Blockchain Links)实现,极大地降低了 Web3 交互的门槛,为区块链应用的推广和普及开辟了新的可能性。
 
 ## Solana Actions 的核心概念
 
@@ -8,7 +8,7 @@
 
 Actions 是可执行的区块链操作:
 
-- **标准化接口**: 遵循 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) Actions 规范的 API 端点
+- **标准化接口**: 遵循 Solana Actions 规范的 API 端点
 - **交易构建**: 服务端构建交易供用户签名
 - **元数据丰富**: 包含标题、描述、图标等展示信息
 - **交互式**: 支持用户输入参数
@@ -278,7 +278,7 @@ https://dial.to/?action=solana-action:https://yoursite.com/api/actions/donate
 
 主流钱包支持:
 
-- **Phantom**: 原生支持 Actions
+- **[Phantom](https://learnblockchain.cn/tags/Phantom?map=Solana)**: 原生支持 Actions
 - **Solflare**: 支持 Blinks 渲染
 - **Backpack**: 集成 Actions 功能
 - **移动钱包**: 通过深度链接支持
@@ -353,11 +353,11 @@ https://dial.to/?action=solana-action:https://yoursite.com/api/actions/donate
 
 ## 相关概念与技术
 
-- **[Solana](https://learnblockchain.cn/tags/Solana?map=Solana)**: Solana Actions 所属的区块链
+- **Solana**: Solana Actions 所属的区块链
 - **[Phantom](https://phantom.app/)**: 支持 Actions 的主流钱包
 - **[Dialect](https://www.dialect.to/)**: Blinks 技术的主要推动者
 - **Web3**: 去中心化互联网的新范式
 
 ## 总结
 
-Solana Actions 通过将复杂的区块链交互简化为简单的 URL 链接,极大地降低了 Web3 的使用门槛。Blinks 的可视化呈现使得区块链操作可以像点击按钮一样简单,为区块链应用的大规模普及铺平了道路。对于开发者而言,Actions 提供了一个标准化的接口,使得创建可分享、可嵌入的区块链应用变得前所未有的容易。随着生态系统的不断完善和更多平台的支持,Solana Actions 有望成为 Web3 用户体验的重要突破,推动区块链技术真正走向主流。
+[Solana](https://learnblockchain.cn/tags/Solana?map=Solana) Actions 通过将复杂的区块链交互简化为简单的 URL 链接,极大地降低了 Web3 的使用门槛。Blinks 的可视化呈现使得区块链操作可以像点击按钮一样简单,为区块链应用的大规模普及铺平了道路。对于开发者而言,Actions 提供了一个标准化的接口,使得创建可分享、可嵌入的区块链应用变得前所未有的容易。随着生态系统的不断完善和更多平台的支持,[Solana](https://learnblockchain.cn/tags/Solana?map=Solana) Actions 有望成为 Web3 用户体验的重要突破,推动区块链技术真正走向主流。

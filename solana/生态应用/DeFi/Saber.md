@@ -1,6 +1,6 @@
 ## Saber
 
-Saber 是 Solana 上专注于稳定币的自动做市商（AMM），为稳定币对提供低滑点交易。
+Saber 是 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 上专注于稳定币的自动做市商（AMM），为稳定币对提供低滑点交易。
 
 ### 核心特点
 
@@ -8,7 +8,7 @@ Saber 是 Solana 上专注于稳定币的自动做市商（AMM），为稳定币
 采用 StableSwap 曲线，为稳定币对（USDC/USDT）提供极低滑点。
 
 **跨链桥接**
-支持多链资产桥接到 Solana。
+支持多链资产桥接到 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana)。
 
 ### SBR 代币
 

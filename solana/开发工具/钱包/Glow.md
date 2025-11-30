@@ -1,6 +1,6 @@
 ## Glow
 
-Glow 是注重隐私和安全的 Solana 钱包。
+Glow 是注重隐私和安全的 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 钱包。
 
 ### 特点
 

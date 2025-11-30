@@ -1,6 +1,6 @@
 ## web3.js
 
-@solana/web3.js 是 Solana 官方的 JavaScript SDK，用于在浏览器和 Node.js 中与 Solana 区块链交互。它是 Solana 前端开发的基础库。
+@solana/[web3.js](https://learnblockchain.cn/tags/?map=Solana) 是 Solana 官方的 JavaScript SDK，用于在浏览器和 Node.js 中与 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 区块链交互。它是 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 前端开发的基础库。
 
 ### 核心功能
 
@@ -63,13 +63,13 @@ const keypair = Keypair.generate();
 const keypair = Keypair.fromSecretKey(secretKey);
 ```
 
-**SystemProgram**
+**System[Program](https://learnblockchain.cn/tags/Program?map=Solana)**
 系统程序的指令构造器。
 
 **Transaction**
 交易对象，包含指令列表。
 
-### SPL Token 操作
+### [SPL Token](https://learnblockchain.cn/tags/SPL Token?map=Solana) 操作
 
 需要额外安装 `@solana/spl-token`：
 ```javascript
@@ -98,10 +98,10 @@ try {
 使用 `getMultipleAccountsInfo` 减少 RPC 调用。
 
 
-web3.js 2.0 改名为 kit
+[web3.js](https://learnblockchain.cn/tags/?map=Solana) 2.0 改名为 kit
 
 ### 相关概念
 
-- **Anchor**：高级 Solana 程序框架
+- **[Anchor](https://learnblockchain.cn/tags/Anchor?map=Solana)**：高级 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 程序框架
 - **Wallet Adapter**：钱包连接库
-- **SPL Token**：代币标准库
+- **[SPL Token](https://learnblockchain.cn/tags/SPL Token?map=Solana)**：代币标准库

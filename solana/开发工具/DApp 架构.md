@@ -1,16 +1,16 @@
 ## DApp 架构
 
-DApp（去中心化应用）架构指 Solana 上去中心化应用的技术架构设计。
+DApp（去中心化应用）架构指 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 上去中心化应用的技术架构设计。
 
 ### 典型架构
 
 **前端**
 - React/Next.js
 - Wallet Adapter
-- web3.js
+- [web3.js](https://learnblockchain.cn/tags/?map=Solana)
 
 **智能合约（链上）**
-- Rust/Anchor 程序
+- Rust/[Anchor](https://learnblockchain.cn/tags/Anchor?map=Solana) 程序
 - 状态存储
 - 业务逻辑
 
@@ -20,7 +20,7 @@ DApp（去中心化应用）架构指 Solana 上去中心化应用的技术架�
 - 缓存层
 
 **基础设施**
-- RPC 节点（Helius）
+- RPC 节点（[Helius](https://learnblockchain.cn/tags/Helius?map=Solana)）
 - IPFS/Arweave（存储）
 - CDN
 

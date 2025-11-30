@@ -1,6 +1,6 @@
 ## Solana 程序执行
 
-在 Solana 中，执行（Execution）指的是交易和指令在SVM虚拟机中的运行过程。Solana 的执行引擎 Sealevel 是其高性能的核心，支持并行执行、确定性和高效的资源管理。
+在 Solana 中，执行（Execution）指的是交易和指令在[SVM](https://learnblockchain.cn/tags/SVM?map=Solana)虚拟机中的运行过程。Solana 的执行引擎 Sealevel 是其高性能的核心，支持并行执行、确定性和高效的资源管理。
 
 ### Sealevel 并行运行时
 
@@ -64,7 +64,7 @@ Solana 使用 eBPF 作为智能合约的执行环境。
 
 **执行限制**
 - 计算单元（CU）限制
-- 调用深度限制（4 层 CPI）
+- 调用深度限制（4 层 [CPI](https://learnblockchain.cn/tags/CPI?map=Solana)）
 - 堆栈大小限制（32KB）
 - 账户数据大小限制（10MB）
 
@@ -82,7 +82,7 @@ Solana 使用 eBPF 作为智能合约的执行环境。
 
 ### 确定性保证
 
-Solana 执行是完全确定性的：
+[Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 执行是完全确定性的：
 
 **相同输入**
 - 相同交易
@@ -123,7 +123,7 @@ Solana 执行是完全确定性的：
 - CU 耗尽
 - 程序错误（panic, assert 失败）
 - 账户验证失败
-- CPI 深度超限
+- [CPI](https://learnblockchain.cn/tags/CPI?map=Solana) 深度超限
 
 **失败后果**
 - 整个交易回滚
@@ -133,7 +133,7 @@ Solana 执行是完全确定性的：
 
 ### 与 EVM 对比
 
-| 特性 | Solana Sealevel | Ethereum EVM |
+| 特性 | [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) Sealevel | Ethereum EVM |
 |------|-----------------|--------------|
 | 并行性 | 支持并行 | 串行执行 |
 | 状态访问 | 预先声明账户 | 动态访问 |
@@ -143,7 +143,7 @@ Solana 执行是完全确定性的：
 
 ### 相关概念
 
-- **Sealevel**：Solana 的并行运行时引擎
-- **eBPF**：Solana 智能合约的字节码格式
+- **Sealevel**：[Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 的并行运行时引擎
+- **eBPF**：[Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 智能合约的字节码格式
 - **CU（计算单元）**：衡量执行消耗的资源单位
 - **AccountsDB**：存储账户状态的数据库

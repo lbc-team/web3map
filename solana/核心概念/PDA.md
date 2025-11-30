@@ -1,6 +1,6 @@
 ## PDAs (程序派生地址)
 
-PDAs（Program Derived Addresses，程序派生地址）是 Solana 中一种特殊的账户地址，它由程序 ID 和一组种子（seeds）通过确定性算法生成，而不需要对应的私钥。PDAs 是 Solana 智能合约开发中最重要的概念之一，用于创建可由程序控制的账户。
+[PDAs](https://learnblockchain.cn/tags/PDA?map=Solana)（[Program](https://learnblockchain.cn/tags/Program?map=Solana) Derived Addresses，程序派生地址）是 Solana 中一种特殊的账户地址，它由程序 ID 和一组种子（seeds）通过确定性算法生成，而不需要对应的私钥。[PDAs](https://learnblockchain.cn/tags/PDA?map=Solana) 是 Solana 智能合约开发中最重要的概念之一，用于创建可由程序控制的账户。
 
 ### 核心特性
 
@@ -122,7 +122,7 @@ require!(expected_pda == *vault.key, ErrorCode::InvalidPDA);
 
 ### Anchor 框架中的 PDA
 
-Anchor 提供了简化的 PDA 操作：
+[Anchor](https://learnblockchain.cn/tags/Anchor?map=Solana) 提供了简化的 PDA 操作：
 
 ```rust
 #[derive(Accounts)]
@@ -142,7 +142,7 @@ pub struct Initialize<'info> {
 }
 ```
 
-Anchor 会自动：
+[Anchor](https://learnblockchain.cn/tags/Anchor?map=Solana) 会自动：
 - 查找正确的 bump 值
 - 验证 PDA 派生
 - 将 bump 存储在账户中
@@ -159,15 +159,15 @@ Anchor 会自动：
 
 ### 相关概念
 
-- **CPI（跨程序调用）**：PDA 常用于 CPI 中代表程序签名
-- **种子（Seeds）**：用于派生 PDA 的输入参数
-- **Bump Seed**：确保 PDA 不在曲线上的调整值
-- **Associated Token Account**：一种特殊的 PDA，用于用户的 Token 账户
+- **[CPI](https://learnblockchain.cn/tags/CPI?map=Solana)（跨程序调用）**：[PDA](https://learnblockchain.cn/tags/PDA?map=Solana) 常用于 [CPI](https://learnblockchain.cn/tags/CPI?map=Solana) 中代表程序签名
+- **种子（Seeds）**：用于派生 [PDA](https://learnblockchain.cn/tags/PDA?map=Solana) 的输入参数
+- **Bump Seed**：确保 [PDA](https://learnblockchain.cn/tags/PDA?map=Solana) 不在曲线上的调整值
+- **Associated Token Account**：一种特殊的 [PDA](https://learnblockchain.cn/tags/PDA?map=Solana)，用于用户的 Token 账户
 
 
 ## 相关概念与技术
 
-- **[Solana](https://learnblockchain.cn/tags/Solana?map=Solana)**: PDA 所属的区块链平台
-- **[Anchor](https://www.anchor-lang.com/)**: Solana 智能合约开发框架
-- **[SPL Token](https://spl.solana.com/token)**: Solana 代币标准
-- **关联代币账户(ATA)**: 基于 PDA 的代币账户实现
+- **Solana**: [PDA](https://learnblockchain.cn/tags/PDA?map=Solana) 所属的区块链平台
+- **[Anchor](https://www.anchor-lang.com/)**: [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 智能合约开发框架
+- **[SPL Token](https://spl.solana.com/token)**: [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 代币标准
+- **关联代币账户(ATA)**: 基于 [PDA](https://learnblockchain.cn/tags/PDA?map=Solana) 的代币账户实现

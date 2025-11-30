@@ -1,16 +1,16 @@
 ## RPC 及 API 服务
 
-RPC（Remote Procedure Call）和 API 服务是与 Solana 区块链交互的入口，提供查询和交易提交功能。
+RPC（Remote Procedure Call）和 API 服务是与 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 区块链交互的入口，提供查询和交易提交功能。
 
 ### 主要提供商
 
 **免费公共 RPC**
-- Solana 官方
+- [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 官方
 - GenesysGo
-- Helius（有限额）
+- [Helius](https://learnblockchain.cn/tags/Helius?map=Solana)（有限额）
 
 **付费专业服务**
-- **Helius**：增强 API，cNFT 支持
+- **[Helius](https://learnblockchain.cn/tags/Helius?map=Solana)**：增强 API，cNFT 支持
 - **QuickNode**：全球节点，高可用
 - **GenesysGo**：高性能
 - **Alchemy**：多链支持
@@ -42,6 +42,6 @@ RPC（Remote Procedure Call）和 API 服务是与 Solana 区块链交互的入�
 
 ### 相关概念
 
-- **Helius**：领先 RPC 提供商
+- **[Helius](https://learnblockchain.cn/tags/Helius?map=Solana)**：领先 RPC 提供商
 - **QuickNode**：多链 RPC
-- **GenesysGo**：Solana 专注
+- **GenesysGo**：[Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 专注

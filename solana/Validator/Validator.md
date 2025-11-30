@@ -5,7 +5,7 @@ Validator 客户端是运行 Solana 验证器节点的软件实现。不同的�
 ### 主要客户端
 
 **1. Agave（原 Solana Labs 客户端）**
-- Solana Labs 官方维护
+- [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) Labs 官方维护
 - Rust 实现
 - 最成熟稳定
 - 大多数验证者使用
@@ -17,8 +17,8 @@ Validator 客户端是运行 Solana 验证器节点的软件实现。不同的�
 - 目标 100 万+ TPS
 - 2024 年测试网上线
 
-**3. Jito-Solana**
-- Jito Labs 开发
+**3. [Jito](https://learnblockchain.cn/tags/Jito?map=Solana)-[Solana](https://learnblockchain.cn/tags/Solana?map=Solana)**
+- [Jito](https://learnblockchain.cn/tags/Jito?map=Solana) Labs 开发
 - 基于 Agave 的优化版本
 - 支持 MEV（最大可提取价值）
 - 区块空间拍卖

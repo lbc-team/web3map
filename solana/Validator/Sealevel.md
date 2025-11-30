@@ -1,6 +1,6 @@
 ## Sealevel 概述
 
-Sealevel 是 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 区块链的并行智能合约运行时,是 Solana 实现高性能的核心引擎。与传统区块链串行执行交易不同,Sealevel 能够在单个时间槽(约 400ms)内并行执行数万笔交易。通过利用现代 CPU 的多核架构和 Solana 的账户模型,Sealevel 突破了传统区块链的性能瓶颈,使 Solana 成为首个支持真正并行执行的区块链。
+Sealevel 是 Solana 区块链的并行智能合约运行时,是 Solana 实现高性能的核心引擎。与传统区块链串行执行交易不同,Sealevel 能够在单个时间槽(约 400ms)内并行执行数万笔交易。通过利用现代 CPU 的多核架构和 Solana 的账户模型,Sealevel 突破了传统区块链的性能瓶颈,使 Solana 成为首个支持真正并行执行的区块链。
 
 **官网**: https://solana.com/
 
@@ -253,4 +253,4 @@ top -p $(pgrep solana-validator)
 
 ## 总结
 
-Sealevel 通过并行执行引擎,彻底突破了传统区块链的性能天花板。它利用 Solana 独特的账户模型和 PoH 时间证明,实现了无锁的并行交易处理。与 Cloudbreak、Gulf Stream 等组件深度整合,Sealevel 使 Solana 能够在单个时间槽内处理数万笔交易,同时保持 400ms 的低延迟。对于开发者而言,Sealevel 的并行化是透明的 — 只需声明账户访问关系,运行时自动处理并发。这种设计不仅简化了开发,还确保了确定性执行和结果的可复现性。作为 Solana 的核心技术之一,Sealevel 为 DeFi、GameFi、NFT 等高性能应用提供了坚实的基础,并将随着硬件的发展持续提升性能,为 Web3 的大规模应用铺平道路。
+Sealevel 通过并行执行引擎,彻底突破了传统区块链的性能天花板。它利用 Solana 独特的账户模型和 PoH 时间证明,实现了无锁的并行交易处理。与 Cloudbreak、Gulf Stream 等组件深度整合,Sealevel 使 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 能够在单个时间槽内处理数万笔交易,同时保持 400ms 的低延迟。对于开发者而言,Sealevel 的并行化是透明的 — 只需声明账户访问关系,运行时自动处理并发。这种设计不仅简化了开发,还确保了确定性执行和结果的可复现性。作为 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 的核心技术之一,Sealevel 为 DeFi、GameFi、NFT 等高性能应用提供了坚实的基础,并将随着硬件的发展持续提升性能,为 Web3 的大规模应用铺平道路。

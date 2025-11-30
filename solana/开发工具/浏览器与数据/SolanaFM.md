@@ -1,6 +1,6 @@
 ## SolanaFM
 
-SolanaFM 是新一代 Solana 区块链浏览器，专注于更好的用户体验和交易可读性。
+SolanaFM 是新一代 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 区块链浏览器，专注于更好的用户体验和交易可读性。
 
 ### 核心特色
 
@@ -15,5 +15,5 @@ SolanaFM 是新一代 Solana 区块链浏览器，专注于更好的用户体验
 
 ### 相关概念
 
-- **Solscan**：主流 Solana 浏览器
+- **Solscan**：主流 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 浏览器
 - **交易解析**：将字节码转为可读信息

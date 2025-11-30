@@ -1,6 +1,6 @@
 ## Staking
 
-Staking（质押）是 Solana 网络的核心机制，用户质押 SOL 支持验证者，获得质押奖励。
+Staking（质押）是 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 网络的核心机制，用户质押 SOL 支持验证者，获得质押奖励。
 
 ### 质押方式
 
@@ -14,7 +14,7 @@ Staking（质押）是 Solana 网络的核心机制，用户质押 SOL 支持验
 通过协议质押，获得 LST：
 - Marinade（mSOL）
 - Lido（stSOL）
-- Jito（jitoSOL）
+- [Jito](https://learnblockchain.cn/tags/Jito?map=Solana)（jitoSOL）
 
 优点：保持流动性，LST 可用于 DeFi。
 

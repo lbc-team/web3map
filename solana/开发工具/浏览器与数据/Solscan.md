@@ -1,6 +1,6 @@
 ## Solscan
 
-Solscan 是 Solana 最流行的区块链浏览器，提供直观的界面查看交易、账户、代币和 NFT 信息。
+Solscan 是 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 最流行的区块链浏览器，提供直观的界面查看交易、账户、代币和 NFT 信息。
 
 ### 主要功能
 
@@ -13,5 +13,5 @@ Solscan 是 Solana 最流行的区块链浏览器，提供直观的界面查看�
 
 ### 相关概念
 
-- **SolanaFM**：另一个 Solana 浏览器
+- **[Solana](https://learnblockchain.cn/tags/Solana?map=Solana)FM**：另一个 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 浏览器
 - **Etherscan**：以太坊浏览器

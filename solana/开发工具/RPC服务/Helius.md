@@ -1,6 +1,6 @@
 ## Helius
 
-Helius 是 Solana 最强大的 RPC 和数据基础设施提供商，提供增强型 API、实时数据流和开发者工具。
+[Helius](https://learnblockchain.cn/tags/Helius?map=Solana) 是 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 最强大的 RPC 和数据基础设施提供商，提供增强型 API、实时数据流和开发者工具。
 
 ### 核心服务
 
@@ -15,7 +15,7 @@ Helius 是 Solana 最强大的 RPC 和数据基础设施提供商，提供增强
 - Webhooks：实时推送区块链事件
 
 **3. 压缩 NFT 支持**
-Helius 对 cNFT 支持最好，提供完整的读取和监听 API。
+[Helius](https://learnblockchain.cn/tags/Helius?map=Solana) 对 cNFT 支持最好，提供完整的读取和监听 API。
 
 ### 定价
 
@@ -31,6 +31,6 @@ Helius 对 cNFT 支持最好，提供完整的读取和监听 API。
 
 ### 相关概念
 
-- **GenesysGo**：另一个 Solana RPC 提供商
+- **GenesysGo**：另一个 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) RPC 提供商
 - **QuickNode**：多链 RPC 服务
 - **cNFT**：压缩 NFT

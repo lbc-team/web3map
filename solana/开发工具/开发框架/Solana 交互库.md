@@ -1,6 +1,6 @@
-## Solana 交互库
+## [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 交互库
 
-交互库是用于与 Solana 区块链交互的软件库，不同语言有不同实现。
+交互库是用于与 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 区块链交互的软件库，不同语言有不同实现。
 
 ### 主要库
 

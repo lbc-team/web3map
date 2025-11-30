@@ -69,12 +69,12 @@ Jito 还提供流动性质押服务：
 **争议**
 - 可能加剧中心化（头部验证者获得更多 MEV）
 - 对普通用户不公平（出价高的优先）
-- 与 Solana "公平"理念冲突
+- 与 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) "公平"理念冲突
 
 ### 使用 Jito
 
 **验证者**
-切换到 Jito-Solana 客户端：
+切换到 Jito-[Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 客户端：
 ```bash
 # 安装 Jito-Solana
 sh -c "$(curl -sSfL https://release.jito.wtf/stable/install)"
@@ -90,7 +90,7 @@ sh -c "$(curl -sSfL https://release.jito.wtf/stable/install)"
 
 ### 数据表现
 
-- Jito 验证者数量：200+
+- [Jito](https://learnblockchain.cn/tags/Jito?map=Solana) 验证者数量：200+
 - jitoSOL 总锁仓：数亿美元
 - MEV 总收入：数千万美元
 
@@ -98,7 +98,7 @@ sh -c "$(curl -sSfL https://release.jito.wtf/stable/install)"
 
 | 项目 | 功能 |
 |------|------|
-| Jito | MEV + 流动性质押 |
+| [Jito](https://learnblockchain.cn/tags/Jito?map=Solana) | MEV + 流动性质押 |
 | Marinade | 纯流动性质押 |
 | Flashbots | 以太坊 MEV |
 
@@ -115,6 +115,6 @@ sh -c "$(curl -sSfL https://release.jito.wtf/stable/install)"
 ### 相关概念
 
 - **MEV**：最大可提取价值
-- **Agave**：Jito 基于的客户端
-- **jitoSOL**：Jito 的流动性质押代币
+- **Agave**：[Jito](https://learnblockchain.cn/tags/Jito?map=Solana) 基于的客户端
+- **jitoSOL**：[Jito](https://learnblockchain.cn/tags/Jito?map=Solana) 的流动性质押代币
 - **Flashbots**：以太坊上的 MEV 解决方案

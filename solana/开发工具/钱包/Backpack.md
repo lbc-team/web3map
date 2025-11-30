@@ -10,7 +10,7 @@ Backpack 是革命性的 Web3 钱包，内置 xNFT（可执行 NFT）运行时�
 - 使用 React 开发
 
 **2. 多链支持**
-- Solana, Ethereum, Polygon
+- [Solana](https://learnblockchain.cn/tags/Solana?map=Solana), Ethereum, Polygon
 
 **3. 应用商店**
 - 内置 xNFT 应用商店
@@ -30,7 +30,7 @@ xNFT = NFT + 可执行代码：
 
 ### 与传统钱包对比
 
-| 特性 | Backpack | Phantom |
+| 特性 | Backpack | [Phantom](https://learnblockchain.cn/tags/Phantom?map=Solana) |
 |------|----------|---------|
 | xNFT | 支持 | 不支持 |
 | 应用商店 | 有 | 无 |
@@ -43,5 +43,5 @@ Backpack 的目标是成为 Web3 的"应用商店"，让钱包成为应用平台
 ### 相关概念
 
 - **xNFT**：可执行 NFT
-- **Phantom**：传统钱包
+- **[Phantom](https://learnblockchain.cn/tags/Phantom?map=Solana)**：传统钱包
 - **MetaMask Snaps**：类似概念

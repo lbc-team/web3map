@@ -1,6 +1,6 @@
 ## BitQuery
 
-BitQuery 是区块链数据 API 平台，提供 Solana 等多链的查询和分析服务。
+BitQuery 是区块链数据 API 平台，提供 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 等多链的查询和分析服务。
 
 ### 功能
 

@@ -1,6 +1,6 @@
 ## Geyser
 
-Geyser 是 Solana 验证器的插件接口，用于实时导出账户和交易数据。它允许开发者订阅区块链状态变化，实时获取账户更新、交易确认和区块信息，是构建索引服务、数据分析工具和实时应用的基础设施。
+Geyser 是 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 验证器的插件接口，用于实时导出账户和交易数据。它允许开发者订阅区块链状态变化，实时获取账户更新、交易确认和区块信息，是构建索引服务、数据分析工具和实时应用的基础设施。
 
 ### 核心功能
 
@@ -40,14 +40,14 @@ Geyser 插件提供以下数据流：
 ### 使用场景
 
 **1. 数据索引服务**
-像 Helius、QuickNode 这样的 RPC 提供商使用 Geyser 构建实时索引：
+像 [Helius](https://learnblockchain.cn/tags/Helius?map=Solana)、QuickNode 这样的 RPC 提供商使用 Geyser 构建实时索引：
 - 解析程序指令
 - 追踪 Token 转账
 - 监控 NFT 交易
 - 构建账户历史记录
 
 **2. 区块链浏览器**
-Solscan、SolanaFM 等浏览器使用 Geyser 实时更新：
+Solscan、[Solana](https://learnblockchain.cn/tags/Solana?map=Solana)FM 等浏览器使用 Geyser 实时更新：
 - 最新交易列表
 - 账户余额变化
 - 程序活动统计
@@ -125,6 +125,6 @@ solana-validator   --geyser-plugin-config /path/to/geyser-config.json
 
 ### 相关概念
 
-- **Yellowstone**：Solana 官方维护的 Geyser gRPC 插件实现
-- **AccountsDB**：Solana 存储账户数据的数据库，Geyser 从这里读取数据
+- **Yellowstone**：[Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 官方维护的 Geyser gRPC 插件实现
+- **AccountsDB**：[Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 存储账户数据的数据库，Geyser 从这里读取数据
 - **Websocket**：RPC 节点提供的实时订阅接口，功能类似但性能和完整性不如 Geyser

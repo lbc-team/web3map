@@ -4,7 +4,7 @@
 
 ### 交易结构
 
-一个完整的 Solana 交易包含：
+一个完整的 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 交易包含：
 
 **1. 签名（Signatures）**
 - 一个或多个签名
@@ -80,7 +80,7 @@ await connection.confirmTransaction(signature, 'confirmed');
 
 ### 原子性
 
-Solana 交易具有原子性：
+[Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 交易具有原子性：
 - 所有指令要么全部成功，要么全部失败
 - 不会出现部分执行的情况
 - 失败时状态完全回滚

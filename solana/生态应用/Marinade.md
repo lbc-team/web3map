@@ -1,6 +1,6 @@
 ## Marinade Finance 概述
 
-Marinade Finance 是 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 生态中最大的流动性质押协议,通过创新的委托策略和流动性代币机制,为用户提供更灵活、更高收益的质押体验。传统质押需要锁定 SOL 并等待解锁期,而 Marinade 允许用户获得流动性代币 mSOL,可在 DeFi 生态中自由使用,同时继续赚取质押奖励。作为 Solana 质押赛道的领导者,Marinade 管理着超过 700 万 SOL 的资产,并通过智能委托策略支持网络去中心化。
+Marinade Finance 是 Solana 生态中最大的流动性质押协议,通过创新的委托策略和流动性代币机制,为用户提供更灵活、更高收益的质押体验。传统质押需要锁定 SOL 并等待解锁期,而 Marinade 允许用户获得流动性代币 mSOL,可在 DeFi 生态中自由使用,同时继续赚取质押奖励。作为 Solana 质押赛道的领导者,Marinade 管理着超过 700 万 SOL 的资产,并通过智能委托策略支持网络去中心化。
 
 **官网**: https://marinade.finance/
 
@@ -224,7 +224,7 @@ console.log('累积收益:', profit, 'SOL')
 
 ## 相关概念与技术
 
-- **[Solana](https://learnblockchain.cn/tags/Solana?map=Solana)**: 高性能区块链
+- **Solana**: 高性能区块链
 - **[Jito](https://learnblockchain.cn/tags/Jito?map=Jito)**: MEV 基础设施
 - **[Solend](https://learnblockchain.cn/tags/Solend?map=Solend)**: 借贷协议
 - **[Raydium](https://learnblockchain.cn/tags/Raydium?map=Raydium)**: AMM DEX
@@ -232,4 +232,4 @@ console.log('累积收益:', profit, 'SOL')
 
 ## 总结
 
-Marinade Finance 通过创新的流动性质押机制,解决了传统质押的流动性问题,使用户能够在赚取质押奖励的同时,保持资产的流动性并参与 DeFi 生态。其智能的验证者委托策略不仅为用户优化收益,也支持了 Solana 网络的去中心化和安全性。作为 Solana 生态中最大的流动性质押协议,Marinade 的 mSOL 已成为 DeFi 基础设施的重要组成部分,被广泛应用于借贷、交易、流动性挖矿等场景。对于 SOL 持有者而言,Marinade 提供了一个简单、安全、高收益的质押解决方案,无需担心验证者选择和管理,即可享受质押奖励并灵活使用资产。随着 Solana 生态和跨链技术的发展,Marinade 将继续在流动性质押赛道保持领先地位,为用户创造更大价值。
+Marinade Finance 通过创新的流动性质押机制,解决了传统质押的流动性问题,使用户能够在赚取质押奖励的同时,保持资产的流动性并参与 DeFi 生态。其智能的验证者委托策略不仅为用户优化收益,也支持了 Solana 网络的去中心化和安全性。作为 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 生态中最大的流动性质押协议,Marinade 的 mSOL 已成为 DeFi 基础设施的重要组成部分,被广泛应用于借贷、交易、流动性挖矿等场景。对于 SOL 持有者而言,Marinade 提供了一个简单、安全、高收益的质押解决方案,无需担心验证者选择和管理,即可享受质押奖励并灵活使用资产。随着 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 生态和跨链技术的发展,Marinade 将继续在流动性质押赛道保持领先地位,为用户创造更大价值。

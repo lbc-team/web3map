@@ -1,6 +1,6 @@
 ## Solana介绍
 
-[Solana](https://learnblockchain.cn/tags/Solana?map=Solana)  是一种高性能的区块链平台，通过高效的共识机制和并行处理技术，解决现存区块链网络中常见的可扩展性和速度问题。
+Solana  是一种高性能的区块链平台，通过高效的共识机制和并行处理技术，解决现存区块链网络中常见的可扩展性和速度问题。
 
 Solana 每秒可处理超过 50,000 笔交易，交易确认时间约为 400 毫秒。
 
@@ -22,13 +22,13 @@ Solana的技术框架有几个关键创新：
 
 Solana 上的程序主要使用 Rust 来构建，Solana 通用了一系列 crates 来帮组开发者开发，参考[这里](https://solana.com/docs/clients/rust)。
 
-**Solana Program Library (SPL)**：是一组由 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 官方维护的标准智能合约库，提供了常用功能，如代币合约、治理模块等，帮助开发者快速构建复杂的 dApp 功能。
+**Solana [Program](https://learnblockchain.cn/tags/Program?map=Solana) Library (SPL)**：是一组由 Solana 官方维护的标准智能合约库，提供了常用功能，如代币合约、治理模块等，帮助开发者快速构建复杂的 dApp 功能。
 
-**Anchor** 是一个用 [Rust](https://learnblockchain.cn/tags/Rust?map=Web3) 编写的框架，旨在简化在 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 上开发智能合约。
+**[Anchor](https://learnblockchain.cn/tags/Anchor?map=Solana)** 是一个用 [Rust](https://learnblockchain.cn/tags/Rust?map=Web3) 编写的框架，旨在简化在 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 上开发智能合约。
 
-**Phantom 和 Sollet**：这两个是常用的 钱包 工具，支持 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 上的代币存储和交易。它们还可以与 dApp 集成，方便用户进行交互。
+**[Phantom](https://learnblockchain.cn/tags/Phantom?map=Solana) 和 Sollet**：这两个是常用的 钱包 工具，支持 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 上的代币存储和交易。它们还可以与 dApp 集成，方便用户进行交互。
 
-**Metaplex**：是一个用于创建和管理 NFT（非同质化代币）的平台和工具集，开发者可以利用 Metaplex 快速部署和管理 NFT 市场和拍卖。
+**[Metaplex](https://learnblockchain.cn/tags/Metaplex?map=Solana)**：是一个用于创建和管理 NFT（非同质化代币）的平台和工具集，开发者可以利用 [Metaplex](https://learnblockchain.cn/tags/Metaplex?map=Solana) 快速部署和管理 NFT 市场和拍卖。
 
 **Serum** ：是一个去中心化的衍生品交易协议和流动性基础设施，通过去中心化订单簿和匹配引擎，实现完全去中心化的交易。
 

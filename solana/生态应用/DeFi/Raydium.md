@@ -43,7 +43,7 @@ Raydium 创新性地将两种模式结合：
 - 流动性互通，降低滑点
 
 **高性能**
-利用 Solana 的高 TPS：
+利用 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 的高 TPS：
 - 交易确认时间 < 1 秒
 - 极低的手续费（约 $0.00025）
 - 支持高频交易
@@ -68,7 +68,7 @@ Raydium 创新性地将两种模式结合：
 
 ### 生态地位
 
-Raydium 是 Solana DeFi 的基础设施：
+Raydium 是 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) DeFi 的基础设施：
 - 最早的主流 DEX 之一
 - 为新代币提供首发平台
 - 大量项目通过 Raydium 启动流动性
@@ -92,6 +92,6 @@ Raydium 是 Solana DeFi 的基础设施：
 ### 相关概念
 
 - **Uniswap**：以太坊上最大的 AMM，Raydium 的对标项目
-- **OpenBook（原 Serum）**：Solana 上的链上订单簿协议
+- **OpenBook（原 Serum）**：[Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 上的链上订单簿协议
 - **Jupiter**：聚合 Raydium 流动性的交易路由器
-- **Orca**：Solana 上另一个主流 AMM，竞争对手
+- **Orca**：[Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 上另一个主流 AMM，竞争对手

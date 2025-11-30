@@ -1,6 +1,6 @@
 ## Solana Explorer
 
-Solana Explorer（区块链浏览器）是查看 Solana 区块链数据的 Web 工具，提供交易、账户、区块等信息的可视化界面。
+Solana Explorer（区块链浏览器）是查看 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 区块链数据的 Web 工具，提供交易、账户、区块等信息的可视化界面。
 
 ### 主要浏览器
 

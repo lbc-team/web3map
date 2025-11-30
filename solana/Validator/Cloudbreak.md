@@ -1,6 +1,6 @@
 ## Cloudbreak 概述
 
-Cloudbreak 是 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 区块链的水平扩展账户数据库,是 Solana 实现高性能存储的核心组件。传统区块链通常使用单一数据库存储所有状态,随着账户数量增长性能急剧下降。Cloudbreak 通过将账户数据映射到内存映射文件,并利用 SSD 的随机访问特性,实现了账户数据的水平扩展。这使得 Solana 能够支持数十亿个账户,同时保持极低的读写延迟。
+Cloudbreak 是 Solana 区块链的水平扩展账户数据库,是 Solana 实现高性能存储的核心组件。传统区块链通常使用单一数据库存储所有状态,随着账户数量增长性能急剧下降。Cloudbreak 通过将账户数据映射到内存映射文件,并利用 SSD 的随机访问特性,实现了账户数据的水平扩展。这使得 Solana 能够支持数十亿个账户,同时保持极低的读写延迟。
 
 **官网**: https://solana.com/
 
@@ -356,4 +356,4 @@ fn shrink_storage(store_id: AppendVecId) {
 
 ## 总结
 
-Cloudbreak 通过内存映射文件和水平扩展设计,为 Solana 提供了极致性能的账户存储。它巧妙地利用操作系统的虚拟内存管理和现代 SSD 的随机访问特性,实现了微秒级的读延迟和极高的写吞吐。与 Sealevel 的并行执行、Gulf Stream 的提前转发深度整合,Cloudbreak 成为 Solana 高性能基础设施的关键支柱。追加式存储、自动垃圾回收和智能缓存机制,确保了系统的长期稳定运行。对于开发者而言,Cloudbreak 是透明的 — 只需使用标准的 Solana SDK,即可自动享受其带来的性能优势。随着存储技术的演进(NVMe、持久化内存),Cloudbreak 将持续优化,为 Solana 的大规模应用提供更强大的存储基础。
+Cloudbreak 通过内存映射文件和水平扩展设计,为 Solana 提供了极致性能的账户存储。它巧妙地利用操作系统的虚拟内存管理和现代 SSD 的随机访问特性,实现了微秒级的读延迟和极高的写吞吐。与 Sealevel 的并行执行、Gulf Stream 的提前转发深度整合,Cloudbreak 成为 Solana 高性能基础设施的关键支柱。追加式存储、自动垃圾回收和智能缓存机制,确保了系统的长期稳定运行。对于开发者而言,Cloudbreak 是透明的 — 只需使用标准的 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) SDK,即可自动享受其带来的性能优势。随着存储技术的演进(NVMe、持久化内存),Cloudbreak 将持续优化,为 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 的大规模应用提供更强大的存储基础。

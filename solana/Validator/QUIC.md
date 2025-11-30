@@ -118,7 +118,7 @@ Solana 使用 Rust 的 Quinn 库：
 
 ### 对性能的贡献
 
-QUIC 是 Solana 实现高吞吐量和低延迟的关键：
+QUIC 是 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 实现高吞吐量和低延迟的关键：
 - 减少网络延迟
 - 提高数据传输效率
 - 支持大规模验证者网络
@@ -129,11 +129,11 @@ QUIC 是 Solana 实现高吞吐量和低延迟的关键：
 QUIC 是 HTTP/3 的基础，未来可能用于 RPC 接口。
 
 **协议优化**
-持续优化 QUIC 配置和参数，适应 Solana 的特定需求。
+持续优化 QUIC 配置和参数，适应 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 的特定需求。
 
 ### 相关概念
 
-- **Turbine**：Solana 的区块传播协议，运行在 QUIC 之上
+- **Turbine**：[Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 的区块传播协议，运行在 QUIC 之上
 - **UDP**：QUIC 基于的传输层协议
 - **TCP**：传统传输层协议，QUIC 的替代品
 - **HTTP/3**：基于 QUIC 的下一代 HTTP 协议

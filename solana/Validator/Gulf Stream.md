@@ -1,6 +1,6 @@
 ## Gulf Stream 概述
 
-Gulf Stream 是 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 区块链的无内存池交易转发协议,是 Solana 实现高性能的核心创新之一。与传统区块链的内存池(Mempool)机制不同,Gulf Stream 允许验证者在当前区块生产之前就开始执行和缓存未来的交易。通过将交易转发推送到网络边缘,Gulf Stream 显著减少了交易确认时间,并使 Solana 能够支持每秒 50,000+ 笔交易的吞吐量。
+Gulf Stream 是 Solana 区块链的无内存池交易转发协议,是 Solana 实现高性能的核心创新之一。与传统区块链的内存池(Mempool)机制不同,Gulf Stream 允许验证者在当前区块生产之前就开始执行和缓存未来的交易。通过将交易转发推送到网络边缘,Gulf Stream 显著减少了交易确认时间,并使 Solana 能够支持每秒 50,000+ 笔交易的吞吐量。
 
 **官网**: https://solana.com/
 
@@ -184,4 +184,4 @@ solana validators
 
 ## 总结
 
-Gulf Stream 通过消除传统内存池,彻底重新设计了区块链交易处理流程。它利用 PoH 的可预测性,将交易转发推送到网络边缘,使验证者能够提前执行交易。这种创新设计不仅大幅降低了延迟和内存占用,还提高了整个网络的吞吐量和稳定性。作为 Solana 八大核心技术之一,Gulf Stream 与 PoH、Turbine、Sealevel 等组件紧密配合,共同铸就了 Solana 的高性能基础。对于开发者而言,Gulf Stream 是透明的 — 只需使用标准的 Solana SDK,就能自动享受其带来的性能优势。随着网络的演进,Gulf Stream 将继续优化,为 Web3 应用提供更快、更可靠的交易处理能力。
+Gulf Stream 通过消除传统内存池,彻底重新设计了区块链交易处理流程。它利用 PoH 的可预测性,将交易转发推送到网络边缘,使验证者能够提前执行交易。这种创新设计不仅大幅降低了延迟和内存占用,还提高了整个网络的吞吐量和稳定性。作为 Solana 八大核心技术之一,Gulf Stream 与 PoH、Turbine、Sealevel 等组件紧密配合,共同铸就了 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 的高性能基础。对于开发者而言,Gulf Stream 是透明的 — 只需使用标准的 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) SDK,就能自动享受其带来的性能优势。随着网络的演进,Gulf Stream 将继续优化,为 Web3 应用提供更快、更可靠的交易处理能力。

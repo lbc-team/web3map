@@ -79,9 +79,9 @@ Agave 保持快速迭代：
 ### 与其他客户端的关系
 
 **客户端多样性**
-虽然 Agave 占主导地位，但 Solana 鼓励客户端多样性：
+虽然 Agave 占主导地位，但 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 鼓励客户端多样性：
 - **Firedancer**（Jump Crypto）：C++ 实现，目标极致性能
-- **Jito-Solana**（Jito Labs）：Agave 的 MEV 优化分支
+- **[Jito](https://learnblockchain.cn/tags/Jito?map=Solana)-[Solana](https://learnblockchain.cn/tags/Solana?map=Solana)**（[Jito](https://learnblockchain.cn/tags/Jito?map=Solana) Labs）：Agave 的 MEV 优化分支
 - **Sig**（Syndica）：Zig 实现
 - **Tinydancer**：轻客户端
 
@@ -112,5 +112,5 @@ Agave 是开源项目：
 
 - **Validator**：运行客户端参与网络共识的节点
 - **Firedancer**：另一个高性能客户端实现
-- **Jito-Solana**：基于 Agave 的 MEV 优化版本
+- **[Jito](https://learnblockchain.cn/tags/Jito?map=Solana)-[Solana](https://learnblockchain.cn/tags/Solana?map=Solana)**：基于 Agave 的 MEV 优化版本
 - **客户端多样性**：多种软件实现提高网络安全性
