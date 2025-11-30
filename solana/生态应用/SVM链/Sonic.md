@@ -1,5 +1,8 @@
 ## Sonic
 
+
+官网：https://www.sonic.game/
+
 Sonic 是第一个 [SVM](https://learnblockchain.cn/tags/SVM?map=Solana)（[Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 虚拟机）游戏链，专为游戏优化。
 
 ### 特点

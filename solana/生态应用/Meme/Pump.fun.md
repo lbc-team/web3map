@@ -1,5 +1,8 @@
 ## Pump.fun
 
+官网：https://pump.fun/
+
+
 Pump.fun 是 Solana 上最流行的 Meme 币发行平台，任何人都可以在几秒钟内零成本创建代币，无需编程知识。该平台通过独特的联合曲线（Bonding Curve）机制，实现了公平发行和自动流动性引导，成为 2024 年 Solana 生态最热门的应用之一。
 
 ### 核心机制

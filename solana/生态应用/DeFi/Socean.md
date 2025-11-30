@@ -1,5 +1,8 @@
 ## Socean
 
+
+官网：https://www.socean.fi/
+
 Socean 是 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 上的流动性质押协议，用户质押 SOL 获得 scnSOL。
 
 ### 功能

@@ -1,5 +1,8 @@
 ## GMGN.ai
 
+
+官网：https://gmgn.ai/
+
 GMGN.ai 是 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) Meme 币交易和分析工具，实时追踪 Pump.fun 和其他 Meme 币。
 
 ### 功能
