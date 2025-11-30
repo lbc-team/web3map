@@ -1,3 +1,5 @@
 .env
 temp.txt
 myenv
+
+__pycache__

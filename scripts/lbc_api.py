@@ -40,9 +40,8 @@ def update_tag(name: str, description: str, summary: str) -> Optional[str]:
             print(f"提交 {name} ok ")
         else:
             print(data)
-            
     else:
-        print(response.text)
+        print(f"更新TAG信息失败 - HTTP状态码: {response.status_code}, 错误信息: {response.text}")
 
 
 def get_tag_info(tag_name: str) -> Optional[str]:
