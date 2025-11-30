@@ -1,6 +1,6 @@
 ## SPL Token
 
-[SPL Token](https://learnblockchain.cn/tags/SPL Token?map=Solana) 是 Solana 上的代币标准，相当于以太坊的 ERC-20。SPL（[Solana](https://learnblockchain.cn/tags/Solana?map=Solana) [Program](https://learnblockchain.cn/tags/Program?map=Solana) Library）Token 程序定义了如何在 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 上创建、管理和转移可替代和不可替代代币。
+[SPL Token](https://learnblockchain.cn/tags/SPL Token?map=Solana) 是 Solana 上的代币标准，相当于以太坊的 ERC-20。SPL（Solana Program Library）Token 程序定义了如何在 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 上创建、管理和转移可替代和不可替代代币。
 
 ### 核心概念
 

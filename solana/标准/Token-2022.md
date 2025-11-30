@@ -5,7 +5,7 @@ Token-2022（也称为 Token Extensions 或 SPL Token-2022）是 SPL Token 的�
 ### 核心改进
 
 **向后兼容**
-Token-2022 与原 SPL Token 完全兼容：
+Token-2022 与原 [SPL Token](https://learnblockchain.cn/tags/SPL%20Token?map=Solana) 完全兼容：
 - 现有程序可以无缝支持
 - 相同的基础接口
 - 可选的扩展功能
@@ -106,7 +106,7 @@ Token-2022 使用不同的程序 ID：
 TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb
 ```
 
-原 SPL Token：
+原 [SPL Token](https://learnblockchain.cn/tags/SPL%20Token?map=Solana)：
 ```
 TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA
 ```

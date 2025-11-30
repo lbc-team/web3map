@@ -4,7 +4,7 @@ DoubleZero 是另一个 [SVM](https://learnblockchain.cn/tags/SVM?map=Solana) �
 
 ### 特点
 
-- 基于 SVM 
+- 基于 [SVM](https://learnblockchain.cn/tags/SVM?map=Solana) 
 - 专注特定用例
 - [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 生态互通
 
