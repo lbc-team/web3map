@@ -62,11 +62,13 @@
 
 [Jito](https://learnblockchain.cn/tags/Jito?map=Solana)
 
-[Solana Web3.js](https://learnblockchain.cn/tags/?map=Solana)
+[Solana Web3.js](https://learnblockchain.cn/tags/Solana-Web3.js?map=Solana)
 
-[Solana Kit](https://learnblockchain.cn/tags/Solana Kit?map=Solana)
+[@solana/web3.js](https://learnblockchain.cn/tags/Solana-Web3.js?map=Solana)
 
-[SPL Token](https://learnblockchain.cn/tags/SPL Token?map=Solana)
+[Solana Kit](https://learnblockchain.cn/tags/Solana%20Kit?map=Solana)
+
+[SPL Token](https://learnblockchain.cn/tags/SPL%20Token?map=Solana)
 
 [IDL](https://learnblockchain.cn/tags/IDL?map=Solana)
 
@@ -107,3 +109,5 @@
 [ZKP](https://learnblockchain.cn/tags/zkp)
 
 [Rollup](https://learnblockchain.cn/tags/Rollup)
+
+[课程](https://learnblockchain.cn/courses)

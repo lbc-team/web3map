@@ -1,6 +1,6 @@
-## [Kit](https://learnblockchain.cn/tags/Solana Kit?map=Solana)
+## Kit 
 
-[Kit](https://learnblockchain.cn/tags/Solana Kit?map=Solana) 是 Anza（原 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) Labs）开发的新一代 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 开发工具集，也是 @solana/[web3.js](https://learnblockchain.cn/tags/?map=Solana) 的 v2 版本，提供更现代化、模块化的开发体验。
+Kit 是 Anza（原 Solana Labs）开发的新一代 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 开发工具集，也是 [@solana/web3.js](https://learnblockchain.cn/tags/Solana-web3.js?map=Solana) 的 v2 版本，提供更现代化、模块化的开发体验。
 
 GitHub: https://github.com/anza-xyz/kit
 
@@ -54,7 +54,7 @@ const rpc = createSolanaRpc('https://api.mainnet-beta.solana.com');
 
 ### 迁移指南
 
-从 [web3.js](https://learnblockchain.cn/tags/?map=Solana) v1 迁移到 [Kit](https://learnblockchain.cn/tags/Solana Kit?map=Solana)(v2)：
+从 [web3.js](https://learnblockchain.cn/tags/Solana-web3.js?map=Solana) v1 迁移到 [Kit](https://learnblockchain.cn/tags/Solana%20Kit?map=Solana)(v2)：
 
 **v1 (旧)**
 ```typescript
@@ -74,13 +74,13 @@ const addr = address('...');
 
 ### 开发状态
 
-[Kit](https://learnblockchain.cn/tags/Solana Kit?map=Solana) 目前处于积极开发中：
+[Kit](https://learnblockchain.cn/tags/Solana%20Kit?map=Solana) 目前处于积极开发中：
 - 持续添加新功能
 - API 可能有Breaking Changes
 - 建议生产环境谨慎使用
 
 ### 相关概念
 
-- **[web3.js](https://learnblockchain.cn/tags/?map=Solana)**：[Solana](https://learnblockchain.cn/tags/Solana?map=Solana) JavaScript SDK
-- **Anza**：原 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) Labs，[Kit](https://learnblockchain.cn/tags/Solana Kit?map=Solana) 的开发团队
+- **[web3.js](https://learnblockchain.cn/tags/Solana-web3.js?map=Solana)**：[Solana](https://learnblockchain.cn/tags/Solana?map=Solana) JavaScript SDK
+- **Anza**：原 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) Labs，[Kit](https://learnblockchain.cn/tags/Solana%20Kit?map=Solana) 的开发团队
 - **模块化**：按功能拆分的设计理念

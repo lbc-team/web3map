@@ -52,7 +52,7 @@ def main():
         'path',
         nargs='?',
         default=None,
-        help='要处理的文件或目录路径（默认: solana/）'
+        help='要处理的文件或目录路径 '
     )
 
     args = parser.parse_args()
@@ -66,9 +66,7 @@ def main():
         # 如果是相对路径，从脚本父目录解析
         if not target_path.is_absolute():
             target_path = script_dir.parent / target_path
-    else:
-        # 默认处理 solana 目录
-        target_path = script_dir.parent / 'solana'
+
 
     # 检查路径是否存在
     if not target_path.exists():

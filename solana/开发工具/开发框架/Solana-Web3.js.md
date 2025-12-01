@@ -1,6 +1,6 @@
-## web3.js
+## @solanaweb3.js
 
-@solana/[web3.js](https://learnblockchain.cn/tags/?map=Solana) 是 Solana 官方的 JavaScript SDK，用于在浏览器和 Node.js 中与 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 区块链交互。它是 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 前端开发的基础库。
+@solana/web3.js 是 Solana 官方的 JavaScript SDK，用于在浏览器和 Node.js 中与 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 区块链交互。它是 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 前端开发的基础库。
 
 ### 核心功能
 
@@ -98,7 +98,7 @@ try {
 使用 `getMultipleAccountsInfo` 减少 RPC 调用。
 
 
-[web3.js](https://learnblockchain.cn/tags/?map=Solana) 2.0 改名为 kit
+[web3.js](https://learnblockchain.cn/tags/Solana-web3.js?map=Solana) 2.0 改名为 kit
 
 ### 相关概念
 

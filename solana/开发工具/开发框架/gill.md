@@ -117,7 +117,7 @@ const nfts = await gill.nft.findByOwner(ownerAddress);
 
 ### 与其他 SDK 对比
 
-| 特性 | gill | @[solana](https://learnblockchain.cn/tags/Solana?map=Solana)/[web3.js](https://learnblockchain.cn/tags/?map=Solana) | [Anchor](https://learnblockchain.cn/tags/Anchor?map=Solana) TS |
+| 特性 | gill | @[solana](https://learnblockchain.cn/tags/Solana?map=Solana)/[web3.js](https://learnblockchain.cn/tags/Solana-web3.js?map=Solana) | [Anchor](https://learnblockchain.cn/tags/Anchor?map=Solana) TS |
 |------|------|-----------------|-----------|
 | 易用性 | 极高 | 中等 | 高 |
 | 类型支持 | 完整 | 部分 | 完整 |
@@ -275,7 +275,7 @@ gill 处于活跃开发中：
 
 ### 相关概念
 
-- **@[solana](https://learnblockchain.cn/tags/Solana?map=Solana)/[web3.js](https://learnblockchain.cn/tags/?map=Solana)**：[Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 官方 JavaScript SDK，gill 的替代选择
+- **@[solana/web3.js](https://learnblockchain.cn/tags/Solana-web3.js?map=Solana)**：[Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 官方 JavaScript SDK，gill 的替代选择
 - **[Anchor](https://learnblockchain.cn/tags/Anchor?map=Solana)**：智能合约开发框架，也提供 TypeScript 客户端
 - **RPC**：远程过程调用，gill 通过 RPC 与 [Solana](https://learnblockchain.cn/tags/Solana?map=Solana) 交互
 - **SDK**：软件开发工具包，封装底层 API 提供便捷接口

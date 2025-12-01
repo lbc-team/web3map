@@ -7,7 +7,7 @@ DApp（去中心化应用）架构指 [Solana](https://learnblockchain.cn/tags/S
 **前端**
 - React/Next.js
 - Wallet Adapter
-- [web3.js](https://learnblockchain.cn/tags/?map=Solana)
+- [web3.js](https://learnblockchain.cn/tags/Solana-web3.js?map=Solana)
 
 **[智能合约](https://learnblockchain.cn/tags/%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6)（链上）**
 - Rust/[Anchor](https://learnblockchain.cn/tags/Anchor?map=Solana) 程序
