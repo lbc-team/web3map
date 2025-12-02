@@ -2,3 +2,4 @@
 .env
 .claude
 excalidraw/*.svg
+need_create_terms.md
