@@ -5,7 +5,7 @@ import os
 from pathlib import Path
 
 def get_all_markdown_files(base_dir='.'):
-    """获取所有 markdown 文件的文件名（不含扩展名）"""
+    """获取所有 markdown 文件的文件名（不含扩展名），转换为小写用于不区分大小写的比较"""
     md_files = set()
     for root, dirs, files in os.walk(base_dir):
         # 跳过隐藏文件夹和脚本环境
@@ -13,8 +13,8 @@ def get_all_markdown_files(base_dir='.'):
 
         for file in files:
             if file.endswith('.md'):
-                # 获取不含扩展名的文件名
-                filename = os.path.splitext(file)[0]
+                # 获取不含扩展名的文件名，并转换为小写
+                filename = os.path.splitext(file)[0].lower()
                 md_files.add(filename)
     return md_files
 
@@ -57,13 +57,13 @@ def extract_original_text(filename):
 
     print(f"已提取 {len(original_texts)} 个文本项到 scripts/temp.txt")
 
-    # 获取所有已存在的 markdown 文件
+    # 获取所有已存在的 markdown 文件（小写）
     existing_md_files = get_all_markdown_files('.')
 
-    # 检查哪些词条没有对应的 markdown 文件
+    # 检查哪些词条没有对应的 markdown 文件（不区分大小写）
     missing_terms = []
     for term in original_texts:
-        if term not in existing_md_files:
+        if term.lower() not in existing_md_files:
             missing_terms.append(term)
 
     # 将缺失的词条写入 need_create_terms.md
