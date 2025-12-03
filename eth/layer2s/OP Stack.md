@@ -1,7 +1,5 @@
 ## OP Stack
 
-
-
 [Op Stack](https://learnblockchain.cn/tags/OpStack?map=EVM) 是由 Optimism 团队开发的一套用于构建 [Layer2](https://learnblockchain.cn/tags/Layer2?map=EVM) 解决方案的模块化框架。它旨在提供一组可重用的工具和组件，帮助开发者更容易地创建和部署高效的扩展解决方案。
 
 以下是 [Op Stack](https://learnblockchain.cn/tags/OpStack?map=EVM) 的主要组成部分和功能：
