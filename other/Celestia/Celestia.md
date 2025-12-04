@@ -30,7 +30,7 @@ Celestia 采用 Tendermint BFT 共识算法的改进版本，提供即时最终�
 
 Celestia 引入了命名空间 Merkle 树（Namespaced Merkle Tree, NMT），允许多个 Rollup 或应用将数据发布到同一个 Celestia 区块，但每个应用只需下载和验证自己命名空间的数据。这种设计提高了数据隔离性和查询效率。
 
-### 技术优势
+### 核心优势
 
 **极致的可扩展性**
 

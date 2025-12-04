@@ -45,7 +45,7 @@ Morpho由Paul Frambot、Merlin Egalite和Mathis Gontier于2021年创立,总部�
 - 优化利率曲线
 - 提高存款人和借款人的收益
 
-## 技术优势
+## 核心优势
 
 ### 1. 利率优化
 

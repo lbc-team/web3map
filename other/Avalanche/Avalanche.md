@@ -36,7 +36,7 @@ Avalanche 采用专用链架构，每条链优化特定功能：
 
 C-Chain 完全兼容以太坊虚拟机，支持 Solidity 智能合约和所有以太坊工具（Remix、MetaMask、Hardhat 等）。以太坊开发者可以零门槛迁移应用到 Avalanche，享受更快的速度和更低的成本。
 
-### 技术优势
+### 核心优势
 
 **极高性能**
 

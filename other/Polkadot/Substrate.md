@@ -26,7 +26,7 @@ Substrate 支持多种共识算法，包括 BABE/GRANDPA（Polkadot 使用）、
 
 Substrate 原生支持 WebAssembly（WASM）作为智能合约和运行时的执行环境。WASM 比 EVM 更高效，支持多种编程语言（Rust、C/C++、AssemblyScript 等）。同时，Substrate 也可以集成 EVM，兼容以太坊生态。
 
-### 技术优势
+### 核心优势
 
 **快速开发**：使用 Substrate 可以在几周内构建一条功能完整的区块链，相比从零开发节省数月甚至数年时间。
 

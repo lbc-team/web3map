@@ -30,7 +30,7 @@ Nostr 与比特币闪电网络深度集成，支持原生的小额支付功能�
 
 NIP（Nostr Implementation Possibilities）是 Nostr 的扩展提案机制，类似以太坊的 EIP。开发者可以提交 NIP 定义新的消息类型、功能或最佳实践。现有的 NIP 涵盖了点赞（NIP-25）、转发（NIP-18）、加密私信（NIP-04）、长文章（NIP-23）等功能，使 Nostr 成为一个功能完整的社交协议。
 
-### 技术优势
+### 核心优势
 
 **抗审查性**
 

@@ -43,7 +43,7 @@ Snapshot的核心优势在于其链下投票机制——用户可以无需支付
 
 与Gnosis Safe、Tally、Discord、Telegram等工具深度集成，实现完整的治理工作流。
 
-## 技术优势
+## 核心优势
 
 ### 1. 成本效益
 

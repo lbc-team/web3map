@@ -34,7 +34,7 @@ BNB Chain 提供了与以太坊、Polygon、Avalanche 等多条链的官方跨�
 
 2023 年推出的 BNB Greenfield 是专注于去中心化存储的区块链，与 BNB Smart Chain 协同工作。用户可以在 Greenfield 上存储数据，并通过智能合约在 BNB Chain 上管理这些数据的权限和所有权，为 Web3 应用提供完整的存储解决方案。
 
-### 技术优势
+### 核心优势
 
 **卓越的性能**
 

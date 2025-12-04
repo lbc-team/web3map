@@ -90,7 +90,7 @@ web3.py 提供完整的账户管理功能：
 - **ABI 编解码**：`encode_abi()`、`decode_abi()` ABI 处理
 - **事件签名**：`event_signature_to_log_topic()` 生成事件主题
 
-## 技术优势
+## 主要特点
 
 **Python 生态整合**：web3.py 充分利用 Python 的强大生态,可以与 pandas、numpy、matplotlib、scikit-learn 等库无缝整合,特别适合数据分析和机器学习应用。
 

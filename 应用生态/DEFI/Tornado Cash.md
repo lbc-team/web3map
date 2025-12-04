@@ -55,7 +55,7 @@ Tornado Cash由匿名开发者Roman Semenov等人于2019年推出,基于zk-SNARK
 - Arbitrum
 - Avalanche等
 
-## 技术优势
+## 核心优势
 
 ### 1. 强隐私保护
 
