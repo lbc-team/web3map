@@ -33,9 +33,10 @@ Gas 优化主要围绕减少 EVM 操作码的执行数量和降低昂贵操作�
 
 ### 推荐阅读
 *   [Solidity Gas Optimization Tips](https://github.com/iskdrews/awesome-solidity-gas-optimization)
-*   [RareSkills: Gas Optimization](https://www.rareskills.io/post/gas-optimization)
+*   [RareSkills: Gas Optimization](https://decert.me/tutorial/rareskills-gas-optimization/)
 
 ### 相关概念
+
 *   **EVM Opcodes:** 以太坊虚拟机的指令集，每个指令都有对应的 Gas 成本。
 *   **Storage Slot:** EVM 永久存储的基本单元。
 *   **Optimizer:** Solidity 编译器自带的优化器，可以在编译时开启。
