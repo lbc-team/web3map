@@ -155,17 +155,18 @@ def remove_all_term_links(content, term_links):
 
 
 def add_links_to_content(content, term_links):
-    """为内容添加术语链接，每个术语最多替换2次"""
+    """为内容添加术语链接，每个术语最多替换2次，同一行只替换一次"""
     # 首先移除所有已存在的术语链接
     result = remove_all_term_links(content, term_links)
 
     for term, link in term_links.items():
         link_count = 0  # 当前术语已添加的链接数
+        replaced_lines = set()  # 记录已经替换过该术语的行号
         markdown_link = f'[{term}]({link})'
 
         # 使用正则表达式查找所有匹配的术语
         # 使用单词边界 \b 确保只替换完整的词，而不是词的一部分
-        # 对于包含特殊字符的术语（如 web3.js），需要特殊处理
+        # 对于包含特殊字符的术语(如 web3.js)，需要特殊处理
         if re.search(r'[a-zA-Z]', term):
             # 如果术语包含英文字母，使用单词边界
             pattern = re.compile(r'\b' + re.escape(term) + r'\b')
@@ -178,20 +179,32 @@ def add_links_to_content(content, term_links):
         for match in reversed(matches):
             pos = match.start()
 
+            # 计算当前匹配所在的行号
+            line_number = result[:pos].count('\n')
+
             # 检查是否在相关概念部分
             in_related_section = is_in_related_concepts_section(result, pos)
 
-            # 如果在相关概念部分，总是添加链接（不计入限制）
+            # 如果在相关概念部分，总是添加链接（不计入限制，但同一行仍只替换一次）
             if in_related_section:
+                # 检查该行是否已经替换过这个术语
+                if line_number in replaced_lines:
+                    continue
+
                 if (not is_in_code_block(result, pos) and
                     not is_in_inline_code(result, pos) and
                     not is_in_link(result, pos, len(term)) and
                     not is_in_url(result, pos)):
                     result = result[:pos] + markdown_link + result[pos + len(term):]
+                    replaced_lines.add(line_number)
                 continue
 
             # 如果不在相关概念部分，应用链接数量限制
             if link_count >= MAX_LINKS_PER_TERM:
+                continue
+
+            # 检查该行是否已经替换过这个术语
+            if line_number in replaced_lines:
                 continue
 
             # 检查是否应该跳过这个匹配
@@ -204,6 +217,7 @@ def add_links_to_content(content, term_links):
             # 替换为链接
             result = result[:pos] + markdown_link + result[pos + len(term):]
             link_count += 1
+            replaced_lines.add(line_number)
 
     return result
 

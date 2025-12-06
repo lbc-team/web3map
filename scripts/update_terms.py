@@ -4,6 +4,7 @@
 import sys
 import argparse
 from pathlib import Path
+from time import sleep
 from lbc_api import get_tag_info, update_tag
 
 
@@ -33,6 +34,8 @@ def update_tag_from_file(file_path):
     # print(tag_name, content)
 
     update_tag(tag_name, content, None)
+
+    sleep(2)
 
 
 def main():

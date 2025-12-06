@@ -2,11 +2,15 @@
 
 [比特币脚本](https://learnblockchain.cn/tags/比特币脚本?map=BTC)
 
+[BIP39](https://learnblockchain.cn/tags/BIP39)
+
 [以太坊](https://learnblockchain.cn/tags/以太坊?map=EVM)
 
 [Vitalik](https://learnblockchain.cn/tags/Vitalik?map=EVM)
 
 [Solidity](https://learnblockchain.cn/tags/Solidity?map=EVM)
+
+[Vyper](https://learnblockchain.cn/tags/Vyper?map=EVM)
 
 [Cairo](https://learnblockchain.cn/tags/Cairo?map=Web3)
 
@@ -15,6 +19,12 @@
 [Foundry](https://learnblockchain.cn/tags/Foundry?map=EVM)
 
 [EVM](https://learnblockchain.cn/tags/EVM?map=EVM)
+
+[EVM字节码](https://learnblockchain.cn/tags/EVM字节码?map=EVM)
+
+[zkEVM](https://learnblockchain.cn/tags/zkEVM?map=EVM)
+
+[zkVM](https://learnblockchain.cn/tags/zkVM)
 
 [Gas](https://learnblockchain.cn/tags/Gas?map=EVM)
 
@@ -28,6 +38,16 @@
 
 [DEX](https://learnblockchain.cn/tags/DEX?map=EVM)
 
+[Uniswap](https://learnblockchain.cn/tags/Uniswap?map=EVM)
+
+[Curve](https://learnblockchain.cn/tags/Curve?map=EVM)
+
+[AAVE](https://learnblockchain.cn/tags/AAVE?map=EVM)
+
+[RWA](https://learnblockchain.cn/tags/RWA)
+
+[Lido](https://learnblockchain.cn/tags/Lido?map=EVM)
+
 [钱包](https://learnblockchain.cn/tags/钱包?map=EVM)
 
 [账户](https://learnblockchain.cn/tags/账户?map=EVM)
@@ -35,6 +55,14 @@
 [ERC20](https://learnblockchain.cn/tags/ERC20?map=EVM)
 
 [ERC-20](https://learnblockchain.cn/tags/ERC20?map=EVM)
+
+[EIP7702](https://learnblockchain.cn/tags/EIP7702?map=EVM)
+
+[EIP-7702](https://learnblockchain.cn/tags/EIP7702?map=EVM)
+
+[EIP-1559](https://learnblockchain.cn/tags/EIP1559?map=EVM)
+
+[EIP1559](https://learnblockchain.cn/tags/EIP1559?map=EVM)
 
 [ERC721](https://learnblockchain.cn/tags/ERC721?map=EVM)
 
@@ -109,5 +137,19 @@
 [ZKP](https://learnblockchain.cn/tags/zkp)
 
 [Rollup](https://learnblockchain.cn/tags/Rollup)
+
+[IPFS](https://learnblockchain.cn/tags/IPFS)
+
+[Arweave](https://learnblockchain.cn/tags/Arweave)
+
+[CKB](https://learnblockchain.cn/tags/CKB)
+
+[Filecoin](https://learnblockchain.cn/tags/Filecoin)
+
+[Cosmos](https://learnblockchain.cn/tags/Cosmos)
+
+[EigenDA](https://learnblockchain.cn/tags/EigenDA)
+
+[x402](https://learnblockchain.cn/tags/x402)
 
 [课程](https://learnblockchain.cn/courses)
