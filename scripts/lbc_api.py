@@ -11,10 +11,35 @@ load_dotenv(".env")
 
 BASE_URL = os.getenv("LBC_SERVER_URL")
 API_KEY = os.getenv("LBC_API_KEY")
+print(BASE_URL, API_KEY)
 
 headers = {"x-api-key": API_KEY}
 
 
+def setmain_tag(main_tag_name: str, sub_tag_names: str) -> Optional[str]:
+
+    tag_params = {
+        "main_tag": main_tag_name,
+        "sub_tags": sub_tag_names,
+    }
+
+    url = f"{BASE_URL}/api/tag/setting"
+
+    response = requests.post(url, json=tag_params, headers=headers)
+
+    if response.ok:
+        data = response.json()
+        if data.get("code") == 0:
+            print(f"设置 {main_tag_name} 为主标签成功")
+            return True
+        else:
+            print(f"设置 {main_tag_name} 为主标签失败 - 错误代码: {data}")
+            return False
+    else:
+        print(f"设置 {main_tag_name} 为主标签失败 - HTTP状态码: {response.status_code}, 错误信息: {response.text}")
+        return False
+
+    return False
 
 def update_tag(name: str, description: str, summary: str) -> Optional[str]:
 
