@@ -29,4 +29,4 @@ def update_main_tag():
 
 if __name__ == "__main__":
     # update_main_tag()
-    setmain_tag("PLONK", "PLONK协议,PLONK算法")
+    setmain_tag("多签", "多签名,多签地址,Multisig钱包,multisig,Multisig wallet")
