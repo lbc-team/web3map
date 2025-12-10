@@ -150,6 +150,24 @@
 
 [EigenDA](https://learnblockchain.cn/tags/EigenDA)
 
+[Groth16](https://learnblockchain.cn/tags/Groth16)
+
+[Halo2](https://learnblockchain.cn/tags/Halo2)
+
+[circom](https://learnblockchain.cn/tags/circom)
+
+[zkSTARK](https://learnblockchain.cn/tags/zkSTARK)
+
+[zk-STARK](https://learnblockchain.cn/tags/zkSTARK)
+
+[zkSNARK](https://learnblockchain.cn/tags/zkSNARK)
+
+[zk-SNARK](https://learnblockchain.cn/tags/zkSNARK)
+
+[PLONK](https://learnblockchain.cn/tags/PLONK)
+
+[椭圆曲线密码学](https://learnblockchain.cn/tags/椭圆曲线密码学)
+
 [x402](https://learnblockchain.cn/tags/x402)
 
 [课程](https://learnblockchain.cn/courses)

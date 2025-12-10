@@ -4,7 +4,7 @@ Aztec 是以太坊上的一个隐私优先的 Layer 2 扩展解决方案（ZK-Ro
 
 ## 要解决的问题
 
-在公有区块链（如以太坊）上，所有的交易数据、账户余额和智能合约逻辑都是完全公开透明的。虽然这种透明性带来了信任，但也带来了严重的隐私问题：
+在公有区块链（如以太坊）上，所有的交易数据、[账户](https://learnblockchain.cn/tags/账户?map=EVM)余额和智能合约逻辑都是完全公开透明的。虽然这种透明性带来了信任，但也带来了严重的隐私问题：
 
 1.  **财务隐私泄露**：用户的薪资、交易习惯和资产总额对所有人可见，容易被链上分析工具追踪。
 2.  **商业机密风险**：企业无法在公链上处理供应链金融、工资发放或敏感商业合同，因为竞争对手可以窥探其商业活动。
@@ -14,28 +14,28 @@ Aztec 致力于解决这些问题，提供“默认隐私”的执行环境，�
 
 ## 实现机制与原理
 
-Aztec 的核心技术架构围绕着隐私状态管理和递归零知识证明展开。
+Aztec 的核心技术架构围绕着隐私状态管理和递归[零知识证明](https://learnblockchain.cn/tags/%E9%9B%B6%E7%9F%A5%E8%AF%86%E8%AF%81%E6%98%8E)展开。
 
 ### 混合状态模型 (UTXO + Account)
-为了实现隐私，Aztec 采用了类似比特币的 UTXO（未花费交易输出）模型来处理加密资产，这种结构天然适合隐私保护，因为每个 Note（票据）都是独立的，不直接关联账户余额。同时，为了支持复杂的智能合约逻辑，Aztec 结合了以太坊的账户模型，允许公开状态和私有状态并存。
+为了实现隐私，Aztec 采用了类似[比特币](https://learnblockchain.cn/tags/比特币?map=BTC)的 UTXO（未花费交易输出）模型来处理加密资产，这种结构天然适合隐私保护，因为每个 Note（票据）都是独立的，不直接关联账户余额。同时，为了支持复杂的智能合约逻辑，Aztec 结合了以太坊的[账户](https://learnblockchain.cn/tags/账户?map=EVM)模型，允许公开状态和私有状态并存。
 *   **私有状态**：以加密的 UTXO 形式存储在 Merkle Tree 中，只有拥有解密密钥的用户才能查看和花费。
 *   **公开状态**：类似于以太坊的公共存储，所有人可见。
 
 ### Noir 编程语言
-Aztec 开发了 Noir，这是一种专门为零知识证明设计的领域特定语言（DSL）。开发者使用 Noir 编写隐私智能合约（Private Smart Contracts）。编译器将高级代码转换为零知识电路（Circuit），使得普通开发者无需深厚的密码学背景也能构建隐私应用。
+Aztec 开发了 Noir，这是一种专门为[零知识证明](https://learnblockchain.cn/tags/%E9%9B%B6%E7%9F%A5%E8%AF%86%E8%AF%81%E6%98%8E)设计的领域特定语言（DSL）。开发者使用 Noir 编写隐私智能合约（Private Smart Contracts）。编译器将高级代码转换为零知识电路（Circuit），使得普通开发者无需深厚的密码学背景也能构建隐私应用。
 
 ### Kernel Circuits 与 Rollup
 Aztec 使用“Kernel Circuits”（内核电路）来验证单个交易的正确性（包括私有函数执行的证明）。
 1.  **客户端证明**：用户的浏览器或本地设备生成交易的隐私证明（证明我有权花费这笔钱，但不透露具体金额和接收方）。
-2.  **递归聚合**：Aztec 节点（Sequencers）将多个交易的证明递归地聚合成一个大的证明（Rollup Proof）。
-3.  **以太坊验证**：最终的聚合证明被提交到以太坊主网上的智能合约进行验证，确保 Layer 2 状态转换的正确性。
+2.  **递归聚合**：Aztec 节点（Sequencers）将多个交易的证明递归地聚合成一个大的证明（[Rollup](https://learnblockchain.cn/tags/Rollup) Proof）。
+3.  **以太坊验证**：最终的聚合证明被提交到[以太坊](https://learnblockchain.cn/tags/以太坊?map=EVM)主网上的[智能合约](https://learnblockchain.cn/tags/%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6)进行验证，确保 Layer 2 状态转换的正确性。
 
 ## 主要特点
 
-*   **可编程隐私**：不同于仅支持转账隐私的 Zcash，Aztec 支持通用的隐私智能合约，允许构建隐私 DeFi、隐私 DAO 和加密游戏。
+*   **可编程隐私**：不同于仅支持转账隐私的 Zcash，Aztec 支持通用的隐私[智能合约](https://learnblockchain.cn/tags/%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6)，允许构建隐私 [DeFi](https://learnblockchain.cn/tags/DeFi?map=EVM)、隐私 DAO 和加密游戏。
 *   **双重状态树**：同时维护私有状态树和公共状态树，使得应用可以灵活选择哪些数据公开，哪些数据保密。
 *   **去中心化定序器**：Aztec 计划实施去中心化的定序器网络，以避免单点故障和审查风险。
-*   **以太坊安全性**：作为 Layer 2，Aztec 的安全性最终锚定在以太坊主网上。
+*   **以太坊安全性**：作为 Layer 2，Aztec 的安全性最终锚定在[以太坊](https://learnblockchain.cn/tags/以太坊?map=EVM)主网上。
 
 ## 推荐阅读
 
@@ -45,7 +45,7 @@ Aztec 使用“Kernel Circuits”（内核电路）来验证单个交易的正�
 
 ## 相关概念
 
-*   **ZK-Rollup**
+*   **ZK-[Rollup](https://learnblockchain.cn/tags/Rollup)**
 *   **UTXO 模型**
 *   **Noir**
 *   **Plonk (证明系统)**

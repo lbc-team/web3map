@@ -29,4 +29,4 @@ def update_main_tag():
 
 if __name__ == "__main__":
     # update_main_tag()
-    setmain_tag("Runes", "RUNE,符文,符文协议,Runes协议")
+    setmain_tag("PLONK", "PLONK协议,PLONK算法")

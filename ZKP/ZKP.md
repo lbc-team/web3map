@@ -18,7 +18,7 @@
 
 1. **计算证明**：在区块链中，每个节点的计算能力有限，但借助 ZKP 技术，节点可以将大量的计算外包给链下节点，链上只需要验证链下提交的计算结果和计算证明就可以知道计算是否正确。zkRollup 方案就是很好的例子。
 2. **隐私证明**：ZKP 的零知识特性，可以成为保护隐私的工具，例如 Zcash 利用 ZKP 来实现对交易信息的保密。
-3. **数据压缩**：Filecoin 运用 ZKP 构造了时空证明系统，能证明用户在本地存储了特定文件，Mina 借助递归零知识证明，将区块链账本压缩到 11 KB。
+3. **数据压缩**：[Filecoin](https://learnblockchain.cn/tags/Filecoin) 运用 ZKP 构造了时空证明系统，能证明用户在本地存储了特定文件，Mina 借助递归零知识证明，将区块链账本压缩到 11 KB。
 
 
 
@@ -38,7 +38,7 @@
 
 特点：简洁证明大小，证明验证耗时相比较短，但需要对每一个电路进行可信设置。
 
-代表项目：Groth16。
+代表项目：[Groth16](https://learnblockchain.cn/tags/Groth16)。
 
 **STARKs** (Succinct (Scalable) Transparent ARguments of Knowledge)：
 
@@ -50,7 +50,7 @@
 
 特点：简洁证明大小，无需可信设置，但证明生成和验证耗时相比较长。
 
-代表项目：Bulletproofs, Halo, Halo2。
+代表项目：Bulletproofs, Halo, [Halo2](https://learnblockchain.cn/tags/Halo2)。
 
 **SNORKs** (Succinct Non-interactive Oecumenical (Universal) aRguments of Knowledge)
 
@@ -60,13 +60,13 @@
 
 
 
-## 构造零知识证明 （ZKP 编程）
+## 构造零知识证明 （[ZKP](https://learnblockchain.cn/tags/zkp) 编程）
 
-要实现一个零知识证明通常要进行以下几步：
+要实现一个[零知识证明](https://learnblockchain.cn/tags/%E9%9B%B6%E7%9F%A5%E8%AF%86%E8%AF%81%E6%98%8E)通常要进行以下几步：
 
 1. **问题转化**：证明者需要把待证明的问题转化为一个标准化的形式，如布尔电路或算术电路或R1CS，即电路可满足性问题（Circuit-SAT）。
 
-   > 电路(Circuit) 是零知识证明的逻辑实现代码，是多项式的形象化表达，而不是硬件电路。
+   > 电路(Circuit) 是[零知识证明](https://learnblockchain.cn/tags/%E9%9B%B6%E7%9F%A5%E8%AF%86%E8%AF%81%E6%98%8E)的逻辑实现代码，是多项式的形象化表达，而不是硬件电路。
 
 2. **生产证明**：证明者使用这个电路生成一个证明。通常包括把电路变成多项式，转换成多项式可满足性问题（Polynomial-SAT）。
 
@@ -76,7 +76,7 @@
 
 
 
-证明系统面临的主要挑战之一是将抽象的高级概念转化为实际电路，初学者可以从 zk DSL （特定领域语言） 开始， 例如Circom、Halo2 或 Cairo ，DSL 简化了 ZKP 电路的开发和验证。另外还有一些开发库实现了基础电路和不同程度的抽象，例如：[libsnark](https://github.com/scipr-lab/libsnark)、[gnark](https://github.com/consensys/gnark)、[snarkjs](https://github.com/iden3/snarkjs) 。
+证明系统面临的主要挑战之一是将抽象的高级概念转化为实际电路，初学者可以从 zk DSL （特定领域语言） 开始， 例如Circom、[Halo2](https://learnblockchain.cn/tags/Halo2) 或 [Cairo](https://learnblockchain.cn/tags/Cairo?map=Web3) ，DSL 简化了 [ZKP](https://learnblockchain.cn/tags/zkp) 电路的开发和验证。另外还有一些开发库实现了基础电路和不同程度的抽象，例如：[libsnark](https://github.com/scipr-lab/libsnark)、[gnark](https://github.com/consensys/gnark)、[snarkjs](https://github.com/iden3/snarkjs) 。
 
 
 

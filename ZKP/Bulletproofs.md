@@ -14,7 +14,7 @@ Bulletproofs 最显著的优势是不需要可信设置阶段，所有公共参�
 
 **对数级证明体积**
 
-Bulletproofs 的证明大小呈对数级增长 O(log n)，其中 n 为被证明的陈述数量。对于范围证明，证明体积约为 2log₂(n) + 9 个椭圆曲线元素，在实践中约为 600-700 字节。虽然比 zk-STARK 的证明小得多，但比 zk-SNARK 略大，不过考虑到无需可信设置的优势，这种体积增加是可接受的权衡。
+Bulletproofs 的证明大小呈对数级增长 O(log n)，其中 n 为被证明的陈述数量。对于范围证明，证明体积约为 2log₂(n) + 9 个椭圆曲线元素，在实践中约为 600-700 字节。虽然比 [zk-STARK](https://learnblockchain.cn/tags/zkSTARK) 的证明小得多，但比 zk-SNARK 略大，不过考虑到无需可信设置的优势，这种体积增加是可接受的权衡。
 
 **证明聚合**
 
@@ -22,7 +22,7 @@ Bulletproofs 支持多个证明的聚合：可以将 m 个独立的 n 位范围�
 
 **验证效率权衡**
 
-Bulletproofs 的验证时间复杂度为 O(n)，相对线性增长。虽然不如 zk-SNARK 的常数时间验证快，但在实际应用中仍然高效。对于范围证明等常见场景，验证时间在可接受范围内。这种性能特性使得 Bulletproofs 适合区块链等需要多次验证的场景，尽管单次验证略慢，但无需可信设置的优势弥补了这一不足。
+Bulletproofs 的验证时间复杂度为 O(n)，相对线性增长。虽然不如 [zk-SNARK](https://learnblockchain.cn/tags/zkSNARK) 的常数时间验证快，但在实际应用中仍然高效。对于范围证明等常见场景，验证时间在可接受范围内。这种性能特性使得 Bulletproofs 适合区块链等需要多次验证的场景，尽管单次验证略慢，但无需可信设置的优势弥补了这一不足。
 
 ## 技术原理
 
@@ -46,9 +46,9 @@ Bulletproofs 首先在 Monero、Grin、Beam 等隐私加密货币中得到应用
 
 Bulletproofs 可以用于机密审计场景，在保护隐私的同时证明合规性。例如，企业可以向监管机构证明财务数据满足某些条件（如总资产超过门槛、负债率低于上限）而不公开完整财务信息。这种选择性披露机制平衡了隐私保护和监管需求。
 
-**智能合约隐私**
+**[智能合约](https://learnblockchain.cn/tags/%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6)隐私**
 
-Bulletproofs 可以集成到智能合约中，实现保密计算和隐私状态更新。例如，在拍卖或投票系统中，可以证明出价或选票有效而不泄露具体内容。在 DeFi 协议中，可以实现保密的抵押和借贷，保护用户的财务隐私。
+Bulletproofs 可以集成到[智能合约](https://learnblockchain.cn/tags/%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6)中，实现保密计算和隐私状态更新。例如，在拍卖或投票系统中，可以证明出价或选票有效而不泄露具体内容。在 [DeFi](https://learnblockchain.cn/tags/DeFi?map=EVM) 协议中，可以实现保密的抵押和借贷，保护用户的财务隐私。
 
 ## 发展历程
 
@@ -56,9 +56,9 @@ Bulletproofs 可以集成到智能合约中，实现保密计算和隐私状态�
 
 2018 年，Monero 正式将 Bulletproofs 集成到主网，替代了之前的 Borromean 环签名范围证明。这次升级使 Monero 交易体积减少了约 80%，区块链增长速度大幅降低，改善了可扩展性。Monero 的成功应用证明了 Bulletproofs 在生产环境中的可行性。
 
-2019-2020 年，Grin、Beam 等基于 Mimblewimble 协议的隐私加密货币采用了 Bulletproofs。研究社区继续改进 Bulletproofs+等变体，进一步优化性能和减小证明体积。一些 Layer2 方案也开始探索 Bulletproofs 的应用。
+2019-2020 年，Grin、Beam 等基于 Mimblewimble 协议的隐私加密货币采用了 Bulletproofs。研究社区继续改进 Bulletproofs+等变体，进一步优化性能和减小证明体积。一些 [Layer2](https://learnblockchain.cn/tags/Layer2?map=EVM) 方案也开始探索 Bulletproofs 的应用。
 
-2021 年至今，随着零知识证明技术的广泛应用和隐私保护需求的增长，Bulletproofs 仍然是无需可信设置的主流方案之一，在多个项目中持续发挥作用。
+2021 年至今，随着[零知识证明](https://learnblockchain.cn/tags/%E9%9B%B6%E7%9F%A5%E8%AF%86%E8%AF%81%E6%98%8E)技术的广泛应用和隐私保护需求的增长，Bulletproofs 仍然是无需可信设置的主流方案之一，在多个项目中持续发挥作用。
 
 ## 相关链接
 
@@ -69,8 +69,8 @@ Bulletproofs 可以集成到智能合约中，实现保密计算和隐私状态�
 
 ## 相关协议
 
-- **zk-SNARK**：需要可信设置的零知识证明方案
-- **zk-STARK**：另一种无需可信设置的证明协议
+- **[zk-SNARK](https://learnblockchain.cn/tags/zkSNARK)**：需要可信设置的[零知识证明](https://learnblockchain.cn/tags/%E9%9B%B6%E7%9F%A5%E8%AF%86%E8%AF%81%E6%98%8E)方案
+- **[zk-STARK](https://learnblockchain.cn/tags/zkSTARK)**：另一种无需可信设置的证明协议
 - **Pedersen 承诺**：Bulletproofs 使用的密码学原语
 - **Monero**：最早采用 Bulletproofs 的隐私加密货币
 - **Mimblewimble**：采用 Bulletproofs 的隐私区块链协议
