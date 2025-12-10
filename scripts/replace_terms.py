@@ -304,16 +304,17 @@ def main():
             formatter_class=argparse.RawDescriptionHelpFormatter,
             epilog='''
 示例:
-  python replace_terms.py                    # 默认处理 solana 目录
-  python replace_terms.py solana            # 处理 solana 目录
-  python replace_terms.py eth/eips          # 处理 eth/eips 目录
+  python replace_terms.py                              # 默认处理 solana 目录
+  python replace_terms.py solana                      # 处理 solana 目录
+  python replace_terms.py eth/eips                    # 处理 eth/eips 目录
+  python replace_terms.py bitcoin/协议/BOLT11.md      # 处理单个文件
             '''
         )
         parser.add_argument(
-            'target_dir',
+            'target_path',
             nargs='?',
             default='solana',
-            help='要处理的目标目录（相对于项目根目录），默认为 solana'
+            help='要处理的目标路径（目录或文件，相对于项目根目录），默认为 solana'
         )
 
         args = parser.parse_args()
@@ -321,21 +322,37 @@ def main():
         # 设置路径
         script_dir = Path(__file__).parent
         termlink_path = script_dir / 'termlink.md'
-        target_dir = script_dir.parent / args.target_dir
+        target_path = script_dir.parent / args.target_path
 
-        # 确保目录存在
-        if not target_dir.exists():
-            raise FileNotFoundError(f"目录不存在: {target_dir}")
+        # 确保路径存在
+        if not target_path.exists():
+            raise FileNotFoundError(f"路径不存在: {target_path}")
 
-        print(f"目标目录: {target_dir}")
         print(f"术语链接文件: {termlink_path}\n")
 
         # 提取术语和链接
         terms_dict = extract_terms_and_links(termlink_path)
         print(f"从 termlink.md 中找到 {len(terms_dict)} 个术语\n")
 
-        # 处理目录下的文件
-        process_directory(target_dir, terms_dict)
+        # 判断是文件还是目录
+        if target_path.is_file():
+            # 处理单个文件
+            if target_path.suffix != '.md':
+                raise ValueError(f"只支持 .md 文件，当前文件: {target_path}")
+
+            print(f"目标文件: {target_path}\n")
+            try:
+                if replace_terms_in_file(target_path, terms_dict):
+                    print(f"✓ 已更新: {target_path}")
+                else:
+                    print(f"○ 无需更新: {target_path}")
+            except Exception as e:
+                print(f"✗ 错误 {target_path}: {e}")
+                return 1
+        else:
+            # 处理目录
+            print(f"目标目录: {target_path}\n")
+            process_directory(target_path, terms_dict)
 
     except Exception as e:
         print(f"Error in main at line {traceback.extract_tb(e.__traceback__)[-1].lineno}:")

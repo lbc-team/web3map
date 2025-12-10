@@ -29,4 +29,4 @@ def update_main_tag():
 
 if __name__ == "__main__":
     # update_main_tag()
-    setmain_tag("Front-running", "抢跑交易,抢跑")
+    setmain_tag("Runes", "RUNE,符文,符文协议,Runes协议")
