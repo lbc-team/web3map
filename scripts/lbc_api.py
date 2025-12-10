@@ -72,7 +72,7 @@ def update_tag(name: str, description: str, summary: str) -> Optional[str]:
 def get_tag_info(tag_name: str) -> Optional[str]:
     tag_info = None   
     try:
-        response = requests.get(f"{BASE_URL}/api/get/tag/{tag_name}")
+        response = requests.get(f"{BASE_URL}/api/get/tag/{tag_name}", headers=headers)
 
         if response.ok:
             data = response.json()
