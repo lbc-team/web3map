@@ -3,6 +3,7 @@
 
 import re
 import traceback
+import argparse
 from pathlib import Path
 
 MAX_LINKS_PER_TERM = 2  # 每个术语在同一文档中最多出现2次链接
@@ -157,8 +158,14 @@ def remove_all_term_links(content, term_links):
 
 def add_links_to_content(content, term_links):
     """为内容添加术语链接，每个术语最多替换2次，同一行只替换一次"""
-    # 首先移除所有已存在的术语链接
-    result = remove_all_term_links(content, term_links)
+    # 检查 https://learnblockchain.cn/tags 出现的次数
+    tag_link_count = content.count('https://learnblockchain.cn/tags')
+    if tag_link_count >= 4:
+        # 如果出现超过 4 次，跳过替换逻辑，直接返回原内容
+        return content
+
+    # 直接在原内容基础上添加术语链接
+    result = content
 
     for term, link in term_links.items():
         link_count = 0  # 当前术语已添加的链接数
@@ -291,18 +298,41 @@ def process_directory(directory, terms_dict):
 
 def main():
     try:
+        # 设置命令行参数
+        parser = argparse.ArgumentParser(
+            description='替换 Markdown 文件中的术语为超链接',
+            formatter_class=argparse.RawDescriptionHelpFormatter,
+            epilog='''
+示例:
+  python replace_terms.py                    # 默认处理 solana 目录
+  python replace_terms.py solana            # 处理 solana 目录
+  python replace_terms.py eth/eips          # 处理 eth/eips 目录
+            '''
+        )
+        parser.add_argument(
+            'target_dir',
+            nargs='?',
+            default='solana',
+            help='要处理的目标目录（相对于项目根目录），默认为 solana'
+        )
+
+        args = parser.parse_args()
+
         # 设置路径
         script_dir = Path(__file__).parent
         termlink_path = script_dir / 'termlink.md'
-        target_dir = script_dir.parent / 'solana'  # 默认处理 solana 目录
+        target_dir = script_dir.parent / args.target_dir
 
         # 确保目录存在
         if not target_dir.exists():
-            raise FileNotFoundError(f"Directory {target_dir} does not exist")
+            raise FileNotFoundError(f"目录不存在: {target_dir}")
+
+        print(f"目标目录: {target_dir}")
+        print(f"术语链接文件: {termlink_path}\n")
 
         # 提取术语和链接
         terms_dict = extract_terms_and_links(termlink_path)
-        print(f"从 termlink.md 中找到 {len(terms_dict)} 个术语")
+        print(f"从 termlink.md 中找到 {len(terms_dict)} 个术语\n")
 
         # 处理目录下的文件
         process_directory(target_dir, terms_dict)

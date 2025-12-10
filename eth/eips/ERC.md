@@ -35,17 +35,17 @@ ERC 主要关注智能合约接口、代币标准、命名规范等应用层面�
 
 几乎所有在以太坊上发行的代币（如 USDT、USDC、UNI）都遵循 ERC-20 标准，确保了钱包和交易所的兼容性。
 
-**ERC-721：非同质化代币（NFT）标准**
-为不可替代的 NFT 制定了标准接口，每个代币都有唯一的标识符。ERC-721 定义了 NFT 的所有权转移、查询和元数据接口，是 NFT 市场、游戏道具、数字艺术品的技术基础。
+**[ERC-721](https://learnblockchain.cn/tags/ERC721?map=EVM)：非同质化代币（[NFT](https://learnblockchain.cn/tags/NFT)）标准**
+为不可替代的 NFT 制定了标准接口，每个代币都有唯一的标识符。[ERC-721](https://learnblockchain.cn/tags/ERC721?map=EVM) 定义了 NFT 的所有权转移、查询和元数据接口，是 [NFT](https://learnblockchain.cn/tags/NFT) 市场、游戏道具、数字艺术品的技术基础。
 
-**ERC-1155：多代币标准**
-允许在单个智能合约中管理多种类型的代币（同质化和非同质化），支持批量操作，显著降低 Gas 成本。广泛应用于游戏领域，因为游戏通常需要同时管理货币和收藏品。
+**[ERC-1155](https://learnblockchain.cn/tags/ERC1155?map=EVM)：多代币标准**
+允许在单个[智能合约](https://learnblockchain.cn/tags/%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6)中管理多种类型的代币（同质化和非同质化），支持批量操作，显著降低 Gas 成本。广泛应用于游戏领域，因为游戏通常需要同时管理货币和收藏品。
 
 **ERC-4337：账户抽象标准**
-定义了智能合约钱包的标准接口，实现账户抽象功能，改善用户体验。
+定义了[智能合约](https://learnblockchain.cn/tags/%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6)[钱包](https://learnblockchain.cn/tags/%E9%92%B1%E5%8C%85)的标准接口，实现[账户](https://learnblockchain.cn/tags/账户?map=EVM)抽象功能，改善用户体验。
 
 **ERC-2612：Permit 扩展**
-为 ERC-20 添加链下签名授权功能，用户无需先执行 approve 交易，节省 Gas 并优化体验。
+为 [ERC-20](https://learnblockchain.cn/tags/ERC20?map=EVM) 添加链下签名授权功能，用户无需先执行 approve 交易，节省 [Gas](https://learnblockchain.cn/tags/Gas?map=EVM) 并优化体验。
 
 ### ERC 的提案流程
 
@@ -57,10 +57,10 @@ ERC 主要关注智能合约接口、代币标准、命名规范等应用层面�
 ### 核心价值
 
 **互操作性**
-统一的标准确保了不同应用之间的互操作性。任何遵循 ERC-20 的代币都可以在任何支持 ERC-20 的钱包中使用，无需额外开发。
+统一的标准确保了不同应用之间的互操作性。任何遵循 ERC-20 的代币都可以在任何支持 [ERC-20](https://learnblockchain.cn/tags/ERC20?map=EVM) 的[钱包](https://learnblockchain.cn/tags/%E9%92%B1%E5%8C%85)中使用，无需额外开发。
 
 **降低开发成本**
-开发者无需从零开始设计代币逻辑，只需遵循现有标准即可快速开发兼容的应用。成熟的 ERC 标准还提供了安全的参考实现（如 OpenZeppelin 库）。
+开发者无需从零开始设计代币逻辑，只需遵循现有标准即可快速开发兼容的应用。成熟的 ERC 标准还提供了安全的参考实现（如 [OpenZeppelin](https://learnblockchain.cn/tags/OpenZeppelin?map=EVM) 库）。
 
 **网络效应**
 广泛采用的标准形成网络效应，新项目遵循标准可以立即融入现有生态，获得工具、基础设施和用户的支持。
@@ -70,13 +70,13 @@ ERC 由社区提出和维护，体现了以太坊的开放和去中心化精神�
 
 ### 发展趋势
 
-随着以太坊生态的发展，ERC 标准不断演进：
-- 更注重 Gas 效率（如 ERC-1155 的批量操作）
+随着[以太坊](https://learnblockchain.cn/tags/以太坊?map=EVM)生态的发展，ERC 标准不断演进：
+- 更注重 [Gas](https://learnblockchain.cn/tags/Gas?map=EVM) 效率（如 [ERC-1155](https://learnblockchain.cn/tags/ERC1155?map=EVM) 的批量操作）
 - 增强安全性（如 ERC-2612 避免 approve/transferFrom 的两步操作风险）
-- 改善用户体验（如 ERC-4337 账户抽象）
-- 支持新型资产（如链上游戏、元宇宙、RWA 等）
+- 改善用户体验（如 ERC-4337 [账户](https://learnblockchain.cn/tags/账户?map=EVM)抽象）
+- 支持新型资产（如链上游戏、元宇宙、[RWA](https://learnblockchain.cn/tags/RWA) 等）
 
-ERC 标准已成为以太坊生态繁荣的重要基础设施，持续推动着区块链应用的创新和发展。
+ERC 标准已成为[以太坊](https://learnblockchain.cn/tags/以太坊?map=EVM)生态繁荣的重要基础设施，持续推动着区块链应用的创新和发展。
 
 ### 相关链接
 

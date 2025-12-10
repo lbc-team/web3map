@@ -1,15 +1,15 @@
 # AVM (Atomicals Virtual Machine)
 
-AVM，即 Atomicals 虚拟机（Atomicals Virtual Machine），是 Atomicals 协议生态系统中一个正在开发中的核心组件。它旨在为比特币上的数字对象（Atomicals）引入更强大的可编程性，允许创建和执行比现有比特币脚本更复杂的逻辑和智能合约功能。
+AVM，即 Atomicals 虚拟机（Atomicals Virtual Machine），是 Atomicals 协议生态系统中一个正在开发中的核心组件。它旨在为比特币上的数字对象（Atomicals）引入更强大的可编程性，允许创建和执行比现有[比特币脚本](https://learnblockchain.cn/tags/比特币脚本?map=BTC)更复杂的逻辑和智能合约功能。
 
 ## 要解决的问题
 
-比特币的脚本语言（Script）是一种非常有限的、非图灵完备的语言，主要设计用于简单的支付逻辑。这极大地限制了在比特币上构建复杂去中心化应用（DApp）的能力。尽管 Atomicals 协议允许在比特币上创建数字对象和代币，但这些对象的行为和状态转换依然非常基础。
+比特币的脚本语言（Script）是一种非常有限的、非图灵完备的语言，主要设计用于简单的支付逻辑。这极大地限制了在比特币上构建复杂去中心化应用（[DApp](https://learnblockchain.cn/tags/DApp)）的能力。尽管 Atomicals 协议允许在比特币上创建数字对象和代币，但这些对象的行为和状态转换依然非常基础。
 
 AVM 旨在解决以下问题：
 
-1.  **比特币脚本的局限性**：提供一个比比特币脚本更强大、更灵活的执行环境，以支持复杂的智能合约。
-2.  **Atomicals 的功能扩展**：为 Atomicals 协议下的各种数字对象（包括 ARC20 代币、NFT 等）赋予更丰富的动态行为和状态管理能力。
+1.  **比特币脚本的局限性**：提供一个比[比特币脚本](https://learnblockchain.cn/tags/比特币脚本?map=BTC)更强大、更灵活的执行环境，以支持复杂的[智能合约](https://learnblockchain.cn/tags/%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6)。
+2.  **Atomicals 的功能扩展**：为 Atomicals 协议下的各种数字对象（包括 ARC20 代币、[NFT](https://learnblockchain.cn/tags/NFT) 等）赋予更丰富的动态行为和状态管理能力。
 3.  **开发者体验**：提供一个更友好的编程模型，让开发者能够更容易地在比特币生态上构建创新应用。
 
 ## 实现机制与原理
@@ -29,10 +29,10 @@ AVM 预计会引入一套新的操作码和指令集，这些操作码将比比�
 
 ## 主要特点
 
-*   **增强可编程性**：显著提升比特币生态的智能合约能力，使其能够支持更复杂的 DeFi、游戏、身份管理等应用。
+*   **增强可编程性**：显著提升比特币生态的[智能合约](https://learnblockchain.cn/tags/%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6)能力，使其能够支持更复杂的 [DeFi](https://learnblockchain.cn/tags/DeFi?map=EVM)、游戏、身份管理等应用。
 *   **模块化和可扩展性**：AVM 的设计是模块化的，未来可以根据需求扩展新的功能和指令集。
-*   **去中心化**：虽然 AVM 程序在链下执行，但其状态转换的有效性最终通过比特币链上的承诺和社区共识来保证。
-*   **兼容性**：旨在与 Atomicals 协议下的现有数字对象（如 ARC20、NFT）无缝集成。
+*   **去中心化**：虽然 AVM 程序在链下执行，但其状态转换的有效性最终通过[比特币](https://learnblockchain.cn/tags/比特币?map=BTC)链上的承诺和社区共识来保证。
+*   **兼容性**：旨在与 Atomicals 协议下的现有数字对象（如 ARC20、[NFT](https://learnblockchain.cn/tags/NFT)）无缝集成。
 
 ## 推荐阅读
 
@@ -45,5 +45,5 @@ AVM 预计会引入一套新的操作码和指令集，这些操作码将比比�
 *   **Atomicals 协议**
 *   **UTXO 模型**
 *   **OP_RETURN**
-*   **比特币脚本**
-*   **EVM**
+*   **[比特币](https://learnblockchain.cn/tags/比特币?map=BTC)脚本**
+*   **[EVM](https://learnblockchain.cn/tags/EVM?map=EVM)**

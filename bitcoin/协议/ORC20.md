@@ -1,6 +1,6 @@
 ## ORC-20 
 
-ORC-20 是由 OrcDAO 创建的开放代币标准，用于比特币的 Ordinals 系统。它保持与 BRC-20 的向后兼容性，同时提高了适应性、可扩展性和安全性。
+ORC-20 是由 OrcDAO 创建的开放代币标准，用于[比特币](https://learnblockchain.cn/tags/比特币?map=BTC)的 Ordinals 系统。它保持与 BRC-20 的向后兼容性，同时提高了适应性、可扩展性和安全性。
 
 
 
@@ -18,7 +18,7 @@ ORC-20 是由 OrcDAO 创建的开放代币标准，用于比特币的 Ordinals �
 
 ## 技术实现:
 
-ORC-20 代币使用 JavaScript 对象表示法(JSON)文件，将其铭刻在具有序数序列号的聪(satoshi)上，在比特币区块链上运行。这种方法支持更广泛的数据格式。
+ORC-20 代币使用 [JavaScript](https://learnblockchain.cn/tags/JavaScript) 对象表示法(JSON)文件，将其铭刻在具有序数序列号的聪(satoshi)上，在[比特币](https://learnblockchain.cn/tags/比特币?map=BTC)区块链上运行。这种方法支持更广泛的数据格式。
 
 ## 使用场景:
 

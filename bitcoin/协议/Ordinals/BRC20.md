@@ -1,8 +1,8 @@
 ## 什么是BRC-20？
 
-BRC-20 是比特币网络上的一个**同质化 Token**发布标准（类似于以太坊上的ERC-20），它规定了比特币上发行 Token 的名称、发行量、转账等功能，由社区爱好者@domodata于2023年3月8日创建。
+BRC-20 是比特币网络上的一个**同质化 Token**发布标准（类似于[以太坊](https://learnblockchain.cn/tags/以太坊?map=EVM)上的ERC-20），它规定了比特币上发行 Token 的名称、发行量、转账等功能，由社区爱好者@domodata于2023年3月8日创建。
 
-**当前比较热门的BRC-20 Token有ordi、 pepe、punk、bayc、domo等Memecoins,** 场外交易活跃，因为投机价值和财富效应的吸引，大量的用户下载BTC钱包，进入BTC生态。
+**当前比较热门的BRC-20 Token有ordi、 pepe、punk、bayc、domo等Memecoins,** 场外交易活跃，因为投机价值和财富效应的吸引，大量的用户下载BTC[钱包](https://learnblockchain.cn/tags/%E9%92%B1%E5%8C%85)，进入BTC生态。
 
 ## BRC-20的原理
 
@@ -12,12 +12,12 @@ BRC-20 是比特币网络上的一个**同质化 Token**发布标准（类似于
 
 铭文可以理解为，通过Ordinals协议**为每个sat刻入信息，如文字、图片、音频和视频等信息**，就此生成了铭文。
 
-BRC-20 协议的创始人 Domo 认为 Ordinals 协议不仅仅可用来发行 NFT，还可以用来发行同质化 Token。**当铭文按照一个统一的协议标准（JSON 数据格式）来Mint，就可生成同质化Token，这种在比特币区块链上发行 Token的方式就被称为BRC-20。**
+BRC-20 协议的创始人 Domo 认为 Ordinals 协议不仅仅可用来发行 NFT，还可以用来发行同质化 Token。**当铭文按照一个统一的协议标准（JSON 数据格式）来Mint，就可生成同质化Token，这种在[比特币](https://learnblockchain.cn/tags/比特币?map=BTC)区块链上发行 Token的方式就被称为BRC-20。**
 
-BRC-20 可以理解成一种特殊的Ordinals NFT，它通过将铭文设置为**统一的 JSON数据格式**（文本），规定了包括 Token的名称、符号、总量、小数位数等在内的Token信息，**开发者按照标准执行就可完成同质化Token的发行**。
+BRC-20 可以理解成一种特殊的Ordinals [NFT](https://learnblockchain.cn/tags/NFT)，它通过将铭文设置为**统一的 JSON数据格式**（文本），规定了包括 Token的名称、符号、总量、小数位数等在内的Token信息，**开发者按照标准执行就可完成同质化Token的发行**。
 
 > JSON（JavaScript对象表示法）是一种用于共享数据的开放标准文件格式，它使用人类可读的文本来存储和传输数据。
 
-因此比特币 NFT 上铭文刻录的是不同的信息，而BRC-20 上标识下 Token 的铭文都是统一的 JSON 格式的文本数据（Text）。
+因此[比特币](https://learnblockchain.cn/tags/比特币?map=BTC) [NFT](https://learnblockchain.cn/tags/NFT) 上铭文刻录的是不同的信息，而BRC-20 上标识下 Token 的铭文都是统一的 JSON 格式的文本数据（Text）。
 
 **在BRC-20中，开发人员可以通过Ordinal协议在区块链上创建和发行Token**，铭文亦当作BRC-20Token的记账账本，可用来追踪每一次 Token 的转移。
