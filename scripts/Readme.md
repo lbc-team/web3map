@@ -36,7 +36,6 @@ find . -name "*.md" -type f -size -100c
 
 1. 创建并激活虚拟环境：
    ```
-   python3 -m venv myenv
    source venv/bin/activate
    ```
 2. 安装依赖：

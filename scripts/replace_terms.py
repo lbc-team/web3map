@@ -154,6 +154,7 @@ def remove_all_term_links(content, term_links):
     return result
 
 
+
 def add_links_to_content(content, term_links):
     """为内容添加术语链接，每个术语最多替换2次，同一行只替换一次"""
     # 首先移除所有已存在的术语链接
@@ -228,11 +229,23 @@ def replace_terms_in_file(file_path, terms_dict):
         with open(file_path, 'r', encoding='utf-8') as f:
             content = f.read()
 
+        # 替换 EIP 链接为登链社区的镜像链接
+        original_content = content
+        if "https://eips.ethereum.org/" in content:
+            content = content.replace(
+                "https://eips.ethereum.org/EIPS/eip-",
+                "https://learnblockchain.cn/docs/eips/EIPS/eip-"
+            )
+            content = content.replace(
+                "https://eips.ethereum.org/erc",
+                "https://learnblockchain.cn/docs/eips/erc/"
+            )
+
         # 使用改进的链接添加函数
         new_content = add_links_to_content(content, terms_dict)
 
         # 如果内容有变化，写回文件
-        if new_content != content:
+        if new_content != original_content:
             with open(file_path, 'w', encoding='utf-8') as f:
                 f.write(new_content)
             return True
