@@ -2,7 +2,7 @@
 
 ## 概念简介
 
-Web3.js 是以太坊官方的 JavaScript 库,用于通过 HTTP、WebSocket 或 IPC 与以太坊节点进行交互。作为最早的以太坊 JavaScript 库,Web3.js 由以太坊基金会于2015年发布,是以太坊生态系统中最成熟、使用最广泛的开发工具之一。
+Web3.js 是以太坊官方的 JavaScript 库,用于通过 HTTP、WebSocket 或 IPC 与以太坊节点进行交互。作为最早的以太坊 [JavaScript](https://learnblockchain.cn/tags/JavaScript) 库,Web3.js 由以太坊基金会于2015年发布,是以太坊生态系统中最成熟、使用最广泛的开发工具之一。
 
 Web3.js 提供了完整的 API 集合,涵盖账户管理、智能合约交互、交易发送、事件监听、区块查询等所有以太坊操作。它支持以太坊主网、各种测试网以及兼容以太坊的区块链（如 BSC、Polygon 等）。虽然近年来 ethers.js 和 viem 等新库兴起,但 Web3.js 凭借其悠久历史、丰富生态和官方背景,仍然是许多项目的首选库。
 
@@ -15,7 +15,7 @@ Web3.js 采用模块化设计,主要包含以下模块：
 - **web3-eth-contract**：智能合约交互模块,部署和调用合约
 - **web3-eth-accounts**：账户管理模块,创建账户、签名交易和消息
 - **web3-eth-personal**：管理节点的个人账户
-- **web3-eth-abi**：ABI 编解码模块
+- **web3-eth-abi**：[ABI](https://learnblockchain.cn/tags/ABI?map=EVM) 编解码模块
 - **web3-eth-ens**：以太坊域名服务（ENS）支持
 - **web3-net**：网络相关功能,查询节点信息
 - **web3-utils**：工具函数集合,单位转换、哈希等
@@ -36,11 +36,11 @@ Provider 可以在运行时切换,灵活支持多种部署场景。
 ### 智能合约交互
 
 Web3.js 提供强大的合约交互能力：
-- **合约实例化**：通过 ABI 和地址创建合约对象
+- **合约实例化**：通过 [ABI](https://learnblockchain.cn/tags/ABI?map=EVM) 和地址创建合约对象
 - **方法调用**：
-  - **call()**：调用只读函数（view/pure）,不消耗 Gas
+  - **call()**：调用只读函数（view/pure）,不消耗 [Gas](https://learnblockchain.cn/tags/Gas?map=EVM)
   - **send()**：发送交易,改变合约状态
-  - **estimateGas()**：估算函数执行的 Gas 消耗
+  - **estimateGas()**：估算函数执行的 [Gas](https://learnblockchain.cn/tags/Gas?map=EVM) 消耗
 - **事件处理**：
   - **events.EventName()**：监听特定事件
   - **getPastEvents()**：查询历史事件
@@ -120,7 +120,7 @@ const web3 = new Web3('https://mainnet.infura.io/v3/YOUR_PROJECT_ID');
 const web3 = new Web3(window.ethereum);
 ```
 
-**查询账户余额**：
+**查询[账户](https://learnblockchain.cn/tags/账户?map=EVM)余额**：
 ```javascript
 const balance = await web3.eth.getBalance('0x...');
 console.log(web3.utils.fromWei(balance, 'ether'));
@@ -136,7 +136,7 @@ const tx = await web3.eth.sendTransaction({
 });
 ```
 
-**与智能合约交互**：
+**与[智能合约](https://learnblockchain.cn/tags/%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6)交互**：
 ```javascript
 const abi = [...]; // 合约 ABI
 const contract = new web3.eth.Contract(abi, '0x...');
@@ -155,13 +155,13 @@ contract.events.Transfer({}, (error, event) => {
 
 ## 应用场景
 
-**DApp 前端**：Web3.js 是 DApp 前端最常用的库之一,处理钱包连接、交易发送、合约调用等核心功能。
+**DApp 前端**：Web3.js 是 [DApp](https://learnblockchain.cn/tags/DApp) 前端最常用的库之一,处理[钱包](https://learnblockchain.cn/tags/%E9%92%B1%E5%8C%85)连接、交易发送、合约调用等核心功能。
 
-**钱包集成**：许多钱包（如 MetaMask、Trust Wallet）内置了 Web3.js 或兼容的 Provider,方便 DApp 集成。
+**钱包集成**：许多[钱包](https://learnblockchain.cn/tags/%E9%92%B1%E5%8C%85)（如 MetaMask、Trust Wallet）内置了 Web3.js 或兼容的 Provider,方便 [DApp](https://learnblockchain.cn/tags/DApp) 集成。
 
 **开发工具**：Truffle、Hardhat、Remix 等开发框架使用 Web3.js 进行合约部署和测试。
 
-**后端服务**：Node.js 后端使用 Web3.js 监听链上事件、处理交易、管理账户。
+**后端服务**：Node.js 后端使用 Web3.js 监听链上事件、处理交易、管理[账户](https://learnblockchain.cn/tags/账户?map=EVM)。
 
 **自动化脚本**：批量操作脚本,如空投代币、数据迁移、批量查询等。
 
@@ -178,7 +178,7 @@ contract.events.Transfer({}, (error, event) => {
 - ethers.js 更轻量（88KB vs 300KB+）
 - ethers.js TypeScript 支持更好（v4 之前）
 - Web3.js 功能更全面
-- ethers.js API 更现代简洁
+- [ethers.js](https://learnblockchain.cn/tags/ethers.js?map=EVM) API 更现代简洁
 - 两者功能基本等价,主要是风格偏好
 
 **Web3.js vs viem**：
@@ -197,13 +197,13 @@ contract.events.Transfer({}, (error, event) => {
 
 ## 相关概念
 
-- **ethers.js** - 另一个主流以太坊 JavaScript 库
+- **[ethers.js](https://learnblockchain.cn/tags/ethers.js?map=EVM)** - 另一个主流以太坊 [JavaScript](https://learnblockchain.cn/tags/JavaScript) 库
 - **web3.py** - Web3.js 的 Python 版本
-- **Truffle** - 基于 Web3.js 的智能合约开发框架
-- **Ganache** - 集成 Web3.js 的本地以太坊测试环境
+- **Truffle** - 基于 Web3.js 的[智能合约](https://learnblockchain.cn/tags/%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6)开发框架
+- **Ganache** - 集成 Web3.js 的本地[以太坊](https://learnblockchain.cn/tags/以太坊?map=EVM)测试环境
 - **Remix** - 在线 IDE，使用 Web3.js 进行合约交互
 - **MetaMask** - 提供 Web3.js 兼容的 Provider
-- **ENS** - Web3.js 原生支持的以太坊域名服务
+- **ENS** - Web3.js 原生支持的[以太坊](https://learnblockchain.cn/tags/以太坊?map=EVM)域名服务
 
 ## 相关链接
 

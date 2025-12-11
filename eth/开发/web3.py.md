@@ -24,7 +24,7 @@ Provider 可以灵活配置,支持自定义中间件处理请求和响应。
 web3.py 的中间件系统提供强大的扩展能力：
 - **Geth POA 中间件**：兼容 PoA 共识链（如 BSC、Polygon）
 - **签名中间件**：自动使用本地私钥签名交易
-- **Gas 价格中间件**：自动获取和设置 Gas 价格
+- **Gas 价格中间件**：自动获取和设置 [Gas](https://learnblockchain.cn/tags/Gas?map=EVM) 价格
 - **Nonce 中间件**：自动管理交易 nonce
 - **缓存中间件**：缓存某些请求结果,减少网络调用
 - **自定义中间件**：开发者可以编写自定义中间件处理特定逻辑
@@ -34,7 +34,7 @@ web3.py 的中间件系统提供强大的扩展能力：
 ### 智能合约交互
 
 web3.py 提供 Pythonic 的合约交互接口：
-- **合约实例化**：通过 ABI 和地址创建合约对象
+- **合约实例化**：通过 [ABI](https://learnblockchain.cn/tags/ABI?map=EVM) 和地址创建合约对象
 ```python
 contract = w3.eth.contract(address=contract_address, abi=abi)
 ```
@@ -72,7 +72,7 @@ ENS 集成使代码更可读,用户体验更友好。
 ### 账户管理
 
 web3.py 提供完整的账户管理功能：
-- **创建账户**：`Account.create()` 生成新账户
+- **创建[账户](https://learnblockchain.cn/tags/账户?map=EVM)**：`Account.create()` 生成新账户
 - **从私钥恢复**：`Account.from_key(private_key)`
 - **助记词支持**：通过 `Account.from_mnemonic()` 从助记词恢复
 - **交易签名**：`Account.sign_transaction()` 签署交易
@@ -110,7 +110,7 @@ web3.py 提供完整的账户管理功能：
 
 ## 基本用法示例
 
-**连接以太坊节点**：
+**连接[以太坊](https://learnblockchain.cn/tags/以太坊?map=EVM)节点**：
 ```python
 from web3 import Web3
 
@@ -124,7 +124,7 @@ w3 = Web3(Web3.HTTPProvider('https://mainnet.infura.io/v3/YOUR_PROJECT_ID'))
 print(w3.is_connected())
 ```
 
-**查询账户余额**：
+**查询[账户](https://learnblockchain.cn/tags/账户?map=EVM)余额**：
 ```python
 # 查询余额（返回 wei）
 balance = w3.eth.get_balance('0x...')
@@ -189,7 +189,7 @@ for event in event_filter.get_new_entries():
 
 **链上数据分析**：Python 强大的数据分析能力（pandas、numpy、matplotlib）与 web3.py 结合,可以方便地提取、处理、可视化链上数据。研究人员、分析师使用 web3.py 进行市场分析、行为研究等。
 
-**量化交易**：量化交易员使用 web3.py 开发交易机器人,执行 DeFi 套利、DEX 交易、MEV 策略等。Python 丰富的量化库（如 backtrader、zipline）可以与 web3.py 无缝整合。
+**量化交易**：量化交易员使用 web3.py 开发交易机器人,执行 [DeFi](https://learnblockchain.cn/tags/DeFi?map=EVM) 套利、[DEX](https://learnblockchain.cn/tags/DEX?map=EVM) 交易、MEV 策略等。Python 丰富的量化库（如 backtrader、zipline）可以与 web3.py 无缝整合。
 
 **后端服务**：Web 应用的后端（Django、Flask、FastAPI）使用 web3.py 处理链上数据,为前端提供 API。监听链上事件、处理充值提现、管理用户资产等。
 
@@ -201,22 +201,22 @@ for event in event_filter.get_new_entries():
 
 **测试和审计**：智能合约测试框架（Brownie、Ape）基于 web3.py 构建。安全研究人员使用 web3.py 分析合约行为、寻找漏洞。
 
-**教育和研究**：Python 简单易学,web3.py 是学习区块链开发的理想工具。许多区块链课程和教程使用 Python 和 web3.py。
+**教育和研究**：Python 简单易学,web3.py 是学习区块链开发的理想工具。许多区块链[课程](https://learnblockchain.cn/courses)和教程使用 Python 和 web3.py。
 
 ## 与其他库的比较
 
 **web3.py vs Web3.js**：
-- web3.py 使用 Python,Web3.js 使用 JavaScript
+- web3.py 使用 Python,Web3.js 使用 [JavaScript](https://learnblockchain.cn/tags/JavaScript)
 - web3.py 更适合数据分析、后端服务、脚本自动化
-- Web3.js 更适合浏览器环境、DApp 前端
+- Web3.js 更适合浏览器环境、[DApp](https://learnblockchain.cn/tags/DApp) 前端
 - API 设计类似,迁移相对容易
 - 功能基本对等,选择取决于语言偏好和应用场景
 
 **web3.py vs ethers.py**：
-- ethers.py 是 ethers.js 的 Python 移植,但不太成熟
+- ethers.py 是 [ethers.js](https://learnblockchain.cn/tags/ethers.js?map=EVM) 的 Python 移植,但不太成熟
 - web3.py 是官方维护,生态更完善
 - web3.py 文档更丰富,社区更活跃
-- 目前 web3.py 是 Python 以太坊开发的首选
+- 目前 web3.py 是 Python [以太坊](https://learnblockchain.cn/tags/以太坊?map=EVM)开发的首选
 
 **web3.py vs Brownie/Ape**：
 - Brownie 和 Ape 是基于 web3.py 的智能合约开发框架
@@ -231,17 +231,17 @@ for event in event_filter.get_new_entries():
 
 **web3.py v5（2019-2022）**：重大更新,引入中间件系统、改进 Provider、增强 ENS 支持。成为最广泛使用的版本。
 
-**web3.py v6（2023-至今）**：最新版本,完整的类型注解、异步支持改进、性能优化。支持 EIP1559、EIP4844 等新特性。更好的错误处理和日志系统。
+**web3.py v6（2023-至今）**：最新版本,完整的类型注解、异步支持改进、性能优化。支持 [EIP1559](https://learnblockchain.cn/tags/EIP1559?map=EVM)、EIP4844 等新特性。更好的错误处理和日志系统。
 
 建议新项目使用 v6,享受最新特性和改进。
 
 ## 相关概念
 
-- **Web3.js** - web3.py 的 JavaScript 版本
-- **ethers.py** - ethers.js 的 Python 移植（不够成熟）
-- **Brownie** - 基于 web3.py 的智能合约开发框架
+- **Web3.js** - web3.py 的 [JavaScript](https://learnblockchain.cn/tags/JavaScript) 版本
+- **ethers.py** - [ethers.js](https://learnblockchain.cn/tags/ethers.js?map=EVM) 的 Python 移植（不够成熟）
+- **Brownie** - 基于 web3.py 的[智能合约](https://learnblockchain.cn/tags/%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6)开发框架
 - **Ape** - 新一代基于 web3.py 的开发框架
-- **Vyper** - Python 风格的智能合约语言
+- **[Vyper](https://learnblockchain.cn/tags/Vyper?map=EVM)** - Python 风格的[智能合约](https://learnblockchain.cn/tags/%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6)语言
 - **pandas** - 可与 web3.py 结合进行链上数据分析
 - **pytest** - 用于 web3.py 合约测试的测试框架
 

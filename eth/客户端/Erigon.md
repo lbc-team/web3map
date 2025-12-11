@@ -2,7 +2,7 @@
 
 ## 概念简介
 
-Erigon（原名 Turbo-Geth）是以太坊执行层客户端的高效实现，使用 Go 语言开发，专注于性能优化和存储效率。Erigon 由 Ledgerwatch 团队开发，其设计目标是提供最快的同步速度和最小的磁盘占用，使运行以太坊全节点和归档节点更加经济可行。
+Erigon（原名 Turbo-Geth）是以太坊执行层客户端的高效实现，使用 [Go](https://learnblockchain.cn/tags/Go) 语言开发，专注于性能优化和存储效率。Erigon 由 Ledgerwatch 团队开发，其设计目标是提供最快的同步速度和最小的磁盘占用，使运行以太坊全节点和归档节点更加经济可行。
 
 Erigon 通过重新设计数据库架构、优化状态存储和改进同步算法，实现了相比传统客户端（如 Geth）数倍的性能提升。它特别适合需要快速同步、运行归档节点或在磁盘空间受限环境中使用。Erigon 已经成为以太坊基础设施提供商、区块浏览器和数据分析平台的首选客户端。
 
@@ -35,7 +35,7 @@ Erigon 采用独特的分阶段（Staged Sync）架构：
 5. **Execution 阶段**：执行交易，更新状态
 6. **HashState 阶段**：计算状态哈希
 7. **Intermediate Hashes 阶段**：计算中间哈希
-8. **Account Hashing 阶段**：计算账户哈希
+8. **Account Hashing 阶段**：计算[账户](https://learnblockchain.cn/tags/账户?map=EVM)哈希
 9. **Storage Hashing 阶段**：计算存储哈希
 
 每个阶段可以独立优化和并行化，提供最佳性能。
@@ -78,18 +78,18 @@ Erigon 提供全面的 API 支持：
 
 **2021年3月**：Turbo-Geth 更名为 Erigon，标志着项目的成熟和独立身份。获得以太坊基金会和其他组织的资助。
 
-**2021-2022年**：持续优化存储和同步算法，支持以太坊主网硬分叉。越来越多的基础设施提供商采用 Erigon。
+**2021-2022年**：持续优化存储和同步算法，支持[以太坊](https://learnblockchain.cn/tags/以太坊?map=EVM)主网硬分叉。越来越多的基础设施提供商采用 Erigon。
 
-**2022年9月**：成功支持以太坊合并（The Merge），提供稳定的执行层客户端服务。
+**2022年9月**：成功支持[以太坊](https://learnblockchain.cn/tags/以太坊?map=EVM)合并（The Merge），提供稳定的执行层客户端服务。
 
 **2023年**：支持 Shanghai/Capella 和 Cancun/Deneb 升级。进一步优化归档节点性能，成为运行归档节点的首选。
 
-**2024年至今**：继续推动性能边界，探索新的优化技术。扩展生态系统支持，包括 Layer 2 和其他 EVM 链。
+**2024年至今**：继续推动性能边界，探索新的优化技术。扩展生态系统支持，包括 Layer 2 和其他 [EVM](https://learnblockchain.cn/tags/EVM?map=EVM) 链。
 
 ## 应用场景
 
 - **归档节点服务商**：提供历史数据查询服务，区块浏览器、分析平台
-- **DApp 基础设施**：为 DApp 提供快速可靠的 RPC 服务
+- **DApp 基础设施**：为 [DApp](https://learnblockchain.cn/tags/DApp) 提供快速可靠的 RPC 服务
 - **数据分析**：链上数据分析、研究、审计
 - **MEV 搜索者**：需要快速访问链上数据和历史状态
 - **开发者**：本地开发环境，需要快速同步测试网或主网

@@ -13,7 +13,7 @@ USDC由Centre Consortium管理，这是一个由Circle和Coinbase共同创立的
 **完全储备金支持**
 
 Circle承诺每枚USDC都有等值的美元资产作为100%储备金支持。根据每月公布的储备金报告，USDC的储备金构成包括：
-- **现金**：存放在受监管的美国银行账户中
+- **现金**：存放在受监管的美国银行[账户](https://learnblockchain.cn/tags/账户?map=EVM)中
 - **短期美国国债**：高流动性、低风险的政府债券
 - **隔夜逆回购协议**：极短期的安全投资工具
 
@@ -32,8 +32,8 @@ Circle每月发布由Grant Thornton（美国五大会计师事务所之一）审
 **多链部署与跨链互操作**
 
 USDC在多条主流区块链上原生发行，包括：
-- **以太坊（ERC-20）**：USDC的主要发行链，用于DeFi和机构应用
-- **Solana（SPL）**：高性能、低成本，适合支付和高频交易
+- **以太坊（[ERC-20](https://learnblockchain.cn/tags/ERC20?map=EVM)）**：USDC的主要发行链，用于DeFi和机构应用
+- **[Solana](https://learnblockchain.cn/tags/Solana?map=Solana)（SPL）**：高性能、低成本，适合支付和高频交易
 - **Avalanche、Polygon、Arbitrum、Optimism**：Layer1和Layer2扩展方案
 - **Stellar、Algorand**：专注于跨境支付和普惠金融
 
@@ -51,7 +51,7 @@ Circle作为受监管的金融服务公司，遵守严格的合规要求：
 
 **可编程美元**
 
-USDC作为ERC-20等标准代币实现，可以无缝集成到智能合约和DeFi协议中。Circle还提供了丰富的API和开发工具，使得企业可以轻松地将USDC整合到自己的应用中，实现可编程支付、自动化结算等功能。
+USDC作为ERC-20等标准代币实现，可以无缝集成到[智能合约](https://learnblockchain.cn/tags/%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6)和DeFi协议中。Circle还提供了丰富的API和开发工具，使得企业可以轻松地将USDC整合到自己的应用中，实现可编程支付、自动化结算等功能。
 
 ## 核心优势
 
@@ -79,7 +79,7 @@ Circle提供完善的API、SDK和文档，支持企业快速集成USDC。Circle�
 
 **2018年9月：USDC诞生**
 
-Circle和Coinbase宣布推出USDC，定位为"透明、合规的美元稳定币"。最初仅在以太坊上发行，强调每月审计和完全储备金支持。
+Circle和Coinbase宣布推出USDC，定位为"透明、合规的美元稳定币"。最初仅在[以太坊](https://learnblockchain.cn/tags/以太坊?map=EVM)上发行，强调每月审计和完全储备金支持。
 
 **2018-2019年：早期推广**
 
@@ -210,10 +210,10 @@ Circle已推出EURC（欧元稳定币），未来可能推出更多法币稳定�
 
 ## 相关协议
 
-- **ERC-20**：以太坊上USDC的代币标准
+- **[ERC-20](https://learnblockchain.cn/tags/ERC20?map=EVM)**：[以太坊](https://learnblockchain.cn/tags/以太坊?map=EVM)上USDC的代币标准
 - **SPL**：Solana上的USDC代币标准
 - **CCTP**：Circle的跨链传输协议，支持USDC无缝跨链
 - **Centre Consortium**：USDC的管理和标准制定组织
 - **EURC**：Circle推出的欧元稳定币
 - **Aave、Compound**：主要的USDC借贷协议
-- **Uniswap、Curve**：主要的USDC交易和流动性场所
+- **[Uniswap](https://learnblockchain.cn/tags/Uniswap?map=EVM)、[Curve](https://learnblockchain.cn/tags/Curve?map=EVM)**：主要的USDC交易和流动性场所

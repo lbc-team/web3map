@@ -25,7 +25,7 @@ address = keccak256(0xff ++ senderAddress ++ salt ++ keccak256(init_code))[12:]
 *   **Metamorphic Contracts (变形合约):** 结合 `SELFDESTRUCT` 和 `CREATE2`，可以在同一个地址重新部署代码不同的合约（通过改变 `init_code` 中的逻辑但保持 `keccak256(init_code)` 不变，通常利用代理模式或特定技巧），实现“原地升级”或代码修改。
 
 ### 推荐阅读
-*   [EIP-1014: Skinny CREATE2](https://eips.ethereum.org/EIPS/eip-1014)
+*   [EIP-1014: Skinny CREATE2](https://learnblockchain.cn/docs/eips/EIPS/eip-1014)
 *   [Metamorphic Smart Contracts](https://0age.com/)
 
 ### 相关概念

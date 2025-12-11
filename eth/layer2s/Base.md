@@ -16,7 +16,7 @@ Base 采用 Optimism 的 OP Stack 作为技术底层，这是一个模块化、�
 
 **完全 EVM 兼容**
 
-Base 完全兼容以太坊虚拟机（EVM），支持所有以太坊的智能合约语言（Solidity、Vyper）和开发工具（Hardhat、Foundry、Remix、Truffle 等）。开发者可以将现有的以太坊 dApp 直接部署到 Base 上，无需修改代码。用户也可以使用熟悉的钱包（MetaMask、Coinbase Wallet、Rainbow 等）与 Base 上的应用交互。这种完全兼容性极大地降低了开发者和用户的学习成本。
+Base 完全兼容以太坊虚拟机（EVM），支持所有以太坊的智能合约语言（[Solidity](https://learnblockchain.cn/tags/Solidity?map=EVM)、[Vyper](https://learnblockchain.cn/tags/Vyper?map=EVM)）和开发工具（Hardhat、[Foundry](https://learnblockchain.cn/tags/Foundry?map=EVM)、Remix、Truffle 等）。开发者可以将现有的以太坊 dApp 直接部署到 Base 上，无需修改代码。用户也可以使用熟悉的钱包（MetaMask、Coinbase Wallet、Rainbow 等）与 Base 上的应用交互。这种完全兼容性极大地降低了开发者和用户的学习成本。
 
 **极低的交易成本**
 
@@ -46,7 +46,7 @@ Base 的交易排序由排序器（Sequencer）负责。当用户提交交易时
 
 **状态管理与存储**
 
-Base 维护自己的状态树（State Tree），记录所有账户余额、智能合约代码和存储数据。每当区块产生时，状态树会更新，新的状态根会被提交到以太坊主网的 Base 合约中。以太坊主网只存储状态根而不存储完整状态数据，这大大降低了存储成本。
+Base 维护自己的状态树（State Tree），记录所有[账户](https://learnblockchain.cn/tags/账户?map=EVM)余额、智能合约代码和存储数据。每当区块产生时，状态树会更新，新的状态根会被提交到以太坊主网的 Base 合约中。以太坊主网只存储状态根而不存储完整状态数据，这大大降低了存储成本。
 
 **欺诈证明机制**
 
@@ -112,7 +112,7 @@ Coinbase Wallet（非托管钱包）对 Base 提供原生支持。用户可以�
 
 **机构资源与合规经验**
 
-Coinbase 作为纳斯达克上市公司，拥有丰富的监管合规经验和机构资源。Base 可以借助 Coinbase 的合规框架、法律团队和监管关系，在合规性要求较高的领域（如 RWA 代币化、机构 DeFi、稳定币等）拓展应用。Coinbase 的机构客户也可能通过 Base 进入链上世界。
+Coinbase 作为纳斯达克上市公司，拥有丰富的监管合规经验和机构资源。Base 可以借助 Coinbase 的合规框架、法律团队和监管关系，在合规性要求较高的领域（如 [RWA](https://learnblockchain.cn/tags/RWA) 代币化、机构 DeFi、稳定币等）拓展应用。Coinbase 的机构客户也可能通过 Base 进入链上世界。
 
 **品牌信任与市场推广**
 
@@ -129,10 +129,10 @@ Coinbase Ventures（Coinbase 的投资部门）积极投资 Base 生态项目，
 Base 完全兼容以太坊的开发工具链，开发者可以使用熟悉的工具和框架：
 
 - **Hardhat**: 最流行的以太坊开发环境，支持合约编译、测试、部署
-- **Foundry**: 快速的 Rust 实现的开发工具，提供高级测试和脚本功能
+- **[Foundry](https://learnblockchain.cn/tags/Foundry?map=EVM)**: 快速的 [Rust](https://learnblockchain.cn/tags/Rust) 实现的开发工具，提供高级测试和脚本功能
 - **Remix**: 浏览器内的 IDE，适合快速原型开发
 - **Truffle**: 经典的以太坊开发框架
-- **ethers.js / web3.js**: JavaScript 库，用于与区块链交互
+- **[ethers.js](https://learnblockchain.cn/tags/ethers.js?map=EVM) / web3.js**: [JavaScript](https://learnblockchain.cn/tags/JavaScript) 库，用于与区块链交互
 
 开发者只需将 RPC 端点从以太坊切换到 Base，其他代码无需修改。
 
@@ -221,15 +221,15 @@ Base 的 Gas 费用通常只需几美分，具体取决于网络拥堵情况和�
 **Base vs zkSync Era**
 
 - **技术**: Base 是 Optimistic Rollup，zkSync Era 是 zkRollup；zkRollup 理论上更安全但技术更复杂
-- **EVM 兼容**: Base 完全 EVM 兼容，zkSync Era 是 zkEVM 但有部分兼容性限制
+- **EVM 兼容**: Base 完全 [EVM](https://learnblockchain.cn/tags/EVM?map=EVM) 兼容，zkSync Era 是 zkEVM 但有部分兼容性限制
 - **成本**: Base 当前更便宜，但 zkSync 未来可能通过技术优化降低成本
 - **最终性**: zkSync 的最终性更快（无需 7 天挑战期），但目前仍需一定时间生成证明
 
 **Base vs Polygon zkEVM**
 
-- **技术**: Base 使用 OP Stack，Polygon zkEVM 使用零知识证明技术
+- **技术**: Base 使用 OP Stack，Polygon [zkEVM](https://learnblockchain.cn/tags/zkEVM?map=EVM) 使用[零知识证明](https://learnblockchain.cn/tags/%E9%9B%B6%E7%9F%A5%E8%AF%86%E8%AF%81%E6%98%8E)技术
 - **生态**: Polygon 有更长的历史和更多用户基础，Base 增长更快
-- **策略**: Polygon 多链策略（PoS、zkEVM、Miden 等），Base 专注单链
+- **策略**: Polygon 多链策略（[PoS](https://learnblockchain.cn/tags/PoS)、[zkEVM](https://learnblockchain.cn/tags/zkEVM?map=EVM)、Miden 等），Base 专注单链
 
 ## 发展历程
 
@@ -301,12 +301,12 @@ Base 持续优化性能和用户体验，TVL 稳定增长至数十亿美元。�
 
 **与 dApp 交互**
 
-1. 访问 Base 上的 dApp 网站（如 Uniswap、Aave）
+1. 访问 Base 上的 dApp 网站（如 [Uniswap](https://learnblockchain.cn/tags/Uniswap?map=EVM)、Aave）
 2. 点击"连接钱包"按钮
 3. 选择你的钱包并授权连接
 4. 确保钱包切换到 Base 网络
 5. 执行 dApp 操作（交易、质押、借贷等）
-6. 在钱包中确认每笔交易
+6. 在[钱包](https://learnblockchain.cn/tags/%E9%92%B1%E5%8C%85)中确认每笔交易
 
 **跨链桥接操作**
 
@@ -323,15 +323,15 @@ Base 持续优化性能和用户体验，TVL 稳定增长至数十亿美元。�
 
 **DeFi 参与**
 
-Base 为 DeFi 用户提供了低成本的交易环境。用户可以在 Uniswap、Aerodrome 等 DEX 上以几美分的成本交易代币，在 Aave、MoonWell 等协议中以低费用进行借贷操作。相比以太坊主网动辄数十美元的 Gas 费，Base 使得频繁的 DeFi 操作变得经济可行。
+Base 为 DeFi 用户提供了低成本的交易环境。用户可以在 [Uniswap](https://learnblockchain.cn/tags/Uniswap?map=EVM)、Aerodrome 等 [DEX](https://learnblockchain.cn/tags/DEX?map=EVM) 上以几美分的成本交易代币，在 Aave、MoonWell 等协议中以低费用进行借贷操作。相比以太坊主网动辄数十美元的 [Gas](https://learnblockchain.cn/tags/Gas?map=EVM) 费，Base 使得频繁的 DeFi 操作变得经济可行。
 
 **NFT 创作与交易**
 
-艺术家和创作者可以在 Base 上以极低成本铸造 NFT，每次铸造只需几美分。Zora、Base 的免费铸造活动吸引了数百万用户参与。NFT 交易者也能以低成本在 OpenSea、Element 等市场上交易 Base 生态的 NFT 资产。
+艺术家和创作者可以在 Base 上以极低成本铸造 NFT，每次铸造只需几美分。Zora、Base 的免费铸造活动吸引了数百万用户参与。NFT 交易者也能以低成本在 [OpenSea](https://learnblockchain.cn/tags/OpenSea)、Element 等市场上交易 Base 生态的 [NFT](https://learnblockchain.cn/tags/NFT) 资产。
 
 **链上游戏**
 
-Base 的低成本和快速确认为链上游戏提供了理想的基础设施。游戏开发者可以构建需要频繁链上交互的游戏，玩家不会因高昂的 Gas 费而却步。多个 GameFi 项目已在 Base 上部署，包括休闲游戏、策略游戏和元宇宙应用。
+Base 的低成本和快速确认为链上游戏提供了理想的基础设施。游戏开发者可以构建需要频繁链上交互的游戏，玩家不会因高昂的 [Gas](https://learnblockchain.cn/tags/Gas?map=EVM) 费而却步。多个 GameFi 项目已在 Base 上部署，包括休闲游戏、策略游戏和元宇宙应用。
 
 **社交应用**
 
@@ -343,7 +343,7 @@ Base 的低成本和快速确认使其适合构建支付应用。商家可以接
 
 **开发者实验**
 
-Base 为开发者提供了一个低成本的实验环境。新项目可以先在 Base 上部署测试，验证产品市场契合度，再考虑扩展到其他链。Base 的 EVM 完全兼容性也使得开发者可以无缝迁移现有的以太坊应用。
+Base 为开发者提供了一个低成本的实验环境。新项目可以先在 Base 上部署测试，验证产品市场契合度，再考虑扩展到其他链。Base 的 [EVM](https://learnblockchain.cn/tags/EVM?map=EVM) 完全兼容性也使得开发者可以无缝迁移现有的以太坊应用。
 
 ## 安全机制
 
@@ -357,11 +357,11 @@ Base 实施了欺诈证明（Fraud Proof）系统，任何人都可以在 7 天�
 
 **智能合约审计**
 
-Base 的核心智能合约经过多家顶级安全公司的全面审计，包括 OpenZeppelin、Trail of Bits、Sigma Prime 等。审计报告公开发布，列出发现的问题和修复情况。OP Stack 的代码经过了以太坊社区和 Optimism 团队长期的实战检验，安全性得到了广泛认可。
+Base 的核心智能合约经过多家顶级安全公司的全面审计，包括 [OpenZeppelin](https://learnblockchain.cn/tags/OpenZeppelin?map=EVM)、Trail of Bits、Sigma Prime 等。审计报告公开发布，列出发现的问题和修复情况。OP Stack 的代码经过了以太坊社区和 Optimism 团队长期的实战检验，安全性得到了广泛认可。
 
 **桥接安全**
 
-Base 官方桥接合约采用了多重安全措施：所有存款资金锁定在经过审计的智能合约中，提款需要经过 7 天挑战期和欺诈证明验证，关键操作由多签钱包控制。用户资金的安全性由以太坊主网和智能合约的数学保障，而非依赖中心化托管方。
+Base 官方桥接合约采用了多重安全措施：所有存款资金锁定在经过审计的智能合约中，提款需要经过 7 天挑战期和欺诈证明验证，关键操作由多签[钱包](https://learnblockchain.cn/tags/%E9%92%B1%E5%8C%85)控制。用户资金的安全性由以太坊主网和智能合约的数学保障，而非依赖中心化托管方。
 
 **排序器安全**
 
@@ -385,9 +385,9 @@ Base 的开源特性使得全球开发者和安全研究者可以审查代码、
 
 Base 当前的排序器由 Coinbase 中心化运营，理论上 Coinbase 可以审查交易、延迟交易或重新排序交易（虽然无法盗取资金）。排序器的单点控制与以太坊主网的去中心化程度存在差距。用户应了解这种权衡，并关注 Base 排序器去中心化的进展。
 
-**智能合约风险**
+**[智能合约](https://learnblockchain.cn/tags/%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6)风险**
 
-Base 上部署的 dApp 和 DeFi 协议可能存在智能合约漏洞，导致用户资金损失。即使 Base 基础设施本身是安全的，运行在其上的应用仍可能有问题。用户应谨慎评估 dApp 的安全性，优先使用经过审计的知名协议。
+Base 上部署的 dApp 和 [DeFi](https://learnblockchain.cn/tags/DeFi?map=EVM) 协议可能存在[智能合约](https://learnblockchain.cn/tags/%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6)漏洞，导致用户资金损失。即使 Base 基础设施本身是安全的，运行在其上的应用仍可能有问题。用户应谨慎评估 dApp 的安全性，优先使用经过审计的知名协议。
 
 **7 天提款期**
 
@@ -421,7 +421,7 @@ Base 将继续优化性能，提升交易吞吐量，降低延迟和成本。随
 
 **生态系统扩展**
 
-Base 将继续吸引更多开发者和项目，丰富 DeFi、NFT、游戏、社交等各个领域的应用生态。Coinbase 的品牌影响力、用户基础和资源支持将帮助 Base 成为主流用户进入 Web3 的首选入口。
+Base 将继续吸引更多开发者和项目，丰富 [DeFi](https://learnblockchain.cn/tags/DeFi?map=EVM)、[NFT](https://learnblockchain.cn/tags/NFT)、游戏、社交等各个领域的应用生态。Coinbase 的品牌影响力、用户基础和资源支持将帮助 Base 成为主流用户进入 Web3 的首选入口。
 
 **企业和机构采用**
 
@@ -461,16 +461,16 @@ Base 将持续开发新功能和工具，包括改进的开发者 SDK、更强�
 
 ## 相关概念
 
-- **Layer 2（二层网络）**：建立在以太坊等区块链之上的扩容解决方案，通过将交易执行从主链转移到 Layer 2 来提高吞吐量和降低成本，同时继承主链的安全性。
+- **Layer 2（二层网络）**：建立在[以太坊](https://learnblockchain.cn/tags/以太坊?map=EVM)等区块链之上的扩容解决方案，通过将交易执行从主链转移到 Layer 2 来提高吞吐量和降低成本，同时继承主链的安全性。
 
 - **Optimistic Rollup（乐观 Rollup）**：一种 Layer 2 技术，默认假设所有交易有效（"乐观"），只在有人提出质疑时才验证，通过欺诈证明机制保证安全性。
 
-- **OP Stack**：Optimism 开发的模块化区块链技术栈，为构建 Layer 2 Rollup 提供完整的软件组件和标准化接口。
+- **OP Stack**：Optimism 开发的模块化区块链技术栈，为构建 Layer 2 [Rollup](https://learnblockchain.cn/tags/Rollup) 提供完整的软件组件和标准化接口。
 
 - **排序器（Sequencer）**：负责接收用户交易、排序并批量提交到主链的 Layer 2 组件，目前 Base 的排序器由 Coinbase 运营。
 
-- **欺诈证明（Fraud Proof）**：在 Optimistic Rollup 中用于证明某个状态转换是错误的密码学证明，任何人都可以在挑战期内提交。
+- **欺诈证明（Fraud Proof）**：在 Optimistic [Rollup](https://learnblockchain.cn/tags/Rollup) 中用于证明某个状态转换是错误的密码学证明，任何人都可以在挑战期内提交。
 
-- **状态根（State Root）**：区块链状态的加密哈希值，Layer 2 定期将状态根提交到以太坊主网以锚定状态。
+- **状态根（State Root）**：区块链状态的加密哈希值，Layer 2 定期将状态根提交到[以太坊](https://learnblockchain.cn/tags/以太坊?map=EVM)主网以锚定状态。
 
 - **数据可用性（

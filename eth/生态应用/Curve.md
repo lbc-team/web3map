@@ -2,7 +2,7 @@
 
 ## 概念简介
 
-Curve Finance 是一个基于以太坊的去中心化交易所（DEX），专注于稳定币（如 USDC、DAI、USDT）以及价值锚定资产（如 WBTC/renBTC、ETH/stETH）之间的高效互换。Curve 采用了专门设计的自动做市商（AMM）算法，旨在为同类资产交易提供极低的滑点（Slippage）和低手续费，同时为流动性提供者（LP）提供较低的无常损失风险。
+Curve Finance 是一个基于[以太坊](https://learnblockchain.cn/tags/以太坊?map=EVM)的去中心化交易所（[DEX](https://learnblockchain.cn/tags/DEX?map=EVM)），专注于稳定币（如 USDC、DAI、USDT）以及价值锚定资产（如 WBTC/renBTC、ETH/stETH）之间的高效互换。Curve 采用了专门设计的自动做市商（AMM）算法，旨在为同类资产交易提供极低的滑点（Slippage）和低手续费，同时为流动性提供者（LP）提供较低的无常损失风险。
 
 Curve 于 2020 年推出，迅速成为 DeFi 领域的关键基础设施，特别是在稳定币流动性和收益聚合方面占据主导地位。
 
@@ -18,7 +18,7 @@ Curve 创造性地结合了**恒定和公式**（$x+y=k$，零滑点但无法应
 - 当资产组合平衡时，曲线表现得像恒定和曲线（平坦），滑点极低。
 - 当资产组合极不平衡时，曲线逐渐向恒定乘积曲线过渡，以确保流动性不会枯竭。
 
-这种设计使得 Curve 在价格维持在 1:1 附近时，能够比 Uniswap 提供深得多的流动性和更优的成交价格。
+这种设计使得 Curve 在价格维持在 1:1 附近时，能够比 [Uniswap](https://learnblockchain.cn/tags/Uniswap?map=EVM) 提供深得多的流动性和更优的成交价格。
 
 ### 治理与 veToken 模型
 
@@ -33,20 +33,20 @@ Curve 引入了 **veCRV**（Vote-Escrowed CRV）模型，这对整个 DeFi 的�
 
 ## Curve V2 (Tricrypto)
 
-Curve V2 引入了针对非锚定资产（如 ETH/USDT）的自动做市算法。它使用内部预言机（EMA）动态调整价格曲线的形状（重新定锚），将流动性集中在当前市场价格附近。这使得 Curve 能够与 Uniswap V3 竞争通用资产的交易市场。
+Curve V2 引入了针对非锚定资产（如 ETH/USDT）的自动做市算法。它使用内部[预言机](https://learnblockchain.cn/tags/%E9%A2%84%E8%A8%80%E6%9C%BA)（EMA）动态调整价格曲线的形状（重新定锚），将流动性集中在当前市场价格附近。这使得 Curve 能够与 [Uniswap](https://learnblockchain.cn/tags/Uniswap?map=EVM) V3 竞争通用资产的交易市场。
 
 ## 主要特点
 
 - **低滑点**：专为稳定币设计，大额交易磨损极小。
-- **低手续费**：通常为 0.04%，低于一般 DEX 的 0.3%。
+- **低手续费**：通常为 0.04%，低于一般 [DEX](https://learnblockchain.cn/tags/DEX?map=EVM) 的 0.3%。
 - **低无常损失**：由于交易资产价格高度相关，LP 面临的无常损失风险显著降低。
 - **流动性基础**：是许多 DeFi 协议（如 Yield Aggregators）的底层收益来源。
 
 ## 相关概念
 
-- **Curve War**：指各大 DeFi 协议为了争夺 Curve 的治理权（veCRV）和流动性激励而进行的竞争。
-- **Convex Finance**：构建在 Curve 之上的协议，旨在优化 CRV 质押收益和简化 veCRV 流程。
-- **3pool**：Curve 上最著名的流动性池，由 DAI、USDC、USDT 组成，常被视为 DeFi 流动性的晴雨表。
+- **Curve War**：指各大 [DeFi](https://learnblockchain.cn/tags/DeFi?map=EVM) 协议为了争夺 Curve 的治理权（veCRV）和流动性激励而进行的竞争。
+- **Convex Finance**：构建在 [Curve](https://learnblockchain.cn/tags/Curve?map=EVM) 之上的协议，旨在优化 CRV 质押收益和简化 veCRV 流程。
+- **3pool**：[Curve](https://learnblockchain.cn/tags/Curve?map=EVM) 上最著名的流动性池，由 DAI、USDC、USDT 组成，常被视为 [DeFi](https://learnblockchain.cn/tags/DeFi?map=EVM) 流动性的晴雨表。
 
 ## 推荐阅读
 

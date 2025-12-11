@@ -1,7 +1,7 @@
 ## Ethers.js
 
-Ethers.js 是一个用于与以太坊区块链交互的 JavaScript 库。它通过提供一套工具来简化去中心化应用程序（Dapps）的开发过程，因其易用性、全面的功能和轻量化的特点在 Web3 生态系统中广泛使用。
-除了Dapp开发，也常用于创建钱包(如MetaMask和Tally)以及其他需要读写区块链的工具和简单脚本。
+Ethers.js 是一个用于与以太坊区块链交互的 [JavaScript](https://learnblockchain.cn/tags/JavaScript) 库。它通过提供一套工具来简化去中心化应用程序（Dapps）的开发过程，因其易用性、全面的功能和轻量化的特点在 Web3 生态系统中广泛使用。
+除了Dapp开发，也常用于创建[钱包](https://learnblockchain.cn/tags/%E9%92%B1%E5%8C%85)(如MetaMask和Tally)以及其他需要读写区块链的工具和简单脚本。
 
 #### Ethers.js 的主要特点
 - **轻量且模块化：** Ethers.js 设计轻量且模块化，便于在项目中使用。它提供了一系列模块，可以根据应用需求单独或一起使用。
@@ -17,12 +17,12 @@ Ethers.js 是一个用于与以太坊区块链交互的 JavaScript 库。它通�
   - Infura Provider：通过 Infura 服务连接。
   - Alchemy Provider：通过 Alchemy 服务连接。
   - Etherscan Provider：使用 Etherscan API 连接。
-- Signers（签名者）：Signers代表一个以太坊账户，可以签署交易和消息。常见的Signers包括：
-  - Wallet（钱包）：代表一个可以用来签署交易的私钥。
-  - JsonRpcSigner：代表由 JSON-RPC 提供者管理的账户。
-- Contracts（合约）：Ethers.js 提供了一个合约抽象来与智能合约交互。可以使用 Contract 类轻松地部署、交互和查询智能合约。
-- Utilities（工具）：Ethers.js 包含一整套用于处理以太坊数据格式的工具函数，例如：
-  - 解析和格式化以太坊值（如将 wei 转换为 ether）
+- Signers（签名者）：Signers代表一个以太坊[账户](https://learnblockchain.cn/tags/账户?map=EVM)，可以签署交易和消息。常见的Signers包括：
+  - Wallet（[钱包](https://learnblockchain.cn/tags/%E9%92%B1%E5%8C%85)）：代表一个可以用来签署交易的私钥。
+  - JsonRpcSigner：代表由 JSON-RPC 提供者管理的[账户](https://learnblockchain.cn/tags/账户?map=EVM)。
+- Contracts（合约）：Ethers.js 提供了一个合约抽象来与智能合约交互。可以使用 Contract 类轻松地部署、交互和查询[智能合约](https://learnblockchain.cn/tags/%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6)。
+- Utilities（工具）：Ethers.js 包含一整套用于处理[以太坊](https://learnblockchain.cn/tags/以太坊?map=EVM)数据格式的工具函数，例如：
+  - 解析和格式化[以太坊](https://learnblockchain.cn/tags/以太坊?map=EVM)值（如将 wei 转换为 ether）
   - 处理十六进制字符串和字节数组
   - 哈希和加密函数
 

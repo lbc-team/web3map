@@ -1,8 +1,8 @@
 ## 什么是以太坊2.0？
 
-以太坊2.0 （或 Eth2 ），原本是指 以太坊全新升级，升级后的以太坊采用 POS及分片扩容。  
+以太坊2.0 （或 Eth2 ），原本是指 以太坊全新升级，升级后的[以太坊](https://learnblockchain.cn/tags/以太坊?map=EVM)采用 POS及分片扩容。  
 
-不过 2022年1月，以太坊基金会表示将不再把ETH的升级称之为“以太坊2.0”。而是将**Eth2被称为Consensus Layer“共识层”**，现在的**Eth1被称为“执行层”**
+不过 2022年1月，以太坊基金会表示将不再把ETH的升级称之为“[以太坊](https://learnblockchain.cn/tags/以太坊?map=EVM)2.0”。而是将**Eth2被称为Consensus Layer“共识层”**，现在的**Eth1被称为“执行层”**
 
 
 

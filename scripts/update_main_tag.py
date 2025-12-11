@@ -29,4 +29,4 @@ def update_main_tag():
 
 if __name__ == "__main__":
     # update_main_tag()
-    setmain_tag("多签", "多签名,多签地址,Multisig钱包,multisig,Multisig wallet")
+    setmain_tag("椭圆曲线", "ECC")

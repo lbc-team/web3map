@@ -10,15 +10,15 @@ Aritrum 有两个网络：Aritrum One 和 Aritrum Nova
 
 
 
- Aritrum One 和 Aritrum Nova 背后的技术栈 是**Arbitrum Nitro**，Arbitrum Nitro 是一个类似 [OP-Stack](https://learnblockchain.cn/tags/OP%20Stack) 的 Op Rollup 技术堆栈， Arbitrum Nitro 的主要技术特点有：
+ Aritrum One 和 Aritrum Nova 背后的技术栈 是**Arbitrum Nitro**，Arbitrum Nitro 是一个类似 [OP-Stack](https://learnblockchain.cn/tags/OP%20Stack) 的 Op [Rollup](https://learnblockchain.cn/tags/Rollup) 技术堆栈， Arbitrum Nitro 的主要技术特点有：
 
-* 高效的压缩算法来减少提交到以太坊主链的数据量，从而降低链上存储和计算的成本。
-* 兼容以太坊虚拟机（EVM），开发者可以无缝迁移现有的智能合约和应用到 Nitro 上。
+* 高效的压缩算法来减少提交到[以太坊](https://learnblockchain.cn/tags/以太坊?map=EVM)主链的数据量，从而降低链上存储和计算的成本。
+* 兼容[以太坊](https://learnblockchain.cn/tags/以太坊?map=EVM)虚拟机（[EVM](https://learnblockchain.cn/tags/EVM?map=EVM)），开发者可以无缝迁移现有的[智能合约](https://learnblockchain.cn/tags/%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6)和应用到 Nitro 上。
 * 使用 WASM（WebAssembly）作为底层执行引擎，提供更快的合约执行速度和更高的效率。
 
 
 
-Aritrum Stylus 是 Arbitrum Nitro 的下一次升级， 允许智能合约用 Rust、C 和 C++ 等语言编写，目前还在测试网阶段运行。
+Aritrum Stylus 是 Arbitrum Nitro 的下一次升级， 允许[智能合约](https://learnblockchain.cn/tags/%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6)用 [Rust](https://learnblockchain.cn/tags/Rust)、C 和 C++ 等语言编写，目前还在测试网阶段运行。
 
 
 

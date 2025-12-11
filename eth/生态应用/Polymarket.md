@@ -18,7 +18,7 @@ Polymarket 运作大概分为以下几步：
 结算源（如 Associated Press、官方网站）
 市场类型：二元市场（Yes/No）或多选市场
 
-事件创建后，会部署一个新的智能合约市场
+事件创建后，会部署一个新的[智能合约](https://learnblockchain.cn/tags/%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6)市场
 
 2. 押注交易
    
@@ -28,6 +28,6 @@ Polymarket 运作大概分为以下几步：
 举个例子：假设“特朗普当选”的 YES 价格是 0.62（即市场认为有 62% 概率发生），用户用 USDC 买入 YES，就相当于愿意用 0.62 的成本换取 1 USDC 的回报（如果结果为真）
 
 3.  事件结算（Resolution）
-事件结果可以被验证后，Polymarket 会触发结算流程。结算来源主要有：第三方预言机（Reality.eth）、官方 API（如 Associated Press）人工提交争议/仲裁（极少）
+事件结果可以被验证后，Polymarket 会触发结算流程。结算来源主要有：第三方[预言机](https://learnblockchain.cn/tags/%E9%A2%84%E8%A8%80%E6%9C%BA)（Reality.eth）、官方 API（如 Associated Press）人工提交争议/仲裁（极少）
 一旦结果被确定，赢家的 token 可兑换为 1 USDC，失败的一文不值。
 与买入时的差价是盈利或亏损。

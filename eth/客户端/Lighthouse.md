@@ -4,7 +4,7 @@
 
 Lighthouse 是由 Sigma Prime 团队使用 Rust 语言开发的以太坊共识层（Consensus Layer）客户端。作为以太坊2.0的核心实现之一，Lighthouse 以其出色的性能、内存效率和安全性著称，是以太坊验证者的主流选择之一。
 
-Lighthouse 完整实现了以太坊权益证明（PoS）协议规范，包括信标链、验证者客户端、Slasher 等组件。其设计目标是提供快速、安全、资源友好的客户端实现，特别适合在资源受限的环境中运行。Lighthouse 的开发遵循严格的工程标准，代码质量高，文档完善，受到以太坊社区的广泛认可。
+Lighthouse 完整实现了以太坊权益证明（[PoS](https://learnblockchain.cn/tags/PoS)）协议规范，包括信标链、验证者客户端、Slasher 等组件。其设计目标是提供快速、安全、资源友好的客户端实现，特别适合在资源受限的环境中运行。Lighthouse 的开发遵循严格的工程标准，代码质量高，文档完善，受到以太坊社区的广泛认可。
 
 ## 核心特性
 
@@ -12,7 +12,7 @@ Lighthouse 完整实现了以太坊权益证明（PoS）协议规范，包括信
 Lighthouse 使用 Rust 语言编写，充分利用了 Rust 的内存安全特性和零成本抽象：
 - **内存安全**：Rust 的所有权系统在编译时防止内存泄漏和数据竞争
 - **高性能**：接近 C/C++ 的执行效率，没有垃圾回收带来的性能波动
-- **并发友好**：Rust 的并发模型使得多线程编程更安全可靠
+- **并发友好**：[Rust](https://learnblockchain.cn/tags/Rust) 的并发模型使得多线程编程更安全可靠
 - **类型安全**：强类型系统减少了运行时错误
 
 这些特性使得 Lighthouse 成为最稳定、最安全的以太坊客户端之一。
@@ -50,7 +50,7 @@ API 设计遵循 RESTful 原则，文档齐全，便于开发者使用。
 
 ## 客户端特点
 
-**安全性第一**：Rust 的内存安全特性从根本上消除了许多常见的安全漏洞，如缓冲区溢出、use-after-free 等。代码经过严格审计和测试。
+**安全性第一**：[Rust](https://learnblockchain.cn/tags/Rust) 的内存安全特性从根本上消除了许多常见的安全漏洞，如缓冲区溢出、use-after-free 等。代码经过严格审计和测试。
 
 **开源透明**：完全开源，采用 Apache 2.0 许可证，代码托管在 GitHub，接受全球开发者审查和贡献。
 
@@ -72,19 +72,19 @@ API 设计遵循 RESTful 原则，文档齐全，便于开发者使用。
 
 **2021年**：持续改进性能和用户体验，推出检查点同步功能，大幅缩短节点启动时间。
 
-**2022年9月**：成功支持以太坊合并（The Merge），Lighthouse 验证者平稳过渡到 PoS 共识。
+**2022年9月**：成功支持以太坊合并（The Merge），Lighthouse 验证者平稳过渡到 [PoS](https://learnblockchain.cn/tags/PoS) 共识。
 
 **2023年**：支持 Capella 升级（启用提款功能）、Deneb 升级（EIP-4844 Proto-Danksharding）。优化 MEV-Boost 集成。
 
-**2024年至今**：继续优化性能，推动客户端多样性，支持即将到来的以太坊协议升级。
+**2024年至今**：继续优化性能，推动客户端多样性，支持即将到来的[以太坊](https://learnblockchain.cn/tags/以太坊?map=EVM)协议升级。
 
 ## 应用场景
 
-- **家庭验证者**：在个人电脑或 NUC 上运行 Lighthouse，参与以太坊质押
+- **家庭验证者**：在个人电脑或 NUC 上运行 Lighthouse，参与[以太坊](https://learnblockchain.cn/tags/以太坊?map=EVM)质押
 - **专业节点运营商**：运行大规模验证者集群，为客户提供质押服务
 - **资源受限环境**：在 VPS、树莓派等低配置设备上运行节点
 - **企业级部署**：交易所、托管机构部署高可用验证者基础设施
-- **开发和测试**：开发者在测试网使用 Lighthouse 进行 DApp 开发和协议测试
+- **开发和测试**：开发者在测试网使用 Lighthouse 进行 [DApp](https://learnblockchain.cn/tags/DApp) 开发和协议测试
 
 ## 相关链接
 

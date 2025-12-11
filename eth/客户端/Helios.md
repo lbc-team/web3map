@@ -6,7 +6,7 @@ Helios 是一个用 Rust 编写的以太坊轻客户端,由 a16z crypto 团队�
 
 Helios 的核心创新在于利用以太坊信标链(Beacon Chain)的同步委员会(Sync Committee)机制实现快速、安全的轻客户端同步。这种方法使得 Helios 能够在几秒钟内完成同步,内存占用仅约 25-50 MB,存储空间需求不到 100 MB。相比运行完整节点需要数百 GB 存储和持续的带宽消耗,Helios 为个人用户、钱包和 DApp 提供了一个实用的去中心化访问方案。
 
-Helios 的目标是降低以太坊访问门槛,使任何人都能在不信任中介的情况下安全地与以太坊网络交互。通过将轻客户端技术与现代系统编程语言 Rust 结合,Helios 实现了性能、安全性和可用性的最佳平衡。
+Helios 的目标是降低以太坊访问门槛,使任何人都能在不信任中介的情况下安全地与以太坊网络交互。通过将轻客户端技术与现代系统编程语言 [Rust](https://learnblockchain.cn/tags/Rust) 结合,Helios 实现了性能、安全性和可用性的最佳平衡。
 
 ## 核心特性
 
@@ -20,7 +20,7 @@ Helios 实现了以太坊 Altair 升级引入的轻客户端同步协议(Light C
 
 **完全兼容的 RPC 接口**
 
-Helios 提供标准的以太坊 JSON-RPC 接口,应用程序可以像使用 Infura 一样使用 Helios。开发者只需将 RPC 端点从远程服务器切换到本地运行的 Helios 实例,即可享受去中心化验证的安全性。大多数以太坊工具和库(如 ethers.js、web3.js、MetaMask)都可以无缝对接 Helios。
+Helios 提供标准的以太坊 JSON-RPC 接口,应用程序可以像使用 Infura 一样使用 Helios。开发者只需将 RPC 端点从远程服务器切换到本地运行的 Helios 实例,即可享受去中心化验证的安全性。大多数以太坊工具和库(如 [ethers.js](https://learnblockchain.cn/tags/ethers.js?map=EVM)、web3.js、MetaMask)都可以无缝对接 Helios。
 
 **快速同步**
 
@@ -54,7 +54,7 @@ Helios 通过密码学验证确保数据的正确性。轻客户端协议的安�
 
 **开发者友好**
 
-Helios 用 Rust 编写,提供清晰的 JSON-RPC 接口,与现有以太坊开发工具完全兼容。开发者可以轻松将 Helios 集成到钱包、DApp 后端或其他应用中,只需简单的配置即可从中心化 RPC 迁移到 Helios。
+Helios 用 [Rust](https://learnblockchain.cn/tags/Rust) 编写,提供清晰的 JSON-RPC 接口,与现有以太坊开发工具完全兼容。开发者可以轻松将 Helios 集成到钱包、[DApp](https://learnblockchain.cn/tags/DApp) 后端或其他应用中,只需简单的配置即可从中心化 RPC 迁移到 Helios。
 
 ## 应用场景
 
@@ -62,7 +62,7 @@ Helios 用 Rust 编写,提供清晰的 JSON-RPC 接口,与现有以太坊开发�
 
 个人钱包(如 MetaMask)可以集成 Helios 作为后端,使用户在进行交易时无需信任 Infura 等中心化服务。这提高了钱包的安全性和隐私性,同时保持了良好的用户体验。
 
-**DApp 后端**
+**[DApp](https://learnblockchain.cn/tags/DApp) 后端**
 
 去中心化应用可以在服务器端运行 Helios,确保从以太坊读取的数据(如余额、合约状态、事件日志)是可信的。这避免了依赖中心化 RPC 导致的单点故障,提高了应用的去中心化程度。
 
@@ -72,7 +72,7 @@ Helios 用 Rust 编写,提供清晰的 JSON-RPC 接口,与现有以太坊开发�
 
 **审计和监控**
 
-在审计智能合约或监控链上活动时,使用 Helios 可以确保获取的数据未被篡改。审计人员可以独立验证交易历史和合约状态,而不依赖可能被操纵的第三方数据源。
+在审计[智能合约](https://learnblockchain.cn/tags/%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6)或监控链上活动时,使用 Helios 可以确保获取的数据未被篡改。审计人员可以独立验证交易历史和合约状态,而不依赖可能被操纵的第三方数据源。
 
 **教育和研究**
 
@@ -80,7 +80,7 @@ Helios 的轻量级特性和开源代码使其成为学习以太坊轻客户端�
 
 **移动和嵌入式设备**
 
-Helios 的低资源需求使其可以运行在移动设备和嵌入式系统上。未来的移动钱包可以直接运行 Helios,实现真正的点对点交易验证,而不依赖云端服务。
+Helios 的低资源需求使其可以运行在移动设备和嵌入式系统上。未来的移动[钱包](https://learnblockchain.cn/tags/%E9%92%B1%E5%8C%85)可以直接运行 Helios,实现真正的点对点交易验证,而不依赖云端服务。
 
 ## 发展历程
 
@@ -98,21 +98,21 @@ Helios 增加了对更多执行层 RPC 方法的支持、检查点启动、性�
 
 **2023 年:生态集成**
 
-多个钱包和开发工具开始集成 Helios。项目文档不断完善,新增了详细的 API 说明和使用教程。Helios 成为轻客户端领域的代表性项目。
+多个[钱包](https://learnblockchain.cn/tags/%E9%92%B1%E5%8C%85)和开发工具开始集成 Helios。项目文档不断完善,新增了详细的 API 说明和使用教程。Helios 成为轻客户端领域的代表性项目。
 
 **2024 年:持续优化**
 
-Helios 继续改进性能和稳定性,支持最新的以太坊升级(如 Dencun 升级)。社区探索将 Helios 应用于 Layer2 网络和 EVM 兼容链的可能性。
+Helios 继续改进性能和稳定性,支持最新的以太坊升级(如 Dencun 升级)。社区探索将 Helios 应用于 [Layer2](https://learnblockchain.cn/tags/Layer2?map=EVM) 网络和 [EVM](https://learnblockchain.cn/tags/EVM?map=EVM) 兼容链的可能性。
 
 ## 技术实现
 
 **同步委员会机制**
 
-Helios 利用以太坊 EIP-2700 和 Altair 升级引入的同步委员会。信标链每 256 个 epoch(约 27 小时)随机选出 512 个验证者组成同步委员会,这些验证者对区块头进行签名。轻客户端只需下载签名就能以高概率验证区块的有效性,无需下载完整区块或执行所有交易。
+Helios 利用[以太坊](https://learnblockchain.cn/tags/以太坊?map=EVM) EIP-2700 和 Altair 升级引入的同步委员会。信标链每 256 个 epoch(约 27 小时)随机选出 512 个验证者组成同步委员会,这些验证者对区块头进行签名。轻客户端只需下载签名就能以高概率验证区块的有效性,无需下载完整区块或执行所有交易。
 
 **Merkle 证明验证**
 
-对于执行层数据的验证,Helios 使用 Merkle Patricia Trie 证明机制。当用户查询账户余额、合约状态或交易收据时,Helios 从 RPC 服务获取数据和对应的 Merkle 证明,然后验证证明路径是否与已验证的状态根匹配,确保数据的真实性。
+对于执行层数据的验证,Helios 使用 Merkle Patricia Trie 证明机制。当用户查询[账户](https://learnblockchain.cn/tags/账户?map=EVM)余额、合约状态或交易收据时,Helios 从 RPC 服务获取数据和对应的 Merkle 证明,然后验证证明路径是否与已验证的状态根匹配,确保数据的真实性。
 
 **双层架构**
 
@@ -122,7 +122,7 @@ Helios 的架构分为两层:
 
 **网络通信**
 
-Helios 通过以太坊的 P2P 网络(libp2p)获取共识层数据,对于执行层则通过标准的 HTTP/WebSocket JSON-RPC 接口通信。
+Helios 通过[以太坊](https://learnblockchain.cn/tags/以太坊?map=EVM)的 P2P 网络(libp2p)获取共识层数据,对于执行层则通过标准的 HTTP/WebSocket JSON-RPC 接口通信。
 
 ## 相关链接
 
@@ -130,4 +130,4 @@ Helios 通过以太坊的 P2P 网络(libp2p)获取共识层数据,对于执行�
 - [Helios 文章](https://a16zcrypto.com/posts/article/building-helios-ethereum-light-client/)
 - [以太坊轻客户端规范](https://github.com/ethereum/consensus-specs/blob/dev/specs/altair/light-client/sync-protocol.md)
 - [a16z crypto 官网](https://a16zcrypto.com/)
-- [EIP-2700: 轻客户端](https://eips.ethereum.org/EIPS/eip-2700)
+- [EIP-2700: 轻客户端](https://learnblockchain.cn/docs/eips/EIPS/eip-2700)

@@ -2,17 +2,17 @@
 
 ## 什么是EthStorage？
 
-**EthStorage 是一个去中心化的存储方案**，采用 key-value 的存储范式，与处于市场头部的去中心化存储解决项目 Arweave 和 Filecoin 采用的静态文件的存储范式不同。得益于 key-value 的存储范式，**EthStorage 可以支持 CRUD**, 即创建新的存储数据，更新存储数据，读取存储数据和删除存储数据。这在中心化存储领域是很容易实现的，但是在去中心化存储领域目前只有 EthStorage 可以支持完整的 CRUD，究其原因，是因为更新的操作跟区块链的不可篡改的特性有冲突；为实现更新数据这一功能，EthStorage 实现了一种充满智慧的存储方案：KV 的存储范式结合定制的存储证明算法 ( EthStorage 的存储证明算法是 Pow 与 Proof-of-Random-Access 的结合体 )。
+**EthStorage 是一个去中心化的存储方案**，采用 key-value 的存储范式，与处于市场头部的去中心化存储解决项目 [Arweave](https://learnblockchain.cn/tags/Arweave) 和 [Filecoin](https://learnblockchain.cn/tags/Filecoin) 采用的静态文件的存储范式不同。得益于 key-value 的存储范式，**EthStorage 可以支持 CRUD**, 即创建新的存储数据，更新存储数据，读取存储数据和删除存储数据。这在中心化存储领域是很容易实现的，但是在去中心化存储领域目前只有 EthStorage 可以支持完整的 CRUD，究其原因，是因为更新的操作跟区块链的不可篡改的特性有冲突；为实现更新数据这一功能，EthStorage 实现了一种充满智慧的存储方案：KV 的存储范式结合定制的存储证明算法 ( EthStorage 的存储证明算法是 Pow 与 Proof-of-Random-Access 的结合体 )。
 
-**EthStorage 完美兼容EVM**。兼容 EVM 的 EthStorage 可以给智能合约带来一个近乎完美的互操作性，这在其他的去中心化存储方案中是无法实现的。
+**EthStorage 完美兼容EVM**。兼容 [EVM](https://learnblockchain.cn/tags/EVM?map=EVM) 的 EthStorage 可以给智能合约带来一个近乎完美的互操作性，这在其他的去中心化存储方案中是无法实现的。
 
-**EthStorage 是以太坊的存储L2**。EthStorage 实际上采用的是类似 L2 的架构，在以太坊上会部署一个存储合约作为 EthStorage 的数据操作的入口；同时数据节点链下存储数据 (off chain storage data) 的证明也需要通过这个合约验证。当前的Op Rollup或ZK Rollup的扩容的方向是扩容以太坊的计算能力 ( 链下执行出新的状态树 ) ， 而 EthStorage Rollup 的扩容方向是**扩容以太坊存储数据能力**。
+**EthStorage 是以太坊的存储L2**。EthStorage 实际上采用的是类似 L2 的架构，在以太坊上会部署一个存储合约作为 EthStorage 的数据操作的入口；同时数据节点链下存储数据 (off chain storage data) 的证明也需要通过这个合约验证。当前的Op Rollup或ZK Rollup的扩容的方向是扩容以太坊的计算能力 ( 链下执行出新的状态树 ) ， 而 EthStorage [Rollup](https://learnblockchain.cn/tags/Rollup) 的扩容方向是**扩容以太坊存储数据能力**。
 
 **EthStorage 的客户端是以太坊客户端 Geth 的超集**，这意味着运行 EthStorage 的节点的时候，依然可以正常参与以太坊的任何流程。当启动一个 EthStorage Node 的时候，实际上是运行着一个 Geth 和 Data Provider 的结合体，内部运行的 Geth 可以保证节点正常参与以太坊网络，例如，一个节点可以是以太坊的验证者节点的同时也是 EthStorage 的数据节点。每个 EthStorage Node 的 Data Provider 模块会跟其他 EthStorage Node 的 Data Provider 发起建立连接请求，当它们互相连接之后，实际上就构成了一个去中心化存储网络。
 
 ## EthStorage如何存读数据？
 
-首先 EthStorage 会在以太坊主网上部署一个智能合约来支持 CRUD。
+首先 EthStorage 会在[以太坊](https://learnblockchain.cn/tags/以太坊?map=EVM)主网上部署一个智能合约来支持 CRUD。
 
 合约中每个方法的具体使用场景：
 
@@ -85,9 +85,9 @@
 
 ## EthStorage的未来应用
 
-### On-Chain NFT
+### On-Chain [NFT](https://learnblockchain.cn/tags/NFT)
 
-目前的NFT都是将 Metadata 存放在 Arweave 和IPFS里面为主，仅仅将返回的内容Hash提交上链，这是因为将NFT元数据上链的话会特别贵，因为数据会占据较大的区块空间，所以之前的NFT，大多将元数据放在链下。
+目前的NFT都是将 Metadata 存放在 [Arweave](https://learnblockchain.cn/tags/Arweave) 和IPFS里面为主，仅仅将返回的内容Hash提交上链，这是因为将NFT元数据上链的话会特别贵，因为数据会占据较大的区块空间，所以之前的NFT，大多将元数据放在链下。
 
 但是使用EthStorage的方案，用户可以将NFT的数据直接放在链上，通过智能合约来托管数据，并通过Web3 Access Protocol访问数据在前端渲染出来。相较之下，我们最常使用的NFT交易市场Opensea，它的前端所展示出来的NFT也并不是直接获取的元数据，而是将对应NFT的元数据存储在Opensea中心化的服务器里面，以此获得更高的访问体验。使用Ethstorage的方案，用户不仅能将NFT数据直接存在链上，而且可以通过前端直接获取到链上的NFT元数据，极大的改善了用户体验。
 
@@ -95,11 +95,11 @@
 
 ### Personal Website
 
-个人网站的数据通过智能合约把本地目录的所有数据上传，通过Web3 Access Protocol把本地目录映射成为智能合约上面托管的文件系统，当用户想要访问相对路径和绝对路径的资源的时候，会通过calldata去访问到需要的数据内容。
+个人网站的数据通过智能合约把本地目录的所有数据上传，通过Web3 Access Protocol把本地目录映射成为[智能合约](https://learnblockchain.cn/tags/%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6)上面托管的文件系统，当用户想要访问相对路径和绝对路径的资源的时候，会通过calldata去访问到需要的数据内容。
 
 ### DeWeb
 
-我们知道以太坊是一个去中心化的网络，在以太坊上面诞生了很多去中心化的Dapp，可这些Dapp并不是完全去中心化的，很多应用的前端依然是通过中心化的云服务在托管，像Uniswap的前端网页宕机，删除交易对以及Tornado.Cash因为涉嫌洗钱被监管而导致前端服务停用等都是因为其前端是托管在中心化的服务器上面，无法有效抗审查。但是使用EthStorage的方案，网页文件和数据被托管在智能合约中，由去中心化的网络共同运行和维护，使得抗审查性大大提高。通过智能合约的可编程性实现DeWeb，可以实现很多有意思的应用，比如De-github，De-blog，以及各种dapp的前端。
+我们知道以太坊是一个去中心化的网络，在[以太坊](https://learnblockchain.cn/tags/以太坊?map=EVM)上面诞生了很多去中心化的Dapp，可这些Dapp并不是完全去中心化的，很多应用的前端依然是通过中心化的云服务在托管，像Uniswap的前端网页宕机，删除交易对以及Tornado.Cash因为涉嫌洗钱被监管而导致前端服务停用等都是因为其前端是托管在中心化的服务器上面，无法有效抗审查。但是使用EthStorage的方案，网页文件和数据被托管在智能合约中，由去中心化的网络共同运行和维护，使得抗审查性大大提高。通过[智能合约](https://learnblockchain.cn/tags/%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6)的可编程性实现DeWeb，可以实现很多有意思的应用，比如De-github，De-blog，以及各种dapp的前端。
 
 ### Modifiable Mirror
 

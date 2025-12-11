@@ -13,10 +13,10 @@ USDT最初在比特币区块链上通过Omni Layer协议发行,后来扩展到�
 **多链部署**
 
 USDT是多链部署最广泛的稳定币，目前在超过15条区块链上发行，包括：
-- **以太坊（ERC-20）**：最大的USDT发行链，主要用于DeFi和DEX
+- **以太坊（[ERC-20](https://learnblockchain.cn/tags/ERC20?map=EVM)）**：最大的USDT发行链，主要用于DeFi和DEX
 - **波场（TRC-20）**：手续费极低（约0.1美元），是亚洲市场和小额转账的首选
 - **BNB Chain（BEP-20）**：用于币安生态和DeFi应用
-- **Solana、Avalanche、Polygon等**：覆盖各大公链生态
+- **[Solana](https://learnblockchain.cn/tags/Solana?map=Solana)、Avalanche、Polygon等**：覆盖各大公链生态
 
 这种多链策略使得USDT在不同生态系统中都有强大的流动性和可用性。
 
@@ -58,13 +58,13 @@ USDT在全球数百个交易所和数千个交易对中提供流动性，24小�
 
 **广泛的生态整合**
 
-几乎所有加密货币钱包、支付服务、DeFi协议都支持USDT。这种无处不在的兼容性使得USDT成为加密世界的"通用货币"。
+几乎所有加密货币[钱包](https://learnblockchain.cn/tags/%E9%92%B1%E5%8C%85)、支付服务、DeFi协议都支持USDT。这种无处不在的兼容性使得USDT成为加密世界的"通用货币"。
 
 ## 发展历程
 
 **2014年10月：诞生**
 
-Tether（当时名为Realcoin）在比特币区块链上通过Omni Layer协议发行。最初定位为"锚定美元的加密货币"，解决交易所无法直接处理法币的问题。
+Tether（当时名为Realcoin）在[比特币](https://learnblockchain.cn/tags/比特币?map=BTC)区块链上通过Omni Layer协议发行。最初定位为"锚定美元的加密货币"，解决交易所无法直接处理法币的问题。
 
 **2015-2016年：早期增长**
 
@@ -76,7 +76,7 @@ Tether与审计公司Friedman LLP终止合作，未能提供完整的审计报�
 
 **2018年：多链扩展**
 
-Tether在以太坊上发行ERC-20版USDT，极大提升了DeFi兼容性和使用便利性。以太坊版USDT迅速超过Omni版本成为主流。
+Tether在以太坊上发行ERC-20版USDT，极大提升了DeFi兼容性和使用便利性。[以太坊](https://learnblockchain.cn/tags/以太坊?map=EVM)版USDT迅速超过Omni版本成为主流。
 
 **2019年：TRC-20推出**
 
@@ -118,7 +118,7 @@ USDT是几乎所有交易所的基础交易对，交易者使用USDT作为价值
 
 **DeFi协议**
 
-USDT广泛用于去中心化交易所（Uniswap、Curve）、借贷协议（Aave、Compound）、流动性挖矿等DeFi场景。
+USDT广泛用于去中心化交易所（[Uniswap](https://learnblockchain.cn/tags/Uniswap?map=EVM)、[Curve](https://learnblockchain.cn/tags/Curve?map=EVM)）、借贷协议（Aave、Compound）、流动性挖矿等DeFi场景。
 
 **OTC交易**
 
@@ -151,7 +151,7 @@ Tether面临多个司法管辖区的监管审查：
 
 **银行风险**
 
-Tether的储备金存放在银行，银行倒闭或账户被冻结会影响偿付能力。Tether未披露其具体的银行合作伙伴，增加了不确定性。
+Tether的储备金存放在银行，银行倒闭或[账户](https://learnblockchain.cn/tags/账户?map=EVM)被冻结会影响偿付能力。Tether未披露其具体的银行合作伙伴，增加了不确定性。
 
 ## 其他稳定币
 
@@ -178,7 +178,7 @@ MakerDAO的去中心化稳定币，完全透明且抗审查，但市值较小，
 
 ## 相关协议
 
-- **Omni Layer**：比特币上的资产发行协议，USDT最初的发行平台
-- **ERC-20**：以太坊代币标准，USDT最大的发行链
+- **Omni Layer**：[比特币](https://learnblockchain.cn/tags/比特币?map=BTC)上的资产发行协议，USDT最初的发行平台
+- **[ERC-20](https://learnblockchain.cn/tags/ERC20?map=EVM)**：[以太坊](https://learnblockchain.cn/tags/以太坊?map=EVM)代币标准，USDT最大的发行链
 - **TRC-20**：波场代币标准，低成本USDT转账的首选
 - **跨链桥**：支持USDT在不同区块链间转移

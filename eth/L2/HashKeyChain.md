@@ -6,7 +6,7 @@ HashKey Chain是由HashKey Group推出的合规化Layer2区块链,专注于为�
 
 HashKey Group是亚洲领先的数字资产金融服务集团,获得多轮顶级机构投资。HashKey Chain基于以太坊Layer2技术构建,采用zkRollup方案,在保持以太坊安全性的同时,提供更高的交易吞吐量和更低的成本,同时内置合规框架和身份验证机制。
 
-HashKey Chain的目标是成为连接传统金融和DeFi的桥梁,为资产代币化(RWA)、机构DeFi、合规稳定币等场景提供基础设施支持。
+HashKey Chain的目标是成为连接传统金融和DeFi的桥梁,为资产代币化([RWA](https://learnblockchain.cn/tags/RWA))、机构DeFi、合规稳定币等场景提供基础设施支持。
 
 ## 核心特性
 
@@ -20,7 +20,7 @@ HashKey Chain的目标是成为连接传统金融和DeFi的桥梁,为资产代�
 
 ### 2. zkRollup技术
 
-采用零知识证明技术:
+采用[零知识证明](https://learnblockchain.cn/tags/%E9%9B%B6%E7%9F%A5%E8%AF%86%E8%AF%81%E6%98%8E)技术:
 - 继承以太坊安全性
 - 高交易吞吐量
 - 低Gas成本
@@ -29,7 +29,7 @@ HashKey Chain的目标是成为连接传统金融和DeFi的桥梁,为资产代�
 ### 3. 机构级安全
 
 - 多重签名
-- 冷热钱包分离
+- 冷热[钱包](https://learnblockchain.cn/tags/%E9%92%B1%E5%8C%85)分离
 - 保险和托管服务
 - 24/7安全监控
 
@@ -72,7 +72,7 @@ HashKey Chain的目标是成为连接传统金融和DeFi的桥梁,为资产代�
 
 ### 3. 低成本
 
-Gas费用远低于以太坊主网,适合高频交易和小额支付。
+Gas费用远低于[以太坊](https://learnblockchain.cn/tags/以太坊?map=EVM)主网,适合高频交易和小额支付。
 
 ### 4. 机构友好
 
@@ -132,14 +132,14 @@ Layer2基础设施:
 ### HashKey Bridge
 
 官方跨链桥:
-- 以太坊主网<->HashKey Chain
+- [以太坊](https://learnblockchain.cn/tags/以太坊?map=EVM)主网<->HashKey Chain
 - 安全的资产转移
 - 机构级托管
 - 快速到账
 
 ### HashKey Wallet
 
-官方钱包:
+官方[钱包](https://learnblockchain.cn/tags/%E9%92%B1%E5%8C%85):
 - 支持HashKey Chain
 - 多链资产管理
 - KYC集成
@@ -148,7 +148,7 @@ Layer2基础设施:
 ### 开发者工具
 
 - SDK和API
-- 智能合约模板
+- [智能合约](https://learnblockchain.cn/tags/%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6)模板
 - 测试网环境
 - 技术文档
 
@@ -166,7 +166,7 @@ Layer2基础设施:
 
 - 交易Gas费用
 - 跨链桥接费用
-- 智能合约部署费用
+- [智能合约](https://learnblockchain.cn/tags/%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6)部署费用
 - 部分费用用于生态发展
 
 ## 应用场景
@@ -179,7 +179,7 @@ Layer2基础设施:
 - 资产管理
 - 衍生品
 
-### 2. 资产代币化(RWA)
+### 2. 资产代币化([RWA](https://learnblockchain.cn/tags/RWA))
 
 - 房地产代币化
 - 债券和股票上链
@@ -207,7 +207,7 @@ Layer2基础设施:
 
 - **Immutable X**:游戏和NFT专注的zkRollup
 - **StarkNet**:通用zkRollup(部分合规功能)
-- **Polygon zkEVM**:EVM兼容的zkRollup
+- **Polygon [zkEVM](https://learnblockchain.cn/tags/zkEVM?map=EVM)**:EVM兼容的zkRollup
 
 ### 机构区块链
 

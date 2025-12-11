@@ -4,7 +4,7 @@
 
 Fe 是一门专为以太坊智能合约设计的现代编程语言，由以太坊基金会支持开发。Fe 使用 Rust 语言编写，旨在提供比 Solidity 更安全、更简洁的智能合约开发体验。语言名称"Fe"取自化学元素符号铁（Iron），象征着其坚固可靠的特性。
 
-Fe 于 2021 年开始开发，作为对 Vyper 的精神继承者和 Solidity 的现代化替代方案。Fe 从 Rust 的设计哲学中汲取灵感，强调内存安全、类型安全和开发者友好性。与 Solidity 的复杂性和历史包袱不同，Fe 采用极简设计原则，移除了不必要的特性，专注于智能合约开发的核心需求。
+Fe 于 2021 年开始开发，作为对 [Vyper](https://learnblockchain.cn/tags/Vyper?map=EVM) 的精神继承者和 Solidity 的现代化替代方案。Fe 从 Rust 的设计哲学中汲取灵感，强调内存安全、类型安全和开发者友好性。与 Solidity 的复杂性和历史包袱不同，Fe 采用极简设计原则，移除了不必要的特性，专注于智能合约开发的核心需求。
 
 Fe 编译为 EVM 字节码，完全兼容以太坊虚拟机和所有以太坊工具链。开发者可以使用 Fe 编写安全的 DeFi 协议、NFT 合约、DAO 治理系统等，同时享受现代编程语言的开发体验。截至 2024 年，Fe 已发布多个稳定版本，吸引了越来越多注重安全性和代码质量的开发者。
 
@@ -16,7 +16,7 @@ Fe 借鉴 Rust 的所有权系统，在编译期就能捕获大部分内存错�
 
 **极简语法**
 
-Fe 采用清晰、简洁的语法，移除了 Solidity 中的许多复杂特性和历史遗留问题。语言规范更小，学习曲线更平缓。Fe 的语法类似 Python 和 Rust 的结合，易于阅读和维护。例如，Fe 使用缩进而非大括号表示代码块，使代码结构更清晰。
+Fe 采用清晰、简洁的语法，移除了 Solidity 中的许多复杂特性和历史遗留问题。语言规范更小，学习曲线更平缓。Fe 的语法类似 Python 和 [Rust](https://learnblockchain.cn/tags/Rust) 的结合，易于阅读和维护。例如，Fe 使用缩进而非大括号表示代码块，使代码结构更清晰。
 
 **强类型系统**
 
@@ -50,11 +50,11 @@ Fe 的简洁语法和清晰语义使得代码更易于审计。没有隐式行�
 
 **EVM 兼容**
 
-Fe 编译为标准的 EVM 字节码，可以部署到以太坊主网、各种 Layer2、EVM 兼容链（如 BSC、Polygon、Avalanche）。Fe 合约可以与 Solidity 合约无缝交互，方便渐进式迁移。
+Fe 编译为标准的 EVM 字节码，可以部署到以太坊主网、各种 [Layer2](https://learnblockchain.cn/tags/Layer2?map=EVM)、[EVM](https://learnblockchain.cn/tags/EVM?map=EVM) 兼容链（如 BSC、Polygon、Avalanche）。Fe 合约可以与 Solidity 合约无缝交互，方便渐进式迁移。
 
 **未来扩展性**
 
-Fe 的模块化设计为未来扩展留下空间。随着以太坊虚拟机的演进（如 EOF、EVM Object Format），Fe 可以快速适配新特性。Fe 还在探索编译到 WebAssembly 和其他虚拟机的可能性。
+Fe 的模块化设计为未来扩展留下空间。随着以太坊虚拟机的演进（如 EOF、[EVM](https://learnblockchain.cn/tags/EVM?map=EVM) Object Format），Fe 可以快速适配新特性。Fe 还在探索编译到 WebAssembly 和其他虚拟机的可能性。
 
 ## 语法示例
 
@@ -128,11 +128,11 @@ contract SafeVault:
 
 **DeFi 协议**
 
-Fe 的安全性使其非常适合构建 DeFi 应用。去中心化交易所、借贷协议、稳定币系统等高价值应用可以使用 Fe 降低智能合约漏洞风险。Fe 的可审计性也为 DeFi 项目通过安全审计提供了便利。
+Fe 的安全性使其非常适合构建 DeFi 应用。去中心化交易所、借贷协议、稳定币系统等高价值应用可以使用 Fe 降低智能合约漏洞风险。Fe 的可审计性也为 [DeFi](https://learnblockchain.cn/tags/DeFi?map=EVM) 项目通过安全审计提供了便利。
 
 **NFT 和游戏**
 
-NFT 铸造、交易、版税管理等合约可以用 Fe 实现。链上游戏的核心逻辑（如道具系统、战斗计算、经济模型）使用 Fe 编写可以确保公平性和安全性。
+[NFT](https://learnblockchain.cn/tags/NFT) 铸造、交易、版税管理等合约可以用 Fe 实现。链上游戏的核心逻辑（如道具系统、战斗计算、经济模型）使用 Fe 编写可以确保公平性和安全性。
 
 **DAO 治理**
 
@@ -144,13 +144,13 @@ DAO 的治理合约、投票系统、国库管理可以用 Fe 实现。Fe 的清
 
 **教育和研究**
 
-Fe 的简洁语法和安全设计使其成为智能合约教学的理想语言。学生可以更快掌握核心概念，而不会被复杂的语言特性干扰。学术界也在探索基于 Fe 的形式化验证方法。
+Fe 的简洁语法和安全设计使其成为[智能合约](https://learnblockchain.cn/tags/%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6)教学的理想语言。学生可以更快掌握核心概念，而不会被复杂的语言特性干扰。学术界也在探索基于 Fe 的形式化验证方法。
 
 ## 发展历程
 
 **2021 年：项目启动**
 
-以太坊基金会启动 Fe 语言项目，目标是创建一门安全、现代的智能合约语言。项目从 Vyper 的经验中学习，同时引入 Rust 的设计理念。
+[以太坊](https://learnblockchain.cn/tags/以太坊?map=EVM)基金会启动 Fe 语言项目，目标是创建一门安全、现代的[智能合约](https://learnblockchain.cn/tags/%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6)语言。项目从 [Vyper](https://learnblockchain.cn/tags/Vyper?map=EVM) 的经验中学习，同时引入 [Rust](https://learnblockchain.cn/tags/Rust) 的设计理念。
 
 **2021 年底：Alpha 版本**
 
@@ -162,15 +162,15 @@ Fe 经过多次迭代，语法和特性逐渐稳定。编译器实现了完整�
 
 **2023 年：生态建设**
 
-Fe 工具链日益完善，包括 IDE 插件、调试器、测试框架、文档生成器等。社区开始构建基于 Fe 的 DeFi 协议和 NFT 项目。Fe 合约在测试网和一些侧链上得到实际应用。
+Fe 工具链日益完善，包括 IDE 插件、调试器、测试框架、文档生成器等。社区开始构建基于 Fe 的 [DeFi](https://learnblockchain.cn/tags/DeFi?map=EVM) 协议和 [NFT](https://learnblockchain.cn/tags/NFT) 项目。Fe 合约在测试网和一些侧链上得到实际应用。
 
 **2024 年：主网应用**
 
-越来越多的项目在以太坊主网上部署 Fe 合约。Fe 的安全记录和审计友好性吸引了注重安全的开发团队。社区持续贡献改进，Fe 逐渐成为 Solidity 之外的重要选择。
+越来越多的项目在[以太坊](https://learnblockchain.cn/tags/以太坊?map=EVM)主网上部署 Fe 合约。Fe 的安全记录和审计友好性吸引了注重安全的开发团队。社区持续贡献改进，Fe 逐渐成为 Solidity 之外的重要选择。
 
-## 与 Solidity 对比
+## 与 [Solidity](https://learnblockchain.cn/tags/Solidity?map=EVM) 对比
 
-| 特性 | Fe | Solidity |
+| 特性 | Fe | [Solidity](https://learnblockchain.cn/tags/Solidity?map=EVM) |
 |------|----|---------|
 | 内存安全 | 编译期保证 | 运行时检查 |
 | 类型系统 | 严格静态类型 | 静态类型但允许隐式转换 |

@@ -16,13 +16,13 @@ Remix IDE 网址：https://remix.ethereum.org/
 
 3. **调试器**：Remix 内置了一个调试工具，可以逐步执行智能合约，检查变量状态和调用栈，帮助开发者找到和修复代码中的问题。
 
-4. **测试**：Remix 支持通过 JavaScript 测试框架来编写和运行单元测试，确保智能合约的正确性和可靠性。
+4. **测试**：Remix 支持通过 [JavaScript](https://learnblockchain.cn/tags/JavaScript) 测试框架来编写和运行单元测试，确保[智能合约](https://learnblockchain.cn/tags/%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6)的正确性和可靠性。
 
-5. **插件系统**：Remix 有一个灵活的插件系统，开发者可以根据需要安装和配置各种插件，以扩展 IDE 的功能。这些插件包括 Solidity 语言服务器、分析工具和部署工具等。
+5. **插件系统**：Remix 有一个灵活的插件系统，开发者可以根据需要安装和配置各种插件，以扩展 IDE 的功能。这些插件包括 [Solidity](https://learnblockchain.cn/tags/Solidity?map=EVM) 语言服务器、分析工具和部署工具等。
 
-6. **多环境支持**：Remix 支持连接到多个以太坊网络，包括主网、测试网和本地开发网络，方便开发者在不同环境中进行开发和测试。
+6. **多环境支持**：Remix 支持连接到多个[以太坊](https://learnblockchain.cn/tags/以太坊?map=EVM)网络，包括主网、测试网和本地开发网络，方便开发者在不同环境中进行开发和测试。
 
 7. **文件管理**：Remix 提供了一个文件管理系统，开发者可以轻松管理项目中的多个文件和目录，并支持从本地导入和导出文件。
 
-8. **部署和交互**：通过 Remix，开发者可以将智能合约部署到以太坊网络上，并与已部署的合约进行交互。它还提供了一个用户友好的界面来发送交易和调用合约函数。
+8. **部署和交互**：通过 Remix，开发者可以将[智能合约](https://learnblockchain.cn/tags/%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6)部署到[以太坊](https://learnblockchain.cn/tags/以太坊?map=EVM)网络上，并与已部署的合约进行交互。它还提供了一个用户友好的界面来发送交易和调用合约函数。
 

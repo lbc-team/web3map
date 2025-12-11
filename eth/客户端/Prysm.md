@@ -2,14 +2,14 @@
 
 ### 概念简介
 
-Prysm 是以太坊共识层（Consensus Layer）的 Go 语言实现，由 Prysmatic Labs（后被 Offchain Labs 收购）开发。作为以太坊权益证明（PoS）网络的核心客户端之一，Prysm 为验证者提供了参与以太坊网络共识的安全高效途径。
+Prysm 是以太坊共识层（Consensus Layer）的 Go 语言实现，由 Prysmatic Labs（后被 Offchain Labs 收购）开发。作为以太坊权益证明（[PoS](https://learnblockchain.cn/tags/PoS)）网络的核心客户端之一，Prysm 为验证者提供了参与以太坊网络共识的安全高效途径。
 
 自以太坊完成合并（The Merge）后，网络分为执行层（原 ETH 1.0）和共识层（原 ETH 2.0/信标链），Prysm 专注于共识层的实现，负责管理验证者、处理区块提议和证明。
 
 ### 核心特性
 
-**Go 语言实现**
-Prysm 使用 Go 语言编写，充分利用 Go 的并发特性和高性能，确保节点能够高效处理大量验证者和区块数据。Go 语言的内存管理和垃圾回收机制也为长期稳定运行提供了保障。
+**[Go](https://learnblockchain.cn/tags/Go) 语言实现**
+Prysm 使用 Go 语言编写，充分利用 Go 的并发特性和高性能，确保节点能够高效处理大量验证者和区块数据。[Go](https://learnblockchain.cn/tags/Go) 语言的内存管理和垃圾回收机制也为长期稳定运行提供了保障。
 
 **完整的共识规范**
 Prysm 严格遵循以太坊共识规范（Ethereum Consensus Specification），实现了信标链的所有功能：
@@ -42,7 +42,7 @@ Prysm 提供了详细的文档和工具，降低了运行验证者节点的技�
 Prysm 拥有活跃的开发社区和完善的文档，问题能够得到快速响应和解决。
 
 **安全性**
-经过多次专业安全审计，Prysm 在处理验证者密钥和区块签名时采用了严格的安全措施。支持硬件钱包集成，进一步提升密钥安全性。
+经过多次专业安全审计，Prysm 在处理验证者密钥和区块签名时采用了严格的安全措施。支持硬件[钱包](https://learnblockchain.cn/tags/%E9%92%B1%E5%8C%85)集成，进一步提升密钥安全性。
 
 ### 使用场景
 
@@ -58,7 +58,7 @@ Prysm 拥有活跃的开发社区和完善的文档，问题能够得到快速�
 ### 客户端多样性
 
 以太坊社区强烈建议不同验证者使用不同的共识层客户端，以避免单一客户端出现问题时影响整个网络。Prysm 作为最流行的共识层客户端之一，其他主流选择包括：
-- Lighthouse（Rust）
+- Lighthouse（[Rust](https://learnblockchain.cn/tags/Rust)）
 - Teku（Java）
 - Nimbus（Nim）
 - Lodestar（TypeScript）
@@ -84,10 +84,10 @@ Prysm 拥有活跃的开发社区和完善的文档，问题能够得到快速�
 - **2018 年**：Prysmatic Labs 成立，开始开发以太坊 2.0 客户端
 - **2020 年**：Prysm 参与多个以太坊 2.0 测试网
 - **2020 年 12 月**：信标链主网启动，Prysm 成为主要客户端之一
-- **2022 年 9 月**：成功支持以太坊合并，从 PoW 过渡到 PoS
-- **2023-2025 年**：持续优化性能，支持新的以太坊升级
+- **2022 年 9 月**：成功支持以太坊合并，从 [PoW](https://learnblockchain.cn/tags/PoW) 过渡到 [PoS](https://learnblockchain.cn/tags/PoS)
+- **2023-2025 年**：持续优化性能，支持新的[以太坊](https://learnblockchain.cn/tags/以太坊?map=EVM)升级
 
-Prysm 已成为以太坊生态中最成熟和广泛使用的共识层客户端之一，为网络的安全和去中心化做出了重要贡献。
+Prysm 已成为[以太坊](https://learnblockchain.cn/tags/以太坊?map=EVM)生态中最成熟和广泛使用的共识层客户端之一，为网络的安全和去中心化做出了重要贡献。
 
 ### 相关链接
 

@@ -168,6 +168,14 @@
 
 [椭圆曲线密码学](https://learnblockchain.cn/tags/椭圆曲线密码学)
 
+[椭圆曲线](https://learnblockchain.cn/tags/%E6%A4%AD%E5%9C%86%E6%9B%B2%E7%BA%BF)
+
+[sumcheck](https://learnblockchain.cn/tags/sumcheck)
+
+[RSA](https://learnblockchain.cn/tags/RSA)
+
+[ECC](https://learnblockchain.cn/tags/ECC)
+
 [x402](https://learnblockchain.cn/tags/x402)
 
 [课程](https://learnblockchain.cn/courses)

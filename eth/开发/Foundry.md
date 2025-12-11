@@ -1,6 +1,6 @@
 ## Foundry 简介
 
-[Foundry](https://learnblockchain.cn/tags/Foundry?map=EVM) 是一种用于以太坊智能合约开发的先进工具集。它由 Paradigm 开发，是一个快速、便捷和高效的智能合约开发框架，提供了编译、测试、调试和部署合约的完整工具链。Foundry 的设计目标是提高开发效率简化 [Solidity](https://learnblockchain.cn/tags/Solidity?map=EVM) 智能合约的开发流程。
+[Foundry](https://learnblockchain.cn/tags/Foundry?map=EVM) 是一种用于[以太坊](https://learnblockchain.cn/tags/以太坊?map=EVM)智能合约开发的先进工具集。它由 Paradigm 开发，是一个快速、便捷和高效的智能合约开发框架，提供了编译、测试、调试和部署合约的完整工具链。Foundry 的设计目标是提高开发效率简化 [Solidity](https://learnblockchain.cn/tags/Solidity?map=EVM) 智能合约的开发流程。
 
 ### Foundry 的主要组件
 
@@ -13,9 +13,9 @@
 2. **Cast**：
    - Cast 是 Foundry 的另一重要工具，提供了与以太坊网络进行交互的命令行界面。
    - 功能包括发送交易、查询链上数据、调用智能合约等。例如，`cast send` 命令用于发送交易，`cast call` 命令用于调用合约方法。
-3. **Anvil**：一个高性能的本地测试网络，用于模拟以太坊区块链环境。它提供了快速的交易确认和丰富的测试功能，便于开发和调试。
+3. **Anvil**：一个高性能的本地测试网络，用于模拟[以太坊](https://learnblockchain.cn/tags/以太坊?map=EVM)区块链环境。它提供了快速的交易确认和丰富的测试功能，便于开发和调试。
    
-4. **Chisel**: 一个先进的Solidity REPL。它可以用来快速测试在本地或 fork 网络上的 Solidity 片段的行为。
+4. **Chisel**: 一个先进的Solidity REPL。它可以用来快速测试在本地或 fork 网络上的 [Solidity](https://learnblockchain.cn/tags/Solidity?map=EVM) 片段的行为。
 
 ### 使用 Foundry 的示例
 
@@ -29,13 +29,13 @@
      ```
 
 2. **初始化项目**：
-   - 使用 `forge init` 命令初始化一个新的智能合约项目：
+   - 使用 `forge init` 命令初始化一个新的[智能合约](https://learnblockchain.cn/tags/%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6)项目：
      ```sh
      forge init my-foundry-project
      cd my-foundry-project
      ```
 
-3. **编写智能合约**：
+3. **编写[智能合约](https://learnblockchain.cn/tags/%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6)**：
    - 在 `src` 目录下编写你的智能合约，例如 `HelloWorld.sol`：
      ```solidity
      // SPDX-License-Identifier: MIT
@@ -134,8 +134,8 @@
 
 ## 更多
 
-1. DeCert.me Foundry 开发教程： https://decert.me/tutorial/solidity/tools/foundry
+1. DeCert.me [Foundry](https://learnblockchain.cn/tags/Foundry?map=EVM) 开发教程： https://decert.me/tutorial/solidity/tools/foundry
 
-2. Foundry 文档： 英文： https://book.getfoundry.sh/  中文：https://learnblockchain.cn/docs/foundry/i18n/zh/
+2. [Foundry](https://learnblockchain.cn/tags/Foundry?map=EVM) 文档： 英文： https://book.getfoundry.sh/  中文：https://learnblockchain.cn/docs/foundry/i18n/zh/
 
    

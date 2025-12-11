@@ -3,9 +3,36 @@
 
 import sys
 import argparse
+import subprocess
 from pathlib import Path
 from time import sleep
 from lbc_api import get_tag_info, update_tag
+
+
+def get_unstaged_files(base_dir):
+    """获取 git 中未 staged 的 .md 文件"""
+    try:
+        # 获取已修改但未 staged 的文件
+        result = subprocess.run(
+            ['git', 'diff', '--name-only'],
+            cwd=base_dir,
+            capture_output=True,
+            text=True,
+            check=True
+        )
+
+        files = result.stdout.strip().split('\n')
+        # 过滤出 .md 文件并转换为完整路径
+        md_files = [
+            base_dir / file
+            for file in files
+            if file.endswith('.md') and file
+        ]
+
+        return md_files
+    except subprocess.CalledProcessError as e:
+        print(f"获取 git 状态失败: {e}")
+        return []
 
 
 def process_directory(directory):
@@ -45,6 +72,7 @@ def main():
         epilog="""
 示例:
   %(prog)s                          # 处理默认的 solana 目录
+  %(prog)s --unstaged               # 处理所有未 staged 的 .md 文件
   %(prog)s solana/核心概念           # 处理指定目录
   %(prog)s solana/Solana.md         # 处理单个文件
   %(prog)s ../evm                   # 处理相对路径目录
@@ -55,24 +83,59 @@ def main():
         'path',
         nargs='?',
         default=None,
-        help='要处理的文件或目录路径 '
+        help='要处理的文件或目录路径'
+    )
+
+    parser.add_argument(
+        '--unstaged',
+        action='store_true',
+        help='处理所有未 staged 的 .md 文件'
     )
 
     args = parser.parse_args()
 
     # 确定要处理的路径
     script_dir = Path(__file__).parent
+    base_dir = script_dir.parent
+
+    # 如果指定了 --unstaged 选项
+    if args.unstaged:
+        print("获取未 staged 的 .md 文件...")
+        unstaged_files = get_unstaged_files(base_dir)
+
+        if not unstaged_files:
+            print("没有找到未 staged 的 .md 文件")
+            return 0
+
+        print(f"找到 {len(unstaged_files)} 个未 staged 的 .md 文件:\n")
+        for file in unstaged_files:
+            print(f"  - {file.relative_to(base_dir)}")
+
+        print("\n开始处理...\n")
+
+        for i, file_path in enumerate(unstaged_files, 1):
+            print(f"[{i}/{len(unstaged_files)}] 处理: {file_path.relative_to(base_dir)}")
+            try:
+                update_tag_from_file(file_path)
+                print(f"  ✓ 完成\n")
+            except Exception as e:
+                print(f"  ✗ 错误: {e}\n")
+
+        print(f"完成! 总共处理了 {len(unstaged_files)} 个文件")
+        return 0
 
     if args.path:
         # 如果提供了参数，解析路径
         target_path = Path(args.path)
         # 如果是相对路径，从脚本父目录解析
         if not target_path.is_absolute():
-            target_path = script_dir.parent / target_path
+            target_path = base_dir / target_path
+    else:
+        target_path = None
 
 
     # 检查路径是否存在
-    if not target_path.exists():
+    if not target_path or not target_path.exists():
         print(f"错误: 路径 {target_path} 不存在")
         return 1
 

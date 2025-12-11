@@ -115,33 +115,30 @@ def is_in_url(text, pos):
     return False
 
 
-def is_in_related_concepts_section(text, pos):
-    """检查位置是否在'相关概念'部分"""
-    before_text = text[:pos]
+def is_in_heading(text, pos):
+    """检查位置是否在标题行中（以 ## 或 ### 等开头的行）"""
+    # 找到当前位置所在行的开始位置
+    line_start = text.rfind('\n', 0, pos)
+    if line_start == -1:
+        line_start = 0
+    else:
+        line_start += 1  # 跳过换行符
 
-    # 查找最后一个三级或以上标题
-    # 支持 ### 相关概念, ### 相关链接 等
-    pattern = r'###\s*相关'
-    matches = list(re.finditer(pattern, before_text))
+    # 获取从行首到当前位置之间的内容
+    line_prefix = text[line_start:pos]
 
-    if not matches:
-        return False
+    # 获取整行内容用于检查
+    line_end = text.find('\n', pos)
+    if line_end == -1:
+        line_end = len(text)
+    line = text[line_start:line_end]
 
-    # 获取最后一个"相关"标题的位置
-    last_related_pos = matches[-1].start()
+    # 检查行是否以 ## 开头（markdown 标题）
+    stripped_line = line.lstrip()
+    if stripped_line.startswith('#'):
+        return True
 
-    # 检查在这之后是否还有其他同级或更高级的标题
-    after_related = before_text[last_related_pos:]
-    # 查找是否有 ## 或 ### (不包括相关)
-    next_section = re.search(r'\n##\s', after_related)
-
-    if next_section:
-        # 如果找到了下一个章节，说明不在相关概念部分
-        return False
-
-    # 在相关概念部分
-    return True
-
+    return False
 
 def remove_all_term_links(content, term_links):
     """移除所有术语链接，还原为纯文本"""
@@ -190,24 +187,6 @@ def add_links_to_content(content, term_links):
             # 计算当前匹配所在的行号
             line_number = result[:pos].count('\n')
 
-            # 检查是否在相关概念部分
-            in_related_section = is_in_related_concepts_section(result, pos)
-
-            # 如果在相关概念部分，总是添加链接（不计入限制，但同一行仍只替换一次）
-            if in_related_section:
-                # 检查该行是否已经替换过这个术语
-                if line_number in replaced_lines:
-                    continue
-
-                if (not is_in_code_block(result, pos) and
-                    not is_in_inline_code(result, pos) and
-                    not is_in_link(result, pos, len(term)) and
-                    not is_in_url(result, pos)):
-                    result = result[:pos] + markdown_link + result[pos + len(term):]
-                    replaced_lines.add(line_number)
-                continue
-
-            # 如果不在相关概念部分，应用链接数量限制
             if link_count >= MAX_LINKS_PER_TERM:
                 continue
 
@@ -219,7 +198,8 @@ def add_links_to_content(content, term_links):
             if (is_in_code_block(result, pos) or
                 is_in_inline_code(result, pos) or
                 is_in_link(result, pos, len(term)) or
-                is_in_url(result, pos)):
+                is_in_url(result, pos) or
+                is_in_heading(result, pos)):
                 continue
 
             # 替换为链接

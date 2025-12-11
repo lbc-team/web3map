@@ -2,7 +2,7 @@
 
 ## 概念简介
 
-ENS（Ethereum Name Service，以太坊域名服务）是一个基于以太坊区块链的分布式、开放和可扩展的命名系统。它的核心功能是将人类可读的名称（如 `alice.eth`）解析为机器可读的标识符，如以太坊地址、其他加密货币地址、内容哈希（用于 IPFS 网站）和元数据。
+ENS（Ethereum Name Service，以太坊域名服务）是一个基于[以太坊](https://learnblockchain.cn/tags/以太坊?map=EVM)区块链的分布式、开放和可扩展的命名系统。它的核心功能是将人类可读的名称（如 `alice.eth`）解析为机器可读的标识符，如以太坊地址、其他加密货币地址、内容哈希（用于 IPFS 网站）和元数据。
 
 ENS 类似于互联网中的 DNS（域名系统），但它不依赖于中心化的服务器，而是完全运行在以太坊智能合约上，具有去中心化、抗审查和可编程的特性。
 
@@ -49,4 +49,4 @@ ENS 由 ENS DAO 管理。ENS 代币持有者可以对协议的关键决策进行
 ## 推荐阅读
 
 - [ENS 文档](https://docs.ens.domains/)
-- [EIP-137: Ethereum Domain Name Service - Specification](https://eips.ethereum.org/EIPS/eip-137)
+- [EIP-137: Ethereum Domain Name Service - Specification](https://learnblockchain.cn/docs/eips/EIPS/eip-137)

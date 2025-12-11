@@ -14,13 +14,13 @@ MakerDAO由Rune Christensen于2014年创立，2017年12月在以太坊主网正�
 
 DAI采用超额抵押模型，用户需要存入价值高于铸造金额的加密资产作为抵押品。例如，用户存入价值1000美元的ETH，根据抵押率设置（通常为150%），最多可以铸造约666美元的DAI。这种超额抵押确保了即使抵押品价格下跌，系统仍有足够的价值支撑所有流通中的DAI。
 
-用户通过创建"金库"（Vault，原称CDP/抵押债务头寸）来铸造DAI。金库是一个智能合约，记录了用户的抵押品和债务。用户可以随时追加抵押品、偿还DAI关闭金库、或提取部分抵押品。这种机制给予用户极大的灵活性和控制权。
+用户通过创建"金库"（Vault，原称CDP/抵押债务头寸）来铸造DAI。金库是一个[智能合约](https://learnblockchain.cn/tags/%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6)，记录了用户的抵押品和债务。用户可以随时追加抵押品、偿还DAI关闭金库、或提取部分抵押品。这种机制给予用户极大的灵活性和控制权。
 
 **多元化抵押品支持**
 
 MakerDAO支持多种加密资产作为抵押品，包括：
 - **ETH（以太坊）**：最主要的抵押品，占比最大
-- **WBTC（比特币包装代币）**：将比特币价值引入以太坊
+- **WBTC（比特币包装代币）**：将[比特币](https://learnblockchain.cn/tags/比特币?map=BTC)价值引入以太坊
 - **USDC、USDP等中心化稳定币**：用于稳定DAI的锚定
 - **流动性质押代币**：如stETH、rETH等，既抵押又赚取质押收益
 - **其他ERC-20代币**：经过治理投票批准的优质资产
@@ -62,7 +62,7 @@ MKR还有经济价值捕获机制：稳定费收入用于从市场回购并销�
 
 **真正的去中心化**
 
-DAI是完全去中心化运行的稳定币，所有规则编码在智能合约中，无需信任单一机构。Circle可以冻结USDC地址，Tether可以关闭账户，但没有任何实体能单方面控制DAI。这种去中心化使DAI具有抗审查性，任何人都可以铸造和使用。
+DAI是完全去中心化运行的稳定币，所有规则编码在[智能合约](https://learnblockchain.cn/tags/%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6)中，无需信任单一机构。Circle可以冻结USDC地址，Tether可以关闭[账户](https://learnblockchain.cn/tags/账户?map=EVM)，但没有任何实体能单方面控制DAI。这种去中心化使DAI具有抗审查性，任何人都可以铸造和使用。
 
 **完全透明与可验证**
 
@@ -70,11 +70,11 @@ DAI是完全去中心化运行的稳定币，所有规则编码在智能合约�
 
 **无需许可与全球可用**
 
-任何人只要有加密资产就可以铸造DAI，无需KYC认证、无需银行账户、无地域限制。这为全球无银行账户人群提供了获取稳定美元资产的途径。
+任何人只要有加密资产就可以铸造DAI，无需KYC认证、无需银行账户、无地域限制。这为全球无银行[账户](https://learnblockchain.cn/tags/账户?map=EVM)人群提供了获取稳定美元资产的途径。
 
 **可编程与DeFi集成**
 
-作为以太坊原生资产，DAI无缝集成到各种DeFi协议中。Aave、Compound、Uniswap、Curve等数百个协议支持DAI。用户可以用DAI进行借贷、交易、流动性挖矿、收益耕作等复杂金融操作。
+作为以太坊原生资产，DAI无缝集成到各种DeFi协议中。Aave、Compound、[Uniswap](https://learnblockchain.cn/tags/Uniswap?map=EVM)、Curve等数百个协议支持DAI。用户可以用DAI进行借贷、交易、流动性挖矿、收益耕作等复杂金融操作。
 
 **抗单点故障**
 
@@ -104,11 +104,11 @@ MakerDAO推出多抵押DAI（Multi-Collateral DAI），支持多种资产作为�
 
 MakerDAO通过债务拍卖增发MKR筹集资金填补缺口，这次危机暴露了系统弱点，但也证明了应急机制的有效性。事后MakerDAO改进了清算系统、引入了更多流动性抵押品（如USDC）、调整了风险参数。
 
-**2020-2021年：DeFi Summer爆发**
+**2020-2021年：[DeFi](https://learnblockchain.cn/tags/DeFi?map=EVM) Summer爆发**
 
 DeFi生态繁荣，DAI需求激增。DAI供应量从黑色星期四后的约1亿美元暴涨至超过100亿美元（2021年峰值）。DAI成为DeFi生态的基础稳定币，在Uniswap、Curve、Aave等协议中占据重要地位。
 
-**2022年：真实世界资产（RWA）引入**
+**2022年：真实世界资产（[RWA](https://learnblockchain.cn/tags/RWA)）引入**
 
 为提高收益和稳定性，MakerDAO开始投资真实世界资产，包括美国国债、企业债券等。RWA占协议资产比例逐步提升，引发了关于去中心化纯粹性的社区讨论。
 
@@ -129,9 +129,9 @@ DAI是Aave、Compound、Spark等借贷协议的核心资产之一。用户可以
 - 以DAI作为抵押品借入其他资产
 - 借入DAI进行杠杆操作或套利
 
-**去中心化交易所（DEX）**
+**去中心化交易所（[DEX](https://learnblockchain.cn/tags/DEX?map=EVM)）**
 
-DAI在Uniswap、Curve、Balancer等DEX中提供重要的交易对和流动性：
+DAI在Uniswap、[Curve](https://learnblockchain.cn/tags/Curve?map=EVM)、Balancer等DEX中提供重要的交易对和流动性：
 - DAI/USDC、DAI/USDT等稳定币交易对提供低滑点兑换
 - DAI/ETH、DAI/WBTC等交易对为用户提供稳定币入口
 - 流动性提供者赚取交易手续费和流动性挖矿奖励
@@ -172,7 +172,7 @@ DAI依赖加密资产抵押，这些资产价格波动性高。极端市场波�
 
 **扩展性挑战**
 
-由于依赖以太坊主网和加密资产抵押，DAI的供应增长受限于市场对加密资产的需求和以太坊Gas成本。在熊市中，用户不愿抵押贬值资产，DAI供应收缩。
+由于依赖以太坊主网和加密资产抵押，DAI的供应增长受限于市场对加密资产的需求和[以太坊](https://learnblockchain.cn/tags/以太坊?map=EVM)Gas成本。在熊市中，用户不愿抵押贬值资产，DAI供应收缩。
 
 **与中心化稳定币的竞争**
 
@@ -194,7 +194,7 @@ MakerDAO/Sky将继续扩大真实世界资产投资，从美国国债扩展至�
 
 **Layer2扩展**
 
-在以太坊Layer2（如Arbitrum、Optimism、Base）和其他兼容链上部署DAI/USDS，降低使用成本，提高可访问性。跨链桥和流动性聚合将使DAI/USDS在多链生态中无缝流通。
+在[以太坊](https://learnblockchain.cn/tags/以太坊?map=EVM)[Layer2](https://learnblockchain.cn/tags/Layer2?map=EVM)（如Arbitrum、Optimism、Base）和其他兼容链上部署DAI/USDS，降低使用成本，提高可访问性。跨链桥和流动性聚合将使DAI/USDS在多链生态中无缝流通。
 
 **去中心化稳定币领导者**
 
@@ -226,6 +226,6 @@ MakerDAO/Sky将继续扩大真实世界资产投资，从美国国债扩展至�
 - **Oasis**：用户友好的DAI金库管理界面
 - **DSR/SSR**：DAI储蓄率 / Sky储蓄率，为持有者提供利息收益
 - **Aave、Compound、Spark**：主要的DAI借贷协议
-- **Uniswap、Curve、Balancer**：主要的DAI交易和流动性场所
+- **[Uniswap](https://learnblockchain.cn/tags/Uniswap?map=EVM)、[Curve](https://learnblockchain.cn/tags/Curve?map=EVM)、Balancer**：主要的DAI交易和流动性场所
 - **Ethena**：合成稳定币USDe，采用不同机制但同为去中心化稳定币
 - **Liquity（LUSD）**：另一个去中心化超额抵押稳定币，设计更加不可变

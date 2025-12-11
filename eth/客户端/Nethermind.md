@@ -21,7 +21,7 @@ Nethermind 支持多种节点运行模式：
 ### 高性能设计
 Nethermind 在性能方面进行了深度优化：
 - **快速同步速度**：采用先进的同步算法，可以在几小时内完成主网同步
-- **高效的 EVM 执行**：优化的以太坊虚拟机实现，交易执行速度快
+- **高效的 [EVM](https://learnblockchain.cn/tags/EVM?map=EVM) 执行**：优化的以太坊虚拟机实现，交易执行速度快
 - **并行处理**：利用多核 CPU 并行验证交易和区块
 - **内存管理**：智能的内存池和缓存策略，减少垃圾回收开销
 - **数据库优化**：使用 RocksDB 进行高效的状态存储和检索
@@ -34,7 +34,7 @@ Nethermind 提供完整的以太坊 JSON-RPC API，支持：
 - WebSocket 和 IPC 支持
 - GraphQL 接口
 
-API 兼容性好，可以无缝替换其他客户端，适合 DApp 开发者和基础设施提供商使用。
+API 兼容性好，可以无缝替换其他客户端，适合 [DApp](https://learnblockchain.cn/tags/DApp) 开发者和基础设施提供商使用。
 
 ### 多网络支持
 除了以太坊主网，Nethermind 还支持：
@@ -66,7 +66,7 @@ Nethermind 内置强大的监控和诊断工具：
 
 **活跃的开发**：团队持续更新，快速支持以太坊协议的新特性和 EIP。参与以太坊核心开发者会议，推动协议演进。
 
-**客户端多样性**：作为非 Go/非 Rust 的客户端实现，Nethermind 为以太坊的客户端多样性做出独特贡献，降低单一语言或技术栈的系统性风险。
+**客户端多样性**：作为非 [Go](https://learnblockchain.cn/tags/Go)/非 [Rust](https://learnblockchain.cn/tags/Rust) 的客户端实现，Nethermind 为以太坊的客户端多样性做出独特贡献，降低单一语言或技术栈的系统性风险。
 
 **插件系统**：支持插件扩展功能，开发者可以编写自定义插件增强节点能力。
 
@@ -78,9 +78,9 @@ Nethermind 内置强大的监控和诊断工具：
 
 **2020年**：成为 Gnosis Chain（原 xDai）的官方客户端。性能大幅提升，同步速度在主流客户端中名列前茅。
 
-**2021年**：参与以太坊 London 硬分叉（EIP-1559），支持新的 gas 费机制。扩展对 Layer 2 网络的支持。
+**2021年**：参与以太坊 London 硬分叉（[EIP-1559](https://learnblockchain.cn/tags/EIP1559?map=EVM)），支持新的 gas 费机制。扩展对 Layer 2 网络的支持。
 
-**2022年9月**：成功支持以太坊合并（The Merge），作为执行层客户端与共识层客户端配合完成 PoW 到 PoS 的过渡。
+**2022年9月**：成功支持以太坊合并（The Merge），作为执行层客户端与共识层客户端配合完成 [PoW](https://learnblockchain.cn/tags/PoW) 到 [PoS](https://learnblockchain.cn/tags/PoS) 的过渡。
 
 **2023年**：支持 Shanghai/Capella 升级（提款功能）、Cancun/Deneb 升级（EIP-4844）。成为多个新兴 L2 项目的官方客户端。
 
@@ -88,11 +88,11 @@ Nethermind 内置强大的监控和诊断工具：
 
 ## 应用场景
 
-- **节点运营商**：运行以太坊全节点或归档节点，提供 RPC 服务
+- **节点运营商**：运行[以太坊](https://learnblockchain.cn/tags/以太坊?map=EVM)全节点或归档节点，提供 RPC 服务
 - **Layer 2 基础设施**：作为 L2 网络的执行层客户端（StarkNet、Taiko、Linea 等）
-- **DApp 开发者**：本地开发环境和测试网节点
+- **[DApp](https://learnblockchain.cn/tags/DApp) 开发者**：本地开发环境和测试网节点
 - **数据分析**：运行归档节点，提供历史数据查询服务
-- **企业应用**：私有链、联盟链部署，企业级以太坊应用
+- **企业应用**：私有链、联盟链部署，企业级[以太坊](https://learnblockchain.cn/tags/以太坊?map=EVM)应用
 - **质押服务商**：与共识层客户端配合，运行验证者节点
 
 ## 相关链接

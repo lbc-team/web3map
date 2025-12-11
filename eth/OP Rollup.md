@@ -4,7 +4,7 @@
 
 
 
-**乐观Rollup（OP Rollup) ** 是一种 Layer2 扩展解决方案，它将计算和状态从链下转移到链下网络，并乐观的假设链下交易是有效的，仅在有争议时才进行验证。这种机制显著提高了以太坊的交易吞吐量和降低交易成本，同时保持了去中心化和高安全性。
+**乐观Rollup（OP Rollup) ** 是一种 [Layer2](https://learnblockchain.cn/tags/Layer2?map=EVM) 扩展解决方案，它将计算和状态从链下转移到链下网络，并乐观的假设链下交易是有效的，仅在有争议时才进行验证。这种机制显著提高了以太坊的交易吞吐量和降低交易成本，同时保持了去中心化和高安全性。
 
 
 
@@ -14,13 +14,13 @@
 
 **1. 交易批量处理**
 
-- **收集交易**：乐观 Rollup 收集用户提交的多笔交易，并将其批量打包。这些交易在链下进行处理，包括账户余额更新和智能合约调用等操作。
-- **链下处理**：在链下，所有交易的状态变化被计算和记录，这些变化包括账户余额的更新、智能合约状态的修改等。
+- **收集交易**：乐观 Rollup 收集用户提交的多笔交易，并将其批量打包。这些交易在链下进行处理，包括[账户](https://learnblockchain.cn/tags/账户?map=EVM)余额更新和[智能合约](https://learnblockchain.cn/tags/%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6)调用等操作。
+- **链下处理**：在链下，所有交易的状态变化被计算和记录，这些变化包括[账户](https://learnblockchain.cn/tags/账户?map=EVM)余额的更新、[智能合约](https://learnblockchain.cn/tags/%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6)状态的修改等。
 
 **2. 生成并提交批次**
 
-- **生成交易批次**：链下操作完成后，Rollup 提交者（Sequencer）将一批交易的结果打包成一个批次，并生成批次的状态根（state root）。
-- **提交到主链**：批次的状态根和交易数据或其摘要被提交到以太坊主链（Calldata 或者 blob ）。提交的数据通常包含交易的压缩形式，以减少链上的存储需求。
+- **生成交易批次**：链下操作完成后，[Rollup](https://learnblockchain.cn/tags/Rollup) 提交者（Sequencer）将一批交易的结果打包成一个批次，并生成批次的状态根（state root）。
+- **提交到主链**：批次的状态根和交易数据或其摘要被提交到[以太坊](https://learnblockchain.cn/tags/以太坊?map=EVM)主链（Calldata 或者 blob ）。提交的数据通常包含交易的压缩形式，以减少链上的存储需求。
 
 **3. 争议期等待挑战**
 
@@ -31,7 +31,7 @@
 
 
 
-对于开发者而言，乐观Rollup的优势在于它们与[以太坊虚拟机 (EVM)](https://ethereum.org/zh/developers/docs/evm/) 的兼容性（或者更好的，等效性）。 与以太坊虚拟机兼容的Rollup符合[以太坊黄皮书](https://ethereum.github.io/yellowpaper/paper.pdf)中的规范，并在字节码级别支持以太坊虚拟机。 因此可以方便将现有的[去中心化应用](https://learnblockchain.cn/tags/DApp)移植到乐观 Rollup 或使用以太坊开发工具创建新的去中心化应用程序。
+对于开发者而言，乐观Rollup的优势在于它们与[以太坊虚拟机 (EVM)](https://ethereum.org/zh/developers/docs/evm/) 的兼容性（或者更好的，等效性）。 与以太坊虚拟机兼容的Rollup符合[以太坊黄皮书](https://ethereum.github.io/yellowpaper/paper.pdf)中的规范，并在字节码级别支持以太坊虚拟机。 因此可以方便将现有的[去中心化应用](https://learnblockchain.cn/tags/DApp)移植到乐观 [Rollup](https://learnblockchain.cn/tags/Rollup) 或使用[以太坊](https://learnblockchain.cn/tags/以太坊?map=EVM)开发工具创建新的去中心化应用程序。
 
 
 

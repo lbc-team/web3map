@@ -1,12 +1,12 @@
 ## Gas 优化 (Gas Optimization)
 
-Gas 优化是指在开发以太坊智能合约时，通过编写高效的代码和采用特定的设计模式，以减少合约部署和执行所需的 Gas 消耗的过程。
+Gas 优化是指在开发[以太坊](https://learnblockchain.cn/tags/以太坊?map=EVM)[智能合约](https://learnblockchain.cn/tags/%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6)时，通过编写高效的代码和采用特定的设计模式，以减少合约部署和执行所需的 Gas 消耗的过程。
 
 ### 解决的问题
-在以太坊网络中，每一行代码的执行和每一个数据的存储都需要支付 Gas。由于区块空间有限且 Gas 价格波动，低效的合约代码会导致极其昂贵的交易成本，降低用户体验，甚至导致交易因 Gas 不足而失败。Gas 优化旨在在保证合约功能和安全性的前提下，最小化这些成本。
+在[以太坊](https://learnblockchain.cn/tags/以太坊?map=EVM)网络中，每一行代码的执行和每一个数据的存储都需要支付 Gas。由于区块空间有限且 Gas 价格波动，低效的合约代码会导致极其昂贵的交易成本，降低用户体验，甚至导致交易因 Gas 不足而失败。[Gas](https://learnblockchain.cn/tags/Gas?map=EVM) 优化旨在在保证合约功能和安全性的前提下，最小化这些成本。
 
 ### 实现机制与原理
-Gas 优化主要围绕减少 EVM 操作码的执行数量和降低昂贵操作（如存储读写 `SSTORE`/`SLOAD`）的使用频率。
+[Gas](https://learnblockchain.cn/tags/Gas?map=EVM) 优化主要围绕减少 [EVM](https://learnblockchain.cn/tags/EVM?map=EVM) 操作码的执行数量和降低昂贵操作（如存储读写 `SSTORE`/`SLOAD`）的使用频率。
 
 常见的优化技术包括：
 1.  **变量打包 (Storage Packing):**
@@ -29,7 +29,7 @@ Gas 优化主要围绕减少 EVM 操作码的执行数量和降低昂贵操作�
 *   **降低成本:** 直接减少用户与合约交互的费用。
 *   **提升效率:** 优化后的代码通常执行更快。
 *   **复杂性权衡:** 过度优化（尤其是使用汇编时）可能会降低代码的可读性和安全性。
-*   **特定于 EVM:** 许多优化技巧是基于 EVM 的特定架构（如 256 位字长、存储定价模型）设计的。
+*   **特定于 EVM:** 许多优化技巧是基于 [EVM](https://learnblockchain.cn/tags/EVM?map=EVM) 的特定架构（如 256 位字长、存储定价模型）设计的。
 
 ### 推荐阅读
 *   [Solidity Gas Optimization Tips](https://github.com/iskdrews/awesome-solidity-gas-optimization)
@@ -37,6 +37,6 @@ Gas 优化主要围绕减少 EVM 操作码的执行数量和降低昂贵操作�
 
 ### 相关概念
 
-*   **EVM Opcodes:** 以太坊虚拟机的指令集，每个指令都有对应的 Gas 成本。
-*   **Storage Slot:** EVM 永久存储的基本单元。
-*   **Optimizer:** Solidity 编译器自带的优化器，可以在编译时开启。
+*   **[EVM](https://learnblockchain.cn/tags/EVM?map=EVM) Opcodes:** [以太坊](https://learnblockchain.cn/tags/以太坊?map=EVM)虚拟机的指令集，每个指令都有对应的 [Gas](https://learnblockchain.cn/tags/Gas?map=EVM) 成本。
+*   **Storage Slot:** [EVM](https://learnblockchain.cn/tags/EVM?map=EVM) 永久存储的基本单元。
+*   **Optimizer:** [Solidity](https://learnblockchain.cn/tags/Solidity?map=EVM) 编译器自带的优化器，可以在编译时开启。

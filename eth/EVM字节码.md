@@ -1,12 +1,12 @@
 # EVM 字节码 (Bytecode)
 
-EVM 字节码是以太坊虚拟机（EVM）能够理解和执行的机器语言。就像 CPU 只能执行二进制机器码一样，EVM 并不直接理解 Solidity 或 Vyper 等高级编程语言编写的智能合约源代码，而是执行由编译器生成的低级指令序列——字节码。
+EVM 字节码是[以太坊](https://learnblockchain.cn/tags/以太坊?map=EVM)虚拟机（EVM）能够理解和执行的机器语言。就像 CPU 只能执行二进制机器码一样，EVM 并不直接理解 [Solidity](https://learnblockchain.cn/tags/Solidity?map=EVM) 或 [Vyper](https://learnblockchain.cn/tags/Vyper?map=EVM) 等高级编程语言编写的智能合约源代码，而是执行由编译器生成的低级指令序列——字节码。
 
 ## 要解决的问题
 
-以太坊旨在成为一台“世界计算机”，允许开发者编写任意逻辑的智能合约。为了实现这一目标，需要解决以下挑战：
+[以太坊](https://learnblockchain.cn/tags/以太坊?map=EVM)旨在成为一台“世界计算机”，允许开发者编写任意逻辑的[智能合约](https://learnblockchain.cn/tags/%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6)。为了实现这一目标，需要解决以下挑战：
 
-1.  **平台无关性**：智能合约需要在全球成千上万个异构节点（不同的操作系统、硬件架构）上确切一致地运行。
+1.  **平台无关性**：[智能合约](https://learnblockchain.cn/tags/%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6)需要在全球成千上万个异构节点（不同的操作系统、硬件架构）上确切一致地运行。
 2.  **资源控制**：由于区块链资源有限，必须精确计算每一步计算的成本（Gas），以防止滥用和无限循环。
 3.  **代码紧凑性**：链上存储极为昂贵，执行代码需要尽可能紧凑以减少存储和部署成本。
 
@@ -15,7 +15,7 @@ EVM 字节码通过定义一套标准化的、与硬件无关的指令集，解�
 ## 实现机制与原理
 
 ### 编译过程
-当开发者编写好 Solidity 合约后，编译器（如 `solc`）会将其转换为十六进制表示的字节码字符串（例如 `0x60806040...`）。
+当开发者编写好 [Solidity](https://learnblockchain.cn/tags/Solidity?map=EVM) 合约后，编译器（如 `solc`）会将其转换为十六进制表示的字节码字符串（例如 `0x60806040...`）。
 
 ### 字节码结构
 一个典型的合约字节码包含两个主要部分：
@@ -31,10 +31,10 @@ EVM 字节码通过定义一套标准化的、与硬件无关的指令集，解�
 
 ## 主要特点
 
-*   **基于堆栈（Stack-based）**：EVM 是一种堆栈机，大多数指令都是从堆栈顶部获取参数并将结果推回堆栈。这种设计简化了虚拟机的实现。
-*   **图灵完备（Turing Complete）**：支持跳转（JUMP）等控制流指令，理论上可以执行任何计算逻辑（受限于 Gas）。
-*   **沙盒环境**：字节码在 EVM 隔离环境中运行，无法直接访问网络、文件系统或其他进程，保证了安全性。
-*   **Gas 计量**：每个字节码指令都有精确的 Gas 消耗定义，这在字节码层面强制实施了计算资源的经济模型。
+*   **基于堆栈（Stack-based）**：[EVM](https://learnblockchain.cn/tags/EVM?map=EVM) 是一种堆栈机，大多数指令都是从堆栈顶部获取参数并将结果推回堆栈。这种设计简化了虚拟机的实现。
+*   **图灵完备（Turing Complete）**：支持跳转（JUMP）等控制流指令，理论上可以执行任何计算逻辑（受限于 [Gas](https://learnblockchain.cn/tags/Gas?map=EVM)）。
+*   **沙盒环境**：字节码在 [EVM](https://learnblockchain.cn/tags/EVM?map=EVM) 隔离环境中运行，无法直接访问网络、文件系统或其他进程，保证了安全性。
+*   **Gas 计量**：每个字节码指令都有精确的 [Gas](https://learnblockchain.cn/tags/Gas?map=EVM) 消耗定义，这在字节码层面强制实施了计算资源的经济模型。
 
 ## 推荐阅读
 
@@ -44,6 +44,6 @@ EVM 字节码通过定义一套标准化的、与硬件无关的指令集，解�
 
 ## 相关概念
 
-*   **ABI (Application Binary Interface)**：虽然字节码定义了逻辑，ABI 定义了如何与字节码交互（如何编码函数调用和参数）。
+*   **ABI (Application Binary Interface)**：虽然字节码定义了逻辑，[ABI](https://learnblockchain.cn/tags/ABI?map=EVM) 定义了如何与字节码交互（如何编码函数调用和参数）。
 *   **Disassembler (反汇编器)**：将十六进制字节码转换回可读的操作码助记符的工具。
 *   **Decompiler (反编译器)**：尝试将字节码还原为类高级语言逻辑的工具，用于分析闭源合约。

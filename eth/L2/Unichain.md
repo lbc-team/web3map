@@ -51,7 +51,7 @@ Unichain的核心创新包括:Verifiable Block Building(可验证区块构建)�
 ### 6. 跨链互操作
 
 - 通过Superchain与其他OP Stack链互操作
-- 原生桥接到以太坊主网
+- 原生桥接到[以太坊](https://learnblockchain.cn/tags/以太坊?map=EVM)主网
 - 支持跨Rollup通信
 
 
@@ -80,7 +80,7 @@ Unichain的核心创新包括:Verifiable Block Building(可验证区块构建)�
 
 ## 核心产品
 
-### Uniswap V4
+### [Uniswap](https://learnblockchain.cn/tags/Uniswap?map=EVM) V4
 
 Unichain的旗舰应用:
 - 完全重写的DEX架构
@@ -91,7 +91,7 @@ Unichain的旗舰应用:
 ### Unichain Bridge
 
 官方跨链桥:
-- 以太坊主网<->Unichain资产转移
+- [以太坊](https://learnblockchain.cn/tags/以太坊?map=EVM)主网<->Unichain资产转移
 - 快速提款(通过验证网络加速)
 - 安全可靠的桥接机制
 
@@ -156,7 +156,7 @@ Uniswap及其他DEX在Unichain上的高效交易。
 | 区块时间 | 250ms(Flashblocks) | 250ms | 2s | 2s |
 | MEV保护 | TEE+Priority Ordering | 序列器 | 序列器 | 序列器 |
 | 验证网络 | 是(UVN) | 否 | 否 | 否 |
-| 主要应用 | Uniswap/DeFi | 通用 | 通用 | Coinbase生态 |
+| 主要应用 | [Uniswap](https://learnblockchain.cn/tags/Uniswap?map=EVM)/[DeFi](https://learnblockchain.cn/tags/DeFi?map=EVM) | 通用 | 通用 | Coinbase生态 |
 
 ## 竞争对手
 
