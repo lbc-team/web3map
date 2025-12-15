@@ -7,6 +7,7 @@ import argparse
 from pathlib import Path
 
 MAX_LINKS_PER_TERM = 2  # 每个术语在同一文档中最多出现2次链接
+MAX_LINKS_PER_FILE = 6  # 每个文件最多添加6个链接
 
 
 def extract_terms_and_links(termlink_path):
@@ -163,6 +164,7 @@ def add_links_to_content(content, term_links):
 
     # 直接在原内容基础上添加术语链接
     result = content
+    total_replacements = 0  # 文件总替换次数
 
     for term, link in term_links.items():
         link_count = 0  # 当前术语已添加的链接数
@@ -187,6 +189,10 @@ def add_links_to_content(content, term_links):
             # 计算当前匹配所在的行号
             line_number = result[:pos].count('\n')
 
+            # 检查是否达到文件总替换次数限制
+            if total_replacements >= MAX_LINKS_PER_FILE:
+                break
+
             if link_count >= MAX_LINKS_PER_TERM:
                 continue
 
@@ -206,7 +212,11 @@ def add_links_to_content(content, term_links):
             result = result[:pos] + markdown_link + result[pos + len(term):]
             link_count += 1
             replaced_lines.add(line_number)
+            total_replacements += 1
 
+        # 如果已经达到文件总替换次数限制，停止处理其他术语
+        if total_replacements >= MAX_LINKS_PER_FILE:
+            break
     return result
 
 
