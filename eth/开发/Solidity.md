@@ -2,11 +2,11 @@
 
 [Solidity](https://learnblockchain.cn/docs/solidity/) 是一门面向合约的、为实现智能合约而创建的高级编程语言，也是用于开发[以太坊](https://learnblockchain.cn/tags/以太坊?map=EVM)智能合约)最受欢迎的语言之一。这门语言受到了 C++，Python 和 Javascript 语言的影响，其设计目的是能在 [以太坊虚拟机（EVM）](https://learnblockchain.cn/2019/04/09/easy-evm/) 上运行。
 
-Solidity 是静态类型语言，具备面向对象特性：支持继承、库、接口和复杂的用户定义类型、
+Solidity 是静态类型高级语言，具备面向对象特性：支持继承、库、接口和复杂的用户定义类型。
+推荐参考 [Solidity 开发教程](https://learnblockchain.cn/course/93) 系统学习 Solidity。
 
 Solidity 中文文档：可阅读[Solidity最新中文文档](https://learnblockchain.cn/docs/solidity/) 
 
-> Solidity 更新较快，历史版本文档：[0.8.0 更新列表](https://learnblockchain.cn/docs/solidity/080-breaking-changes.html) ， [0.7 更新列表](https://learnblockchain.cn/docs/solidity/070-breaking-changes.html) , [0.6 更新列表](https://learnblockchain.cn/docs/solidity/060-breaking-changes.html) , [0.5 更新列表](https://learnblockchain.cn/docs/solidity/050-breaking-changes.html) 。
 
 ### Solidity 的实例
 
@@ -52,16 +52,9 @@ contract SimpleStorage {
    - [OpenZeppelin](https://learnblockchain.cn/tags/OpenZeppelin?map=EVM) 提供了可复用的智能合约库和安全工具，帮助开发者编写安全的合约。
 
 
+## 更多学习资料
 
-## 更多
-
-
-
-专栏：[全面掌握Solidity智能合约开发](https://learnblockchain.cn/column/1)
-
-DeCert.me 教程：https://decert.me/tutorial/solidity/intro/
-
-线上课程：https://learnblockchain.cn/course/28
-
-线下集训：[OpenSpace Web3*BootCamp ](https://learnblockchain.cn/openspace/1)
+1. Solidity 开发教程【必读】：https://learnblockchain.cn/course/93
+2. 线上课程：https://learnblockchain.cn/course/28
+3. 线下集训：[OpenSpace Web3 集训营](https://learnblockchain.cn/openspace/1)
 

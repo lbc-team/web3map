@@ -10,7 +10,7 @@
 
 [Vitalik](https://learnblockchain.cn/tags/Vitalik?map=EVM)
 
-[Solidity](https://learnblockchain.cn/tags/Solidity?map=EVM)
+[Solidity](https://learnblockchain.cn/course/93)
 
 [Vyper](https://learnblockchain.cn/tags/Vyper?map=EVM)
 
@@ -27,6 +27,10 @@
 [zkEVM](https://learnblockchain.cn/tags/zkEVM?map=EVM)
 
 [zkVM](https://learnblockchain.cn/tags/zkVM)
+
+[Gas优化](https://learnblockchain.cn/course/95)
+
+[Gas 优化](https://learnblockchain.cn/course/95)
 
 [Gas](https://learnblockchain.cn/tags/Gas?map=EVM)
 

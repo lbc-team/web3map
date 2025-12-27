@@ -25,15 +25,11 @@ Gas 优化是指在开发[以太坊](https://learnblockchain.cn/tags/以太坊?m
 6.  **使用常量和不可变量:**
     *   使用 `constant` (常量) 和 `immutable` (不可变量) 关键字，它们的值在编译时或部署时确定，直接嵌入字节码中，读取时无需访问存储槽。
 
-### 主要特点
-*   **降低成本:** 直接减少用户与合约交互的费用。
-*   **提升效率:** 优化后的代码通常执行更快。
-*   **复杂性权衡:** 过度优化（尤其是使用汇编时）可能会降低代码的可读性和安全性。
-*   **特定于 EVM:** 许多优化技巧是基于 [EVM](https://learnblockchain.cn/tags/EVM?map=EVM) 的特定架构（如 256 位字长、存储定价模型）设计的。
+在执行 Gas 优化的同时， 需要注意 **复杂性权衡:** 过度优化（尤其是使用汇编时）可能会降低代码的可读性和安全性。
+
 
 ### 推荐阅读
-*   [Solidity Gas Optimization Tips](https://github.com/iskdrews/awesome-solidity-gas-optimization)
-*   [RareSkills: Gas Optimization](https://decert.me/tutorial/rareskills-gas-optimization/)
+*   [Gas 优化手册](https://learnblockchain.cn/course/95)
 
 ### 相关概念
 

@@ -1,0 +1,47 @@
+# 完善以下智能合约开发相关概念的词条百科解释：
+BeaconProxy
+UUPS代理
+合约升级
+ABI编码
+GasLimit
+Gas成本
+
+
+Faucet
+
+
+# 账户抽象和认证
+UserOp
+EntryPoint
+Passkey
+
+
+# 特定项目和协议
+Web3
+zkEmail
+Seaport
+ZkStack
+Blink
+Surfpool
+Shutter
+RocketPool
+
+
+# 共识和安全
+TowerBFT
+Gasper
+web3安全
+形式化验证
+
+# 开发工具和技术
+TailwindCSS
+Node.js
+WebSocket
+JSON RPC
+Webhook
+subgraph
+BigQuery
+
+
+# 编程语言
+Cadence

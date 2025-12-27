@@ -131,7 +131,8 @@ def main():
         if not target_path.is_absolute():
             target_path = base_dir / target_path
     else:
-        target_path = None
+        # 默认处理 solana 目录
+        target_path = base_dir / 'solana'
 
 
     # 检查路径是否存在

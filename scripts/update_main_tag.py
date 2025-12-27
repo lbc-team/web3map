@@ -29,4 +29,4 @@ def update_main_tag():
 
 if __name__ == "__main__":
     # update_main_tag()
-    setmain_tag("椭圆曲线", "ECC")
+    setmain_tag("Solidity", " Solidity,#solidity,Solidity语言")
